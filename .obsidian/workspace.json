@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Clippings/Obsidian 多设备同步的六种方案：从官方同步到自建 NAS.md",
+                "file": "Clippings/Hermes Agent Documentation  Hermes Agent.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Obsidian 多设备同步的六种方案：从官方同步到自建 NAS"
+              "title": "Hermes Agent Documentation  Hermes Agent"
             }
           }
         ]
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Clippings/Obsidian 多设备同步的六种方案：从官方同步到自建 NAS.md",
+                "file": "Clippings/Hermes Agent Documentation  Hermes Agent.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Obsidian 多设备同步的六种方案：从官方同步到自建 NAS 的大纲"
+              "title": "Hermes Agent Documentation  Hermes Agent 的大纲"
             }
           },
           {
@@ -186,11 +186,11 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 530.5
+    "width": 271.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -207,10 +207,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "92127c64f54b650d",
+  "active": "6ba2dadf14f899dc",
   "lastOpenFiles": [
-    "2026-06-11.md",
     "Clippings/Obsidian 多设备同步的六种方案：从官方同步到自建 NAS.md",
+    "Clippings/Hermes Agent Documentation  Hermes Agent.md",
+    "2026-06-11.md",
     "Clippings/Obsidian 七种主流多端同步方式对比与实践.md",
     "小墨同学爱写程序的小鱼.md",
     "Clippings/Claudian 安装教程：把 Claude Code 接进 Obsidian，从 0 到侧边栏对话.md",
