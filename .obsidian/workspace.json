@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Clippings/Obsidian 七种主流多端同步方式对比与实践.md",
+                "file": "Clippings/Obsidian 多设备同步的六种方案：从官方同步到自建 NAS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Obsidian 七种主流多端同步方式对比与实践"
+              "title": "Obsidian 多设备同步的六种方案：从官方同步到自建 NAS"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "[\"title\"]",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -61,7 +61,7 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "Search"
+              "title": "搜索"
             }
           },
           {
@@ -74,7 +74,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -147,7 +148,7 @@
                 "searchQuery": ""
               },
               "icon": "lucide-archive",
-              "title": "All properties"
+              "title": "添加笔记属性"
             }
           },
           {
@@ -156,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Clippings/Claudian 安装教程：把 Claude Code 接进 Obsidian，从 0 到侧边栏对话.md",
+                "file": "Clippings/Obsidian 多设备同步的六种方案：从官方同步到自建 NAS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Claudian 安装教程：把 Claude Code 接进 Obsidian，从 0 到侧边栏对话"
+              "title": "Obsidian 多设备同步的六种方案：从官方同步到自建 NAS 的大纲"
             }
           },
           {
@@ -176,11 +177,11 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 242.5
+    "width": 445.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -197,10 +198,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "baf239dd80040aa2",
+  "active": "b05ab5f603841cf2",
   "lastOpenFiles": [
-    "小墨同学爱写程序的小鱼.md",
     "Clippings/Obsidian 七种主流多端同步方式对比与实践.md",
+    "小墨同学爱写程序的小鱼.md",
     "Clippings/Obsidian 多设备同步的六种方案：从官方同步到自建 NAS.md",
     "Clippings/Claudian 安装教程：把 Claude Code 接进 Obsidian，从 0 到侧边栏对话.md",
     "Clippings/obsidian 云同步的解决方案.md",
