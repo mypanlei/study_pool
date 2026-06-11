@@ -1,0 +1,202 @@
+{
+  "main": {
+    "id": "5e21e9fc58c93ef1",
+    "type": "split",
+    "children": [
+      {
+        "id": "b96f1a1133b66a97",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "baf239dd80040aa2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Clippings/Obsidian 七种主流多端同步方式对比与实践.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Obsidian 七种主流多端同步方式对比与实践"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "01ab766980069a77",
+    "type": "split",
+    "children": [
+      {
+        "id": "4088b41ae8d832e5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "70c2e25b93912c9b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "b05ab5f603841cf2",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "2231aa2a60f028d7",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "40e3d2925329258a",
+    "type": "split",
+    "children": [
+      {
+        "id": "1cad42e665746c8a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9faf565ed9a19071",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Clippings/Claudian 安装教程：把 Claude Code 接进 Obsidian，从 0 到侧边栏对话.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Claudian 安装教程：把 Claude Code 接进 Obsidian，从 0 到侧边栏对话 的反向链接列表"
+            }
+          },
+          {
+            "id": "0bdd1314054b465b",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Clippings/Claudian 安装教程：把 Claude Code 接进 Obsidian，从 0 到侧边栏对话.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Claudian 安装教程：把 Claude Code 接进 Obsidian，从 0 到侧边栏对话"
+            }
+          },
+          {
+            "id": "6591fd52b18ce7b9",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "0f6353ff3706f63a",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "9413cacc8046102b",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Clippings/Claudian 安装教程：把 Claude Code 接进 Obsidian，从 0 到侧边栏对话.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Claudian 安装教程：把 Claude Code 接进 Obsidian，从 0 到侧边栏对话"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false,
+      "realclaudian:Open Claudian": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "markdown-importer:打开 Markdown 格式转换器": false
+    }
+  },
+  "active": "baf239dd80040aa2",
+  "lastOpenFiles": [
+    "小墨同学爱写程序的小鱼.md",
+    "Clippings/Obsidian 七种主流多端同步方式对比与实践.md",
+    "Clippings/Obsidian 多设备同步的六种方案：从官方同步到自建 NAS.md",
+    "Clippings/Claudian 安装教程：把 Claude Code 接进 Obsidian，从 0 到侧边栏对话.md",
+    "Clippings/obsidian 云同步的解决方案.md",
+    "create a link.md",
+    "Welcome.md",
+    "2026-06-11.md",
+    "未命名.canvas",
+    "Clippings"
+  ]
+}
