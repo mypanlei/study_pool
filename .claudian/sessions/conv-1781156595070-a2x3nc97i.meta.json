@@ -1,11 +1,11 @@
 {
   "id": "conv-1781156595070-a2x3nc97i",
   "providerId": "claude",
-  "title": "请帮我总结一下obsidian + claudian 的方案， 以及如何配置云同步",
-  "titleGenerationStatus": "failed",
+  "title": "Greet assistant",
+  "titleGenerationStatus": "success",
   "createdAt": 1781156595097,
-  "updatedAt": 1781160672433,
-  "lastResponseAt": 1781160672433,
+  "updatedAt": 1781284889297,
+  "lastResponseAt": 1781284878480,
   "sessionId": "11ad8ef0-1d26-4846-a600-5621509d348e",
   "providerState": {
     "providerSessionId": "11ad8ef0-1d26-4846-a600-5621509d348e"

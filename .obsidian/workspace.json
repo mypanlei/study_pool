@@ -181,16 +181,16 @@
             "state": {
               "type": "claudian-view",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "claudian-view"
+              "icon": "bot",
+              "title": "Claudian"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
-    "width": 271.5
+    "width": 436.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -204,10 +204,11 @@
       "markdown-importer:打开 Markdown 格式转换器": false,
       "realclaudian:Open Claudian": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "obsidian42-brat:BRAT": false
     }
   },
-  "active": "6ba2dadf14f899dc",
+  "active": "92127c64f54b650d",
   "lastOpenFiles": [
     "Clippings/Obsidian 多设备同步的六种方案：从官方同步到自建 NAS.md",
     "Clippings/Hermes Agent Documentation  Hermes Agent.md",
