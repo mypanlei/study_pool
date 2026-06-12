@@ -47,7 +47,8 @@
       "environmentVariables": "",
       "environmentHash": "",
       "installationMethodsByHost": {
-        "device:c09d9652-dc03-48c7-831c-0da5fe4cc1e6": "native-windows"
+        "device:c09d9652-dc03-48c7-831c-0da5fe4cc1e6": "native-windows",
+        "device:b73df17b-565d-42a8-97c3-b1af1a217e45": "native-windows"
       },
       "wslDistroOverridesByHost": {}
     },
