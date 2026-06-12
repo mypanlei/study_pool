@@ -186,7 +186,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -208,7 +208,7 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "baf239dd80040aa2",
+  "active": "6ba2dadf14f899dc",
   "lastOpenFiles": [
     "raw/sources/Obsidian 多设备同步的六种方案：从官方同步到自建 NAS.md",
     "raw/sources/Claudian 安装教程：把 Claude Code 接进 Obsidian，从 0 到侧边栏对话.md",
