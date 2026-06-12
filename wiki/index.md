@@ -29,12 +29,13 @@ updated: 2026-06-13
 | 页面 | 摘要 | 来源 | 创建日期 |
 |------|------|------|----------|
 | [[wiki/sources/llm-wiki-pattern]] | Karpathy 关于 LLM Wiki 模式的原始文章 | GitHub Gist | 2026-06-13 |
+| [[wiki/sources/skill-management-zhihu]] | 知乎实践：130+ Skill 跨设备/跨工具统一管理方案 | 知乎 | 2026-06-13 |
 
 ## 综合分析 (Syntheses)
 
 | 页面 | 摘要 | 创建日期 |
 |------|------|----------|
-| — | 暂无综合分析页 | — |
+| [[wiki/syntheses/claude-skill-management]] | Claude Code Skill 管理全指南：多 Repo、自有/第三方 Skills 的管理策略 | 2026-06-13 |
 
 ## 待处理源材料 (Pending in raw/sources/)
 
@@ -49,6 +50,6 @@ updated: 2026-06-13
 
 - **实体页**: 1
 - **概念页**: 3
-- **源摘要页**: 1
-- **综合分析页**: 0
-- **原始资料**: 5 篇（1 篇已 Ingest，4 篇待处理）
+- **源摘要页**: 2
+- **综合分析页**: 1
+- **原始资料**: 6 篇（2 篇已 Ingest，4 篇待处理）

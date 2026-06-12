@@ -29,3 +29,18 @@ updated: 2026-06-13
 - **新建实体页**: [[wiki/entities/andrej-karpathy]]
 - **更新**: `wiki/index.md`
 - **待处理源材料**: 4 篇在 `raw/sources/` 中等待 Ingest
+
+## [2026-06-13] ingest | Skill 的管理方法（知乎）
+
+- **完成 Ingest**: 知乎文章《Skill 的管理方法》（130+ Skill 的跨设备管理方案）
+- **新建源摘要**: [[wiki/sources/skill-management-zhihu]]
+- 文章核心贡献：全局目录 (`~/.claude/skills/`) 作为 Single Source of Truth、跨设备同步方案（GitHub + NAS/rsync）、分类公开仓库、元 Skill 概念
+- **更新**: [[wiki/syntheses/claude-skill-management]] — 新增策略 D（全局目录式）、跨设备同步、元 Skill 章节
+
+## [2026-06-13] synthesis | Claude Code Skill Management 指南
+
+- **新建综合分析页**: [[wiki/syntheses/claude-skill-management]]
+- 盘点全盘技能生态：1 个 Agent (llm-wiki)、1 个 Skill (tailored-resume-generator)、9 个工作区 Repo、35+ 官方 Marketplace 插件
+- 记录三种技能管理策略（内嵌 / Symlink / 独立仓库）
+- 推荐新建 `my-skills` 集中仓库 + Symlink 方案
+- **更新**: `wiki/index.md`

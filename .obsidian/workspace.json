@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/concepts/llm-wiki-pattern.md",
+                "file": "wiki/syntheses/claude-skill-management.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "llm-wiki-pattern"
+              "title": "claude-skill-management"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 382.5
+    "width": 277.5
   },
   "right": {
     "id": "40e3d2925329258a",
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "wiki/concepts/llm-wiki-pattern.md",
+                "file": "wiki/syntheses/claude-skill-management.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "llm-wiki-pattern 的大纲"
+              "title": "claude-skill-management 的大纲"
             }
           },
           {
@@ -190,7 +190,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 488.5
+    "width": 425.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -210,6 +210,15 @@
   },
   "active": "baf239dd80040aa2",
   "lastOpenFiles": [
+    "wiki/concepts/llm-wiki-pattern.md",
+    "wiki/index.md.tmp.1196.bbf1a2e1700a",
+    "wiki/log.md.tmp.1196.e584d300483c",
+    "wiki/index.md.tmp.1196.cc4ec53da13d",
+    "wiki/syntheses/claude-skill-management.md.tmp.1196.2131b58e3217",
+    "wiki/syntheses/claude-skill-management.md.tmp.1196.933da3f9f801",
+    "wiki/syntheses/claude-skill-management.md.tmp.1196.58058d1a8a44",
+    "wiki/sources/skill-management-zhihu.md",
+    "wiki/syntheses/claude-skill-management.md",
     "raw/sources/skill 的管理方法.md",
     "raw/sources/Obsidian 七种主流多端同步方式对比与实践.md",
     "raw/source/skill 的管理方法.md",
@@ -224,28 +233,18 @@
     "wiki/concepts/memex.md",
     "wiki/concepts/rag-vs-wiki.md",
     "wiki/concepts/rag-vs-wiki.md.tmp.1196.edfe214348aa",
-    "wiki/concepts/llm-wiki-pattern.md",
-    "wiki/concepts/llm-wiki-pattern.md.tmp.1196.f3df7f9550d6",
     "wiki/sources/llm-wiki-pattern.md",
-    "wiki/sources/llm-wiki-pattern.md.tmp.1196.2c12699e61ee",
     "raw/sources/Hermes Agent Documentation  Hermes Agent.md",
     "raw/sources/llm-wiki.md",
     "Clippings/llm-wiki.md",
     "wiki/templates/synthesis.md",
-    "wiki/templates/synthesis.md.tmp.1196.a81f281a4539",
     "wiki/templates/source.md",
-    "wiki/templates/source.md.tmp.1196.42aadacf663b",
     "wiki/templates/entity.md",
     "wiki/log.md",
     "wiki/index.md",
-    "wiki/templates",
-    "wiki/syntheses",
     "Clippings/Hermes Agent Documentation  Hermes Agent.md",
     "Clippings/Obsidian 多设备同步的六种方案：从官方同步到自建 NAS.md",
     "2026-06-11.md",
-    "Clippings/Obsidian 七种主流多端同步方式对比与实践.md",
-    "小墨同学爱写程序的小鱼.md",
-    "Clippings/Claudian 安装教程：把 Claude Code 接进 Obsidian，从 0 到侧边栏对话.md",
     "未命名.canvas"
   ]
 }
