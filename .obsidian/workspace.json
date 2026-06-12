@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/syntheses/claude-skill-management.md",
+                "file": "wiki/sources/llm-wiki-pattern.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "claude-skill-management"
+              "title": "llm-wiki-pattern"
             }
           }
         ]
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "wiki/syntheses/claude-skill-management.md",
+                "file": "wiki/sources/llm-wiki-pattern.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "claude-skill-management 的大纲"
+              "title": "llm-wiki-pattern 的大纲"
             }
           },
           {
@@ -210,6 +210,7 @@
   },
   "active": "baf239dd80040aa2",
   "lastOpenFiles": [
+    "wiki/syntheses/claude-skill-management.md",
     "wiki/concepts/llm-wiki-pattern.md",
     "wiki/index.md.tmp.1196.bbf1a2e1700a",
     "wiki/log.md.tmp.1196.e584d300483c",
@@ -218,7 +219,6 @@
     "wiki/syntheses/claude-skill-management.md.tmp.1196.933da3f9f801",
     "wiki/syntheses/claude-skill-management.md.tmp.1196.58058d1a8a44",
     "wiki/sources/skill-management-zhihu.md",
-    "wiki/syntheses/claude-skill-management.md",
     "raw/sources/skill 的管理方法.md",
     "raw/sources/Obsidian 七种主流多端同步方式对比与实践.md",
     "raw/source/skill 的管理方法.md",
