@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/sources/llm-wiki-pattern.md",
+                "file": "wiki/syntheses/claude-skill-management.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "llm-wiki-pattern"
+              "title": "claude-skill-management"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 277.5
+    "width": 217.5
   },
   "right": {
     "id": "40e3d2925329258a",
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "wiki/sources/llm-wiki-pattern.md",
+                "file": "wiki/syntheses/claude-skill-management.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "llm-wiki-pattern 的大纲"
+              "title": "claude-skill-management 的大纲"
             }
           },
           {
@@ -190,7 +190,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 425.5
+    "width": 495.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -210,6 +211,21 @@
   },
   "active": "baf239dd80040aa2",
   "lastOpenFiles": [
+    "wiki/sources/skill-management-zhihu.md",
+    "wiki/index.md",
+    "wiki/sources/llm-wiki-pattern.md",
+    "wiki/index.md.tmp.1196.fce001cfc389",
+    "wiki/syntheses/obsidian-sync-comparison.md",
+    "wiki/concepts/agent-skills-system.md",
+    "wiki/entities/nous-research.md",
+    "wiki/entities/hermes-agent.md",
+    "wiki/entities/claude-code.md",
+    "wiki/entities/claudian.md",
+    "wiki/sources/hermes-agent-docs.md",
+    "wiki/sources/obsidian-sync-6-solutions.md",
+    "wiki/sources/obsidian-sync-7-solutions.md",
+    "wiki/sources/obsidian-sync-7-solutions.md.tmp.1196.287ec36b7caa",
+    "wiki/sources/claudian-setup-guide.md",
     "wiki/syntheses/claude-skill-management.md",
     "wiki/concepts/llm-wiki-pattern.md",
     "wiki/index.md.tmp.1196.bbf1a2e1700a",
@@ -218,7 +234,6 @@
     "wiki/syntheses/claude-skill-management.md.tmp.1196.2131b58e3217",
     "wiki/syntheses/claude-skill-management.md.tmp.1196.933da3f9f801",
     "wiki/syntheses/claude-skill-management.md.tmp.1196.58058d1a8a44",
-    "wiki/sources/skill-management-zhihu.md",
     "raw/sources/skill 的管理方法.md",
     "raw/sources/Obsidian 七种主流多端同步方式对比与实践.md",
     "raw/source/skill 的管理方法.md",
@@ -228,23 +243,10 @@
     "raw/sources/Obsidian 多设备同步的六种方案：从官方同步到自建 NAS.md",
     "raw/sources/Claudian 安装教程：把 Claude Code 接进 Obsidian，从 0 到侧边栏对话.md",
     "wiki/templates/concept.md",
-    "wiki/index.md.tmp.1196.e703a4bbe2dc",
     "wiki/entities/andrej-karpathy.md",
     "wiki/concepts/memex.md",
     "wiki/concepts/rag-vs-wiki.md",
-    "wiki/concepts/rag-vs-wiki.md.tmp.1196.edfe214348aa",
-    "wiki/sources/llm-wiki-pattern.md",
     "raw/sources/Hermes Agent Documentation  Hermes Agent.md",
-    "raw/sources/llm-wiki.md",
-    "Clippings/llm-wiki.md",
-    "wiki/templates/synthesis.md",
-    "wiki/templates/source.md",
-    "wiki/templates/entity.md",
-    "wiki/log.md",
-    "wiki/index.md",
-    "Clippings/Hermes Agent Documentation  Hermes Agent.md",
-    "Clippings/Obsidian 多设备同步的六种方案：从官方同步到自建 NAS.md",
-    "2026-06-11.md",
     "未命名.canvas"
   ]
 }

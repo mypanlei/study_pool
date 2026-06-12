@@ -44,3 +44,23 @@ updated: 2026-06-13
 - 记录三种技能管理策略（内嵌 / Symlink / 独立仓库）
 - 推荐新建 `my-skills` 集中仓库 + Symlink 方案
 - **更新**: `wiki/index.md`
+
+## [2026-06-13] ingest | 批量处理剩余 4 篇源材料
+
+### 1. Claudian 安装教程
+- **源摘要**: [[wiki/sources/claudian-setup-guide]]
+- **新实体**: [[wiki/entities/claudian]], [[wiki/entities/claude-code]]
+
+### 2. Obsidian 同步方案 (2 篇)
+- **源摘要**: [[wiki/sources/obsidian-sync-7-solutions]], [[wiki/sources/obsidian-sync-6-solutions]]
+- **综合分析**: [[wiki/syntheses/obsidian-sync-comparison]] — 合并两篇内容并与你当前方案做对照
+
+### 3. Hermes Agent 文档
+- **源摘要**: [[wiki/sources/hermes-agent-docs]]
+- **新实体**: [[wiki/entities/hermes-agent]], [[wiki/entities/nous-research]]
+- **新概念**: [[wiki/concepts/agent-skills-system]]
+
+### 汇总
+- **本次新增**: 4 源摘要 + 4 实体 + 1 概念 + 1 综合分析 = 10 页面
+- **更新**: `wiki/index.md`
+- **状态**: `raw/sources/` 全部 6 篇源材料已全部 Ingest 完成
