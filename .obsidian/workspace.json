@@ -186,7 +186,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -208,8 +208,13 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "6ba2dadf14f899dc",
+  "active": "baf239dd80040aa2",
   "lastOpenFiles": [
+    "raw/source/skill 的管理方法.md",
+    "raw/sources/Obsidian 七种主流多端同步方式对比与实践.md",
+    "raw/source",
+    "Clippings/skill 的管理方法.md",
+    "Clippings",
     "raw/sources/Obsidian 多设备同步的六种方案：从官方同步到自建 NAS.md",
     "raw/sources/Claudian 安装教程：把 Claude Code 接进 Obsidian，从 0 到侧边栏对话.md",
     "wiki/templates/concept.md",
@@ -223,7 +228,6 @@
     "wiki/sources/llm-wiki-pattern.md",
     "wiki/sources/llm-wiki-pattern.md.tmp.1196.2c12699e61ee",
     "raw/sources/Hermes Agent Documentation  Hermes Agent.md",
-    "raw/sources/Obsidian 七种主流多端同步方式对比与实践.md",
     "raw/sources/llm-wiki.md",
     "Clippings/llm-wiki.md",
     "wiki/templates/synthesis.md",
@@ -235,8 +239,6 @@
     "wiki/index.md",
     "wiki/templates",
     "wiki/syntheses",
-    "wiki/sources",
-    "wiki/entities",
     "Clippings/Hermes Agent Documentation  Hermes Agent.md",
     "Clippings/Obsidian 多设备同步的六种方案：从官方同步到自建 NAS.md",
     "2026-06-11.md",
@@ -244,7 +246,6 @@
     "小墨同学爱写程序的小鱼.md",
     "Clippings/Claudian 安装教程：把 Claude Code 接进 Obsidian，从 0 到侧边栏对话.md",
     "Clippings/obsidian 云同步的解决方案.md",
-    "create a link.md",
     "未命名.canvas"
   ]
 }
