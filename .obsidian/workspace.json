@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/syntheses/claude-skill-management.md",
+                "file": "wiki/index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "claude-skill-management"
+              "title": "index"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 415.5
+    "width": 261.5
   },
   "right": {
     "id": "40e3d2925329258a",
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "wiki/syntheses/claude-skill-management.md",
+                "file": "wiki/index.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "claude-skill-management 的大纲"
+              "title": "index 的大纲"
             }
           },
           {
@@ -208,8 +208,25 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "70c2e25b93912c9b",
+  "active": "baf239dd80040aa2",
   "lastOpenFiles": [
+    "wiki/log.md.tmp.1196.31c742c98bc7",
+    "wiki/index.md.tmp.1196.41ef022e8556",
+    "wiki/tag-index.md",
+    "wiki/entities/pi-agent.md",
+    "wiki/entities/hermes-agent.md.tmp.1196.27db412f4ab5",
+    "wiki/syntheses/claude-skill-management.md",
+    "wiki/syntheses/ai-agent-ecosystem-comparison.md",
+    "wiki/syntheses/ai-agent-ecosystem-comparison.md.tmp.1196.36eb28d25ce5",
+    "wiki/concepts/spec-driven-development.md",
+    "wiki/concepts/vibe-coding.md",
+    "wiki/concepts/harness-engineering.md",
+    "wiki/concepts/harness-engineering.md.tmp.1196.2012cdb904f6",
+    "wiki/entities/kubeflow.md",
+    "wiki/entities/google-adk.md",
+    "wiki/entities/openclaw.md",
+    "wiki/entities/langgraph.md",
+    "wiki/entities/dify.md",
     "wiki/sources/vibe-coding-guide.md",
     "wiki/sources/spec-driven-development-overview.md",
     "wiki/sources/rag-skill-agent-differences.md",
@@ -223,29 +240,12 @@
     "wiki/sources/hermes-agent-alicloud-messaging-guide.md",
     "wiki/sources/harness-engineering-deep-dive.md",
     "wiki/sources/harness-content-prompt-engineering.md",
-    "wiki/sources/gemini-kubeflow-dify-langgraph-comparison.md",
     "wiki/sources/gemini-kubeflow-dify-langgraph-comparison.md.tmp.1196.92335c08bc09",
-    "wiki/sources/gemini-enterprise-vs-kubeflow-comparison.md",
     "wiki/sources/gemini-enterprise-vs-kubeflow-comparison.md.tmp.1196.dbceff90c974",
-    "wiki/sources/cursor-agent-vs-skill-guide.md",
-    "wiki/sources/claude-code-custom-agent-guide.md",
-    "wiki/sources/ai-agent-architecture-overview.md",
-    "raw/sources/Vibe-Coding-实战指南.md",
-    "raw/sources/Specification-Driven-AI-Development-开源方案综述.md",
-    "raw/sources/RAG-Skill-Agent-区别与联系.md",
-    "raw/sources/Pi-Claude-Codex-区别与选型指南.md",
-    "raw/sources/Pi-Claude-Codex-English-Presentation.md",
-    "raw/sources/OpenClaw-vs-Hermes-Agent-详细对比.md",
-    "raw/sources/OpenClaw-Hermes-Pi-Claude-Codex-Copilot-区别与选型指南.md",
-    "raw/sources/LLM-Skills-Technical-Guide.md",
     "wiki/index.md.tmp.1196.fce001cfc389",
     "wiki/sources/obsidian-sync-7-solutions.md.tmp.1196.287ec36b7caa",
     "wiki/index.md.tmp.1196.bbf1a2e1700a",
     "wiki/log.md.tmp.1196.e584d300483c",
-    "wiki/index.md.tmp.1196.cc4ec53da13d",
-    "wiki/syntheses/claude-skill-management.md.tmp.1196.2131b58e3217",
-    "wiki/syntheses/claude-skill-management.md.tmp.1196.933da3f9f801",
-    "wiki/syntheses/claude-skill-management.md.tmp.1196.58058d1a8a44",
     "未命名.canvas"
   ]
 }

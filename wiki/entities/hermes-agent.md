@@ -46,3 +46,5 @@ aliases:
 ## 来源
 
 - [[wiki/sources/hermes-agent-docs]]
+- [[wiki/sources/hermes-agent-alicloud-deployment-guide]]
+- [[wiki/sources/hermes-agent-alicloud-messaging-guide]]

@@ -37,4 +37,7 @@ Agent Skills 是 AI Agent 的可复用行为模块，相当于 Agent 的「程�
 ## 来源
 
 - [[wiki/sources/hermes-agent-docs]]
+- [[wiki/sources/llm-skills-technical-guide]]
+- [[wiki/sources/cursor-agent-vs-skill-guide]]
+- [[wiki/sources/rag-skill-agent-differences]]
 - [[wiki/syntheses/claude-skill-management]]

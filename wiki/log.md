@@ -64,3 +64,105 @@ updated: 2026-06-13
 - **本次新增**: 4 源摘要 + 4 实体 + 1 概念 + 1 综合分析 = 10 页面
 - **更新**: `wiki/index.md`
 - **状态**: `raw/sources/` 全部 6 篇源材料已全部 Ingest 完成
+
+## [2026-06-13] ingest | 批量 Ingest 剩余 18 篇源材料
+
+这是截至目前最大的一次批量 Ingest，覆盖 AI Agent 架构、平台对比、Harness Engineering、SDD、Vibe Coding 等主题。
+
+### 1. AI Agent 架构与框架全景指南
+- **源摘要**: [[wiki/sources/ai-agent-architecture-overview]]
+- 贡献：ReAct/Plan-and-Execute/混合架构模式梳理，2025 主流框架对比（LangGraph/CrewAI/LlamaIndex/AutoGen/Pydantic AI/Mastra）
+
+### 2. Claude Code 自定义 Agent 配置指南
+- **源摘要**: [[wiki/sources/claude-code-custom-agent-guide]]
+- 贡献：Subagent 创建方法、frontmatter 字段详解、工具权限最小化原则、常见 Agent 模板
+
+### 3. Cursor Agent vs Skill 使用决策指南
+- **源摘要**: [[wiki/sources/cursor-agent-vs-skill-guide]]
+- 贡献：Agent/Skill/Subagent 完整分工体系、四种工作模式（Agent/Plan/Debug/Multitask）、决策树
+
+### 4. Gemini Enterprise Agent Platform vs Kubeflow 对比
+- **源摘要**: [[wiki/sources/gemini-enterprise-vs-kubeflow-comparison]]
+- **新实体**: [[wiki/entities/google-adk]], [[wiki/entities/kubeflow]]
+- 贡献：两层分层对比框架、误区澄清、组合推荐
+
+### 5. Gemini/Kubeflow/Dify/LangGraph 四方对比
+- **源摘要**: [[wiki/sources/gemini-kubeflow-dify-langgraph-comparison]]
+- **新实体**: [[wiki/entities/dify]], [[wiki/entities/langgraph]]
+- 贡献：四层分层框架、核心对比矩阵、典型组合方式
+
+### 6. Harness/Content/Prompt Engineering 区别与联系
+- **源摘要**: [[wiki/sources/harness-content-prompt-engineering]]
+- **新概念**: [[wiki/concepts/harness-engineering]]
+- 贡献：三层工程体系的理论框架、分层判断方法
+
+### 7. Harness Engineering 深度解析
+- **源摘要**: [[wiki/sources/harness-engineering-deep-dive]]
+- 贡献：三层架构深度解构、四层数据模型、OPA 治理模式、自愈闭环、硬件隐喻模型
+
+### 8. Hermes Agent 阿里云消息入口实操
+- **源摘要**: [[wiki/sources/hermes-agent-alicloud-messaging-guide]]
+- 贡献：飞书 WebSocket vs Webhook、微信 iLink 限制、落地顺序建议
+
+### 9. Hermes Agent 阿里云部署指南
+- **源摘要**: [[wiki/sources/hermes-agent-alicloud-deployment-guide]]
+- 贡献：ECS + Docker + systemd 全流程、安全规范、Provider 选择
+
+### 10. LLM Skills 技术全景指南
+- **源摘要**: [[wiki/sources/llm-skills-technical-guide]]
+- 贡献：调度员模式、MCP 协议详解、Agent Skills 三级渐进披露机制、Function Calling 原理
+
+### 11. LangGraph ReAct Agent 实战指南
+- **源摘要**: [[wiki/sources/langgraph-react-agent-guide]]
+- 贡献：状态机工程化、`create_react_agent` vs `StateGraph` 双方案、Checkpointer 记忆管理
+
+### 12. OpenClaw/Hermes/Pi/Claude Code/Codex/Copilot 区别
+- **源摘要**: [[wiki/sources/openclaw-hermes-pi-codex-copilot-comparison]]
+- **新实体**: [[wiki/entities/openclaw]], [[wiki/entities/pi-agent]]
+- 贡献：6 大平台/工具的定位分层、选型框架
+
+### 13. OpenClaw vs Hermes Agent 详细对比
+- **源摘要**: [[wiki/sources/openclaw-vs-hermes-comparison]]
+- 贡献：设计中心差异、入口模型对比、记忆与技能系统差异、Provider 策略对比
+
+### 14. Pi/Claude Code/Codex 区别
+- **源摘要**: [[wiki/sources/pi-claude-codex-comparison]]
+- 贡献：三种编码 Agent 的执行模型差异、常见误区澄清
+
+### 15. Pi vs Claude Code vs Codex English Presentation
+- **源摘要**: [[wiki/sources/pi-claude-codex-english-presentation]]
+- 贡献：英文版企业演示材料
+
+### 16. RAG/Skill/Agent 区别与联系
+- **源摘要**: [[wiki/sources/rag-skill-agent-differences]]
+- 贡献：三层能力体系理论、组合使用模式、常见误区澄清、判断框架
+
+### 17. Specification-Driven AI Development 综述
+- **源摘要**: [[wiki/sources/spec-driven-development-overview]]
+- **新概念**: [[wiki/concepts/spec-driven-development]]
+- 贡献：SDD 开源生态全景（Spec Kit/OpenSpec/LeanSpec/specs.md/Shotgun）、三层落地架构
+
+### 18. Vibe Coding 实战指南
+- **源摘要**: [[wiki/sources/vibe-coding-guide]]
+- **新概念**: [[wiki/concepts/vibe-coding]]
+- 贡献：Spec before Vibe 心法、风险控制四道防线、与 SDD 的关系
+
+### 综合分析
+- **新建综合分析页**: [[wiki/syntheses/ai-agent-ecosystem-comparison]]
+- 综合 4 组对比分析文章，构建三层分层框架（应用交付层/编排层/平台层）
+- 覆盖企业平台、编程 Agent、Personal AI Agent 三大子生态
+- 提供全局选型决策树
+
+### 汇总
+- **本次新增**: 18 源摘要 + 6 实体 + 3 概念 + 1 综合分析 = 28 页面
+- **更新**: `wiki/index.md`, `wiki/log.md`
+- **状态**: `raw/sources/` 全部 24 篇源材料已全部 Ingest 完成
+
+## [2026-06-13] feature | Dataview 标签索引页
+
+- **新建**: [[wiki/tag-index]] — 使用 Dataview 动态查询生成的标签导航页
+- 安装 Dataview 社区插件（加入 community-plugins.json）
+- 索引覆盖 11 个标签分组（agent, ai, claude, obsidian, hermes, comparison, methodology, gemini/kubeflow, openclaw/pi, sync, harness）
+- 包含标签云（按频率排序）和最近更新列表
+- **更新**: `wiki/index.md` — 添加标签索引入口链接
+- **全文索引统计**: 11 实体 + 7 概念 + 24 源摘要 + 3 综合分析 = 45 页面
