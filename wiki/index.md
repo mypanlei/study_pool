@@ -110,6 +110,7 @@ updated: 2026-06-13
 | [[wiki/sources/ragas-evaluation-metrics]] | RAGAS 评估指标：Faithfulness, Relevancy, Robustness | 自建笔记 | 2026-06-13 |
 | [[wiki/sources/rope-interpolation-technical-detail]] | RoPE 插值技术详解：PI/NTK-Aware/YaRN/DroPE | 自建笔记 | 2026-06-13 |
 | [[wiki/sources/skill-management-zhihu]] | 知乎实践：130+ Skill 跨设备/跨工具统一管理方案 | 知乎 | 2026-06-13 |
+| [[wiki/sources/skills-manager-tutorial]] | Skills Manager — 跨 Agent 工具的可视化统一 Skill 管理 | GitHub (Datawhale) | 2026-06-13 |
 | [[wiki/sources/spec-driven-development-overview]] | SDD 开源方案生态全景与选型建议 | 自建笔记 | 2026-06-13 |
 | [[wiki/sources/transformer-architecture-detail]] | Transformer 架构详解：自注意力、QKV、Decoder-only | 自建笔记 | 2026-06-13 |
 | [[wiki/sources/vibe-coding-guide]] | Vibe Coding 意图编程范式实战指南 | 自建笔记 | 2026-06-13 |
@@ -130,6 +131,6 @@ updated: 2026-06-13
 
 - **实体页**: 18
 - **概念页**: 17
-- **源摘要页**: 52
+- **源摘要页**: 53
 - **综合分析页**: 7
-- **原始资料**: 52 篇（全部已 Ingest）
+- **原始资料**: 53 篇（全部已 Ingest）

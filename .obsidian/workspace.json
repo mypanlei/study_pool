@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/entities/mlflow.md",
+                "file": "wiki/concepts/llm-wiki-pattern.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "mlflow"
+              "title": "llm-wiki-pattern"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 261.5
+    "width": 276.5
   },
   "right": {
     "id": "40e3d2925329258a",
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "wiki/entities/mlflow.md",
+                "file": "wiki/concepts/llm-wiki-pattern.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "mlflow 的大纲"
+              "title": "llm-wiki-pattern 的大纲"
             }
           },
           {
@@ -190,7 +190,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 495.5
+    "width": 372.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -208,8 +208,31 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "92127c64f54b650d",
+  "active": "baf239dd80040aa2",
   "lastOpenFiles": [
+    "wiki/log.md.tmp.1196.08e3d2086af8",
+    "raw/sources/ai-skills-for-everyonetutorial06-manage-many-skills.md at main.md",
+    "wiki/sources/skills-manager-tutorial.md",
+    "wiki/sources/transformer-architecture-detail.md",
+    "wiki/sources/rope-interpolation-technical-detail.md",
+    "wiki/sources/ragas-evaluation-metrics.md",
+    "wiki/sources/rag-vs-semantic-cache-comparison.md",
+    "wiki/sources/rag-common-issues-and-optimization.md",
+    "wiki/sources/mlops-open-source-platform-comparison.md",
+    "wiki/sources/mlops-data-versioning-open-source-comparison.md",
+    "wiki/sources/ml-platform-availability-sla-commercial-assessment.md",
+    "wiki/sources/ml-lifecycle-management-official-doc-summary.md",
+    "wiki/sources/large-model-parameters-and-performance.md",
+    "wiki/sources/kv-cache-technical-detail.md",
+    "wiki/sources/karpathy-llm-wiki-philosophy.md",
+    "wiki/sources/internal-mlops-data-versioning-prd.md",
+    "wiki/sources/internal-mlops-availability-structured-analysis.md",
+    "wiki/sources/fitting-mechanism-deep-analysis.md",
+    "wiki/sources/ai-platform-product-manager-role-framework.md",
+    "wiki/entities/claude-code.md",
+    "Clippings",
+    "wiki/concepts/agent-skills-system.md",
+    "wiki/entities/mlflow.md",
     "wiki/log.md.tmp.1196.3d4524221b59",
     "wiki/index.md.tmp.1196.41803b08bc8f",
     "wiki/index.md.tmp.1196.3053452fdbc4",
@@ -222,30 +245,7 @@
     "wiki/syntheses/deepseek-technical-analysis.md",
     "wiki/concepts/feishu-bitable.md",
     "wiki/concepts/git-lfs.md",
-    "wiki/entities/jira.md",
-    "wiki/entities/feishu-bitable.md",
-    "wiki/entities/notebooklm.md",
     "wiki/entities/notebooklm.md.tmp.1196.85772641f086",
-    "wiki/entities/deepseek.md",
-    "wiki/entities/deepseek.md.tmp.1196.5bd5b3f7ae06",
-    "wiki/sources/feishu-bitable-introduction.md",
-    "wiki/sources/feishu-bitable-introduction.md.tmp.1196.6d718f0982d9",
-    "wiki/sources/feishu-bitable-vs-jira-comparison.md",
-    "wiki/sources/obsidian-claudian-workflow.md",
-    "wiki/sources/obsidian-proxy-sync-guide.md",
-    "wiki/sources/notebooklm-introduction.md",
-    "wiki/sources/github-cli-proxy-config.md",
-    "wiki/sources/git-lfs-guide.md",
-    "wiki/sources/gemini-cli-skills-guide.md",
-    "wiki/sources/deepseek-v4-technical-analysis.md",
-    "wiki/sources/deepseek-r1-deep-analysis.md",
-    "wiki/sources/deepseek-r1-technical-secrets.md",
-    "wiki/index.md",
-    "raw/sources/飞书多维表格系统介绍.md",
-    "raw/sources/飞书多维表格-vs-Jira-对比.md",
-    "raw/sources/Obsidian-浏览器扩展-Claudian-知识工作流方案.md",
-    "raw/sources/Obsidian-代理设置与非官方Vault同步方案.md",
-    "raw/sources/NotebookLM-系统介绍.md",
     "未命名.canvas"
   ]
 }

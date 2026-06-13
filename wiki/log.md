@@ -357,3 +357,11 @@ updated: 2026-06-13
 - **本次新增**: 11 源摘要 + 4 实体 + 2 概念 + 1 综合分析 = 18 页面
 - **更新已有**: 4 页面
 - **全文索引统计**: 18 实体 + 17 概念 + 52 源摘要 + 7 综合分析 = 94 页面
+
+## [2026-06-13] ingest | Skills Manager 教程
+
+- **源摘要**: [[wiki/sources/skills-manager-tutorial]] — Datawhale 出品的跨 Agent Skill 管理器教程
+- 核心贡献：Skills Manager 中央库 + Preset + Multi-tool sync 的可视化管理方案
+- **更新**: [[wiki/syntheses/claude-skill-management]] — 新增策略 E（Skills Manager 工具式）
+- **更新**: `wiki/index.md` — 源摘要 52 → 53
+- **全文索引统计**: 18 实体 + 17 概念 + 53 源摘要 + 7 综合分析 = 95 页面

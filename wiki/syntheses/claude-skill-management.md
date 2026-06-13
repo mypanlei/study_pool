@@ -145,6 +145,33 @@ your-project/
 | 跨设备同步 | ❌ | ❌ | ✅ Git | ✅ GitHub |
 | 适用场景 | 一次性项目 | 中型项目 | 团队/多项目 | 个人全栈 |
 
+### 策略 E：Skills Manager 工具式（适合多 Agent / 多工具用户）
+
+使用开源工具 [Skills Manager](https://github.com/xingkongliang/skills-manager) 进行可视化集中管理：
+
+```
+Skills Manager Central Library
+├── Preset: Writing
+│   ├── ai-writing-assistant
+│   ├── blog-post-writer
+│   └── content-digest
+├── Preset: Frontend
+│   └── ...
+├── Preset: Research
+│   └── ...
+└── Sync → Claude Code / Codex / Cursor / Trae
+```
+
+✅ **Multi-tool sync** — 一次配置同步到多个 Agent 工具  
+✅ **Presets** — 按任务组合保存，按需启用  
+✅ **GUI + CLI** — 图形界面和命令行双模式  
+✅ **Git backup** — 内置备份能力  
+✅ **Tags & filters** — 标签筛选和搜索  
+❌ 额外引入一个工具，增加学习成本  
+❌ 不适合 Skill 少于 5 个的初学者
+
+> **适用判断**：当你同时使用 2+ Agent 工具、拥有 5+ Skill 时，Skills Manager 比手动管理更高效。
+
 ---
 
 ## 五、跨设备同步方案
