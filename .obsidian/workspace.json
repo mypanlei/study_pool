@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/entities/kubeflow.md",
+                "file": "raw/sources/skill 的管理方法.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "kubeflow"
+              "title": "skill 的管理方法"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 276.5
+    "width": 329.5
   },
   "right": {
     "id": "40e3d2925329258a",
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "wiki/entities/kubeflow.md",
+                "file": "raw/sources/skill 的管理方法.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "kubeflow 的大纲"
+              "title": "skill 的管理方法 的大纲"
             }
           },
           {
@@ -211,6 +211,8 @@
   },
   "active": "baf239dd80040aa2",
   "lastOpenFiles": [
+    "wiki/concepts/agent-skills-system.md",
+    "wiki/entities/kubeflow.md",
     "raw/sources/内部MLOps-数据版本控制与数据管理平台-PRD.md",
     "wiki/index.md",
     "wiki/concepts/llm-wiki-pattern.md",
@@ -235,7 +237,6 @@
     "wiki/sources/ai-platform-product-manager-role-framework.md",
     "wiki/entities/claude-code.md",
     "Clippings",
-    "wiki/concepts/agent-skills-system.md",
     "wiki/entities/mlflow.md",
     "wiki/log.md.tmp.1196.3d4524221b59",
     "wiki/index.md.tmp.1196.41803b08bc8f",
@@ -246,7 +247,6 @@
     "wiki/concepts/kv-cache.md.tmp.1196.7041bf531289",
     "wiki/concepts/kv-cache.md",
     "wiki/concepts/kv-cache.md.tmp.1196.9c16bf68c757",
-    "wiki/syntheses/deepseek-technical-analysis.md",
     "未命名.canvas"
   ]
 }
