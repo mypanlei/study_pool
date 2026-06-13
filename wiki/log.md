@@ -166,3 +166,112 @@ updated: 2026-06-13
 - 包含标签云（按频率排序）和最近更新列表
 - **更新**: `wiki/index.md` — 添加标签索引入口链接
 - **全文索引统计**: 11 实体 + 7 概念 + 24 源摘要 + 3 综合分析 = 45 页面
+
+## [2026-06-13] ingest | 批量 Ingest 17 篇源材料（MLOps 系列 + LLM/DL + RAG + Other）
+
+这是截至目前最大的一次批量 Ingest，覆盖 7 篇 MLOps 系列大型文章、5 篇 LLM/DL 技术文章、3 篇 RAG 相关文章和 2 篇其他主题，新增 28 个页面。
+
+### MLOps 系列（7 篇）
+
+#### 1. 内部 MLOps Availability 需求拆解与落地计划
+- **源摘要**: [[wiki/sources/internal-mlops-availability-requirements-user-stories-technical-plan]]
+- 贡献：以 ML Developer Core Journey 为核心的 99.9% SLO 落地计划，7 个 Epic / 29 个 User Stories，三口径统计（Gross/Net/Platform-owned），43.2 分钟 error budget 分摊模型
+
+#### 2. 内部 MLOps Availability 结构化分析
+- **源摘要**: [[wiki/sources/internal-mlops-availability-structured-analysis]]
+- 贡献：按评审/汇报逻辑重新编排的版本，工业成熟实践对比，执行资产模板（Incident/Runbook/RCA/K8s 加固）
+
+#### 3. ML 生命周期管理官方总结
+- **源摘要**: [[wiki/sources/ml-lifecycle-management-official-doc-summary]]
+- 贡献：8 阶段生命周期模型，综合 AWS/Google/Azure/MLflow/Kubeflow/NIST 官方资料，CI/CD/CT 自动化成熟度，反模式总结
+
+#### 4. MLOps Data Versioning 开源方案对比
+- **源摘要**: [[wiki/sources/mlops-data-versioning-open-source-comparison]]
+- 贡献：Data Versioning（DVC/lakeFS/Pachyderm/Nessie）vs Data Management（DataHub/OpenMetadata/Amundsen/Atlas/Marquez）问题分层框架，与 MLflow/Kubeflow 集成关系，推荐组合
+
+#### 5. MLOps 开源平台对比
+- **源摘要**: [[wiki/sources/mlops-open-source-platform-comparison]]
+- 贡献：11 个平台逐项对比（Kubeflow/MLflow/ZenML/Metaflow/Flyte/Kedro/DVC/ClearML/Feast/BentoML/KServe），分层选型框架，推荐组合
+
+#### 6. ML Platform Availability SLA 商业评估
+- **源摘要**: [[wiki/sources/ml-platform-availability-sla-commercial-assessment]]
+- 贡献：99.9%（主流）vs 99.95%（高可用需多实例多区）vs 99.99%（基础设施级）市场对标，3 档商业 SKU 建议
+
+#### 7. 内部 MLOps 数据版本控制 PRD
+- **源摘要**: [[wiki/sources/internal-mlops-data-versioning-prd]]
+- 贡献：基于 lakeFS+DataHub+OpenLineage 的 PRD，P0/P1/P2 需求矩阵，MVP 退出标准
+
+### LLM/DL 技术系列（5 篇）
+
+#### 8. KV Cache 技术详解
+- **源摘要**: [[wiki/sources/kv-cache-technical-detail]]
+- 贡献：KV Cache Prefill/Decode 原理，架构演进 MHA→GQA→MLA→CSA/HCA，PagedAttention 显存管理
+
+#### 9. RoPE 插值技术详解
+- **源摘要**: [[wiki/sources/rope-interpolation-technical-detail]]
+- 贡献：RoPE 物理意义（坐标系压缩），PI/NTK-Aware/YaRN/DroPE 四种插值方法，参数选择指南
+
+#### 10. Transformer 架构详解
+- **源摘要**: [[wiki/sources/transformer-architecture-detail]]
+- 贡献：QKV 机制、Encoder-Decoder vs Decoder-only 架构分化、MHA/GQA 关键组件、训练数据压缩为权重而非存储的常见误解澄清
+
+#### 11. 大模型参数量与性能关系
+- **源摘要**: [[wiki/sources/large-model-parameters-and-performance]]
+- 贡献：Kaplan vs Chinchilla Scaling Laws，小模型逆袭三大原因（超量训练+数据质量+架构改进），MoE/端侧 AI 趋势
+
+#### 12. 拟合机制深度解析
+- **源摘要**: [[wiki/sources/fitting-mechanism-deep-analysis]]
+- 贡献：函数逼近数学本质，欠/恰好/过拟合三种状态，模型容量（LoRA Rank），LLM 知识冲突与灾难性遗忘
+
+### RAG 相关（3 篇）
+
+#### 13. RAG 常见问题与优化
+- **源摘要**: [[wiki/sources/rag-common-issues-and-optimization]]
+- 贡献：检索端（Hybrid/Rerank/HyDE/Query Rewrite/GraphRAG）+ 生成端（Guardrails/Citation/Context Filtering）双端优化
+
+#### 14. RAG vs Semantic Cache 对比
+- **源摘要**: [[wiki/sources/rag-vs-semantic-cache-comparison]]
+- 贡献：RAG（知识注入，每次调用 LLM）vs 语义缓存（加速器，10-50ms 缓存命中）本质区别，最佳实践为 RAG 生成后写入缓存
+
+#### 15. RAGAS 评估指标
+- **源摘要**: [[wiki/sources/ragas-evaluation-metrics]]
+- 贡献：RAGAS 三元组（Faithfulness/Relevancy/Context Precision），LLM-as-a-Judge 思路，鲁棒性（Negative Rejection + Noise Sensitivity）
+
+### 其他（2 篇）
+
+#### 16. AI 平台化解决方案产品经理
+- **源摘要**: [[wiki/sources/ai-platform-product-manager-role-framework]]
+- 贡献：角色定位、5 维度能力模型、6 块背景知识、与各团队分工、组织价值
+
+#### 17. Karpathy LLM Wiki 理念深度解析
+- **源摘要**: [[wiki/sources/karpathy-llm-wiki-philosophy]]
+- 贡献：三层架构（Raw Sources/Wiki/Schema），核心操作流程（增量摄入/深度查询/自动化巡检），Bookkeeping cost 消除
+
+### 新建概念页（8 个）
+- [[wiki/concepts/transformer-architecture]] — Transformer 架构与自注意力机制
+- [[wiki/concepts/kv-cache]] — KV Cache 与 PagedAttention
+- [[wiki/concepts/rope-positional-encoding]] — RoPE 旋转位置编码与插值
+- [[wiki/concepts/rag-optimization]] — RAG 全链路优化
+- [[wiki/concepts/mlops-lifecycle]] — MLOps 生命周期管理
+- [[wiki/concepts/data-versioning-and-management]] — 数据版本控制与数据管理
+- [[wiki/concepts/ai-platform-product-manager]] — AI 平台产品经理角色
+- [[wiki/concepts/fitting-mechanism]] — 拟合机制（欠/恰好/过拟合）
+
+### 新建实体页（3 个）
+- [[wiki/entities/mlflow]] — MLflow 实验追踪与模型注册平台
+- [[wiki/entities/datahub]] — 组织级元数据图谱与 Data Catalog
+- [[wiki/entities/lakefs]] — 对象存储层 Git-like 数据版本控制
+
+### 新建综合分析页（3 个）
+- [[wiki/syntheses/mlops-ecosystem-overview]] — MLOps 生态全景（综合 7 篇 MLOps 文章）
+- [[wiki/syntheses/llm-technical-foundations]] — LLM 技术基础（综合 5 篇技术文章）
+- [[wiki/syntheses/rag-optimization-guide]] — RAG 优化指南（综合 3 篇 RAG 文章）
+
+### 更新已有页面
+- [[wiki/entities/andrej-karpathy]] — 添加 Karpathy LLM Wiki 源链接
+- [[wiki/concepts/rag-vs-wiki]] — 添加 RAG 相关源和概念链接
+- [[wiki/index.md]] — 添加所有新页面
+
+### 汇总
+- **本次新增**: 17 源摘要 + 3 实体 + 8 概念 + 3 综合分析 = 31 页面
+- **全文索引统计**: 14 实体 + 15 概念 + 41 源摘要 + 6 综合分析 = 76 页面

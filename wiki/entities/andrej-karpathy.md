@@ -32,3 +32,4 @@ aliases:
 ## 来源
 
 - [[wiki/sources/llm-wiki-pattern]]
+- [[wiki/sources/karpathy-llm-wiki-philosophy]]

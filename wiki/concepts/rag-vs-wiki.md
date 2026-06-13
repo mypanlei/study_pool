@@ -34,6 +34,18 @@ aliases:
 
 两者并非互斥。在 LLM Wiki 中，如果维基规模过大，index.md 检索可能不够用，此时可在维基层之上叠加轻量级搜索（如 qmd 的 BM25/向量混合搜索）。RAG 是工具，Wiki 是架构。
 
+## 相关 RAG 资源
+
+RAG 相关优化技术与 LLM Wiki 形成互补：
+
+- [[wiki/sources/rag-common-issues-and-optimization]] — RAG 全链路优化指南
+- [[wiki/sources/rag-vs-semantic-cache-comparison]] — 语义缓存 vs RAG 对比
+- [[wiki/sources/ragas-evaluation-metrics]] — RAGAS 评估体系
+- [[wiki/concepts/rag-optimization]] — RAG 优化概念页
+
+更多综合：[[wiki/syntheses/rag-optimization-guide]]
+
 ## 来源
 
 - [[wiki/sources/llm-wiki-pattern]]
+- [[wiki/sources/karpathy-llm-wiki-philosophy]]

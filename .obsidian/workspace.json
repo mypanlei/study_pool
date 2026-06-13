@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/index.md",
+                "file": "wiki/entities/mlflow.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "mlflow"
             }
           }
         ]
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "wiki/index.md",
+                "file": "wiki/entities/mlflow.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "index 的大纲"
+              "title": "mlflow 的大纲"
             }
           },
           {
@@ -186,7 +186,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -208,8 +208,25 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "6ba2dadf14f899dc",
+  "active": "baf239dd80040aa2",
   "lastOpenFiles": [
+    "wiki/index.md",
+    "wiki/index.md.tmp.1196.91277f3a34a5",
+    "wiki/index.md.tmp.1196.68a68d07ed99",
+    "raw/sources/飞书多维表格系统介绍.md",
+    "raw/sources/飞书多维表格-vs-Jira-对比.md",
+    "raw/sources/Obsidian-浏览器扩展-Claudian-知识工作流方案.md",
+    "raw/sources/Obsidian-代理设置与非官方Vault同步方案.md",
+    "raw/sources/NotebookLM-系统介绍.md",
+    "raw/sources/Git-LFS-工作原理与配置指南.md",
+    "raw/sources/GitHub-CLI代理配置.md",
+    "raw/sources/Gemini-CLI-Skills配置指南.md",
+    "wiki/syntheses/rag-optimization-guide.md",
+    "wiki/syntheses/llm-technical-foundations.md",
+    "wiki/syntheses/mlops-ecosystem-overview.md",
+    "wiki/syntheses/mlops-ecosystem-overview.md.tmp.1196.041a4110463c",
+    "wiki/entities/datahub.md",
+    "wiki/entities/mlflow.md",
     "raw/sources/DeepSeek-V4-技术分析.md",
     "raw/sources/DeepSeek-R1深度解析.md",
     "raw/sources/DeepSeek-R1技术秘诀.md",
@@ -222,30 +239,13 @@
     "raw/sources/Internal-MLOps-Availability-Structured-Analysis.md",
     "raw/sources/Internal-MLOps-Availability-Requirements-User-Stories-Technical-Plan.md",
     "raw/sources/AI-平台化解决方案产品经理-角色定位与能力框架.md",
-    "raw/sources/拟合机制深度解析.md",
-    "raw/sources/大模型参数量与性能关系详解.md",
-    "raw/sources/Transformer架构详解.md",
-    "raw/sources/RoPE-插值技术详解.md",
-    "raw/sources/RAG-Common-Issues-and-Optimization.md",
-    "raw/sources/KV-Cache-技术详解.md",
-    "raw/sources/Karpathy-LLM-Wiki-理念深度解析.md",
-    "raw/sources/RAGAS-Evaluation-Metrics.md",
-    "raw/sources/RAG-vs-Semantic-Cache-深度对比.md",
     "wiki/log.md.tmp.1196.31c742c98bc7",
     "wiki/index.md.tmp.1196.41ef022e8556",
-    "wiki/tag-index.md",
-    "wiki/entities/pi-agent.md",
     "wiki/entities/hermes-agent.md.tmp.1196.27db412f4ab5",
-    "wiki/syntheses/claude-skill-management.md",
-    "wiki/syntheses/ai-agent-ecosystem-comparison.md",
     "wiki/syntheses/ai-agent-ecosystem-comparison.md.tmp.1196.36eb28d25ce5",
-    "wiki/concepts/spec-driven-development.md",
     "wiki/concepts/harness-engineering.md.tmp.1196.2012cdb904f6",
     "wiki/sources/gemini-kubeflow-dify-langgraph-comparison.md.tmp.1196.92335c08bc09",
     "wiki/sources/gemini-enterprise-vs-kubeflow-comparison.md.tmp.1196.dbceff90c974",
-    "wiki/index.md.tmp.1196.fce001cfc389",
-    "wiki/sources/obsidian-sync-7-solutions.md.tmp.1196.287ec36b7caa",
-    "wiki/index.md.tmp.1196.bbf1a2e1700a",
     "未命名.canvas"
   ]
 }
