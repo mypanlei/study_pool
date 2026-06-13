@@ -48,3 +48,4 @@ aliases:
 
 - [[wiki/sources/gemini-enterprise-vs-kubeflow-comparison]]
 - [[wiki/sources/gemini-kubeflow-dify-langgraph-comparison]]
+- [[wiki/sources/gemini-cli-skills-guide]] — Gemini CLI Skills 机制（ADK 生态中的 CLI 层工具）

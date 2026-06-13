@@ -275,3 +275,85 @@ updated: 2026-06-13
 ### 汇总
 - **本次新增**: 17 源摘要 + 3 实体 + 8 概念 + 3 综合分析 = 31 页面
 - **全文索引统计**: 14 实体 + 15 概念 + 41 源摘要 + 6 综合分析 = 76 页面
+
+## [2026-06-13] ingest | 批量 Ingest 11 篇源材料（DeepSeek 三部曲 + Gemini CLI + Git + NotebookLM + Obsidian + 飞书）
+
+这是深度覆盖推理模型、CLI 工具、Git 工程化、研究工具、知识工作流和项目管理工具的一次批量 Ingest。
+
+### DeepSeek 三部曲（3 篇）
+
+#### 1. DeepSeek-R1 技术秘诀
+- **源摘要**: [[wiki/sources/deepseek-r1-technical-secrets]]
+- 贡献：GRPO 算法、四阶段训练流程、MLA+MoE 架构、知识蒸馏、成本奇迹
+
+#### 2. DeepSeek-R1 深度解析
+- **源摘要**: [[wiki/sources/deepseek-r1-deep-analysis]]
+- 贡献：R1-Zero vs R1 路径对比、GRPO 群组相对策略优化、蒸馏模型影响力
+
+#### 3. DeepSeek-V4 技术分析
+- **源摘要**: [[wiki/sources/deepseek-v4-technical-analysis]]
+- 贡献：CSA/HCA 序列压缩注意力、KV Cache 极致压缩、前缀缓存策略与阶梯定价闭环
+
+### Gemini CLI 与 Git 工具（3 篇）
+
+#### 4. Gemini CLI Skills 配置指南
+- **源摘要**: [[wiki/sources/gemini-cli-skills-guide]]
+- 贡献：Skills 存储层级、SKILL.md 规范、发现/激活/状态控制机制
+
+#### 5. Git LFS 工作原理与配置指南
+- **源摘要**: [[wiki/sources/git-lfs-guide]]
+- 贡献：指针文件机制、clean/smudge filter、历史迁移策略、GitHub 计费规则
+
+#### 6. GitHub CLI 代理配置
+- **源摘要**: [[wiki/sources/github-cli-proxy-config]]
+- 贡献：环境变量方案、Git 代理配置、SSH 协议代理
+
+### NotebookLM（1 篇）
+
+#### 7. NotebookLM 系统介绍
+- **源摘要**: [[wiki/sources/notebooklm-introduction]]
+- 贡献：来源驱动型研究工作台定位、资料类型与限制、核心能力全景（问答/Source Guide/音频视频概览/Deep Research）、隐私与企业口径
+
+### Obsidian Advanced（2 篇）
+
+#### 8. Obsidian 代理设置与非官方 Vault 同步方案
+- **源摘要**: [[wiki/sources/obsidian-proxy-sync-guide]]
+- 贡献：代理三层架构（系统/Electron/插件）、八种非官方同步方案全景、Windows+Android+iPad 设备组合建议
+
+#### 9. Obsidian + 浏览器扩展 + Claudian 知识工作流方案
+- **源摘要**: [[wiki/sources/obsidian-claudian-workflow]]
+- 贡献：三层闭环架构（采集/存储/加工）、三个典型场景、推荐目录结构
+
+### 飞书多维表格（2 篇）
+
+#### 10. 飞书多维表格 vs Jira 对比
+- **源摘要**: [[wiki/sources/feishu-bitable-vs-jira-comparison]]
+- 贡献：数据表模型 vs Issue 模型、工作流差异、配合模式
+
+#### 11. 飞书多维表格系统介绍
+- **源摘要**: [[wiki/sources/feishu-bitable-introduction]]
+- 贡献："多维"含义、基础数据模型、核心能力模块（字段/视图/关联/表单/自动化/权限/仪表盘/API）
+
+### 新建实体页（4 个）
+- [[wiki/entities/deepseek]] — DeepSeek AI 公司实体
+- [[wiki/entities/notebooklm]] — Google NotebookLM 实体
+- [[wiki/entities/feishu-bitable]] — 飞书多维表格实体
+- [[wiki/entities/jira]] — Atlassian Jira 实体
+
+### 新建概念页（2 个）
+- [[wiki/concepts/git-lfs]] — Git LFS 大文件存储机制
+- [[wiki/concepts/feishu-bitable]] — 飞书多维表格数据模型
+
+### 新建综合分析页（1 个）
+- [[wiki/syntheses/deepseek-technical-analysis]] — 综合 3 篇 DeepSeek 文章，涵盖 GRPO/训练策略/架构演进/缓存工程
+
+### 更新已有页面
+- [[wiki/concepts/kv-cache]] — 新增 CSA/HCA 序列压缩注意力详解
+- [[wiki/entities/claude-code]] — 新增 Gemini CLI 对比表格
+- [[wiki/entities/google-adk]] — 添加 Gemini CLI Skills 来源引用
+- [[wiki/syntheses/obsidian-sync-comparison]] — 新增 Obsidian 代理三层架构、知识工作流三层架构、Git 代理配置补充章节
+
+### 汇总
+- **本次新增**: 11 源摘要 + 4 实体 + 2 概念 + 1 综合分析 = 18 页面
+- **更新已有**: 4 页面
+- **全文索引统计**: 18 实体 + 17 概念 + 52 源摘要 + 7 综合分析 = 94 页面

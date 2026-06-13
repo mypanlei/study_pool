@@ -34,7 +34,21 @@ aliases:
 - **用户级配置**: `~/.claude/settings.json`
 - **项目级配置**: `.claude/settings.json`（当前 vault 未设置）
 
+## 与 Gemini CLI 对比
+
+| 维度 | Claude Code | Gemini CLI |
+|------|-------------|------------|
+| 开发商 | Anthropic | Google |
+| Skills 存储层级 | 项目级 `.claude/skills/` → 全局 `~/.claude/skills/` | 项目级 `.gemini/skills/` → 全局 `~/.gemini/skills/` → 插件级 |
+| Skills 定义 | SKILL.md (YAML frontmatter + markdown) | SKILL.md (YAML frontmatter + markdown) |
+| 激活机制 | 启动时扫描注入描述，会话中按需加载 | 启动时扫描注入 name/description，调用 `activate_skill` 工具全量加载 |
+| 状态控制 | settings.json hooks 配置 | settings.json skills.enabled/disabled |
+| 管理命令 | `claude skills list/link` | `gemini skills list/link` |
+
+两者在 Skills 机制上高度相似，均采用"局部优先"的目录层级和 SKILL.md 规范。Gemini CLI 增加了一层插件级调度。
+
 ## 来源
 
 - [[wiki/sources/claudian-setup-guide]]
 - [[wiki/sources/claude-code-custom-agent-guide]]
+- [[wiki/sources/gemini-cli-skills-guide]] — Gemini CLI Skills 对比参考资料

@@ -83,12 +83,59 @@ updated: 2026-06-13
 
 ---
 
+## 新增源摘要参考
+
+本次 Ingest 新增了两篇与 Obsidian 生态直接相关的文章：
+
+1. **[[wiki/sources/obsidian-proxy-sync-guide]]** — Obsidian 代理设置与非官方 Vault 同步方案。本文系统梳理了代理三层架构（系统代理、Electron 启动参数、插件/CLI 代理），八种同步方案全景，以及 Windows + Android + iPad 设备组合的建议（Remotely Save + WebDAV/R2）。
+2. **[[wiki/sources/obsidian-claudian-workflow]]** — Obsidian + 浏览器扩展 + Claudian 知识工作流方案。本文提出三层闭环架构：浏览器扩展（采集层）→ Obsidian（存储层）→ Claudian（AI 加工层），将采集、整理、加工打通。
+
+### 代理三层架构 (来自 obsidian-proxy-sync-guide)
+
+| 层级 | 方法 | 影响范围 | 适用场景 |
+|------|------|----------|----------|
+| 系统代理 | 系统全局代理设置 | Obsidian 本体 + 大部分 Electron 请求 | 最省事，兼容性最好 |
+| Electron 启动参数 | `--proxy-server`、`--proxy-bypass-list` | 单独控制 Obsidian | 需要与系统代理分离时 |
+| 插件/CLI 代理 | Git/Claudian/Remotely Save 分别配置 | 特定插件/工具 | 插件不走 Electron 网络栈时 |
+
+注意：Electron `--proxy-server` **不支持内嵌用户名密码认证**。
+
+### 知识工作流三层架构 (来自 obsidian-claudian-workflow)
+
+来自 [[wiki/sources/obsidian-claudian-workflow]] 的核心模式：
+
+- **采集层** (Obsidian Web Clipper)：网页裁剪为结构化 Markdown，支持模板/变量/过滤器。
+- **存储层** (Obsidian Vault)：本地 Markdown、Wikilinks、双向链接、Git 管理。
+- **加工层** (Claudian + Claude Code)：Agent 直接读写 vault，进行多步加工（提炼、改写、链接、综述）。
+
+推荐目录结构：`Inbox/Web-Clips/` → `Topics/` → `Maps/` → `Templates/` → `Assets/`。
+
+这不只是同步问题，而是"采集→存储→加工"的完整知识工作流。同步是保证这三层能跨设备工作的基础设施。
+
+### 补充：用于同步的 Git 代理配置
+
+如果你用 Git 作为同步方式（或 obsidian-git 插件），需要额外配置代理：
+
+```bash
+git config --global http.proxy http://127.0.0.1:7890
+git config --global https.proxy http://127.0.0.1:7890
+```
+
+另见 [[wiki/sources/github-cli-proxy-config]] 了解 GitHub CLI 的环境变量代理方案。
+
+---
+
 ## 来源
 
 - [[wiki/sources/obsidian-sync-7-solutions]]
 - [[wiki/sources/obsidian-sync-6-solutions]]
+- [[wiki/sources/obsidian-proxy-sync-guide]] — Obsidian 代理与非官方同步选型 (2026-06-11)
+- [[wiki/sources/obsidian-claudian-workflow]] — Obsidian + 浏览器扩展 + Claudian 三层工作流 (2026-06-10)
+- [[wiki/sources/github-cli-proxy-config]] — GitHub CLI 代理配置 (关联 Git 同步代理)
 
 ## 相关页面
 
 - [[wiki/concepts/llm-wiki-pattern]]
 - [[wiki/entities/claudian]]
+- [[wiki/entities/claude-code]]
+- [[wiki/sources/feishu-bitable-vs-jira-comparison]]

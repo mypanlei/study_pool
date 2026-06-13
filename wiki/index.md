@@ -20,13 +20,17 @@ updated: 2026-06-13
 | [[wiki/entities/claudian]] | Obsidian 侧边栏集成 Claude Code 的社区插件 | 2026-06-13 |
 | [[wiki/entities/claude-code]] | Anthropic 的 AI 编程助手 CLI 工具 | 2026-06-13 |
 | [[wiki/entities/datahub]] | 组织级元数据图谱与 AI data catalog 平台 | 2026-06-13 |
+| [[wiki/entities/deepseek]] | DeepSeek AI 公司，R1/V4 系列模型缔造者 | 2026-06-13 |
 | [[wiki/entities/dify]] | 开源低代码 AI 应用平台，可视化 agentic workflow | 2026-06-13 |
+| [[wiki/entities/feishu-bitable]] | 飞书多维表格 (Bitable/Base)，低代码业务系统平台 | 2026-06-13 |
 | [[wiki/entities/google-adk]] | Google ADK / Gemini Enterprise Agent Platform | 2026-06-13 |
 | [[wiki/entities/hermes-agent]] | Nous Research 的闭环学习自主 AI Agent | 2026-06-13 |
+| [[wiki/entities/jira]] | Atlassian Jira 专业研发项目管理与 Issue 跟踪系统 | 2026-06-13 |
 | [[wiki/entities/kubeflow]] | Kubernetes 上的 AI/MLOps 平台底座 | 2026-06-13 |
 | [[wiki/entities/lakefs]] | 对象存储层 Git-like 数据版本控制平台 | 2026-06-13 |
 | [[wiki/entities/langgraph]] | LangGraph Agent 编排框架，状态机驱动 | 2026-06-13 |
 | [[wiki/entities/mlflow]] | 开源 AI/ML 生命周期管理，实验追踪与模型注册标准 | 2026-06-13 |
+| [[wiki/entities/notebooklm]] | Google NotebookLM 来源驱动型 AI 研究工作台 | 2026-06-13 |
 | [[wiki/entities/nous-research]] | AI 研究实验室，Hermes 模型/Agent 创造者 | 2026-06-13 |
 | [[wiki/entities/openclaw]] | 自托管的个人 AI 助手平台，chat-app 原生 | 2026-06-13 |
 | [[wiki/entities/pi-agent]] | Pi 开源 coding agent harness，多 provider | 2026-06-13 |
@@ -38,7 +42,9 @@ updated: 2026-06-13
 | [[wiki/concepts/agent-skills-system]] | AI Agent 的可复用/可共享/可自我改进的任务指令系统 | 2026-06-13 |
 | [[wiki/concepts/ai-platform-product-manager]] | AI 平台化解决方案产品经理角色与能力框架 | 2026-06-13 |
 | [[wiki/concepts/data-versioning-and-management]] | 数据版本控制（DVC/lakeFS/Nessie）与数据管理（DataHub/OpenMetadata） | 2026-06-13 |
+| [[wiki/concepts/feishu-bitable]] | 飞书多维表格数据模型：App/数据表/字段/记录/视图/仪表盘/自动化 | 2026-06-13 |
 | [[wiki/concepts/fitting-mechanism]] | 拟合机制：欠拟合/恰好拟合/过拟合与模型容量 | 2026-06-13 |
+| [[wiki/concepts/git-lfs]] | Git LFS 大文件存储：指针文件 + 独立对象存储机制 | 2026-06-13 |
 | [[wiki/concepts/harness-engineering]] | Agent Harness Engineering 三层架构：工具层/智能层/执行运行时 | 2026-06-13 |
 | [[wiki/concepts/kv-cache]] | KV Cache 推理优化：Prefill/Decode、GQA、PagedAttention | 2026-06-13 |
 | [[wiki/concepts/llm-wiki-pattern]] | LLM 增量构建和维护持久化维基的知识管理模式 | 2026-06-13 |
@@ -60,9 +66,17 @@ updated: 2026-06-13
 | [[wiki/sources/claude-code-custom-agent-guide]] | Claude Code Subagent 创建指南与最佳实践 | Anthropic 文档 | 2026-06-13 |
 | [[wiki/sources/claudian-setup-guide]] | Claudian 安装教程：Obsidian 侧边栏集成 Claude Code | 知乎 | 2026-06-13 |
 | [[wiki/sources/cursor-agent-vs-skill-guide]] | Cursor Agent/Skill/Subagent 完整分工体系 | Cursor 文档 | 2026-06-13 |
+| [[wiki/sources/deepseek-r1-deep-analysis]] | DeepSeek-R1 从 Zero 到 Distill 全深度解析 | 自建笔记 | 2026-06-13 |
+| [[wiki/sources/deepseek-r1-technical-secrets]] | DeepSeek-R1 五大核心成功要素：GRPO/训练流程/MLA+MoE/蒸馏/成本 | 自建笔记 | 2026-06-13 |
+| [[wiki/sources/deepseek-v4-technical-analysis]] | DeepSeek-V4 CSA/HCA 序列压缩注意力与缓存策略 | 自建笔记 | 2026-06-13 |
+| [[wiki/sources/feishu-bitable-introduction]] | 飞书多维表格系统介绍：定位/数据模型/核心能力/场景 | 自建笔记 | 2026-06-13 |
+| [[wiki/sources/feishu-bitable-vs-jira-comparison]] | 飞书多维表格 vs Jira 对比：产品哲学/模型/流程/权限/报表 | 自建笔记 | 2026-06-13 |
 | [[wiki/sources/fitting-mechanism-deep-analysis]] | 拟合机制深度解析：函数逼近、欠/过拟合、LLM 微调 | 自建笔记 | 2026-06-13 |
+| [[wiki/sources/gemini-cli-skills-guide]] | Gemini CLI Skills 配置指南：存储层级/SKILL.md/运行机制 | 自建笔记 | 2026-06-13 |
 | [[wiki/sources/gemini-enterprise-vs-kubeflow-comparison]] | Gemini Enterprise Agent Platform 与 Kubeflow 分层对比 | 自建笔记 | 2026-06-13 |
 | [[wiki/sources/gemini-kubeflow-dify-langgraph-comparison]] | Gemini/Kubeflow/Dify/LangGraph 四方对比与选型 | 自建笔记 | 2026-06-13 |
+| [[wiki/sources/git-lfs-guide]] | Git LFS 工作原理与配置指南 | 自建笔记 | 2026-06-13 |
+| [[wiki/sources/github-cli-proxy-config]] | GitHub CLI (gh) 代理配置指南 | 自建笔记 | 2026-06-13 |
 | [[wiki/sources/harness-content-prompt-engineering]] | Harness/Content/Prompt Engineering 三层分工体系 | 自建笔记 | 2026-06-13 |
 | [[wiki/sources/harness-engineering-deep-dive]] | Agent Harness Engineering 三层架构深度解析 | 自建笔记 | 2026-06-13 |
 | [[wiki/sources/hermes-agent-alicloud-deployment-guide]] | Hermes Agent 阿里云 ECS 部署全流程 | Nous Research | 2026-06-13 |
@@ -78,11 +92,14 @@ updated: 2026-06-13
 | [[wiki/sources/llm-skills-technical-guide]] | LLM Skills/Tool Use/MCP/Function Calling 技术架构 | 自建笔记 | 2026-06-13 |
 | [[wiki/sources/llm-wiki-pattern]] | Karpathy 关于 LLM Wiki 模式的原始文章 | GitHub Gist | 2026-06-13 |
 | [[wiki/sources/ml-lifecycle-management-official-doc-summary]] | ML 生命周期管理官方文档总结（AWS/Google/Azure/MLflow/Kubeflow/NIST） | 自建笔记 | 2026-06-13 |
+| [[wiki/sources/notebooklm-introduction]] | NotebookLM 系统介绍：来源驱动型 AI 研究工作台 | 自建笔记 | 2026-06-13 |
 | [[wiki/sources/ml-platform-availability-sla-commercial-assessment]] | ML Platform Availability SLA 商业评估：99.9% 市场定位 | 自建笔记 | 2026-06-13 |
 | [[wiki/sources/mlops-data-versioning-open-source-comparison]] | Data Versioning (DVC/lakeFS/Nessie) 与 Data Management (DataHub/OpenMetadata) 开源方案对比 | 自建笔记 | 2026-06-13 |
 | [[wiki/sources/mlops-open-source-platform-comparison]] | 常用 MLOps 开源平台对比（Kubeflow/MLflow/ZenML/Metaflow/Flyte 等 11 个） | 自建笔记 | 2026-06-13 |
 | [[wiki/sources/obsidian-sync-6-solutions]] | 6 种 Obsidian 同步方案含决策树和配置步骤 | zhupite.com | 2026-06-13 |
 | [[wiki/sources/obsidian-sync-7-solutions]] | 7 种 Obsidian 多端同步方案对比与实践 | 知乎 | 2026-06-13 |
+| [[wiki/sources/obsidian-claudian-workflow]] | Obsidian + 浏览器扩展 + Claudian 三层知识工作流方案 | 自建笔记 | 2026-06-13 |
+| [[wiki/sources/obsidian-proxy-sync-guide]] | Obsidian 代理设置与非官方 Vault 同步方案全景 | 自建笔记 | 2026-06-13 |
 | [[wiki/sources/openclaw-hermes-pi-codex-copilot-comparison]] | 6 大 AI Agent 平台/工具定位与选型 | 自建笔记 | 2026-06-13 |
 | [[wiki/sources/openclaw-vs-hermes-comparison]] | OpenClaw vs Hermes Agent 详细对比 | 自建笔记 | 2026-06-13 |
 | [[wiki/sources/pi-claude-codex-comparison]] | Pi/Claude Code/Codex 运行时与工作流差异 | 自建笔记 | 2026-06-13 |
@@ -103,6 +120,7 @@ updated: 2026-06-13
 |------|------|----------|
 | [[wiki/syntheses/ai-agent-ecosystem-comparison]] | AI Agent 生态全景对比：三层分层框架与统一选型指南 | 2026-06-13 |
 | [[wiki/syntheses/claude-skill-management]] | Claude Code Skill 管理全指南：多 Repo、自有/第三方 Skills 的管理策略 | 2026-06-13 |
+| [[wiki/syntheses/deepseek-technical-analysis]] | DeepSeek 技术综合分析：GRPO/训练策略/架构演进/缓存工程 | 2026-06-13 |
 | [[wiki/syntheses/llm-technical-foundations]] | LLM 技术基础：Transformer/KV-Cache/RoPE/Scaling Laws/拟合机制 | 2026-06-13 |
 | [[wiki/syntheses/mlops-ecosystem-overview]] | MLOps 生态全景：可用性工程/生命周期/平台选型/SLA/数据管理 | 2026-06-13 |
 | [[wiki/syntheses/obsidian-sync-comparison]] | Obsidian 多设备同步方案全景对比 + 你的当前方案分析 | 2026-06-13 |
@@ -110,8 +128,8 @@ updated: 2026-06-13
 
 ## 统计
 
-- **实体页**: 14
-- **概念页**: 15
-- **源摘要页**: 41
-- **综合分析页**: 6
-- **原始资料**: 41 篇（全部已 Ingest）
+- **实体页**: 18
+- **概念页**: 17
+- **源摘要页**: 52
+- **综合分析页**: 7
+- **原始资料**: 52 篇（全部已 Ingest）
