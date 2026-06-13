@@ -186,7 +186,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -208,8 +208,29 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "baf239dd80040aa2",
+  "active": "6ba2dadf14f899dc",
   "lastOpenFiles": [
+    "raw/sources/DeepSeek-V4-技术分析.md",
+    "raw/sources/DeepSeek-R1深度解析.md",
+    "raw/sources/DeepSeek-R1技术秘诀.md",
+    "wiki/sources/internal-mlops-availability-requirements-user-stories-technical-plan.md",
+    "raw/sources/内部MLOps-数据版本控制与数据管理平台-PRD.md",
+    "raw/sources/ML-Platform-Availability-SLA-Commercial-Assessment.md",
+    "raw/sources/MLOps-开源平台对比.md",
+    "raw/sources/MLOps-Data-Versioning-与-Data-Management-开源方案对比.md",
+    "raw/sources/ML-Lifecycle-Management-官方文档总结.md",
+    "raw/sources/Internal-MLOps-Availability-Structured-Analysis.md",
+    "raw/sources/Internal-MLOps-Availability-Requirements-User-Stories-Technical-Plan.md",
+    "raw/sources/AI-平台化解决方案产品经理-角色定位与能力框架.md",
+    "raw/sources/拟合机制深度解析.md",
+    "raw/sources/大模型参数量与性能关系详解.md",
+    "raw/sources/Transformer架构详解.md",
+    "raw/sources/RoPE-插值技术详解.md",
+    "raw/sources/RAG-Common-Issues-and-Optimization.md",
+    "raw/sources/KV-Cache-技术详解.md",
+    "raw/sources/Karpathy-LLM-Wiki-理念深度解析.md",
+    "raw/sources/RAGAS-Evaluation-Metrics.md",
+    "raw/sources/RAG-vs-Semantic-Cache-深度对比.md",
     "wiki/log.md.tmp.1196.31c742c98bc7",
     "wiki/index.md.tmp.1196.41ef022e8556",
     "wiki/tag-index.md",
@@ -219,33 +240,12 @@
     "wiki/syntheses/ai-agent-ecosystem-comparison.md",
     "wiki/syntheses/ai-agent-ecosystem-comparison.md.tmp.1196.36eb28d25ce5",
     "wiki/concepts/spec-driven-development.md",
-    "wiki/concepts/vibe-coding.md",
-    "wiki/concepts/harness-engineering.md",
     "wiki/concepts/harness-engineering.md.tmp.1196.2012cdb904f6",
-    "wiki/entities/kubeflow.md",
-    "wiki/entities/google-adk.md",
-    "wiki/entities/openclaw.md",
-    "wiki/entities/langgraph.md",
-    "wiki/entities/dify.md",
-    "wiki/sources/vibe-coding-guide.md",
-    "wiki/sources/spec-driven-development-overview.md",
-    "wiki/sources/rag-skill-agent-differences.md",
-    "wiki/sources/pi-claude-codex-comparison.md",
-    "wiki/sources/pi-claude-codex-english-presentation.md",
-    "wiki/sources/openclaw-vs-hermes-comparison.md",
-    "wiki/sources/openclaw-hermes-pi-codex-copilot-comparison.md",
-    "wiki/sources/langgraph-react-agent-guide.md",
-    "wiki/sources/llm-skills-technical-guide.md",
-    "wiki/sources/hermes-agent-alicloud-deployment-guide.md",
-    "wiki/sources/hermes-agent-alicloud-messaging-guide.md",
-    "wiki/sources/harness-engineering-deep-dive.md",
-    "wiki/sources/harness-content-prompt-engineering.md",
     "wiki/sources/gemini-kubeflow-dify-langgraph-comparison.md.tmp.1196.92335c08bc09",
     "wiki/sources/gemini-enterprise-vs-kubeflow-comparison.md.tmp.1196.dbceff90c974",
     "wiki/index.md.tmp.1196.fce001cfc389",
     "wiki/sources/obsidian-sync-7-solutions.md.tmp.1196.287ec36b7caa",
     "wiki/index.md.tmp.1196.bbf1a2e1700a",
-    "wiki/log.md.tmp.1196.e584d300483c",
     "未命名.canvas"
   ]
 }
