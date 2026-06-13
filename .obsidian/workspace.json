@@ -211,6 +211,7 @@
   },
   "active": "baf239dd80040aa2",
   "lastOpenFiles": [
+    "wiki/entities/lakefs.md",
     "wiki/concepts/agent-skills-system.md",
     "wiki/entities/kubeflow.md",
     "raw/sources/内部MLOps-数据版本控制与数据管理平台-PRD.md",
@@ -245,7 +246,6 @@
     "wiki/syntheses/obsidian-sync-comparison.md.tmp.1196.69ecd0eecbdb",
     "wiki/entities/google-adk.md.tmp.1196.c1982388a84d",
     "wiki/concepts/kv-cache.md.tmp.1196.7041bf531289",
-    "wiki/concepts/kv-cache.md",
     "wiki/concepts/kv-cache.md.tmp.1196.9c16bf68c757",
     "未命名.canvas"
   ]
