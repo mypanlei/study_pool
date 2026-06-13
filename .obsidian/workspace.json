@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "raw/sources/skill 的管理方法.md",
+                "file": "wiki/concepts/kv-cache.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "skill 的管理方法"
+              "title": "kv-cache"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 329.5
+    "width": 229.5
   },
   "right": {
     "id": "40e3d2925329258a",
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "raw/sources/skill 的管理方法.md",
+                "file": "wiki/concepts/kv-cache.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "skill 的管理方法 的大纲"
+              "title": "kv-cache 的大纲"
             }
           },
           {
@@ -190,7 +190,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 478.5
+    "width": 368.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -211,12 +211,21 @@
   },
   "active": "baf239dd80040aa2",
   "lastOpenFiles": [
-    "wiki/entities/lakefs.md",
-    "wiki/concepts/agent-skills-system.md",
-    "wiki/entities/kubeflow.md",
-    "raw/sources/内部MLOps-数据版本控制与数据管理平台-PRD.md",
-    "wiki/index.md",
     "wiki/concepts/llm-wiki-pattern.md",
+    "wiki/sources/llm-wiki-pattern.md",
+    "wiki/concepts/memex.md",
+    "wiki/concepts/agent-skills-system.md",
+    "wiki/concepts/git-lfs.md",
+    "wiki/tag-index.md",
+    "wiki/log.md",
+    "wiki/index.md",
+    "wiki/entities/mlflow.md",
+    "wiki/entities/kubeflow.md",
+    "wiki/entities/jira.md",
+    "wiki/entities/feishu-bitable.md",
+    "raw/sources/skill 的管理方法.md",
+    "wiki/entities/lakefs.md",
+    "raw/sources/内部MLOps-数据版本控制与数据管理平台-PRD.md",
     "wiki/log.md.tmp.1196.08e3d2086af8",
     "raw/sources/ai-skills-for-everyonetutorial06-manage-many-skills.md at main.md",
     "wiki/sources/skills-manager-tutorial.md",
@@ -229,16 +238,7 @@
     "wiki/sources/mlops-data-versioning-open-source-comparison.md",
     "wiki/sources/ml-platform-availability-sla-commercial-assessment.md",
     "wiki/sources/ml-lifecycle-management-official-doc-summary.md",
-    "wiki/sources/large-model-parameters-and-performance.md",
-    "wiki/sources/kv-cache-technical-detail.md",
-    "wiki/sources/karpathy-llm-wiki-philosophy.md",
-    "wiki/sources/internal-mlops-data-versioning-prd.md",
-    "wiki/sources/internal-mlops-availability-structured-analysis.md",
-    "wiki/sources/fitting-mechanism-deep-analysis.md",
-    "wiki/sources/ai-platform-product-manager-role-framework.md",
-    "wiki/entities/claude-code.md",
     "Clippings",
-    "wiki/entities/mlflow.md",
     "wiki/log.md.tmp.1196.3d4524221b59",
     "wiki/index.md.tmp.1196.41803b08bc8f",
     "wiki/index.md.tmp.1196.3053452fdbc4",
