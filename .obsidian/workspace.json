@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/concepts/llm-wiki-pattern.md",
+                "file": "wiki/entities/kubeflow.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "llm-wiki-pattern"
+              "title": "kubeflow"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "kubeflow",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "wiki/concepts/llm-wiki-pattern.md",
+                "file": "wiki/entities/kubeflow.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "llm-wiki-pattern 的大纲"
+              "title": "kubeflow 的大纲"
             }
           },
           {
@@ -211,6 +211,9 @@
   },
   "active": "baf239dd80040aa2",
   "lastOpenFiles": [
+    "raw/sources/内部MLOps-数据版本控制与数据管理平台-PRD.md",
+    "wiki/index.md",
+    "wiki/concepts/llm-wiki-pattern.md",
     "wiki/log.md.tmp.1196.08e3d2086af8",
     "raw/sources/ai-skills-for-everyonetutorial06-manage-many-skills.md at main.md",
     "wiki/sources/skills-manager-tutorial.md",
@@ -244,9 +247,6 @@
     "wiki/concepts/kv-cache.md",
     "wiki/concepts/kv-cache.md.tmp.1196.9c16bf68c757",
     "wiki/syntheses/deepseek-technical-analysis.md",
-    "wiki/concepts/feishu-bitable.md",
-    "wiki/concepts/git-lfs.md",
-    "wiki/entities/notebooklm.md.tmp.1196.85772641f086",
     "未命名.canvas"
   ]
 }
