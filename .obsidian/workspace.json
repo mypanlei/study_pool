@@ -190,7 +190,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 372.5
+    "width": 478.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -205,7 +205,8 @@
       "realclaudian:Open Claudian": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false,
       "obsidian-git:Open Git source control": false,
-      "obsidian42-brat:BRAT": false
+      "obsidian42-brat:BRAT": false,
+      "qmd-search:QMD search": false
     }
   },
   "active": "baf239dd80040aa2",
