@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Agent  -  纯软件的数字大脑.md",
+                "file": "raw/Manual notes/Agent  -  纯软件的数字大脑.md",
                 "mode": "source",
                 "source": false
               },
@@ -226,7 +226,7 @@
   "active": "24e428776a1cd75d",
   "lastOpenFiles": [
     "raw/sources/skill 的管理方法.md",
-    "Agent  -  纯软件的数字大脑.md",
+    "raw/Manual notes/Agent  -  纯软件的数字大脑.md",
     "raw/Manual notes",
     "wiki/concepts/transformer-architecture.md",
     "wiki/concepts/rope-positional-encoding.md",
