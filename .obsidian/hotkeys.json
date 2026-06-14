@@ -22,5 +22,11 @@
       ],
       "key": "C"
     }
+  ],
+  "marp-slides:preview": [
+    {
+      "modifiers": [],
+      "key": "F5"
+    }
   ]
 }
