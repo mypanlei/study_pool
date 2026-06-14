@@ -128,11 +128,12 @@ updated: 2026-06-13
 | [[wiki/syntheses/mlops-ecosystem-overview]] | MLOps 生态全景：可用性工程/生命周期/平台选型/SLA/数据管理 | 2026-06-13 |
 | [[wiki/syntheses/obsidian-sync-comparison]] | Obsidian 多设备同步方案全景对比 + 你的当前方案分析 | 2026-06-13 |
 | [[wiki/syntheses/rag-optimization-guide]] | RAG 优化指南：全链路优化/Semantic Cache/RAGAS 评估 | 2026-06-13 |
+| [[wiki/syntheses/harness-engineering-presentation]] | Harness Engineering 全景解读：三层架构/OPA治理/自愈闭环 (Marp 演示) | 2026-06-15 |
 
 ## 统计
 
 - **实体页**: 18
 - **概念页**: 17
 - **源摘要页**: 55
-- **综合分析页**: 7
+- **综合分析页**: 8
 - **原始资料**: 53 篇（全部已 Ingest）

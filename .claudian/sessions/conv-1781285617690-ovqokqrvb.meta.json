@@ -4,8 +4,8 @@
   "title": "Greet user",
   "titleGenerationStatus": "success",
   "createdAt": 1781285617692,
-  "updatedAt": 1781456410263,
-  "lastResponseAt": 1781456410263,
+  "updatedAt": 1781456609779,
+  "lastResponseAt": 1781456609779,
   "sessionId": "88a00f36-327e-4626-9d72-3652df04bb54",
   "providerState": {
     "providerSessionId": "88a00f36-327e-4626-9d72-3652df04bb54",
@@ -2229,12 +2229,12 @@
   },
   "usage": {
     "model": "haiku",
-    "inputTokens": 2554,
+    "inputTokens": 230,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 266112,
+    "cacheReadInputTokens": 274816,
     "contextWindow": 1000000,
-    "contextTokens": 268666,
-    "percentage": 27,
+    "contextTokens": 275046,
+    "percentage": 28,
     "contextWindowIsAuthoritative": true
   }
 }
