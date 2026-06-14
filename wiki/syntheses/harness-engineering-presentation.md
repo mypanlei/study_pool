@@ -13,15 +13,19 @@ class:
   - lead
   - invert
 ---
-
-<!--
-_class: lead invert
-_paginate: false
--->
-
-# Harness Engineering 是什么？
-
-## Agent 时代的操作系统级工程
+---
+marp: true
+theme: gaisler
+style: |
+  section {
+    font-size: 22px;
+  }
+  section h1 {
+    font-size: 60px;     
+  }
+  section h2 {
+    font-size: 45px;  
+  }
 
 ---
 
@@ -47,12 +51,12 @@ _header: 范式转移
 
 ## 范式转移：从先知到组件
 
-| 维度    | 传统模式 (Oracle)       | Harness 模式 (Component) |
-| ----- | ------------------- | ---------------------- |
-| 角色定位  | 问题的最终解决者            | 复杂指令的拆解与推理引擎           |
-| 可靠性来源 | 更好的 Prompt / 更大的模型  | 确定性的运行时与护栏             |
-| 性能瓶颈  | 模型幻觉（Hallucination） | 支架设计的合理性与上下文质量         |
-| 价值主张  | "AI 辅助"             | **"AI 自主"**            |
+| 维度 | 传统模式 (Oracle) | Harness 模式 (Component) |
+|------|------------------|------------------------|
+| 角色定位 | 问题的最终解决者 | 复杂指令的拆解与推理引擎 |
+| 可靠性来源 | 更好的 Prompt / 更大的模型 | 确定性的运行时与护栏 |
+| 性能瓶颈 | 模型幻觉（Hallucination） | 支架设计的合理性与上下文质量 |
+| 价值主张 | "AI 辅助" | **"AI 自主"** |
 
 > **关键洞察**：优化 Harness 层，即使不换模型，AI Agent 成功率可提升 **6 倍以上**
 
