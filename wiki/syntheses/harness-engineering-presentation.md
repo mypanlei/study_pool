@@ -13,19 +13,15 @@ class:
   - lead
   - invert
 ---
----
-marp: true
-theme: gaisler
-style: |
-  section {
-    font-size: 22px;
-  }
-  section h1 {
-    font-size: 60px;     
-  }
-  section h2 {
-    font-size: 45px;  
-  }
+
+<!--
+_class: lead invert
+_paginate: false
+-->
+
+# Harness Engineering 是什么？
+
+## Agent 时代的操作系统级工程
 
 ---
 
