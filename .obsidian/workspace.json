@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/syntheses/flyte-vs-kubeflow-presentation.md",
+                "file": "raw/sources/飞书多维表格-vs-Jira-对比.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "flyte-vs-kubeflow-presentation"
+              "title": "飞书多维表格-vs-Jira-对比"
             }
           }
         ],
@@ -107,7 +107,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 377.5
+    "width": 333.5
   },
   "right": {
     "id": "40e3d2925329258a",
@@ -215,11 +215,11 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 689.5
+    "width": 357.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -241,11 +241,11 @@
   },
   "active": "d1ce67dcbea1082b",
   "lastOpenFiles": [
-    "Clippings/Kubeflow Alternatives 5 Tools for Lightweight MLOps.md",
+    "wiki/syntheses/harness-engineering-presentation.md",
     "wiki/syntheses/flyte-vs-kubeflow-presentation.md",
+    "Clippings/Kubeflow Alternatives 5 Tools for Lightweight MLOps.md",
     "wiki/entities/flyte.md.tmp.16664.269bf8e0bcb2",
     "Clippings/Production-Grade ML Pipelines Flyte™ vs. Kubeflow.md",
-    "wiki/syntheses/harness-engineering-presentation.md",
     "wiki/index.md.tmp.16664.0f518beed62f",
     "wiki/index.md.tmp.16664.4a78b94fc2e0",
     "wiki/entities/flyte.md",

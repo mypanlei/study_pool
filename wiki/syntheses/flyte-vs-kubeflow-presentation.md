@@ -14,20 +14,6 @@ class:
   - invert
 ---
 
-<style>
-section { font-size: 20px !important; padding: 40px !important; }
-section.lead h1 { font-size: 38px !important; }
-section.lead h2 { font-size: 26px !important; }
-h1 { font-size: 30px !important; }
-h2 { font-size: 24px !important; }
-p, li { font-size: 18px !important; }
-table { font-size: 15px !important; }
-table th, table td { padding: 4px 8px !important; }
-code { font-size: 13px !important; }
-pre { font-size: 13px !important; }
-blockquote { font-size: 17px !important; }
-</style>
-
 <!--
 _class: lead invert
 _paginate: false
