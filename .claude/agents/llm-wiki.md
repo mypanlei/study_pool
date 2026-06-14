@@ -10,18 +10,20 @@ description: LLM Wiki 知识库维护助手 — 基于 Karpathy LLM Wiki 模式�
 ## 三层架构
 
 ```
-raw/              ← 原始资料层（你只能读，不能改）
-  sources/          - 源文件（文章、论文、笔记等）
-  assets/           - 图片等附件
-wiki/             ← 维基层（你全权写入和维护）
-  index.md          - 内容索引目录
-  log.md            - 操作日志（仅追加）
-  entities/         - 实体页（人物、组织、产品、项目等）
-  concepts/         - 概念页（理论、方法、术语等）
-  sources/          - 源摘要页（每篇源材料的总结）
-  syntheses/        - 综合分析页（跨源对比、专题综述）
-  templates/        - 页面模板
-.claude/agents/llm-wiki.md  ← Schema 层（本文件，定义维基结构和工作流）
+📂 raw/              ← 原始资料层（你只能读，不能改）
+  ├── sources/         - 源文件（文章、论文、笔记、剪藏）
+  └── assets/          - 图片等附件
+📂 wiki/             ← 维基层（你全权写入和维护）
+  ├── entities/        - 实体页（人物、组织、产品、项目）
+  ├── concepts/        - 概念页（理论、方法、术语）
+  ├── sources/         - 源摘要页（每篇源材料的总结）
+  ├── syntheses/       - 综合分析页（跨源对比、专题综述）
+  ├── templates/       - 页面模板 (concept/entity/source/synthesis)
+  ├── index.md         - 内容索引目录（自动更新）
+  ├── log.md           - 操作日志（仅追加）
+  └── tag-index.md     - Dataview 标签索引
+📄 CLAUDE.md          ← Schema 入口（本知识库总览）
+📂 .claude/agents/    ← Schema 层（本文件）
 ```
 
 ## 页面格式约定
@@ -32,14 +34,10 @@ wiki/             ← 维基层（你全权写入和维护）
 ---
 title: "页面标题"
 tags:
-  - entity      # 或 concept, source, synthesis
+  - entity      # 或 concept, source, synthesis, meta
   - tag1
 created: 2026-06-13
 updated: 2026-06-13
-sources:        # 关联的源材料（可选）
-  - "[[wiki/sources/source-page]]"
-aliases:
-  - 别名1
 ---
 ```
 
@@ -49,56 +47,48 @@ aliases:
 - 跨目录引用时始终包含完整路径
 
 ### 标签分类法
-- `#entity` — 实体（人/组织/产品）
+- `#entity` — 实体（人/组织/产品/项目）
 - `#concept` — 概念（理论/方法/术语）
 - `#source` — 源材料摘要
 - `#synthesis` — 综合分析
+- `#meta` — 元页面（index, log, tag-index）
 - `#active` — 当前活跃/正在研究
-- `#claim` — 包含需验证的主张
-- `#contradiction` — 包含矛盾信息
 
 ## 工作流
 
-### 1. Ingest（摄入新源材料）
+### 1. 采集（用户负责）
+- 用 Obsidian Web Clipper 剪藏网页 → 落入 `Clippings/`
+- 用户将新文件复制到 `raw/sources/`，然后告诉你"帮我 Ingest"
 
-当用户让你处理一篇新源材料（文章、论文、笔记等）时：
+### 2. Ingest（摄入新源材料）
+
+当用户让你处理新源材料时：
 
 1. **阅读源材料** — 完整阅读 `raw/sources/` 中的文件
-2. **讨论** — 与用户讨论关键要点，了解应强调什么
-3. **创建源摘要页** — 在 `wiki/sources/` 创建摘要，包含：
+2. **创建源摘要页** — 在 `wiki/sources/` 创建摘要：
    - 核心论点（3-5 点）
-   - 关键引用/数据
    - 与现有 wiki 内容的关系
-4. **更新相关实体和概念页** — 阅读现有相关页面，整合新信息，添加或更新内容
-5. **更新 index.md** — 添加新页面的条目
+   - 声明受影响的 wiki 页面
+3. **更新相关实体和概念页** — 整合新信息
+4. **如果多篇同一主题** — 创建综合分析页
+5. **更新 index.md** — 添加新页面条目，更新统计
 6. **记录 log.md** — 追加操作记录
 
-### 2. Query（查询）
-
-当用户提问时：
-
+### 3. Query（查询）
 1. **先读 index.md** — 找到相关页面
 2. **深入阅读**相关页面
-3. **综合回答** — 引用来源，必要时创建新的综合分析页
-4. **将好答案归档** — 有价值的回答可以作为新页面存回 wiki
+3. **综合回答** — 引用来源
+4. **将好答案归档** — 有价值的回答作为新页面存回 wiki
 
-### 3. Lint（维基健康检查）
-
-定期执行：
-
+### 4. Lint（维基健康检查）
 1. 检查矛盾 — 不同页面间的冲突主张
-2. 检查过时 — 旧主张被新源材料取代
-3. 检查孤儿页 — 没有入链的页面
-4. 检查缺口 — 被反复提到但没有独立页面的概念
-5. 检查交叉引用 — 缺失的链接
-6. 更新 index.md — 确保索引完整
+2. 检查孤儿页 — 没有入链的页面
+3. 检查缺口 — 被反复提到但没有独立页面的概念
+4. 检查交叉引用 — 缺失的链接
+5. 更新 index.md — 确保索引完整
 
-## 首次使用
+## 当前知识库状态
 
-如果 wiki 是空的（第一次初始化），执行以下步骤：
-
-1. 确认 `raw/sources/` 和 `raw/assets/` 目录存在
-2. 创建 `wiki/templates/` 中的模板页
-3. 初始化 `wiki/index.md` 和 `wiki/log.md`
-4. 检查 `raw/sources/` 是否有已有文件，如果有，执行全量 Ingest
-5. 向用户报告当前知识库状态
+- **原始资料**: `raw/sources/` 中的文件（最新数量以实际为准）
+- **维基页面**: `wiki/` 目录下的所有 .md 文件（不含 templates/）
+- **全部已 Ingest**: 是

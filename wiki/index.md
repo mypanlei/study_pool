@@ -85,7 +85,9 @@ updated: 2026-06-13
 | [[wiki/sources/internal-mlops-availability-requirements-user-stories-technical-plan]] | 内部 MLOps 平台 99.9% Availability 需求拆解与 User Stories | 自建笔记 | 2026-06-13 |
 | [[wiki/sources/internal-mlops-availability-structured-analysis]] | 内部 MLOps 平台 Availability 提升结构化分析 | 自建笔记 | 2026-06-13 |
 | [[wiki/sources/internal-mlops-data-versioning-prd]] | 内部 MLOps 数据版本控制与数据管理平台 PRD | 自建笔记 | 2026-06-13 |
+| [[wiki/sources/karpathy-agentic-engineering-interview]] | Karpathy AI Ascent 访谈：From Vibe Coding to Agentic Engineering | YouTube (Sequoia Capital) | 2026-06-15 |
 | [[wiki/sources/karpathy-llm-wiki-philosophy]] | Karpathy LLM Wiki 理念深度解析：三层架构与操作闭环 | 自建笔记 | 2026-06-13 |
+| [[wiki/sources/karpathy-method-practical-guide]] | Karpathy Method 实操：Spec × Verifier × Environment 三层法 | YouTube (Austin Marchese) | 2026-06-15 |
 | [[wiki/sources/kv-cache-technical-detail]] | KV Cache 技术详解：Prefill/Decode、GQA、PagedAttention | 自建笔记 | 2026-06-13 |
 | [[wiki/sources/langgraph-react-agent-guide]] | LangGraph 状态机驱动 ReAct Agent 工程化实现 | LangChain 文档 | 2026-06-13 |
 | [[wiki/sources/large-model-parameters-and-performance]] | 大模型参数量与性能关系：Scaling Laws、小模型逆袭 | 自建笔记 | 2026-06-13 |
@@ -131,6 +133,6 @@ updated: 2026-06-13
 
 - **实体页**: 18
 - **概念页**: 17
-- **源摘要页**: 53
+- **源摘要页**: 55
 - **综合分析页**: 7
 - **原始资料**: 53 篇（全部已 Ingest）

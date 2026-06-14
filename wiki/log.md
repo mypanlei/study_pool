@@ -365,3 +365,30 @@ updated: 2026-06-13
 - **更新**: [[wiki/syntheses/claude-skill-management]] — 新增策略 E（Skills Manager 工具式）
 - **更新**: `wiki/index.md` — 源摘要 52 → 53
 - **全文索引统计**: 18 实体 + 17 概念 + 53 源摘要 + 7 综合分析 = 95 页面
+
+## [2026-06-15] feat | 三层架构重建 + 2 篇新源材料 Ingest
+
+### 架构重建
+- **新建 `CLAUDE.md`** — Karpathy 模式的 Schema 入口文件，记录三层架构和当前状态
+- **更新 `.claude/agents/llm-wiki.md`** — 同步为完整架构描述，更新采集/Ingest/Query/Lint 四工作流
+- **新建 `raw/sources/` 中 2 篇新剪藏**: Karpathy 访谈 + 实操教程
+
+### 源材料 Ingest
+1. **[[wiki/sources/karpathy-agentic-engineering-interview]]** — Karpathy AI Ascent 2026 访谈
+   - 核心贡献：Vibe Coding vs Agentic Engineering、Software 3.0、Jagged Intelligence、Verifiability、LLM Wiki
+2. **[[wiki/sources/karpathy-method-practical-guide]]** — Austin Marchese 的 Karpathy 方法实操拆解
+   - 核心贡献：Spec × Verifier × Environment 三层法、CLAUDE.md + LLM Wiki + Skills 组合实践
+
+### 更新
+- `wiki/index.md` — 源摘要 53 → 55
+- `wiki/log.md` — 本条目
+
+### 全文索引统计
+18 实体 + 17 概念 + 55 源摘要 + 7 综合分析 + CLAUDE.md + index/log/tag-index = 97 页面
+
+### 三层架构最终状态
+```
+raw/      55 篇源文件
+wiki/     97 内容页 (含模板)
+schema    CLAUDE.md + .claude/agents/llm-wiki.md
+```
