@@ -1,6 +1,6 @@
 {
   "CHROME_PATH": "",
-  "ThemePath": "",
+  "ThemePath": "theme: uncover",
   "EnableHTML": true,
   "MathTypesettings": "katex",
   "HTMLExportMode": "bare",
