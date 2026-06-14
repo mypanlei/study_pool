@@ -23,6 +23,7 @@ updated: 2026-06-13
 | [[wiki/entities/deepseek]] | DeepSeek AI 公司，R1/V4 系列模型缔造者 | 2026-06-13 |
 | [[wiki/entities/dify]] | 开源低代码 AI 应用平台，可视化 agentic workflow | 2026-06-13 |
 | [[wiki/entities/feishu-bitable]] | 飞书多维表格 (Bitable/Base)，低代码业务系统平台 | 2026-06-13 |
+| [[wiki/entities/flyte]] | Lyft/Union.ai 开源 ML 工作流编排，纯 Python DX，"Kubeflow 的轻量替代" | 2026-06-15 |
 | [[wiki/entities/google-adk]] | Google ADK / Gemini Enterprise Agent Platform | 2026-06-13 |
 | [[wiki/entities/hermes-agent]] | Nous Research 的闭环学习自主 AI Agent | 2026-06-13 |
 | [[wiki/entities/jira]] | Atlassian Jira 专业研发项目管理与 Issue 跟踪系统 | 2026-06-13 |
@@ -132,7 +133,7 @@ updated: 2026-06-13
 
 ## 统计
 
-- **实体页**: 18
+- **实体页**: 19
 - **概念页**: 17
 - **源摘要页**: 55
 - **综合分析页**: 8

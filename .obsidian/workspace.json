@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/syntheses/harness-engineering-presentation.md",
+                "file": "Clippings/Production-Grade ML Pipelines Flyte™ vs. Kubeflow.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "harness-engineering-presentation"
+              "title": "Production-Grade ML Pipelines Flyte™ vs. Kubeflow"
             }
           }
         ],
@@ -205,7 +205,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 427.5
+    "width": 689.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -227,11 +227,16 @@
   },
   "active": "b9c3ea669231621f",
   "lastOpenFiles": [
+    "wiki/syntheses/harness-engineering-presentation.md",
+    "Clippings/Production-Grade ML Pipelines Flyte™ vs. Kubeflow.md",
+    "wiki/index.md.tmp.16664.0f518beed62f",
+    "wiki/index.md.tmp.16664.4a78b94fc2e0",
+    "wiki/entities/flyte.md",
+    "wiki/entities/flyte.md.tmp.16664.8559e2c8ceeb",
     "wiki/syntheses/harness-engineering-presentation.html",
     "wiki/syntheses/harness-engineering-presentation.md.tmp.16664.e29d9dff4b02",
     "raw/sources/Harness-Engineering-深度解析.md",
     "wiki/index.md.tmp.16664.002d7b24853c",
-    "wiki/syntheses/harness-engineering-presentation.md",
     "CLAUDE.md",
     "wiki/sources/karpathy-agentic-engineering-interview.md",
     "Clippings/Andrej Karpathy From Vibe Coding to Agentic Engineering w Stephanie Zhan.md",
@@ -258,11 +263,6 @@
     "wiki/sources/llm-wiki-pattern.md",
     "wiki/concepts/memex.md",
     "wiki/concepts/git-lfs.md",
-    "wiki/tag-index.md",
-    "wiki/log.md.tmp.1196.08e3d2086af8",
-    "Clippings",
-    "wiki/log.md.tmp.1196.3d4524221b59",
-    "wiki/index.md.tmp.1196.41803b08bc8f",
     "未命名.canvas"
   ]
 }
