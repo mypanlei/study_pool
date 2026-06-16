@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/syntheses/loop-engineering-presentation.md",
+                "file": "wiki/templates/marp-responsive-template.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "loop-engineering-presentation"
+              "title": "marp-responsive-template"
             }
           }
         ],
@@ -233,7 +233,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 554.5
+    "width": 466.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -255,20 +255,20 @@
   },
   "active": "c5f5973fed4fdf0c",
   "lastOpenFiles": [
+    "wiki/syntheses/harness-engineering-presentation.md",
     "wiki/templates/marp-responsive-template.md",
+    "wiki/templates/marp-responsive-template.md.tmp.16664.9f39a0fe7095",
+    "wiki/syntheses/loop-engineering-presentation.md",
     "wiki/index.md.tmp.16664.3d7bf49cf0c0",
     "wiki/index.md.tmp.16664.7db7c5fff427",
-    "wiki/syntheses/loop-engineering-presentation.md",
     "wiki/syntheses/loop-engineering-presentation.md.tmp.16664.898165fbb78e",
     "wiki/syntheses/hermes-agent-comprehensive-guide.md",
-    "wiki/syntheses/harness-engineering-presentation.md",
     "wiki/syntheses/hermes-agent-comprehensive-guide.md.tmp.16664.3ef964dfca47",
     "wiki/syntheses/flyte-vs-kubeflow-presentation.md.tmp.16664.11c119e249df",
     "wiki/syntheses/harness-engineering-presentation.md.tmp.16664.35ec31bf297f",
     "wiki/index.md.tmp.16664.f7efa3045027",
     "wiki/index.md.tmp.16664.50fc4c00273d",
     "wiki/templates/marp-responsive-template.md.tmp.16664.e2305d4a16ae",
-    "wiki/syntheses/hermes-agent-comprehensive-guide.md.tmp.16664.7bbaa141d934",
     "raw/sources/Hermes Agent Documentation  Hermes Agent.md",
     "wiki/entities/claudian.md",
     "CLAUDE.md",

@@ -9,26 +9,6 @@ created: 2026-06-17
 updated: 2026-06-17
 marp: true
 ---
-
-<style>
-section { font-size: 20px !important; padding: 40px !important; line-height: 1.5 !important; }
-h1 { font-size: 36px !important; margin: 0 0 12px 0 !important; }
-h2 { font-size: 28px !important; margin: 0 0 10px 0 !important; }
-h3 { font-size: 22px !important; margin: 0 0 8px 0 !important; }
-p { font-size: 18px !important; margin: 4px 0 !important; }
-li { font-size: 17px !important; margin: 2px 0 !important; }
-blockquote { font-size: 18px !important; margin: 6px 0 !important; padding: 6px 16px !important; }
-table { font-size: 14px !important; width: 100% !important; }
-table th, table td { padding: 3px 8px !important; }
-code { font-size: 13px !important; }
-pre { font-size: 13px !important; margin: 6px 0 !important; }
-.mermaid { font-size: 14px !important; }
-section.lead { justify-content: center !important; align-items: center !important; text-align: center !important; }
-section.lead h1 { font-size: 42px !important; }
-section.lead h2 { font-size: 30px !important; }
-ul, ol { margin: 4px 0 !important; padding-left: 24px !important; }
-</style>
-
 <!--
 _class: lead invert
 _paginate: false
