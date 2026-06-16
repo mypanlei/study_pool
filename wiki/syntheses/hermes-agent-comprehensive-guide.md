@@ -9,7 +9,6 @@ created: 2026-06-17
 updated: 2026-06-17
 marp: true
 ---
-<!-- fit -->
 
 <!--
 _class: lead invert
@@ -32,19 +31,13 @@ _header: 概述
 
 它不是编码助手（如 Claude Code），也不是个人助理（如 OpenClaw），而是一个**通用的、可长期演化的 Agent 框架**。
 
-
----
-
-<!--
-_header: 比较
--->
 ### 一句话 vs 同类
 
-| 对比对象 | 差异 |
-|---------|------|
-| vs Claude Code | Hermes 能**自主创建和改进技能**，不依赖手动编写 SKILL.md |
-| vs OpenClaw | Hermes 是**框架感更强**的 runtime，而非开箱即用的助理产品 |
-| vs Pi | Hermes 是**完整生态**（消息网关 + 技能 + 记忆 + provider 抽象），Pi 偏轻量 coding harness |
+| 对比对象           | 差异                                                                   |
+| -------------- | -------------------------------------------------------------------- |
+| vs Claude Code | Hermes 能**自主创建和改进技能**，不依赖手动编写 SKILL.md                               |
+| vs OpenClaw    | Hermes 是**框架感更强**的 runtime，而非开箱即用的助理产品                               |
+| vs Pi          | Hermes 是**完整生态**（消息网关 + 技能 + 记忆 + provider 抽象），Pi 偏轻量 coding harness |
 
 ---
 
@@ -96,14 +89,12 @@ _header: 随处运行
 Hermes 的 Agent runtime **与执行环境解耦**，支持 **6 种终端后端**：
 
 ```
-┌──────────────────────────────────┐
-│  local    本地直接运行             │
-│  Docker   容器隔离（生产推荐）      │
-│  SSH      远程执行机               │
-│  Daytona  云开发环境               │
-│  Modal    Serverless 无服务器       │
-│  Singularity 容器平台              │
-└──────────────────────────────────┘
+local    本地直接运行
+Docker   容器隔离（生产推荐）
+SSH      远程执行机
+Daytona  云开发环境
+Modal    Serverless 无服务器
+Singularity 容器平台
 ```
 
 > "不绑定在笔记本上" — 你可以从 Telegram 发消息，Agent 在云端 VM 执行，甚至不需要 SSH 进去。
