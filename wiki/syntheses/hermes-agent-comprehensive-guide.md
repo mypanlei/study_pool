@@ -10,23 +10,6 @@ updated: 2026-06-17
 marp: true
 ---
 
-<style>
-section { font-size: 12px !important; padding: 20px 30px !important; }
-section.lead h1 { font-size: 22px !important; }
-section.lead h2 { font-size: 16px !important; }
-h1 { font-size: 18px !important; margin: 0 0 6px 0 !important; }
-h2 { font-size: 14px !important; margin: 0 0 4px 0 !important; }
-h3 { font-size: 13px !important; margin: 0 0 3px 0 !important; }
-p, li { font-size: 11px !important; margin: 1px 0 !important; }
-table { font-size: 9px !important; }
-table th, table td { padding: 1px 4px !important; }
-code { font-size: 8px !important; }
-pre { font-size: 8px !important; margin: 2px 0 !important; line-height: 1.2 !important; }
-blockquote { font-size: 10px !important; margin: 2px 0 !important; }
-ul, ol { margin: 1px 0 !important; padding-left: 16px !important; }
-.mermaid { font-size: 10px !important; }
-</style>
-
 <!--
 _class: lead invert
 _paginate: false
@@ -48,6 +31,12 @@ _header: 概述
 
 它不是编码助手（如 Claude Code），也不是个人助理（如 OpenClaw），而是一个**通用的、可长期演化的 Agent 框架**。
 
+
+---
+
+<!--
+_header: 比较
+-->
 ### 一句话 vs 同类
 
 | 对比对象 | 差异 |
