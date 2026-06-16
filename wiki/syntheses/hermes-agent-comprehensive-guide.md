@@ -9,6 +9,7 @@ created: 2026-06-17
 updated: 2026-06-17
 marp: true
 ---
+<!-- fit -->
 
 <!--
 _class: lead invert
