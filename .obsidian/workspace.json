@@ -253,8 +253,12 @@
       "marp-slides:Show Slide Preview": false
     }
   },
-  "active": "c5f5973fed4fdf0c",
+  "active": "92127c64f54b650d",
   "lastOpenFiles": [
+    "wiki/syntheses/hermes-agent-comprehensive-guide.md.tmp.16664.d4e7e93c20fa",
+    "wiki/syntheses/hermes-agent-comprehensive-guide.md.tmp.16664.522740cfc150",
+    "wiki/syntheses/hermes-agent-comprehensive-guide.md.tmp.16664.4786bd234543",
+    "wiki/syntheses/hermes-agent-comprehensive-guide.md.tmp.16664.38c7f3f16768",
     "raw/sources/Hermes Agent Documentation  Hermes Agent.md",
     "wiki/index.md.tmp.16664.b165136858cb",
     "wiki/index.md.tmp.16664.f63a3f8809ce",
@@ -266,9 +270,6 @@
     "wiki/index.md.tmp.16664.787ac91cffff",
     "wiki/index.md.tmp.16664.fb738d506e97",
     "wiki/index.md.tmp.16664.f5552657197c",
-    "wiki/index.md.tmp.16664.30f7916d13f5",
-    "wiki/index.md.tmp.16664.073f5d6db937",
-    "wiki/index.md.tmp.16664.c9813bfec20e",
     "wiki/entities/llamaindex.md",
     "wiki/concepts/rerank.md",
     "wiki/concepts/fine-tuning.md",
@@ -290,7 +291,6 @@
     "wiki/log.md",
     "wiki/tag-index.md",
     "wiki/syntheses/rag-optimization-guide.md",
-    "wiki/concepts/wiki-loop-engineering.md",
     "未命名.canvas"
   ]
 }

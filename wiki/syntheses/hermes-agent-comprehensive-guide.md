@@ -8,11 +8,24 @@ tags:
 created: 2026-06-17
 updated: 2026-06-17
 marp: true
-theme: uncover
-class:
-  - lead
-  - invert
 ---
+
+<style>
+section { font-size: 12px !important; padding: 20px 30px !important; }
+section.lead h1 { font-size: 22px !important; }
+section.lead h2 { font-size: 16px !important; }
+h1 { font-size: 18px !important; margin: 0 0 6px 0 !important; }
+h2 { font-size: 14px !important; margin: 0 0 4px 0 !important; }
+h3 { font-size: 13px !important; margin: 0 0 3px 0 !important; }
+p, li { font-size: 11px !important; margin: 1px 0 !important; }
+table { font-size: 9px !important; }
+table th, table td { padding: 1px 4px !important; }
+code { font-size: 8px !important; }
+pre { font-size: 8px !important; margin: 2px 0 !important; line-height: 1.2 !important; }
+blockquote { font-size: 10px !important; margin: 2px 0 !important; }
+ul, ol { margin: 1px 0 !important; padding-left: 16px !important; }
+.mermaid { font-size: 10px !important; }
+</style>
 
 <!--
 _class: lead invert
@@ -26,7 +39,7 @@ _paginate: false
 ---
 
 <!--
-_header: Hermes Agent — 概述
+_header: 概述
 -->
 
 ## 一句话定义
@@ -46,10 +59,10 @@ _header: Hermes Agent — 概述
 ---
 
 <!--
-_header: 核心特色 — 闭环学习
+_header: 闭环学习
 -->
 
-## 核心特色 1：闭环学习 (Closed Learning Loop)
+## 核心特色 1：闭环学习
 
 这是 Hermes 区别于其他 Agent **最核心的差异化能力**。
 
@@ -68,15 +81,24 @@ graph LR
 | **FTS5 跨会话召回** | 全文搜索 + LLM 摘要，跨会话知识不丢失 |
 | **用户画像建模** | Honcho dialectic 模型，越用越懂你 |
 
-### 对比 Claude Code
+---
 
-**Claude Code Skills** = 手动编写 SKILL.md（静态 1.0）  
+<!--
+_header: 闭环学习对比
+-->
+
+## 闭环学习：vs Claude Code
+
+**Claude Code Skills** = 手动编写 SKILL.md（静态 1.0）
+
 **Hermes Agent Skills** = 自主创建 + 运行时改进（动态 2.0）
+
+核心差异在于：Claude Code 需要人在 `.claude/skills/` 目录下放置 SKILL.md 文件，Agent 按需读取执行。而 Hermes 的 Agent 在运行时能**自动识别**值得固化的经验模式，将其**自主编写为 Skill 文件**，并在后续使用中持续改进。
 
 ---
 
 <!--
-_header: 核心特色 — 随处运行
+_header: 随处运行
 -->
 
 ## 核心特色 2：随处运行
@@ -99,19 +121,12 @@ Hermes 的 Agent runtime **与执行环境解耦**，支持 **6 种终端后端*
 ---
 
 <!--
-_header: 核心特色 — 消息网关
+_header: 消息网关
 -->
 
 ## 核心特色 3：20+ 消息平台
 
-Hermes 的 **Messaging Gateway** 支持 20+ 平台，从同一个 Agent runtime 接出：
-
-```mermaid
-flowchart LR
-    User --> Gateway["Hermes Gateway"]
-    Gateway --> Runtime["Agent Runtime"]
-    Runtime --> Backend["Docker Backend"]
-```
+Hermes 的 **Messaging Gateway** 支持 20+ 平台，从同一个 Agent runtime 接出。
 
 | 分类 | 平台 |
 |------|------|
@@ -127,7 +142,7 @@ flowchart LR
 ---
 
 <!--
-_header: 核心特色 — Skills 系统
+_header: Skills 系统
 -->
 
 ## 核心特色 4：Skills 系统
@@ -149,7 +164,7 @@ Hermes 的 Skills 是**可移植、可共享、可自改进**的：
 ---
 
 <!--
-_header: 核心特色 — 更多能力
+_header: 更多能力
 -->
 
 ## 更多核心能力
@@ -215,7 +230,7 @@ Hermes 的核心差异化之一——**20+ provider，可混用、可热切换**
 ---
 
 <!--
-_header: 与 Claude Code 详细对比
+_header: vs Claude Code
 -->
 
 ## Hermes vs Claude Code
@@ -233,7 +248,7 @@ _header: 与 Claude Code 详细对比
 ---
 
 <!--
-_header: 与 OpenClaw 详细对比
+_header: vs OpenClaw
 -->
 
 ## Hermes vs OpenClaw
@@ -252,7 +267,7 @@ _header: 与 OpenClaw 详细对比
 ---
 
 <!--
-_header: 安全与治理
+_header: 安全
 -->
 
 ## 安全设计
@@ -279,15 +294,10 @@ _paginate: false
 
 > **Hermes Agent 的核心价值** = 一个会**自己学习、自己改进、跨会话记忆**的 Agent runtime。
 
-它不像 Claude Code 那样开箱即用，也不像 OpenClaw 那样助理感强。  
-它的定位是：**让你搭建一个长期可演化的 Agent 系统**。
+它不像 Claude Code 那样开箱即用，也不像 OpenClaw 那样助理感强。它的定位是：**让你搭建一个长期可演化的 Agent 系统**。
 
-### 进一步阅读
+### 参考
 
-- [[wiki/entities/hermes-agent]] — 实体页
-- [[wiki/entities/nous-research]] — 开发商
-- [[wiki/concepts/agent-skills-system]] — Skill 系统对比
-- [[wiki/sources/hermes-agent-docs]] — 官方文档源摘要
-- [[wiki/sources/hermes-agent-alicloud-deployment-guide]] — 部署指南
-- [[wiki/sources/hermes-agent-alicloud-messaging-guide]] — 消息入口实操
-- [[wiki/sources/openclaw-vs-hermes-comparison]] — 与 OpenClaw 详细对比
+- [[wiki/entities/hermes-agent]] · [[wiki/entities/nous-research]] · [[wiki/concepts/agent-skills-system]]
+- [[wiki/sources/hermes-agent-docs]] · [[wiki/sources/hermes-agent-alicloud-deployment-guide]]
+- [[wiki/sources/hermes-agent-alicloud-messaging-guide]] · [[wiki/sources/openclaw-vs-hermes-comparison]]
