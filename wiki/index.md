@@ -177,6 +177,7 @@ updated: 2026-06-13
 | [[wiki/syntheses/ai-agent-rookie-tutorial-series]] | 菜鸟教程 AI Agent 系列全景：30 篇教程 11 大模块从入门到实战 | 2026-06-17 |
 | [[wiki/syntheses/claude-skill-management]] | Claude Code Skill 管理全指南：多 Repo、自有/第三方 Skills 的管理策略 | 2026-06-13 |
 | [[wiki/syntheses/deepseek-technical-analysis]] | DeepSeek 技术综合分析：GRPO/训练策略/架构演进/缓存工程 | 2026-06-13 |
+| [[wiki/syntheses/hermes-agent-comprehensive-guide]] | Hermes Agent 全面介绍：闭环学习/架构/部署/消息网关/对比分析 | 2026-06-17 |
 | [[wiki/syntheses/llm-technical-foundations]] | LLM 技术基础：Transformer/KV-Cache/RoPE/Scaling Laws/拟合机制 | 2026-06-13 |
 | [[wiki/syntheses/mlops-ecosystem-overview]] | MLOps 生态全景：可用性工程/生命周期/平台选型/SLA/数据管理 | 2026-06-13 |
 | [[wiki/syntheses/obsidian-sync-comparison]] | Obsidian 多设备同步方案全景对比 + 你的当前方案分析 | 2026-06-13 |
@@ -189,5 +190,5 @@ updated: 2026-06-13
 - **实体页**: 27
 - **概念页**: 27
 - **源摘要页**: 87
-- **综合分析页**: 10
+- **综合分析页**: 11
 - **原始资料**: 87 篇（全部已 Ingest）
