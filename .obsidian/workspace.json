@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Clippings/Token (词元)  菜鸟教程.md",
+                "file": "Clippings/Loop Engineering（循环工程）  菜鸟教程.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Token (词元)  菜鸟教程"
+              "title": "Loop Engineering（循环工程）  菜鸟教程"
             }
           }
         ],
@@ -241,17 +241,22 @@
   },
   "active": "d1ce67dcbea1082b",
   "lastOpenFiles": [
+    "Clippings/Harness Engineering（驾驭工程）  菜鸟教程.md",
     "Clippings/提示词工程（Prompt Engineering）  菜鸟教程.md",
+    "Clippings/菜鸟教程.md",
+    "Clippings/Agent 架构  菜鸟教程.md",
+    "Clippings/AI 底层架构  菜鸟教程.md",
+    "Clippings/Agent 上下文工程  菜鸟教程.md",
+    "Clippings/RAG 与知识检索  菜鸟教程.md",
+    "Clippings/向量数据库（Vector Database）  菜鸟教程.md",
+    "Clippings/推理与规划（Reasoning & Planning）  菜鸟教程.md",
     "Clippings/Token (词元)  菜鸟教程.md",
     "Clippings/大语言模型基础（LLM）  菜鸟教程.md",
-    "Clippings/AI 底层架构  菜鸟教程.md",
     "Clippings/AI Agent 工作原理  菜鸟教程.md",
     "Clippings/AI Agent 术语  菜鸟教程.md",
     "Clippings/AI Agent  核心组件  菜鸟教程.md",
     "Clippings/AI Agent 简介  菜鸟教程.md",
     "Clippings/AI Agent(智能体) 教程  菜鸟教程.md",
-    "Clippings/Harness Engineering（驾驭工程）  菜鸟教程.md",
-    "Clippings/菜鸟教程.md",
     "Clippings/Loop Engineering（循环工程）  菜鸟教程.md",
     "raw/sources/飞书多维表格-vs-Jira-对比.md",
     "wiki/syntheses/harness-engineering-presentation.md",
@@ -269,14 +274,9 @@
     "wiki/index.md.tmp.16664.002d7b24853c",
     "CLAUDE.md",
     "wiki/sources/karpathy-agentic-engineering-interview.md",
-    "Clippings/Andrej Karpathy From Vibe Coding to Agentic Engineering w Stephanie Zhan.md",
     "wiki/log.md.tmp.16664.39a7c80d03a8",
-    "wiki/sources/karpathy-method-practical-guide.md",
     "wiki/sources/karpathy-method-practical-guide.md.tmp.16664.49b8856871d5",
     "CLAUDE.md.tmp.16664.d669454937ca",
-    "raw/sources/Stop Prompting Claude. Use Karpathy's Method Instead.md",
-    "raw/sources/Andrej Karpathy From Vibe Coding to Agentic Engineering w Stephanie Zhan.md",
-    "Clippings/Stop Prompting Claude. Use Karpathy's Method Instead.md",
     "未命名.canvas"
   ]
 }
