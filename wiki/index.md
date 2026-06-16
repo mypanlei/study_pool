@@ -183,7 +183,8 @@ updated: 2026-06-13
 | [[wiki/syntheses/obsidian-sync-comparison]] | Obsidian 多设备同步方案全景对比 + 你的当前方案分析 | 2026-06-13 |
 | [[wiki/syntheses/rag-optimization-guide]] | RAG 优化指南：全链路优化/Semantic Cache/RAGAS 评估 | 2026-06-13 |
 | [[wiki/syntheses/harness-engineering-presentation]] | Harness Engineering 全景解读：三层架构/OPA治理/自愈闭环 (Marp 演示) | 2026-06-15 |
-| [[wiki/syntheses/flyte-vs-kubeflow-presentation]] | Flyte vs Kubeflow：工作流引擎 vs 完整 MLOps 平台 + 常见误解澄清 (Marp 演示) | 2026-06-15 |
+| [[wiki/syntheses/flyte-vs-kubeflow-presentation]] | Flyte vs Kubeflow：工作流引擎 vs 完整 MLOps 平台 (Marp 演示) | 2026-06-15 |
+| [[wiki/syntheses/loop-engineering-presentation]] | Loop Engineering：四次范式跃迁/核心循环/六大要素/五种模式 (Marp 演示) | 2026-06-17 |
 | [[wiki/syntheses/hermes-agent-comprehensive-guide]] | Hermes Agent 全面介绍：闭环学习/架构/部署/消息网关/对比分析 (Marp 演示) | 2026-06-17 |
 
 ## 统计
@@ -191,5 +192,5 @@ updated: 2026-06-13
 - **实体页**: 27
 - **概念页**: 27
 - **源摘要页**: 87
-- **综合分析页**: 12
+- **综合分析页**: 13
 - **原始资料**: 87 篇（全部已 Ingest）
