@@ -68,3 +68,4 @@ OPA (Open Policy Agent) 作为 Agent 运行时的决策中枢，实现：
 
 - [[wiki/sources/harness-engineering-deep-dive]]
 - [[wiki/sources/harness-content-prompt-engineering]]
+- [[wiki/sources/rookie-harness-engineering]]

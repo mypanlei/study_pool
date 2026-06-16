@@ -73,4 +73,6 @@ Flyte 专注的是 **Pipeline 编排层**的最佳体验：
 ## 来源
 
 - [[wiki/sources/mlops-open-source-platform-comparison]]
+- [[wiki/sources/kubeflow-alternatives-5-tools]]
+- [[wiki/sources/flyte-vs-kubeflow-comparison]]
 - [[wiki/syntheses/mlops-ecosystem-overview]]

@@ -62,8 +62,20 @@ updated: 2026-06-13
 
 | 页面 | 摘要 | 来源 | 创建日期 |
 |------|------|------|----------|
+| [[wiki/sources/agent-architecture-patterns]] | 6 种 Agent 架构模式：Single Agent / Plan & Execute / Multi-Agent / Reflection / RAG+Agent / DAG | 菜鸟教程 | 2026-06-17 |
+| [[wiki/sources/agent-context-engineering]] | Agent 上下文工程：Budget 管理/System Prompt/工具描述/历史压缩/检索质量 | 菜鸟教程 | 2026-06-17 |
+| [[wiki/sources/agent-evaluation-safety-alignment]] | Agent 评估/安全/对齐：指标体系/基准测试/安全威胁/Guardrails/HITL | 菜鸟教程 | 2026-06-17 |
+| [[wiki/sources/agent-memory-system-design]] | Agent 记忆系统：短期记忆/长期记忆/向量数据库/对话历史管理/压缩策略 | 菜鸟教程 | 2026-06-17 |
+| [[wiki/sources/ai-agent-architecture-layers]] | AI Agent 底层架构：5 层模型/工具集成/记忆设计/安全护栏 | 菜鸟教程 | 2026-06-17 |
 | [[wiki/sources/ai-agent-architecture-overview]] | AI Agent 架构模式与 2025 主流框架对比全景 | 自建笔记 | 2026-06-13 |
+| [[wiki/sources/ai-agent-core-components]] | AI Agent 核心组件：感知/推理/记忆/工具/行动 5 大模块 | 菜鸟教程 | 2026-06-17 |
+| [[wiki/sources/ai-agent-glossary]] | AI Agent 术语表：30+ 核心术语定义 | 菜鸟教程 | 2026-06-17 |
+| [[wiki/sources/ai-agent-introduction]] | AI Agent 定义/自主性特征/与 LLM 区别/应用场景 | 菜鸟教程 | 2026-06-17 |
+| [[wiki/sources/ai-agent-tools-integration]] | AI Agent 工具与外部集成：Function Calling/MCP/API/代码执行/搜索 | 菜鸟教程 | 2026-06-17 |
+| [[wiki/sources/ai-agent-tutorial-overview]] | AI Agent 教程概述：学习路径/前置知识/目标读者 | 菜鸟教程 | 2026-06-17 |
+| [[wiki/sources/ai-agent-working-principle]] | AI Agent 工作原理：感知-思考-行动循环/三层架构/ReAct | 菜鸟教程 | 2026-06-17 |
 | [[wiki/sources/ai-platform-product-manager-role-framework]] | AI 平台化解决方案产品经理角色定位与能力框架 | 自建笔记 | 2026-06-13 |
+| [[wiki/sources/ai-workflow-guide]] | AI Workflow 6 模式 + 7 框架对比：Sequential Chain / ReAct / Plan & Exec / Multi-Agent | 菜鸟教程 | 2026-06-17 |
 | [[wiki/sources/claude-code-custom-agent-guide]] | Claude Code Subagent 创建指南与最佳实践 | Anthropic 文档 | 2026-06-13 |
 | [[wiki/sources/claudian-setup-guide]] | Claudian 安装教程：Obsidian 侧边栏集成 Claude Code | 知乎 | 2026-06-13 |
 | [[wiki/sources/cursor-agent-vs-skill-guide]] | Cursor Agent/Skill/Subagent 完整分工体系 | Cursor 文档 | 2026-06-13 |
@@ -73,6 +85,7 @@ updated: 2026-06-13
 | [[wiki/sources/feishu-bitable-introduction]] | 飞书多维表格系统介绍：定位/数据模型/核心能力/场景 | 自建笔记 | 2026-06-13 |
 | [[wiki/sources/feishu-bitable-vs-jira-comparison]] | 飞书多维表格 vs Jira 对比：产品哲学/模型/流程/权限/报表 | 自建笔记 | 2026-06-13 |
 | [[wiki/sources/fitting-mechanism-deep-analysis]] | 拟合机制深度解析：函数逼近、欠/过拟合、LLM 微调 | 自建笔记 | 2026-06-13 |
+| [[wiki/sources/flyte-vs-kubeflow-comparison]] | Flyte vs Kubeflow 深度对比：代码体验/类型系统/动态 DAG/恢复模式 | Union.ai | 2026-01-06 |
 | [[wiki/sources/gemini-cli-skills-guide]] | Gemini CLI Skills 配置指南：存储层级/SKILL.md/运行机制 | 自建笔记 | 2026-06-13 |
 | [[wiki/sources/gemini-enterprise-vs-kubeflow-comparison]] | Gemini Enterprise Agent Platform 与 Kubeflow 分层对比 | 自建笔记 | 2026-06-13 |
 | [[wiki/sources/gemini-kubeflow-dify-langgraph-comparison]] | Gemini/Kubeflow/Dify/LangGraph 四方对比与选型 | 自建笔记 | 2026-06-13 |
@@ -83,46 +96,66 @@ updated: 2026-06-13
 | [[wiki/sources/hermes-agent-alicloud-deployment-guide]] | Hermes Agent 阿里云 ECS 部署全流程 | Nous Research | 2026-06-13 |
 | [[wiki/sources/hermes-agent-alicloud-messaging-guide]] | Hermes Agent 飞书与微信消息入口实操 | Nous Research | 2026-06-13 |
 | [[wiki/sources/hermes-agent-docs]] | Hermes Agent 官方文档 — 闭环学习自主 AI Agent | hermes-agent.nousresearch.com | 2026-06-13 |
+| [[wiki/sources/hermes-agent-rookie-guide]] | Hermes Agent 上手教程：安装/模型配置/消息网关 15+ 平台 | 菜鸟教程 | 2026-06-17 |
+| [[wiki/sources/huggingface-transformers-guide]] | Hugging Face Transformers：Pipeline/Tokenizer/Fine-tuning/LoRA | 菜鸟教程 | 2026-06-17 |
 | [[wiki/sources/internal-mlops-availability-requirements-user-stories-technical-plan]] | 内部 MLOps 平台 99.9% Availability 需求拆解与 User Stories | 自建笔记 | 2026-06-13 |
 | [[wiki/sources/internal-mlops-availability-structured-analysis]] | 内部 MLOps 平台 Availability 提升结构化分析 | 自建笔记 | 2026-06-13 |
 | [[wiki/sources/internal-mlops-data-versioning-prd]] | 内部 MLOps 数据版本控制与数据管理平台 PRD | 自建笔记 | 2026-06-13 |
 | [[wiki/sources/karpathy-agentic-engineering-interview]] | Karpathy AI Ascent 访谈：From Vibe Coding to Agentic Engineering | YouTube (Sequoia Capital) | 2026-06-15 |
 | [[wiki/sources/karpathy-llm-wiki-philosophy]] | Karpathy LLM Wiki 理念深度解析：三层架构与操作闭环 | 自建笔记 | 2026-06-13 |
 | [[wiki/sources/karpathy-method-practical-guide]] | Karpathy Method 实操：Spec × Verifier × Environment 三层法 | YouTube (Austin Marchese) | 2026-06-15 |
+| [[wiki/sources/kubeflow-alternatives-5-tools]] | Kubeflow 轻量替代：MLflow/Flyte/Prefect/ZenML/Argo 资源对比 | MarkAI Code | 2026-05-19 |
 | [[wiki/sources/kv-cache-technical-detail]] | KV Cache 技术详解：Prefill/Decode、GQA、PagedAttention | 自建笔记 | 2026-06-13 |
 | [[wiki/sources/langgraph-react-agent-guide]] | LangGraph 状态机驱动 ReAct Agent 工程化实现 | LangChain 文档 | 2026-06-13 |
 | [[wiki/sources/large-model-parameters-and-performance]] | 大模型参数量与性能关系：Scaling Laws、小模型逆袭 | 自建笔记 | 2026-06-13 |
+| [[wiki/sources/llm-basics]] | LLM 基础：Transformer/API 调用/Fine-tuning 概念 | 菜鸟教程 | 2026-06-17 |
 | [[wiki/sources/llm-skills-technical-guide]] | LLM Skills/Tool Use/MCP/Function Calling 技术架构 | 自建笔记 | 2026-06-13 |
 | [[wiki/sources/llm-wiki-pattern]] | Karpathy 关于 LLM Wiki 模式的原始文章 | GitHub Gist | 2026-06-13 |
+| [[wiki/sources/loop-engineering-guide]] | Loop Engineering 6 要素 + 5 循环模式：Automations/Worktrees/Skills/Memory | 菜鸟教程 | 2026-06-17 |
 | [[wiki/sources/ml-lifecycle-management-official-doc-summary]] | ML 生命周期管理官方文档总结（AWS/Google/Azure/MLflow/Kubeflow/NIST） | 自建笔记 | 2026-06-13 |
-| [[wiki/sources/notebooklm-introduction]] | NotebookLM 系统介绍：来源驱动型 AI 研究工作台 | 自建笔记 | 2026-06-13 |
 | [[wiki/sources/ml-platform-availability-sla-commercial-assessment]] | ML Platform Availability SLA 商业评估：99.9% 市场定位 | 自建笔记 | 2026-06-13 |
 | [[wiki/sources/mlops-data-versioning-open-source-comparison]] | Data Versioning (DVC/lakeFS/Nessie) 与 Data Management (DataHub/OpenMetadata) 开源方案对比 | 自建笔记 | 2026-06-13 |
 | [[wiki/sources/mlops-open-source-platform-comparison]] | 常用 MLOps 开源平台对比（Kubeflow/MLflow/ZenML/Metaflow/Flyte 等 11 个） | 自建笔记 | 2026-06-13 |
+| [[wiki/sources/multi-agent-system]] | 多智能体系统：层次/平级架构/AutoGen/A2A vs MCP/Orchestrator-Subagent | 菜鸟教程 | 2026-06-17 |
+| [[wiki/sources/multimodal-agent]] | 多模态 Agent：图像理解/语音处理/视频理解/典型应用 | 菜鸟教程 | 2026-06-17 |
+| [[wiki/sources/notebooklm-introduction]] | NotebookLM 系统介绍：来源驱动型 AI 研究工作台 | 自建笔记 | 2026-06-13 |
 | [[wiki/sources/obsidian-sync-6-solutions]] | 6 种 Obsidian 同步方案含决策树和配置步骤 | zhupite.com | 2026-06-13 |
 | [[wiki/sources/obsidian-sync-7-solutions]] | 7 种 Obsidian 多端同步方案对比与实践 | 知乎 | 2026-06-13 |
 | [[wiki/sources/obsidian-claudian-workflow]] | Obsidian + 浏览器扩展 + Claudian 三层知识工作流方案 | 自建笔记 | 2026-06-13 |
 | [[wiki/sources/obsidian-proxy-sync-guide]] | Obsidian 代理设置与非官方 Vault 同步方案全景 | 自建笔记 | 2026-06-13 |
 | [[wiki/sources/openclaw-hermes-pi-codex-copilot-comparison]] | 6 大 AI Agent 平台/工具定位与选型 | 自建笔记 | 2026-06-13 |
+| [[wiki/sources/openclaw-rookie-tutorial]] | OpenClaw 开源 AI 助理教程：安装/配置/Skills/Workspace | 菜鸟教程 | 2026-06-17 |
 | [[wiki/sources/openclaw-vs-hermes-comparison]] | OpenClaw vs Hermes Agent 详细对比 | 自建笔记 | 2026-06-13 |
 | [[wiki/sources/pi-claude-codex-comparison]] | Pi/Claude Code/Codex 运行时与工作流差异 | 自建笔记 | 2026-06-13 |
 | [[wiki/sources/pi-claude-codex-english-presentation]] | Pi vs Claude Code vs Codex English corporate presentation | 自建笔记 | 2026-06-13 |
+| [[wiki/sources/prompt-engineering-guide]] | Prompt Engineering 10 大技术：清晰指令/角色设定/CoT/Few-shot/反幻觉 | 菜鸟教程 | 2026-06-17 |
+| [[wiki/sources/python-ai-agent-implementation]] | Python 实现 AI Agent：AgentBrain/AgentTools/SimpleAgent 完整代码 | 菜鸟教程 | 2026-06-17 |
+| [[wiki/sources/python-rag-implementation]] | Python 实现 RAG：SimpleRAG/AdvancedRAG/GraphRAG 完整代码 | 菜鸟教程 | 2026-06-17 |
+| [[wiki/sources/python-reasoning-planning-implementation]] | Python 实现推理规划：ReAct/ToT/MCTS/Reflexion/PlanAndExecute 代码 | 菜鸟教程 | 2026-06-17 |
+| [[wiki/sources/rag-and-knowledge-retrieval]] | RAG 与知识检索：离线索引 Pipeline/Advanced RAG/GraphRAG/RAGAS 评估 | 菜鸟教程 | 2026-06-17 |
 | [[wiki/sources/rag-common-issues-and-optimization]] | RAG 系统常见问题与全链路优化：检索端、生成端、GraphRAG | 自建笔记 | 2026-06-13 |
 | [[wiki/sources/rag-skill-agent-differences]] | RAG/Skill/Agent 三层能力体系与组合使用 | 自建笔记 | 2026-06-13 |
 | [[wiki/sources/rag-vs-semantic-cache-comparison]] | 语义缓存 (Semantic Cache) 与 RAG 深度对比 | 自建笔记 | 2026-06-13 |
 | [[wiki/sources/ragas-evaluation-metrics]] | RAGAS 评估指标：Faithfulness, Relevancy, Robustness | 自建笔记 | 2026-06-13 |
+| [[wiki/sources/reasoning-and-planning]] | 推理与规划 5 框架：CoT/ReAct/Plan-and-Execute/ToT+MCTS/Reflexion | 菜鸟教程 | 2026-06-17 |
+| [[wiki/sources/rookie-harness-engineering]] | Harness Engineering 教程：4 大护栏/6 行业共识/Context/Constraints/Feedback/Entropy | 菜鸟教程 | 2026-06-17 |
 | [[wiki/sources/rope-interpolation-technical-detail]] | RoPE 插值技术详解：PI/NTK-Aware/YaRN/DroPE | 自建笔记 | 2026-06-13 |
 | [[wiki/sources/skill-management-zhihu]] | 知乎实践：130+ Skill 跨设备/跨工具统一管理方案 | 知乎 | 2026-06-13 |
 | [[wiki/sources/skills-manager-tutorial]] | Skills Manager — 跨 Agent 工具的可视化统一 Skill 管理 | GitHub (Datawhale) | 2026-06-13 |
+| [[wiki/sources/skills-tutorial]] | Skills 教程：SKILL.md 结构/渐进披露/MCP vs Skills/Claude Code Skills | 菜鸟教程 | 2026-06-17 |
 | [[wiki/sources/spec-driven-development-overview]] | SDD 开源方案生态全景与选型建议 | 自建笔记 | 2026-06-13 |
+| [[wiki/sources/token-concepts]] | Token 概念：BPE 编码/中英文差异/上下文窗口/计费 | 菜鸟教程 | 2026-06-17 |
 | [[wiki/sources/transformer-architecture-detail]] | Transformer 架构详解：自注意力、QKV、Decoder-only | 自建笔记 | 2026-06-13 |
+| [[wiki/sources/vector-database-introduction]] | 向量数据库：HNSW/IVF/余弦相似度/Chroma/Qdrant/Milvus/Pinecone 对比 | 菜鸟教程 | 2026-06-17 |
 | [[wiki/sources/vibe-coding-guide]] | Vibe Coding 意图编程范式实战指南 | 自建笔记 | 2026-06-13 |
+| [[wiki/sources/vibe-coding-rookie-tutorial]] | Vibe Coding 入门：Karpathy 概念/12 工具对比/最佳实践 | 菜鸟教程 | 2026-06-17 |
 
 ## 综合分析 (Syntheses)
 
 | 页面 | 摘要 | 创建日期 |
 |------|------|----------|
 | [[wiki/syntheses/ai-agent-ecosystem-comparison]] | AI Agent 生态全景对比：三层分层框架与统一选型指南 | 2026-06-13 |
+| [[wiki/syntheses/ai-agent-rookie-tutorial-series]] | 菜鸟教程 AI Agent 系列全景：30 篇教程 11 大模块从入门到实战 | 2026-06-17 |
 | [[wiki/syntheses/claude-skill-management]] | Claude Code Skill 管理全指南：多 Repo、自有/第三方 Skills 的管理策略 | 2026-06-13 |
 | [[wiki/syntheses/deepseek-technical-analysis]] | DeepSeek 技术综合分析：GRPO/训练策略/架构演进/缓存工程 | 2026-06-13 |
 | [[wiki/syntheses/llm-technical-foundations]] | LLM 技术基础：Transformer/KV-Cache/RoPE/Scaling Laws/拟合机制 | 2026-06-13 |
@@ -136,6 +169,6 @@ updated: 2026-06-13
 
 - **实体页**: 19
 - **概念页**: 17
-- **源摘要页**: 55
-- **综合分析页**: 9
-- **原始资料**: 53 篇（全部已 Ingest）
+- **源摘要页**: 87
+- **综合分析页**: 10
+- **原始资料**: 87 篇（全部已 Ingest）

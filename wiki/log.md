@@ -392,3 +392,87 @@ raw/      55 篇源文件
 wiki/     97 内容页 (含模板)
 schema    CLAUDE.md + .claude/agents/llm-wiki.md
 ```
+
+## [2026-06-17] ingest | 批量 Ingest 32 篇源材料（菜鸟教程 AI Agent 系列 + MLOps 对比）
+
+这是 wiki 创建以来最大的一次批量 Ingest，覆盖菜鸟教程（Runoob）AI Agent 系列 30 篇文章，以及 2 篇 MLOps 工具对比文章。
+
+### 菜鸟教程 AI Agent 系列（30 篇）
+
+#### 1-4. Agent 基础概念
+- **源摘要**: [[wiki/sources/ai-agent-tutorial-overview]] — 系列概述与学习路径
+- **源摘要**: [[wiki/sources/ai-agent-introduction]] — Agent 定义、自主性、与 LLM 区别
+- **源摘要**: [[wiki/sources/ai-agent-working-principle]] — 感知-思考-行动三层架构
+- **源摘要**: [[wiki/sources/ai-agent-glossary]] — 30+ 核心术语词典
+
+#### 5-7. 架构与设计
+- **源摘要**: [[wiki/sources/ai-agent-architecture-layers]] — 5 层架构（模型/记忆/工具/规划/安全）
+- **源摘要**: [[wiki/sources/agent-architecture-patterns]] — 6 种架构模式（Single Agent / Plan & Exec / Multi-Agent / Reflection / RAG+Agent / DAG）
+- **源摘要**: [[wiki/sources/ai-workflow-guide]] — 6 种工作流 + 7 框架对比
+
+#### 8-16. 核心技术
+- **源摘要**: [[wiki/sources/token-concepts]] — BPE 编码与上下文窗口
+- **源摘要**: [[wiki/sources/llm-basics]] — Transformer/API/Fine-tuning 基础
+- **源摘要**: [[wiki/sources/prompt-engineering-guide]] — 10 大提示词技术
+- **源摘要**: [[wiki/sources/agent-context-engineering]] — Budget 管理/历史压缩
+- **源摘要**: [[wiki/sources/rag-and-knowledge-retrieval]] — Advanced RAG/GraphRAG/RAGAS
+- **源摘要**: [[wiki/sources/vector-database-introduction]] — HNSW/Chroma/Qdrant/Milvus 对比
+- **源摘要**: [[wiki/sources/agent-memory-system-design]] — 短期/长期记忆 + 向量数据库 + 压缩策略
+- **源摘要**: [[wiki/sources/reasoning-and-planning]] — CoT/ReAct/Plan-and-Execute/ToT+MCTS/Reflexion
+- **源摘要**: [[wiki/sources/skills-tutorial]] — SKILL.md/渐进披露/MCP vs Skills
+
+#### 17-18. 工程框架
+- **源摘要**: [[wiki/sources/rookie-harness-engineering]] — 4 大护栏（Context/Constraints/Feedback/Entropy）
+- **源摘要**: [[wiki/sources/loop-engineering-guide]] — 6 要素（Automations/Worktrees/Skills/Connectors/Sub-Agents/Memory）
+
+#### 19-21. 进阶能力
+- **源摘要**: [[wiki/sources/multimodal-agent]] — 图像/语音/视频多模态感知
+- **源摘要**: [[wiki/sources/multi-agent-system]] — 层次/平级架构/AutoGen/A2A vs MCP
+- **源摘要**: [[wiki/sources/huggingface-transformers-guide]] — Pipeline/Tokenizer/Fine-tuning/LoRA
+
+#### 22-27. 实战落地（Python + 工具）
+- **源摘要**: [[wiki/sources/python-ai-agent-implementation]] — AgentBrain/AgentTools 实现
+- **源摘要**: [[wiki/sources/python-rag-implementation]] — SimpleRAG/AdvancedRAG/GraphRAG 实现
+- **源摘要**: [[wiki/sources/python-reasoning-planning-implementation]] — ReAct/ToT/MCTS/Reflexion 实现
+- **源摘要**: [[wiki/sources/vibe-coding-rookie-tutorial]] — Karpathy 概念 + 12 工具对比
+- **源摘要**: [[wiki/sources/openclaw-rookie-tutorial]] — 安装/配置/Skills 系统
+- **源摘要**: [[wiki/sources/hermes-agent-rookie-guide]] — 安装/模型配置/15+ 消息网关
+
+#### 28-30. 其他菜鸟教程
+- **源摘要**: [[wiki/sources/ai-agent-core-components]] — 感知/推理/记忆/工具/行动 5 大模块
+- **源摘要**: [[wiki/sources/ai-agent-tools-integration]] — Function Calling/MCP/API/搜索
+- **源摘要**: [[wiki/sources/agent-evaluation-safety-alignment]] — 指标体系/Guardrails/HITL
+
+### MLOps 工具对比（2 篇）
+
+#### 31. Kubeflow 轻量替代方案
+- **源摘要**: [[wiki/sources/kubeflow-alternatives-5-tools]]
+- 核心贡献：MLflow/Flyte/Prefect/ZenML/Argo 资源消耗与性能基准测试
+- Kubeflow 40+ pods vs MLflow 单 pod / Flyte 4 pods
+
+#### 32. Flyte vs Kubeflow 深度技术对比
+- **源摘要**: [[wiki/sources/flyte-vs-kubeflow-comparison]]
+- 核心贡献：代码体验、类型系统、动态 DAG、恢复模式、代码示例对比
+
+### 新建综合分析页
+- **新建**: [[wiki/syntheses/ai-agent-rookie-tutorial-series]] — 菜鸟教程 AI Agent 系列全景
+  - 综合 30 篇菜鸟教程文章，按 11 大主题模块组织学习路径
+  - 覆盖基础概念 → 架构设计 → 核心技术 → 工程框架 → 进阶能力 → 实战落地
+
+### 更新已有页面
+- [[wiki/syntheses/ai-agent-ecosystem-comparison]] — 新增 2 篇 MLOps 对比来源 + Flyte 实体链接
+- [[wiki/concepts/harness-engineering]] — 新增菜鸟教程 Harness Engineering 来源
+- [[wiki/entities/flyte]] — 新增 2 篇 Flyte 相关来源
+- [[wiki/index.md]] — 源摘要 55 → 87，综合分析 9 → 10
+
+### 汇总
+- **本次新增**: 32 源摘要 + 1 综合分析 = 33 页面
+- **更新已有**: 4 页面
+- **全文索引统计**: 19 实体 + 17 概念 + 87 源摘要 + 10 综合分析 = 133 页面
+
+### 三层架构最终状态
+```
+raw/      87 篇源文件（87 篇全部已 Ingest）
+wiki/     133 内容页（含模板）+ 2 综合分析
+schema    CLAUDE.md + .claude/agents/llm-wiki.md
+```

@@ -193,6 +193,8 @@ flowchart TD
 - [[wiki/sources/openclaw-hermes-pi-codex-copilot-comparison]]
 - [[wiki/sources/pi-claude-codex-comparison]]
 - [[wiki/sources/pi-claude-codex-english-presentation]]
+- [[wiki/sources/kubeflow-alternatives-5-tools]]
+- [[wiki/sources/flyte-vs-kubeflow-comparison]]
 
 ## 相关页面
 
@@ -204,3 +206,4 @@ flowchart TD
 - [[wiki/entities/kubeflow]]
 - [[wiki/entities/hermes-agent]]
 - [[wiki/entities/claude-code]]
+- [[wiki/entities/flyte]]
