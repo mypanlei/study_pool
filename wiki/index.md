@@ -57,6 +57,7 @@ updated: 2026-06-13
 | [[wiki/concepts/spec-driven-development]] | Specification-Driven Development—规格驱动 AI 开发方法论 | 2026-06-13 |
 | [[wiki/concepts/transformer-architecture]] | Transformer 架构：自注意力、QKV、MHA/GQA、Decoder-only | 2026-06-13 |
 | [[wiki/concepts/vibe-coding]] | Vibe Coding 意图编程范式，AI Agent 实现具体编码 | 2026-06-13 |
+| [[wiki/concepts/wiki-loop-engineering]] | 将 Loop Engineering 方法论应用到 LLM Wiki，实现自动采集/健康检查/知识演进三循环 | 2026-06-17 |
 
 ## 源摘要 (Sources)
 
@@ -168,7 +169,7 @@ updated: 2026-06-13
 ## 统计
 
 - **实体页**: 19
-- **概念页**: 17
+- **概念页**: 18
 - **源摘要页**: 87
 - **综合分析页**: 10
 - **原始资料**: 87 篇（全部已 Ingest）

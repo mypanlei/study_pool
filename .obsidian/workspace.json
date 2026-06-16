@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/syntheses/rag-optimization-guide.md",
+                "file": "wiki/log.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "rag-optimization-guide"
+              "title": "log"
             }
           }
         ],
@@ -219,7 +219,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 528.5
+    "width": 625.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -241,6 +241,13 @@
   },
   "active": "d1ce67dcbea1082b",
   "lastOpenFiles": [
+    "wiki/log.md.tmp.16664.3fcf608f8105",
+    "wiki/tag-index.md",
+    "wiki/syntheses/rag-optimization-guide.md",
+    "wiki/index.md.tmp.16664.5aff8d123704",
+    "wiki/index.md.tmp.16664.5cabbf006eec",
+    "wiki/concepts/wiki-loop-engineering.md",
+    "wiki/concepts/wiki-loop-engineering.md.tmp.16664.41a9d8386875",
     "wiki/syntheses/obsidian-sync-comparison.md",
     "wiki/syntheses/mlops-ecosystem-overview.md",
     "wiki/syntheses/llm-technical-foundations.md",
@@ -268,15 +275,8 @@
     "wiki/sources/token-concepts.md",
     "wiki/sources/token-concepts.md.tmp.16664.18fde449f9ea",
     "wiki/sources/skills-tutorial.md",
-    "wiki/sources/rag-and-knowledge-retrieval.md",
-    "wiki/sources/python-reasoning-planning-implementation.md",
-    "wiki/sources/python-rag-implementation.md",
-    "wiki/sources/python-ai-agent-implementation.md",
     "wiki/sources/rookie-harness-engineering.md.tmp.16664.3a2594516367",
     "wiki/sources/prompt-engineering-guide.md.tmp.16664.86d671a4e982",
-    "wiki/sources/llm-basics.md.tmp.16664.70e98739a6ca",
-    "wiki/sources/ai-agent-working-principle.md.tmp.16664.c2b436c54cf6",
-    "wiki/sources/ai-agent-introduction.md.tmp.16664.4a0204b680fb",
     "未命名.canvas"
   ]
 }

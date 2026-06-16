@@ -476,3 +476,12 @@ raw/      87 篇源文件（87 篇全部已 Ingest）
 wiki/     133 内容页（含模板）+ 2 综合分析
 schema    CLAUDE.md + .claude/agents/llm-wiki.md
 ```
+
+## [2026-06-17] feat | Wiki Loop Engineering — 引入自动化循环
+
+- **新建概念**: [[wiki/concepts/wiki-loop-engineering]] — 知识库 Loop 架构
+- **更新 Agent**: `.claude/agents/llm-wiki.md` — 新增 Loop 工作流
+- **设定 Cron**: 每日 9:00 自动 Lint（Loop 2）
+- **三 Loop**: 自动采集 / 健康检查 / 知识演进
+- **更新**: `wiki/index.md` — 概念页 17 → 18
+- **全文**: 19 实体 + 18 概念 + 87 源摘要 + 10 综合分析 = 134 页
