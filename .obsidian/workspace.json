@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Clippings/Python 实现 RAG 与知识检索  菜鸟教程.md",
+                "file": "Clippings/Hugging Face Transformers  菜鸟教程.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Python 实现 RAG 与知识检索  菜鸟教程"
+              "title": "Hugging Face Transformers  菜鸟教程"
             }
           }
         ],
@@ -219,7 +219,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 371.5
+    "width": 528.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -241,8 +241,15 @@
   },
   "active": "d1ce67dcbea1082b",
   "lastOpenFiles": [
-    "Clippings/Python 实现推理与规划  菜鸟教程.md",
+    "Clippings/Python 实现 AI Agent  菜鸟教程.md",
+    "Clippings/Hugging Face Transformers  菜鸟教程.md",
+    "Clippings/记忆系统设计  菜鸟教程.md",
+    "Clippings/Agent 评估、安全与对齐  菜鸟教程.md",
+    "Clippings/多模态 Agent  菜鸟教程.md",
+    "Clippings/AI Agent 工具与外部集成  菜鸟教程.md",
+    "Clippings/多智能体系统（Multi-Agent System）  菜鸟教程.md",
     "Clippings/Python 实现 RAG 与知识检索  菜鸟教程.md",
+    "Clippings/Python 实现推理与规划  菜鸟教程.md",
     "Clippings/Skills 教程  菜鸟教程.md",
     "Clippings/OpenClaw (Clawdbot) 教程  菜鸟教程.md",
     "Clippings/Vibe Coding 入门教程  菜鸟教程.md",
@@ -260,13 +267,6 @@
     "Clippings/Token (词元)  菜鸟教程.md",
     "Clippings/大语言模型基础（LLM）  菜鸟教程.md",
     "Clippings/AI Agent 工作原理  菜鸟教程.md",
-    "Clippings/AI Agent 术语  菜鸟教程.md",
-    "Clippings/AI Agent  核心组件  菜鸟教程.md",
-    "Clippings/AI Agent 简介  菜鸟教程.md",
-    "Clippings/AI Agent(智能体) 教程  菜鸟教程.md",
-    "raw/sources/飞书多维表格-vs-Jira-对比.md",
-    "wiki/syntheses/harness-engineering-presentation.md",
-    "wiki/syntheses/flyte-vs-kubeflow-presentation.md",
     "wiki/entities/flyte.md.tmp.16664.269bf8e0bcb2",
     "wiki/index.md.tmp.16664.0f518beed62f",
     "wiki/index.md.tmp.16664.4a78b94fc2e0",
