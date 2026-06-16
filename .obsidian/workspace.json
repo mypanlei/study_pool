@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Clippings/提示词工程（Prompt Engineering）  菜鸟教程.md",
+                "file": "Clippings/Token (词元)  菜鸟教程.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "提示词工程（Prompt Engineering）  菜鸟教程"
+              "title": "Token (词元)  菜鸟教程"
             }
           }
         ],
@@ -241,8 +241,9 @@
   },
   "active": "d1ce67dcbea1082b",
   "lastOpenFiles": [
-    "Clippings/大语言模型基础（LLM）  菜鸟教程.md",
     "Clippings/提示词工程（Prompt Engineering）  菜鸟教程.md",
+    "Clippings/Token (词元)  菜鸟教程.md",
+    "Clippings/大语言模型基础（LLM）  菜鸟教程.md",
     "Clippings/AI 底层架构  菜鸟教程.md",
     "Clippings/AI Agent 工作原理  菜鸟教程.md",
     "Clippings/AI Agent 术语  菜鸟教程.md",
@@ -276,7 +277,6 @@
     "raw/sources/Stop Prompting Claude. Use Karpathy's Method Instead.md",
     "raw/sources/Andrej Karpathy From Vibe Coding to Agentic Engineering w Stephanie Zhan.md",
     "Clippings/Stop Prompting Claude. Use Karpathy's Method Instead.md",
-    "raw/Manual notes/Agent  -  纯软件的数字大脑.md",
     "未命名.canvas"
   ]
 }
