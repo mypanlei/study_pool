@@ -106,3 +106,46 @@ updated: 2026-06-13
 - **原始资料**: `raw/sources/` 中的文件（最新数量以实际为准）
 - **维基页面**: `wiki/` 目录下的所有 .md 文件（不含 templates/）
 - **全部已 Ingest**: 是
+
+## Marp 演示文稿生成规则
+
+### 基础设置
+- 文件头必须有 `marp: true`
+- 不使用内置 theme（`uncover`/`gaia`/`default` 会覆盖自定义 CSS），用 `<style>` 块完全自控样式
+- 所有 CSS 属性必须加 `!important` 才能覆盖 Marp 默认样式
+
+### 自适应字号方案（靠谱方案）
+
+```css
+section { font-size: 20px !important; }
+h1 { font-size: 36px !important; }
+h2 { font-size: 28px !important; }
+table { font-size: 14px !important; }
+code { font-size: 12px !important; }
+```
+
+由于 Marp 主题样式的优先级问题，`vw/clamp()` 等响应式单位在 Marp 中不可靠。改用固定 px + `!important` + 合理分页策略。
+
+### 分页策略（解决内容溢出）
+- **每页只放一个核心点**：一页标题 + 一页正文，不要把多个主题塞进一页
+- **表格不超过 7 行**：大表格拆成多个小表或用分点列出
+- **Mermaid 图单独一页**：流程图不要和正文表格挤在同一页
+- **代码块控制 10 行以内**：超长代码先精简再展示
+- **标题页用 `<!-- _class: lead -->`** 居中显示
+
+### 内容排版规则
+- 标题是断言（"Hermes 的核心是闭环学习"），不是标签（"核心特色"）
+- 正文只用两级标题，第三级就拆页
+- 列表项一页不超过 6 条，每条不超过 15 字
+- 用 `<!-- Speaker note -->` 写演讲者备注
+
+### 常用指令
+```html
+<!-- _class: lead invert -->      <!-- 标题页，居中+反色 -->
+<!-- _header: 章节名 -->          <!-- 页眉 -->
+<!-- _paginate: false -->         <!-- 隐藏页码 -->
+<!-- fit -->                       <!-- 自动缩放内容（不确定） -->
+```
+
+### 模板文件
+`wiki/templates/marp-responsive-template.md` 包含可直接复用的 CSS 框架。
