@@ -17,24 +17,33 @@ updated: 2026-06-13
 | 页面 | 摘要 | 创建日期 |
 |------|------|----------|
 | [[wiki/entities/andrej-karpathy]] | AI 研究者、教育家，LLM Wiki 模式提出者 | 2026-06-13 |
+| [[wiki/entities/anthropic]] | AI 安全研究公司，Claude/Claude Code 开发商 | 2026-06-17 |
+| [[wiki/entities/autogen]] | 微软开源对话式多 Agent 框架，Agent 辩论与协作 | 2026-06-17 |
+| [[wiki/entities/bentoml]] | 开源模型服务框架，Bento 标准部署单元 | 2026-06-17 |
 | [[wiki/entities/claudian]] | Obsidian 侧边栏集成 Claude Code 的社区插件 | 2026-06-13 |
 | [[wiki/entities/claude-code]] | Anthropic 的 AI 编程助手 CLI 工具 | 2026-06-13 |
+| [[wiki/entities/crewai]] | 角色驱动多 Agent 框架，模拟人类团队协作 | 2026-06-17 |
 | [[wiki/entities/datahub]] | 组织级元数据图谱与 AI data catalog 平台 | 2026-06-13 |
 | [[wiki/entities/deepseek]] | DeepSeek AI 公司，R1/V4 系列模型缔造者 | 2026-06-13 |
+| [[wiki/entities/dvc]] | 数据版本控制工具，Git + 云存储的 ML 数据管理 | 2026-06-17 |
 | [[wiki/entities/dify]] | 开源低代码 AI 应用平台，可视化 agentic workflow | 2026-06-13 |
 | [[wiki/entities/feishu-bitable]] | 飞书多维表格 (Bitable/Base)，低代码业务系统平台 | 2026-06-13 |
 | [[wiki/entities/flyte]] | Lyft/Union.ai 开源 ML 工作流编排，纯 Python DX，"Kubeflow 的轻量替代" | 2026-06-15 |
 | [[wiki/entities/google-adk]] | Google ADK / Gemini Enterprise Agent Platform | 2026-06-13 |
 | [[wiki/entities/hermes-agent]] | Nous Research 的闭环学习自主 AI Agent | 2026-06-13 |
 | [[wiki/entities/jira]] | Atlassian Jira 专业研发项目管理与 Issue 跟踪系统 | 2026-06-13 |
+| [[wiki/entities/kserve]] | Kubeflow 生态模型推理服务，Serverless 自动伸缩 | 2026-06-17 |
 | [[wiki/entities/kubeflow]] | Kubernetes 上的 AI/MLOps 平台底座 | 2026-06-13 |
 | [[wiki/entities/lakefs]] | 对象存储层 Git-like 数据版本控制平台 | 2026-06-13 |
 | [[wiki/entities/langgraph]] | LangGraph Agent 编排框架，状态机驱动 | 2026-06-13 |
+| [[wiki/entities/llamaindex]] | RAG 增强型数据框架，私有数据检索 + Agent 推理 | 2026-06-17 |
 | [[wiki/entities/mlflow]] | 开源 AI/ML 生命周期管理，实验追踪与模型注册标准 | 2026-06-13 |
 | [[wiki/entities/notebooklm]] | Google NotebookLM 来源驱动型 AI 研究工作台 | 2026-06-13 |
 | [[wiki/entities/nous-research]] | AI 研究实验室，Hermes 模型/Agent 创造者 | 2026-06-13 |
+| [[wiki/entities/openai]] | AI 研究公司，GPT/ChatGPT/Codex/DALL-E 开发商 | 2026-06-17 |
 | [[wiki/entities/openclaw]] | 自托管的个人 AI 助手平台，chat-app 原生 | 2026-06-13 |
 | [[wiki/entities/pi-agent]] | Pi 开源 coding agent harness，多 provider | 2026-06-13 |
+| [[wiki/entities/vllm]] | 高性能 LLM 推理引擎，PagedAttention 核心创新 | 2026-06-17 |
 
 ## 概念 (Concepts)
 
@@ -43,21 +52,30 @@ updated: 2026-06-13
 | [[wiki/concepts/agent-skills-system]] | AI Agent 的可复用/可共享/可自我改进的任务指令系统 | 2026-06-13 |
 | [[wiki/concepts/ai-platform-product-manager]] | AI 平台化解决方案产品经理角色与能力框架 | 2026-06-13 |
 | [[wiki/concepts/data-versioning-and-management]] | 数据版本控制（DVC/lakeFS/Nessie）与数据管理（DataHub/OpenMetadata） | 2026-06-13 |
+| [[wiki/concepts/embedding]] | Embedding 嵌入与向量化，RAG 系统的基础单元 | 2026-06-17 |
 | [[wiki/concepts/feishu-bitable]] | 飞书多维表格数据模型：App/数据表/字段/记录/视图/仪表盘/自动化 | 2026-06-13 |
+| [[wiki/concepts/fine-tuning]] | 微调：全量微调/LoRA/QLoRA/SFT 方法体系 | 2026-06-17 |
 | [[wiki/concepts/fitting-mechanism]] | 拟合机制：欠拟合/恰好拟合/过拟合与模型容量 | 2026-06-13 |
 | [[wiki/concepts/git-lfs]] | Git LFS 大文件存储：指针文件 + 独立对象存储机制 | 2026-06-13 |
+| [[wiki/concepts/graphrag]] | 知识图谱增强 RAG，跨文档全局性推理 | 2026-06-17 |
 | [[wiki/concepts/harness-engineering]] | Agent Harness Engineering 三层架构：工具层/智能层/执行运行时 | 2026-06-13 |
 | [[wiki/concepts/kv-cache]] | KV Cache 推理优化：Prefill/Decode、GQA、PagedAttention | 2026-06-13 |
 | [[wiki/concepts/llm-wiki-pattern]] | LLM 增量构建和维护持久化维基的知识管理模式 | 2026-06-13 |
+| [[wiki/concepts/marp-presentation]] | Marp Markdown 演示生态系统，本知识库演示文稿格式标准 | 2026-06-17 |
 | [[wiki/concepts/memex]] | Vannevar Bush 1945 年提出的个人知识存储设备概念 | 2026-06-13 |
 | [[wiki/concepts/mlops-lifecycle]] | MLOps 生命周期管理：从业务定义到模型退役的全流程 | 2026-06-13 |
 | [[wiki/concepts/rag-optimization]] | RAG 全链路优化：检索端、生成端、评估体系 | 2026-06-13 |
 | [[wiki/concepts/rag-vs-wiki]] | RAG（无状态检索）与 Wiki（持久化积累）的对比 | 2026-06-13 |
+| [[wiki/concepts/rerank]] | Rerank 重排序，RAG 优化 ROI 最高的环节 | 2026-06-17 |
 | [[wiki/concepts/rope-positional-encoding]] | RoPE 旋转位置编码与插值技术（PI/NTK/YaRN/DroPE） | 2026-06-13 |
 | [[wiki/concepts/spec-driven-development]] | Specification-Driven Development—规格驱动 AI 开发方法论 | 2026-06-13 |
 | [[wiki/concepts/transformer-architecture]] | Transformer 架构：自注意力、QKV、MHA/GQA、Decoder-only | 2026-06-13 |
 | [[wiki/concepts/vibe-coding]] | Vibe Coding 意图编程范式，AI Agent 实现具体编码 | 2026-06-13 |
 | [[wiki/concepts/wiki-loop-engineering]] | 将 Loop Engineering 方法论应用到 LLM Wiki，实现自动采集/健康检查/知识演进三循环 | 2026-06-17 |
+| [[wiki/concepts/rl-reinforcement-learning]] | 强化学习：RLHF/GRPO/PPO/DPO，LLM 后期训练核心范式 | 2026-06-17 |
+| [[wiki/concepts/moe-mixture-of-experts]] | MoE 专家混合架构：DeepSeek-V3/Mixtral 的稀疏激活技术 | 2026-06-17 |
+| [[wiki/concepts/lora-low-rank-adaptation]] | LoRA 低秩适配高效微调方法：冻结权重 + 低秩矩阵 | 2026-06-17 |
+| [[wiki/concepts/para-method]] | PARA 知识管理方法：Projects/Areas/Resources/Archives | 2026-06-17 |
 
 ## 源摘要 (Sources)
 
@@ -168,8 +186,8 @@ updated: 2026-06-13
 
 ## 统计
 
-- **实体页**: 19
-- **概念页**: 18
+- **实体页**: 27
+- **概念页**: 27
 - **源摘要页**: 87
 - **综合分析页**: 10
 - **原始资料**: 87 篇（全部已 Ingest）

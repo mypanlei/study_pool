@@ -485,3 +485,29 @@ schema    CLAUDE.md + .claude/agents/llm-wiki.md
 - **三 Loop**: 自动采集 / 健康检查 / 知识演进
 - **更新**: `wiki/index.md` — 概念页 17 → 18
 - **全文**: 19 实体 + 18 概念 + 87 源摘要 + 10 综合分析 = 134 页
+
+## [2026-06-17] loop-3 | 知识演进 — 填补 7 个知识缺口
+
+- **Loop 3 扫描结果**: 27 个高频引用概念无独立页面
+- **优先补充 7 页**:
+
+  **新实体 (3)**:
+  - [[wiki/entities/anthropic]] — Claude/Claude Code 开发商
+  - [[wiki/entities/openai]] — GPT/ChatGPT/Codex 开发商
+  - [[wiki/entities/dvc]] — 数据版本控制工具
+
+  **新概念 (4)**:
+  - [[wiki/concepts/rl-reinforcement-learning]] — 强化学习（87 次引用）
+  - [[wiki/concepts/moe-mixture-of-experts]] — 专家混合架构
+  - [[wiki/concepts/lora-low-rank-adaptation]] — 低秩适配微调
+  - [[wiki/concepts/para-method]] — 知识管理方法论
+
+- **更新**: `wiki/index.md` — 实体 19→21, 概念 18→22
+- **全文**: 21 实体 + 22 概念 + 87 源摘要 + 10 综合分析 = 140 页
+
+## [2026-06-17] loop-3 | 知识演进 — 第二轮填补 11 个知识缺口
+
+- **新实体 (6)**: autogen, bentoml, crewai, kserve, llamaindex, vllm
+- **新概念 (5)**: embedding, fine-tuning, graphrag, marp-presentation, rerank
+- **更新**: `wiki/index.md` — 实体 21→27, 概念 22→27
+- **全文**: 27 实体 + 27 概念 + 87 源摘要 + 10 综合分析 = 151 页

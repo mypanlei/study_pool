@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CLAUDE.md",
+                "file": "wiki/entities/claudian.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CLAUDE"
+              "title": "claudian"
             }
           }
         ],
@@ -219,7 +219,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 625.5
+    "width": 573.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -241,42 +241,42 @@
   },
   "active": "d1ce67dcbea1082b",
   "lastOpenFiles": [
+    "CLAUDE.md",
+    "wiki/log.md.tmp.16664.ae04ab444346",
+    "wiki/index.md.tmp.16664.787ac91cffff",
+    "wiki/index.md.tmp.16664.fb738d506e97",
+    "wiki/index.md.tmp.16664.f5552657197c",
+    "wiki/index.md.tmp.16664.30f7916d13f5",
+    "wiki/index.md.tmp.16664.073f5d6db937",
+    "wiki/index.md.tmp.16664.c9813bfec20e",
+    "wiki/index.md.tmp.16664.a9240ca9f67a",
+    "wiki/index.md.tmp.16664.457f36d97380",
+    "wiki/index.md.tmp.16664.811e85c2c25b",
+    "wiki/entities/llamaindex.md",
+    "wiki/concepts/rerank.md",
+    "wiki/concepts/fine-tuning.md",
+    "wiki/concepts/marp-presentation.md",
+    "wiki/concepts/embedding.md",
+    "wiki/concepts/graphrag.md",
+    "wiki/entities/vllm.md",
+    "wiki/entities/crewai.md",
+    "wiki/entities/autogen.md",
+    "wiki/entities/bentoml.md",
+    "wiki/entities/kserve.md",
+    "wiki/entities/openai.md",
+    "wiki/concepts/para-method.md",
+    "wiki/entities/dvc.md",
+    "wiki/concepts/lora-low-rank-adaptation.md",
+    "wiki/concepts/moe-mixture-of-experts.md",
+    "wiki/concepts/rl-reinforcement-learning.md",
+    "wiki/entities/anthropic.md",
     "wiki/log.md",
-    "wiki/log.md.tmp.16664.3fcf608f8105",
     "wiki/tag-index.md",
     "wiki/syntheses/rag-optimization-guide.md",
-    "wiki/index.md.tmp.16664.5aff8d123704",
-    "wiki/index.md.tmp.16664.5cabbf006eec",
     "wiki/concepts/wiki-loop-engineering.md",
-    "wiki/concepts/wiki-loop-engineering.md.tmp.16664.41a9d8386875",
     "wiki/syntheses/obsidian-sync-comparison.md",
     "wiki/syntheses/mlops-ecosystem-overview.md",
     "wiki/syntheses/llm-technical-foundations.md",
-    "wiki/syntheses/harness-engineering-presentation.md",
-    "wiki/syntheses/flyte-vs-kubeflow-presentation.md",
-    "wiki/syntheses/deepseek-technical-analysis.md",
-    "wiki/syntheses/claude-skill-management.md",
-    "wiki/syntheses/ai-agent-ecosystem-comparison.md",
-    "wiki/syntheses/ai-agent-rookie-tutorial-series.md",
-    "wiki/log.md.tmp.16664.b7ec700163db",
-    "wiki/index.md.tmp.16664.3ab8285119a0",
-    "wiki/index.md.tmp.16664.0045aa3beea2",
-    "wiki/templates/concept.md",
-    "wiki/sources/harness-engineering-deep-dive.md",
-    "wiki/sources/hermes-agent-rookie-guide.md",
-    "wiki/sources/flyte-vs-kubeflow-comparison.md",
-    "wiki/sources/kubeflow-alternatives-5-tools.md",
-    "wiki/sources/agent-memory-system-design.md",
-    "wiki/sources/agent-memory-system-design.md.tmp.16664.496a85a82085",
-    "wiki/sources/reasoning-and-planning.md",
-    "wiki/sources/multimodal-agent.md",
-    "wiki/sources/multi-agent-system.md",
-    "wiki/sources/vector-database-introduction.md",
-    "wiki/sources/vibe-coding-rookie-tutorial.md",
-    "wiki/sources/token-concepts.md",
-    "wiki/sources/token-concepts.md.tmp.16664.18fde449f9ea",
-    "wiki/sources/skills-tutorial.md",
-    "wiki/sources/rookie-harness-engineering.md.tmp.16664.3a2594516367",
     "未命名.canvas"
   ]
 }
