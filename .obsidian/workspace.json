@@ -215,11 +215,11 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
-    "width": 357.5
+    "width": 749.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -239,7 +239,7 @@
       "marp-slides:Show Slide Preview": false
     }
   },
-  "active": "d1ce67dcbea1082b",
+  "active": "92127c64f54b650d",
   "lastOpenFiles": [
     "wiki/syntheses/harness-engineering-presentation.md",
     "wiki/syntheses/flyte-vs-kubeflow-presentation.md",
