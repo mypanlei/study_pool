@@ -4,6 +4,20 @@
   "title": "处理合并会议记录去重为raw文件",
   "titleGenerationStatus": "success",
   "createdAt": 1781685019041,
-  "updatedAt": 1781685025551,
-  "sessionId": null
+  "updatedAt": 1781685388682,
+  "lastResponseAt": 1781685388682,
+  "sessionId": "de7ee0ab-878f-44c4-ae4c-a9c8fb1acc23",
+  "providerState": {
+    "providerSessionId": "de7ee0ab-878f-44c4-ae4c-a9c8fb1acc23"
+  },
+  "usage": {
+    "model": "haiku",
+    "inputTokens": 84,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 113920,
+    "contextWindow": 1000000,
+    "contextTokens": 114004,
+    "percentage": 11,
+    "contextWindowIsAuthoritative": true
+  }
 }
