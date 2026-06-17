@@ -43,5 +43,6 @@ aliases:
 
 ## 来源
 
+- [[wiki/sources/mlops-open-source-platform-comparison]] — MLOps 开源平台对比，涵盖 KServe 定位
+- [[wiki/sources/flyte-vs-kubeflow-comparison]] — Kubeflow 生态组件比较
 - [[wiki/entities/kubeflow]]
-- 知识库内 19 处引用

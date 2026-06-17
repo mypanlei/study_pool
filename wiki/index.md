@@ -52,6 +52,7 @@ updated: 2026-06-13
 | [[wiki/concepts/a2a-agent-to-agent-protocol]] | Google A2A 开放协议：Agent 间标准化通信与协作，与 MCP 互补 | 2026-06-18 |
 | [[wiki/concepts/agent-skills-system]] | AI Agent 的可复用/可共享/可自我改进的任务指令系统 | 2026-06-13 |
 | [[wiki/concepts/ai-platform-product-manager]] | AI 平台化解决方案产品经理角色与能力框架 | 2026-06-13 |
+| [[wiki/concepts/cot-chain-of-thought]] | Chain of Thought 思维链推理技术，与 ReAct 互补的核心推理模式 | 2026-06-18 |
 | [[wiki/concepts/data-versioning-and-management]] | 数据版本控制（DVC/lakeFS/Nessie）与数据管理（DataHub/OpenMetadata） | 2026-06-13 |
 | [[wiki/concepts/embedding]] | Embedding 嵌入与向量化，RAG 系统的基础单元 | 2026-06-17 |
 | [[wiki/concepts/feishu-bitable]] | 飞书多维表格数据模型：App/数据表/字段/记录/视图/仪表盘/自动化 | 2026-06-13 |
@@ -59,10 +60,12 @@ updated: 2026-06-13
 | [[wiki/concepts/fitting-mechanism]] | 拟合机制：欠拟合/恰好拟合/过拟合与模型容量 | 2026-06-13 |
 | [[wiki/concepts/git-lfs]] | Git LFS 大文件存储：指针文件 + 独立对象存储机制 | 2026-06-13 |
 | [[wiki/concepts/graphrag]] | 知识图谱增强 RAG，跨文档全局性推理 | 2026-06-17 |
+| [[wiki/concepts/guardrails]] | Agent 安全护栏：输入验证/注入检测/行为约束/输出过滤/HITL | 2026-06-18 |
 | [[wiki/concepts/harness-engineering]] | Agent Harness Engineering 三层架构：工具层/智能层/执行运行时 | 2026-06-13 |
 | [[wiki/concepts/kv-cache]] | KV Cache 推理优化：Prefill/Decode、GQA、PagedAttention | 2026-06-13 |
 | [[wiki/concepts/llm-wiki-pattern]] | LLM 增量构建和维护持久化维基的知识管理模式 | 2026-06-13 |
 | [[wiki/concepts/marp-presentation]] | Marp Markdown 演示生态系统，本知识库演示文稿格式标准 | 2026-06-17 |
+| [[wiki/concepts/mcp-model-context-protocol]] | MCP 协议：Anthropic 推出的 Agent ↔ Tool 标准化连接协议，与 A2A 互补 | 2026-06-18 |
 | [[wiki/concepts/memex]] | Vannevar Bush 1945 年提出的个人知识存储设备概念 | 2026-06-13 |
 | [[wiki/concepts/mlops-lifecycle]] | MLOps 生命周期管理：从业务定义到模型退役的全流程 | 2026-06-13 |
 | [[wiki/concepts/rag-optimization]] | RAG 全链路优化：检索端、生成端、评估体系 | 2026-06-13 |
@@ -77,6 +80,7 @@ updated: 2026-06-13
 | [[wiki/concepts/moe-mixture-of-experts]] | MoE 专家混合架构：DeepSeek-V3/Mixtral 的稀疏激活技术 | 2026-06-17 |
 | [[wiki/concepts/lora-low-rank-adaptation]] | LoRA 低秩适配高效微调方法：冻结权重 + 低秩矩阵 | 2026-06-17 |
 | [[wiki/concepts/para-method]] | PARA 知识管理方法：Projects/Areas/Resources/Archives | 2026-06-17 |
+| [[wiki/concepts/prompt-engineering]] | Prompt Engineering 提示词工程：三大角色/十大技术/Agent System Prompt 设计 | 2026-06-18 |
 
 ## 源摘要 (Sources)
 

@@ -533,3 +533,19 @@ schema    CLAUDE.md + .claude/agents/llm-wiki.md
 - **更新已有实体**: [[wiki/entities/google-adk]] — 新增 A2A 协议说明及引用来源
 - **更新**: `wiki/index.md` — 概念 27 → 28，源摘要 88 → 89，原始资料 87 → 88
 - **全文**: 27 实体 + 28 概念 + 89 源摘要 + 14 综合分析 = 158 页
+
+## [2026-06-18] lint | 定期健康检查
+
+- **检查范围**: 孤儿页、断链、知识缺口、交叉引用、过时内容、资料覆盖
+- **孤儿页**: ✅ 0 个 — 所有 157 个内容页均在 index.md 中有索引
+- **断链**: ✅ 0 个 — 所有 `[[wiki/...]]` 内部链接均有效（模板占位符除外）
+- **知识缺口**: ⚠️ 发现 5 个高优先级缺口
+  - 🔴 P0: MCP (Model Context Protocol) — 22 篇提及，与 A2A 对等的核心协议缺口
+  - 🔴 P0: ReAct (Reasoning + Acting) — 12 篇提及，最核心的 Agent 行为模式
+  - 🟡 P1: Prompt Engineering — 10 篇提及，基础技术无独立概念页
+  - 🟡 P1: Chain of Thought (CoT) — 8 篇提及，核心推理技术
+  - 🟢 P2: Guardrails — 4 篇提及，Agent 安全护栏
+- **交叉引用**: ⚠️ 3 个实体缺源引用 — openai、kserve、vllm（来自 Loop-3 自动创建，未关联源摘要）
+- **过时内容**: ✅ 无明显过时
+- **资料覆盖**: ✅ 88/88 全部已 Ingest
+- **报告**: [[wiki/lint-report-2026-06-18]]

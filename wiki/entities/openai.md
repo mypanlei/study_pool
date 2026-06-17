@@ -35,4 +35,7 @@ aliases:
 
 ## 来源
 
+- [[wiki/sources/ai-agent-introduction]] — AI Agent 定义与分类（OpenAI 为其代表）
+- [[wiki/sources/llm-basics]] — LLM 基础概念（GPT 系列模型）
+- [[wiki/sources/python-reasoning-planning-implementation]] — OpenAI API 函数调用示例
 - 知识库内 12 处引用

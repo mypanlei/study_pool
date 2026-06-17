@@ -38,5 +38,7 @@ vLLM 常用于替代 KServe 的默认推理后端，作为高性能 LLM 推理�
 
 ## 来源
 
+- [[wiki/sources/mlops-open-source-platform-comparison]] — MLOps 平台对比，含 vLLM 推理后端定位
+- [[wiki/sources/kv-cache-technical-detail]] — KV Cache 技术详解，PagedAttention 核心原理
+- [[wiki/sources/large-model-parameters-and-performance]] — LLM 推理优化与性能分析
 - [[wiki/concepts/kv-cache]] — KV Cache 概念与 PagedAttention
-- 知识库内 6 处引用
