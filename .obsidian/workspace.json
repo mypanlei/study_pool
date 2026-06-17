@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Clippings/录制文件 1.md",
+                "file": "Clippings/浙江省技术经纪人培训-高校科技成果转化与AI创业_raw.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "录制文件 1"
+              "title": "浙江省技术经纪人培训-高校科技成果转化与AI创业_raw"
             }
           }
         ],
@@ -229,11 +229,11 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
-    "width": 361.5
+    "width": 511.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -254,8 +254,11 @@
   },
   "active": "c81ae518fb421293",
   "lastOpenFiles": [
-    "Clippings/录制文件.md",
+    "wiki/sources/zhejiang-tech-broker-training-university-tech-transfer.md.tmp.11836.89c1f2398914",
+    "wiki/sources/zhejiang-tech-broker-training-university-tech-transfer.md.tmp.11836.52c88ceaaf88",
+    "Clippings/录制文件 2.md",
     "Clippings/录制文件 1.md",
+    "Clippings/录制文件.md",
     "Clippings/浙江省技术经纪人培训-高校科技成果转化与AI创业_raw.md",
     "Clippings/浙江省技术经纪人培训-高校科技成果转化与AI创业.md",
     "wiki/sources/zhejiang-tech-broker-training-university-tech-transfer.md",
@@ -269,7 +272,6 @@
     "Clippings/录制文件 5.md",
     "Clippings/录制文件 4.md",
     "Clippings/录制文件 3.md",
-    "Clippings/录制文件 2.md",
     "Clippings/录制文件 10.md",
     "raw/sources/浙江省技术经纪人培训-高校科技成果转化与AI创业.md.tmp.6432.5b3f0a668679",
     "raw/sources/Hermes Agent Documentation  Hermes Agent.md",
@@ -282,7 +284,6 @@
     "wiki/syntheses/harness-engineering-presentation.md",
     "wiki/templates/marp-responsive-template.md.tmp.16664.9f39a0fe7095",
     "wiki/syntheses/loop-engineering-presentation.md",
-    "wiki/index.md.tmp.16664.3d7bf49cf0c0",
     "wiki/syntheses/hermes-agent-comprehensive-guide.md",
     "wiki/entities/claudian.md",
     "CLAUDE.md",

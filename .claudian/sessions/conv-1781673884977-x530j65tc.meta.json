@@ -4,8 +4,8 @@
   "title": "Analyze and optimize meeting minutes",
   "titleGenerationStatus": "success",
   "createdAt": 1781673884979,
-  "updatedAt": 1781674014828,
-  "lastResponseAt": 1781674014828,
+  "updatedAt": 1781675080711,
+  "lastResponseAt": 1781675080711,
   "sessionId": "f57c4464-723b-453b-a578-d12d8e006149",
   "providerState": {
     "providerSessionId": "f57c4464-723b-453b-a578-d12d8e006149"
@@ -13,12 +13,12 @@
   "currentNote": "Clippings/浙江省技术经纪人培训-高校科技成果转化与AI创业_raw.md",
   "usage": {
     "model": "haiku",
-    "inputTokens": 315,
+    "inputTokens": 604,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 68608,
+    "cacheReadInputTokens": 115200,
     "contextWindow": 1000000,
-    "contextTokens": 68923,
-    "percentage": 7,
+    "contextTokens": 115804,
+    "percentage": 12,
     "contextWindowIsAuthoritative": true
   }
 }
