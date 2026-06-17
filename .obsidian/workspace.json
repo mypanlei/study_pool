@@ -41,7 +41,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "技术经理人中级培训/浙江省技术经纪人培训 - 高校科技成果转化与AI创业_raw.md",
+                "file": "技术经理人中级培训/raw-minutes/浙江省技术经纪人培训 - 高校科技成果转化与AI创业_raw.md",
                 "mode": "source",
                 "source": false
               },
@@ -55,7 +55,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "技术经理人中级培训/浙江省技术经纪人中级培训-有效商业沟通和专利申请_raw.md",
+                "file": "技术经理人中级培训/raw-minutes/浙江省技术经纪人中级培训-有效商业沟通和专利申请_raw.md",
                 "mode": "source",
                 "source": false
               },
@@ -83,12 +83,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Clippings/录制文件.md",
+                "file": "技术经理人中级培训/浙江省技术经纪人中级培训-私募股权基金与专利技术交易-课程笔记.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "录制文件"
+              "title": "浙江省技术经纪人中级培训-私募股权基金与专利技术交易-课程笔记"
             }
           },
           {
@@ -97,16 +97,58 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "技术经理人中级培训/浙江省技术经纪人中级培训-科技成果转化与商业逻辑_raw.md",
+                "file": "技术经理人中级培训/浙江省技术经纪人中级培训-科技成果转化与商业逻辑-课程笔记.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "浙江省技术经纪人中级培训-科技成果转化与商业逻辑_raw"
+              "title": "浙江省技术经纪人中级培训-科技成果转化与商业逻辑-课程笔记"
+            }
+          },
+          {
+            "id": "2b2946b391e1254d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "技术经理人中级培训/浙江省技术经纪人中级培训-私募股权基金与专利技术交易-课程笔记.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "浙江省技术经纪人中级培训-私募股权基金与专利技术交易-课程笔记"
+            }
+          },
+          {
+            "id": "4cebc160e1c982e3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "技术经理人中级培训/浙江省技术经纪人中级培训-有效商业沟通和专利申请.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "浙江省技术经纪人中级培训-有效商业沟通和专利申请"
+            }
+          },
+          {
+            "id": "63ae1c9df25bd735",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "技术经理人中级培训/浙江省技术经纪人中级培训 - 高校科技成果转化与AI创业孵化.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "浙江省技术经纪人中级培训 - 高校科技成果转化与AI创业孵化"
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -163,7 +205,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 507.5
+    "width": 561.5
   },
   "right": {
     "id": "40e3d2925329258a",
@@ -275,7 +317,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 460.5
+    "width": 317.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -294,19 +336,23 @@
       "marp-slides:Show Slide Preview": false
     }
   },
-  "active": "92127c64f54b650d",
+  "active": "63ae1c9df25bd735",
   "lastOpenFiles": [
-    "技术经理人中级培训/浙江省技术经纪人中级培训-科技成果转化与商业逻辑-课程笔记.md",
+    "技术经理人中级培训/raw-minutes/浙江省技术经纪人中级培训-科技成果转化与商业逻辑_raw.md",
     "Clippings/录制文件.md",
+    "技术经理人中级培训/raw-minutes/商业逻辑与商业模式raw.md",
+    "技术经理人中级培训/浙江省技术经纪人中级培训 - 高校科技成果转化与AI创业孵化.md",
+    "Untitled.md",
+    "技术经理人中级培训/raw-minutes",
+    "技术经理人中级培训/浙江省技术经纪人中级培训-有效商业沟通和专利申请.md",
+    "技术经理人中级培训/浙江省技术经纪人中级培训-私募股权基金与专利技术交易-课程笔记.md",
+    "技术经理人中级培训/浙江省技术经纪人中级培训-科技成果转化与商业逻辑-课程笔记.md",
     "技术经理人中级培训/浙江省技术经纪人中级培训-科技成果转化与商业逻辑_raw.md.tmp.7372.d0c1ea417baa",
     "_consolidate.py",
-    "技术经理人中级培训/浙江省技术经纪人中级培训-私募股权基金与专利技术交易-课程笔记.md",
     "_test_extract.py",
     "_test_extract.py.tmp.7372.4f22c01281cd",
-    "技术经理人中级培训/浙江省技术经纪人中级培训-科技成果转化与商业逻辑_raw.md",
-    "技术经理人中级培训/浙江省技术经纪人中级培训-私募股权基金与专利技术交易_raw.md",
-    "技术经理人中级培训/浙江省技术经纪人培训 - 高校科技成果转化与AI创业_raw.md",
-    "技术经理人中级培训/浙江省技术经纪人中级培训 - 高校科技成果转化与AI创业孵化.md",
+    "技术经理人中级培训/raw-minutes/浙江省技术经纪人中级培训-私募股权基金与专利技术交易_raw.md",
+    "技术经理人中级培训/raw-minutes/浙江省技术经纪人培训 - 高校科技成果转化与AI创业_raw.md",
     "Clippings/录制文件 14.md",
     "Clippings/录制文件 13.md",
     "Clippings/录制文件 12.md",
@@ -323,11 +369,8 @@
     "Clippings/录制文件 1.md",
     "技术经理人中级培训/浙江省技术经纪人中级培训-私募股权基金与专利技术交易-课程笔记.md.tmp.10036.ad820ba73f7f",
     "技术经理人中级培训/商业逻辑与商业模式-课程笔记.md",
-    "技术经理人中级培训/商业逻辑与商业模式raw.md",
     "技术经理人中级培训/商业逻辑与商业模式-课程笔记.md.tmp.15192.29f269b7a7a6",
     "raw/sources/NotebookLM-系统介绍.md",
-    "技术经理人中级培训/浙江省技术经纪人中级培训-有效商业沟通和专利申请.md",
-    "技术经理人中级培训/浙江省技术经纪人中级培训-有效商业沟通和专利申请_raw.md",
     "raw/assets/Pasted image 20260617140836.png",
     "raw/assets/Pasted image 20260617142146.png",
     "raw/assets/Pasted image 20260617144401.png",
@@ -335,7 +378,6 @@
     "raw/assets/Pasted image 20260617140406.png",
     "merge_raw2.py",
     "merge_raw2.py.tmp.5660.f62bb7a42e3f",
-    "wiki/sources/zhejiang-tech-broker-training-university-tech-transfer.md.tmp.11836.89c1f2398914",
     "未命名.canvas"
   ]
 }
