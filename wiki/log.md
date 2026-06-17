@@ -523,3 +523,13 @@ schema    CLAUDE.md + .claude/agents/llm-wiki.md
 - **新建源摘要**: [[浙江省技术经纪人中级培训 - 高校科技成果转化与AI创业孵化]]
 - **更新**: `wiki/index.md` — 源摘要 87 → 88
 - **全文**: 27 实体 + 27 概念 + 88 源摘要 + 10 综合分析 = 152 页
+
+## [2026-06-18] ingest | Google A2A 协议详解
+
+- **源材料**: 掘金社区文章《Agent to Agent（A2A）一文全了解》by MervynZ
+- **处理方式**: 从 `Clippings/` 复制到 `raw/sources/`，更新 frontmatter 元数据
+- **新建源摘要**: [[wiki/sources/google-a2a-protocol]] — 全面介绍 Agent Card、任务生命周期、JSON-RPC API、流式通信等
+- **新建概念页**: [[wiki/concepts/a2a-agent-to-agent-protocol]] — A2A 协议概念，含架构模型、发现机制、任务生命周期、A2A vs MCP 对比
+- **更新已有实体**: [[wiki/entities/google-adk]] — 新增 A2A 协议说明及引用来源
+- **更新**: `wiki/index.md` — 概念 27 → 28，源摘要 88 → 89，原始资料 87 → 88
+- **全文**: 27 实体 + 28 概念 + 89 源摘要 + 14 综合分析 = 158 页

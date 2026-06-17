@@ -1,0 +1,24 @@
+{
+  "id": "conv-1781727645097-b7a0gnss6",
+  "providerId": "claude",
+  "title": "Ingest new raw sources",
+  "titleGenerationStatus": "success",
+  "createdAt": 1781727645100,
+  "updatedAt": 1781727819016,
+  "lastResponseAt": 1781727819016,
+  "sessionId": "f6d0233c-db71-4e15-9443-6ecf415d68ba",
+  "providerState": {
+    "providerSessionId": "f6d0233c-db71-4e15-9443-6ecf415d68ba"
+  },
+  "currentNote": "Clippings/Agent to Agent（A2A）一文全了解.md",
+  "usage": {
+    "model": "haiku",
+    "inputTokens": 178,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 75008,
+    "contextWindow": 1000000,
+    "contextTokens": 75186,
+    "percentage": 8,
+    "contextWindowIsAuthoritative": true
+  }
+}

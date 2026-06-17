@@ -49,6 +49,7 @@ updated: 2026-06-13
 
 | 页面 | 摘要 | 创建日期 |
 |------|------|----------|
+| [[wiki/concepts/a2a-agent-to-agent-protocol]] | Google A2A 开放协议：Agent 间标准化通信与协作，与 MCP 互补 | 2026-06-18 |
 | [[wiki/concepts/agent-skills-system]] | AI Agent 的可复用/可共享/可自我改进的任务指令系统 | 2026-06-13 |
 | [[wiki/concepts/ai-platform-product-manager]] | AI 平台化解决方案产品经理角色与能力框架 | 2026-06-13 |
 | [[wiki/concepts/data-versioning-and-management]] | 数据版本控制（DVC/lakeFS/Nessie）与数据管理（DataHub/OpenMetadata） | 2026-06-13 |
@@ -108,6 +109,7 @@ updated: 2026-06-13
 | [[wiki/sources/gemini-cli-skills-guide]] | Gemini CLI Skills 配置指南：存储层级/SKILL.md/运行机制 | 自建笔记 | 2026-06-13 |
 | [[wiki/sources/gemini-enterprise-vs-kubeflow-comparison]] | Gemini Enterprise Agent Platform 与 Kubeflow 分层对比 | 自建笔记 | 2026-06-13 |
 | [[wiki/sources/gemini-kubeflow-dify-langgraph-comparison]] | Gemini/Kubeflow/Dify/LangGraph 四方对比与选型 | 自建笔记 | 2026-06-13 |
+| [[wiki/sources/google-a2a-protocol]] | Google A2A 协议详解：Agent Card/任务生命周期/JSON-RPC API/流式通信 | 掘金 (MervynZ) | 2026-06-18 |
 | [[wiki/sources/git-lfs-guide]] | Git LFS 工作原理与配置指南 | 自建笔记 | 2026-06-13 |
 | [[wiki/sources/github-cli-proxy-config]] | GitHub CLI (gh) 代理配置指南 | 自建笔记 | 2026-06-13 |
 | [[wiki/sources/harness-content-prompt-engineering]] | Harness/Content/Prompt Engineering 三层分工体系 | 自建笔记 | 2026-06-13 |
@@ -192,7 +194,7 @@ updated: 2026-06-13
 ## 统计
 
 - **实体页**: 27
-- **概念页**: 27
-- **源摘要页**: 88
+- **概念页**: 28
+- **源摘要页**: 89
 - **综合分析页**: 14
-- **原始资料**: 87 篇（全部已 Ingest） + 1 篇 Clippings 优化
+- **原始资料**: 88 篇（全部已 Ingest）
