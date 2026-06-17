@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "技术经理人中级培训/浙江省技术经纪人中级培训-有效商业沟通和专利申请.md",
+                "file": "raw/sources/NotebookLM-系统介绍.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "浙江省技术经纪人中级培训-有效商业沟通和专利申请"
+              "title": "NotebookLM-系统介绍"
             }
           }
         ],
@@ -135,7 +135,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 421.5
+    "width": 319.5
   },
   "right": {
     "id": "40e3d2925329258a",
@@ -268,6 +268,7 @@
   },
   "active": "e930acfc4bc37b90",
   "lastOpenFiles": [
+    "技术经理人中级培训/浙江省技术经纪人中级培训-有效商业沟通和专利申请.md",
     "技术经理人中级培训/浙江省技术经纪人中级培训-有效商业沟通和专利申请_raw.md",
     "raw/assets/Pasted image 20260617140836.png",
     "raw/assets/Pasted image 20260617142146.png",
@@ -275,7 +276,6 @@
     "未命名.md",
     "未命名 2.md",
     "Clippings/AI Agent 简介  菜鸟教程.md",
-    "技术经理人中级培训/浙江省技术经纪人中级培训-有效商业沟通和专利申请.md",
     "技术经理人中级培训/浙江省技术经纪人中级培训 - 高校科技成果转化与AI创业孵化.md",
     "技术经理人中级培训/浙江省技术经纪人培训 - 高校科技成果转化与AI创业_raw.md",
     "Clippings/录制文件.md",
