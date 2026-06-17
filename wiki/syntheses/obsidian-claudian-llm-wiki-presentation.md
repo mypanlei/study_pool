@@ -12,7 +12,7 @@ updated: 2026-06-17
 marp: true
 ---
 
-<style>
+< style>
 section { font-size: 20px !important; padding: 40px !important; }
 h1 { font-size: 36px !important; margin: 0 0 12px 0 !important; }
 h2 { font-size: 28px !important; margin: 0 0 10px 0 !important; }
