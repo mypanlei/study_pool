@@ -4,8 +4,8 @@
   "title": "Deduplicate and merge clippings to raw2",
   "titleGenerationStatus": "success",
   "createdAt": 1781677134010,
-  "updatedAt": 1781677303331,
-  "lastResponseAt": 1781677303331,
+  "updatedAt": 1781677474087,
+  "lastResponseAt": 1781677474087,
   "sessionId": "930a37fb-8461-4a1e-8de5-d3276059487f",
   "providerState": {
     "providerSessionId": "930a37fb-8461-4a1e-8de5-d3276059487f"
@@ -13,12 +13,12 @@
   "currentNote": "Untitled.md",
   "usage": {
     "model": "haiku",
-    "inputTokens": 33,
+    "inputTokens": 644,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 111744,
+    "cacheReadInputTokens": 146048,
     "contextWindow": 1000000,
-    "contextTokens": 111777,
-    "percentage": 11,
+    "contextTokens": 146692,
+    "percentage": 15,
     "contextWindowIsAuthoritative": true
   }
 }
