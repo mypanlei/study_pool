@@ -511,3 +511,15 @@ schema    CLAUDE.md + .claude/agents/llm-wiki.md
 - **新概念 (5)**: embedding, fine-tuning, graphrag, marp-presentation, rerank
 - **更新**: `wiki/index.md` — 实体 21→27, 概念 22→27
 - **全文**: 27 实体 + 27 概念 + 87 源摘要 + 10 综合分析 = 151 页
+
+## [2026-06-17] optimize | 浙江省技术经纪人中级培训 — 会议记录优化
+
+- **源材料**: `Clippings/浙江省技术经纪人培训-高校科技成果转化与AI创业_raw.md`（原始语音转写，约 440 行）
+- **分析结果**：
+  - 两位讲者：沈映春（北航，高校科技成果转化）与张洁（每日互动投资副总裁，AI 创业孵化）
+  - 沈映春讲座核心：科技成果转化"死亡谷"问题、概念验证中心（PoCC）机制、师生共创模式（成功率 15% vs 教授单独 2%）、哈佛/北航/清华案例
+  - 张洁讲座核心：AI 时代 5 层公司结构、Product-Business Model 框架、硅谷人才/资本生态、AMC（Agentic Micro Company）范式、6 家被投企业案例
+- **处理方式**：保留全部信息量，非摘要式结构化整理——按主题重构段落，去除语音重复与填充词，填补逻辑断点，增加表格/层级标题/标注等格式增强可读性
+- **新建源摘要**: [[wiki/sources/zhejiang-tech-broker-training-university-tech-transfer]]
+- **更新**: `wiki/index.md` — 源摘要 87 → 88
+- **全文**: 27 实体 + 27 概念 + 88 源摘要 + 10 综合分析 = 152 页
