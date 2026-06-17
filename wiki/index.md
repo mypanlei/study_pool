@@ -168,7 +168,7 @@ updated: 2026-06-13
 | [[wiki/sources/vector-database-introduction]] | 向量数据库：HNSW/IVF/余弦相似度/Chroma/Qdrant/Milvus/Pinecone 对比 | 菜鸟教程 | 2026-06-17 |
 | [[wiki/sources/vibe-coding-guide]] | Vibe Coding 意图编程范式实战指南 | 自建笔记 | 2026-06-13 |
 | [[wiki/sources/vibe-coding-rookie-tutorial]] | Vibe Coding 入门：Karpathy 概念/12 工具对比/最佳实践 | 菜鸟教程 | 2026-06-17 |
-| [[2026年浙江省技术经纪人中级培训 — 高校科技成果转化与AI创业孵化]] | 2026 浙江省技术经纪人中级培训：高校科技成果转化困境、概念验证中心机制、师生共创模式、AI 创业孵化与投资逻辑 | 腾讯会议录制 | 2026-06-17 |
+| [[浙江省技术经纪人中级培训 - 高校科技成果转化与AI创业孵化]] | 2026 浙江省技术经纪人中级培训：高校科技成果转化困境、概念验证中心机制、师生共创模式、AI 创业孵化与投资逻辑 | 腾讯会议录制 | 2026-06-17 |
 
 ## 综合分析 (Syntheses)
 
