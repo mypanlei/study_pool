@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Clippings/录制文件 2.md",
+                "file": "Clippings/录制文件 6.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "录制文件 2"
+              "title": "录制文件 6"
             }
           }
         ],
@@ -254,8 +254,12 @@
   },
   "active": "c5f5973fed4fdf0c",
   "lastOpenFiles": [
-    "Clippings/录制文件.md",
     "Clippings/录制文件 2.md",
+    "Clippings/录制文件 6.md",
+    "Clippings/录制文件 5.md",
+    "Clippings/录制文件 4.md",
+    "Clippings/录制文件 3.md",
+    "Clippings/录制文件.md",
     "Clippings/录制文件 1.md",
     "wiki/syntheses/obsidian-claudian-llm-wiki-presentation.md",
     "wiki/templates/marp-responsive-template.md",
@@ -286,10 +290,6 @@
     "wiki/entities/autogen.md",
     "wiki/entities/bentoml.md",
     "wiki/entities/kserve.md",
-    "wiki/entities/openai.md",
-    "wiki/concepts/para-method.md",
-    "wiki/entities/dvc.md",
-    "wiki/concepts/lora-low-rank-adaptation.md",
     "未命名.canvas"
   ]
 }
