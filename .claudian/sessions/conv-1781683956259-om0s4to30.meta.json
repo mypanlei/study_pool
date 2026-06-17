@@ -1,0 +1,24 @@
+{
+  "id": "conv-1781683956259-om0s4to30",
+  "providerId": "claude",
+  "title": "Generate optimized course details from raw",
+  "titleGenerationStatus": "success",
+  "createdAt": 1781683956260,
+  "updatedAt": 1781683999687,
+  "lastResponseAt": 1781683999687,
+  "sessionId": "92352262-8e4b-4fae-b3b2-67f863bdadd0",
+  "providerState": {
+    "providerSessionId": "92352262-8e4b-4fae-b3b2-67f863bdadd0"
+  },
+  "currentNote": "技术经理人中级培训/商业逻辑与商业模式raw.md",
+  "usage": {
+    "model": "haiku",
+    "inputTokens": 3911,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 28416,
+    "contextWindow": 1000000,
+    "contextTokens": 32327,
+    "percentage": 3,
+    "contextWindowIsAuthoritative": true
+  }
+}
