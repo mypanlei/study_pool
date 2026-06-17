@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Clippings/录制文件 6.md",
+                "file": "Untitled.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "录制文件 6"
+              "title": "Untitled"
             }
           }
         ],
@@ -247,7 +247,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 201.5
+    "width": 820.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -268,8 +268,16 @@
   },
   "active": "a23c8e80ffa90849",
   "lastOpenFiles": [
-    "Clippings/录制文件 5.md",
+    "Clippings/录制文件 13.md",
+    "Untitled.md",
+    "Clippings/录制文件 12.md",
+    "Clippings/录制文件 11.md",
+    "Clippings/录制文件 10.md",
+    "Clippings/录制文件 9.md",
+    "Clippings/录制文件 8.md",
+    "Clippings/录制文件 7.md",
     "Clippings/录制文件 6.md",
+    "Clippings/录制文件 5.md",
     "Clippings/录制文件 4.md",
     "Clippings/录制文件 2.md",
     "Clippings/录制文件 1.md",
@@ -287,10 +295,6 @@
     "wiki/index.md.tmp.11836.54a3141849e3",
     "wiki/index.md.tmp.11836.d14fee18d76e",
     "raw/sources/浙江省技术经纪人培训-高校科技成果转化与AI创业.md.tmp.6432.de2c13337ece",
-    "Clippings/录制文件 9.md",
-    "Clippings/录制文件 8.md",
-    "Clippings/录制文件 7.md",
-    "Clippings/录制文件 10.md",
     "raw/sources/浙江省技术经纪人培训-高校科技成果转化与AI创业.md.tmp.6432.5b3f0a668679",
     "raw/sources/Hermes Agent Documentation  Hermes Agent.md",
     "raw/sources/浙江省技术经纪人培训-高校科技成果转化与AI创业.md.tmp.6432.e22d827a0b39",
@@ -302,9 +306,6 @@
     "wiki/syntheses/harness-engineering-presentation.md",
     "wiki/syntheses/loop-engineering-presentation.md",
     "wiki/syntheses/hermes-agent-comprehensive-guide.md",
-    "wiki/entities/claudian.md",
-    "CLAUDE.md",
-    "wiki/entities/llamaindex.md",
     "未命名.canvas"
   ]
 }
