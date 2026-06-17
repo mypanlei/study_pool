@@ -4,13 +4,12 @@
   "title": "Consolidate meeting transcripts from Clippings",
   "titleGenerationStatus": "success",
   "createdAt": 1781685648125,
-  "updatedAt": 1781686023713,
+  "updatedAt": 1781727403307,
   "lastResponseAt": 1781686023713,
   "sessionId": "c5b69846-bfd7-4786-b13f-690afd1a470f",
   "providerState": {
     "providerSessionId": "c5b69846-bfd7-4786-b13f-690afd1a470f"
   },
-  "currentNote": "Clippings/录制文件 14.md",
   "usage": {
     "model": "haiku",
     "inputTokens": 162,
