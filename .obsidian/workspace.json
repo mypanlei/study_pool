@@ -41,7 +41,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Clippings/浙江省技术经纪人培训-高校科技成果转化与AI创业.md",
+                "file": "raw/sources/浙江省技术经纪人培训-高校科技成果转化与AI创业.md",
                 "mode": "source",
                 "source": false
               },
@@ -107,7 +107,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 246.5
+    "width": 349.5
   },
   "right": {
     "id": "40e3d2925329258a",
@@ -219,7 +219,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 484.5
+    "width": 590.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -240,9 +240,11 @@
   },
   "active": "d1ce67dcbea1082b",
   "lastOpenFiles": [
+    "raw/sources/浙江省技术经纪人培训-高校科技成果转化与AI创业.md.tmp.6432.5b3f0a668679",
+    "Clippings/浙江省技术经纪人培训-高校科技成果转化与AI创业.md",
+    "raw/sources/浙江省技术经纪人培训-高校科技成果转化与AI创业.md",
     "raw/sources/Hermes Agent Documentation  Hermes Agent.md",
     "Clippings/录制文件 10.md",
-    "Clippings/浙江省技术经纪人培训-高校科技成果转化与AI创业.md",
     "raw/sources/浙江省技术经纪人培训-高校科技成果转化与AI创业.md.tmp.6432.e22d827a0b39",
     "Clippings/录制文件 9.md",
     "Clippings/录制文件 8.md",
@@ -274,8 +276,6 @@
     "wiki/concepts/rerank.md",
     "wiki/concepts/fine-tuning.md",
     "wiki/concepts/marp-presentation.md",
-    "wiki/concepts/embedding.md",
-    "wiki/concepts/graphrag.md",
     "未命名.canvas"
   ]
 }
