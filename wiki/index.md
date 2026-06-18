@@ -70,6 +70,7 @@ updated: 2026-06-13
 | [[wiki/concepts/mlops-lifecycle]] | MLOps 生命周期管理：从业务定义到模型退役的全流程 | 2026-06-13 |
 | [[wiki/concepts/rag-optimization]] | RAG 全链路优化：检索端、生成端、评估体系 | 2026-06-13 |
 | [[wiki/concepts/rag-vs-wiki]] | RAG（无状态检索）与 Wiki（持久化积累）的对比 | 2026-06-13 |
+| [[wiki/concepts/react-reasoning-acting]] | ReAct Reasoning+Acting 模式：Thought→Act→Observe 循环，Agent 最核心的行为模式 | 2026-06-18 |
 | [[wiki/concepts/rerank]] | Rerank 重排序，RAG 优化 ROI 最高的环节 | 2026-06-17 |
 | [[wiki/concepts/rope-positional-encoding]] | RoPE 旋转位置编码与插值技术（PI/NTK/YaRN/DroPE） | 2026-06-13 |
 | [[wiki/concepts/spec-driven-development]] | Specification-Driven Development—规格驱动 AI 开发方法论 | 2026-06-13 |
@@ -198,7 +199,7 @@ updated: 2026-06-13
 ## 统计
 
 - **实体页**: 27
-- **概念页**: 28
+- **概念页**: 33
 - **源摘要页**: 89
 - **综合分析页**: 14
 - **原始资料**: 88 篇（全部已 Ingest）

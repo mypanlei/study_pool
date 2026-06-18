@@ -87,9 +87,23 @@ updated: 2026-06-18
 |--------|------|------|
 | 孤儿页 | ✅ | 0 个孤儿 |
 | 断链 | ✅ | 0 个断链（模板占位符除外） |
-| 知识缺口 | ⚠️ | 5 个高优缺口（MCP 最紧迫） |
-| 交叉引用 | ⚠️ | 3 个实体缺源引用 |
+| 知识缺口 | ⚠️~~✅ | 已全部填补（创建 5 个概念页） |
+| 交叉引用 | ⚠️~~✅ | 已修复 3 个实体缺源引用 |
 | 过时内容 | ✅ | 无明显过时 |
 | 资料覆盖 | ✅ | 88/88 全部已 Ingest |
 
-**全文统计**: 27 实体 + 28 概念 + 89 源摘要 + 14 综合分析 = 158 页
+**全文统计**: 27 实体 + 33 概念 + 89 源摘要 + 14 综合分析 = 163 页
+
+## 本次修复
+
+### 新增概念页 (5 个)
+- [[wiki/concepts/mcp-model-context-protocol]] — MCP 协议，Agent↔Tool 标准化连接与 A2A 对比
+- [[wiki/concepts/react-reasoning-acting]] — ReAct 循环，Agent 核心行为模式
+- [[wiki/concepts/prompt-engineering]] — 提示词工程十大技术
+- [[wiki/concepts/cot-chain-of-thought]] — CoT 思维链推理技术
+- [[wiki/concepts/guardrails]] — Agent 安全护栏架构
+
+### 实体修复 (3 个)
+- [[wiki/entities/openai]] — 添加 3 个 `[[wiki/sources/...]]` 引用
+- [[wiki/entities/kserve]] — 添加 2 个 `[[wiki/sources/...]]` 引用
+- [[wiki/entities/vllm]] — 添加 3 个 `[[wiki/sources/...]]` 引用

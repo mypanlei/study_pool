@@ -549,3 +549,22 @@ schema    CLAUDE.md + .claude/agents/llm-wiki.md
 - **过时内容**: ✅ 无明显过时
 - **资料覆盖**: ✅ 88/88 全部已 Ingest
 - **报告**: [[wiki/lint-report-2026-06-18]]
+
+## [2026-06-18] loop-3 | 知识演进 — 填补 5 个高优先 Lint 知识缺口 + 修复 3 个实体引用
+
+### 新增概念 (5 个)
+- [[wiki/concepts/mcp-model-context-protocol]] — MCP 协议，Anthropic 的 Agent↔Tool 连接协议，含与 A2A/Skills 对比表
+- [[wiki/concepts/react-reasoning-acting]] — ReAct (Thought→Act→Observe) 循环，Agent 最核心的行为模式
+- [[wiki/concepts/prompt-engineering]] — 提示词工程：三大消息角色、十大技术、Agent System Prompt 设计
+- [[wiki/concepts/cot-chain-of-thought]] — CoT 思维链推理技术，Zero-shot/Few-shot/自洽性方法，与 ReAct 对比
+- [[wiki/concepts/guardrails]] — Agent 安全护栏：四层安全架构（输入/注入检测/执行/输出），Harness 四道护栏定位
+
+### 实体引用修复 (3 个)
+- [[wiki/entities/openai]] — 添加 3 个 `[[wiki/sources/...]]` 引用
+- [[wiki/entities/kserve]] — 添加 2 个 `[[wiki/sources/...]]` 引用
+- [[wiki/entities/vllm]] — 添加 3 个 `[[wiki/sources/...]]` 引用
+
+### 更新
+- `wiki/index.md` — 概念 28 → 33
+- `wiki/lint-report-2026-06-18.md` — 更新状态和修复记录
+- **全文**: 27 实体 + 33 概念 + 89 源摘要 + 14 综合分析 = 163 页
