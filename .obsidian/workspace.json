@@ -219,7 +219,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 307.5
+    "width": 509.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -238,7 +238,7 @@
       "marp-slides:Show Slide Preview": false
     }
   },
-  "active": "e930acfc4bc37b90",
+  "active": "70c2e25b93912c9b",
   "lastOpenFiles": [
     "Clippings/AI Agent 记忆系统：短期记忆、长期记忆与记忆演化机制.md",
     "Clippings/大模型提示词工程（Prompt Engineering）是什么？提示词技巧有哪些？.md",
