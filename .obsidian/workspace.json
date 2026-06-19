@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/concepts/a2a-agent-to-agent-protocol.md",
-                "mode": "source",
+                "file": "Clippings/AI Agent 记忆系统：短期记忆、长期记忆与记忆演化机制.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "a2a-agent-to-agent-protocol"
+              "title": "AI Agent 记忆系统：短期记忆、长期记忆与记忆演化机制"
             }
           }
         ],
@@ -107,7 +107,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 327.5
+    "width": 381.5
   },
   "right": {
     "id": "40e3d2925329258a",
@@ -219,7 +219,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 497.5
+    "width": 374.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -240,6 +240,9 @@
   },
   "active": "e930acfc4bc37b90",
   "lastOpenFiles": [
+    "wiki/concepts/cot-chain-of-thought.md",
+    "wiki/concepts/agent-skills-system.md",
+    "wiki/concepts/a2a-agent-to-agent-protocol.md",
     "Clippings/RAG 知识库文档如何更新：增量更新、版本控制、去重与全量重建.md",
     "Clippings/万字详解 RAG 基础概念.md",
     "wiki/index.md.tmp.20088.be822beb3d2a",
@@ -273,9 +276,6 @@
     "raw/sources/大模型提示词工程（Prompt Engineering）是什么？提示词技巧有哪些？.md",
     "raw/sources/Agent Skills 是什么？和 Prompt、MCP 到底差在哪？.md",
     "raw/sources/AI Agent 记忆系统：短期记忆、长期记忆与记忆演化机制.md",
-    "raw/sources/AI Agent 核心概念：Agent Loop、Plan-and-Execute、A2A、Agentic Workflows、Tools 注册.md",
-    "Clippings/大模型提示词工程（Prompt Engineering）是什么？提示词技巧有哪些？.md",
-    "Clippings/AI Agent 记忆系统：短期记忆、长期记忆与记忆演化机制.md",
     "raw/assets/Pasted image 20260617140836.png",
     "raw/assets/Pasted image 20260617142146.png",
     "raw/assets/Pasted image 20260617144401.png",
