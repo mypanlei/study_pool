@@ -646,3 +646,67 @@ schema    CLAUDE.md + .claude/agents/llm-wiki.md
 - **更新已有**: 5 页面（4 概念 + 1 综合分析）
 - **更新**: `wiki/index.md` — 源摘要 93 → 94，原始资料 95 → 96
 - **全文**: 28 实体 + 33 概念 + 94 源摘要 + 13 综合分析 = 168 页
+
+## [2026-06-19] ingest | 批量 Ingest 9 篇新源材料 — JavaGuide RAG 系列 + LLM/Agent 系列
+
+这是 JavaGuide 系列的第二批批量 Ingest，覆盖 5 篇 RAG 系列文章和 4 篇 LLM/Agent 系列文章。
+
+### 源材料迁移
+- 从 `Clippings/` 复制到 `raw/sources/` 共 9 篇，更新 frontmatter 元数据
+
+### RAG 系列（5 篇）
+
+#### 1. RAG 文档处理与切分策略
+- **源摘要**: [[wiki/sources/rag-document-processing-javaguide]]
+- 核心贡献：文档进入索引前的完整链路（文件解析→清洗→结构化增强→Chunking），多粒度混合 Chunking 策略，多模态内容处理
+
+#### 2. RAG 知识库文档更新
+- **源摘要**: [[wiki/sources/rag-knowledge-update-javaguide]]
+- 核心贡献：Embedding 模型一致性要求、元数据设计（版本号/时间戳）、增量更新 vs 全量重建、灰度发布与回滚方案
+
+#### 3. 万字详解 RAG 优化
+- **源摘要**: [[wiki/sources/rag-optimization-javaguide]]
+- 核心贡献：RAG 优化是系统工程（数据→切分→索引→召回→重排→上下文→生成→评估），数据治理优先，上下文压缩与答案评估
+
+#### 4. 万字详解 RAG 向量索引算法和向量数据库
+- **源摘要**: [[wiki/sources/rag-vector-store-javaguide]]
+- 核心贡献：HNSW/IVFFLAT/IVF+HNSW 索引算法选型，Milvus/pgvector/ES 向量数据库对比，80% 召回问题与向量搜索算法无关
+
+#### 5. 万字详解 GraphRAG
+- **源摘要**: [[wiki/sources/graphrag-javaguide]]
+- 核心贡献：传统向量 RAG 的局限性（实体关系丢失），GraphRAG 实体提取/关系构建/社区检测流程，工程落地成本考量
+
+### Agent/LLM 系列（4 篇）
+
+#### 6. AI 工作流中的 Workflow、Graph 与 Loop
+- **源摘要**: [[wiki/sources/ai-workflow-graph-loop-javaguide]]
+- 核心贡献：Workflow/Graph/Loop 三层抽象、Node/Edge/State 模型、Loop 安全边界（状态污染/放大攻击）、Spring AI Alibaba vs LangGraph
+
+#### 7. LLM 运行机制
+- **源摘要**: [[wiki/sources/llm-operation-mechanism-javaguide]]
+- 核心贡献：Token 经济（中英文差异/BPE/Unigram）、上下文窗口隐藏成本、采样参数配置矩阵（Temperature/Top-p/Top-k/Penalty）、Token 预算公式
+
+#### 8. 大模型结构化输出与 Function Calling
+- **源摘要**: [[wiki/sources/structured-output-function-calling-javaguide]]
+- 核心贡献："请返回 JSON"的五种失效模式、JSON Mode vs Schema vs Structured Outputs 三层体系、Function Calling 七步流水线、六层安全防御
+
+#### 9. 一文搞懂 Harness Engineering
+- **源摘要**: [[wiki/sources/harness-engineering-javaguide]]
+- 核心贡献：六层架构（模型/上下文/工具/记忆/控制/观测）、40% 上下文利用率阈值、模型-Harness 耦合度概念、5 团队实战案例（OpenAI/Anthropic/Stripe/Hashimoto/Bockeler）
+
+### 更新已有概念页
+- [[wiki/concepts/graphrag]] — 新增工程落地考量章节（实体提取精度/计算开销/增量更新/适用边界）
+- [[wiki/concepts/harness-engineering]] — 新增 JavaGuide 六层架构视角（细化三层为六层用于生产排障）
+- [[wiki/concepts/rag-optimization]] — 添加新 RAG 优化来源引用
+- [[wiki/concepts/embedding]] — 添加向量数据库来源引用
+- [[wiki/concepts/rerank]] — 添加 RAG 优化来源引用
+
+### 更新综合分析页
+- [[wiki/syntheses/rag-optimization-guide]] — 新增维度 E/F/G/H（文档处理/知识库更新/向量数据库/GraphRAG），对比分析表从 5 列扩展到 8 列
+- [[wiki/syntheses/llm-technical-foundations]] — 新增 LLM 运行机制和结构化输出两个维度，对比分析表从 5 列扩展到 7 列
+
+### 汇总
+- **本次新增**: 9 源摘要
+- **更新已有**: 9 页面（5 概念 + 2 综合分析）
+- **更新**: `wiki/index.md` — 源摘要 94 → 103，原始资料 96 → 105
+- **全文**: 28 实体 + 33 概念 + 103 源摘要 + 13 综合分析 = 177 页

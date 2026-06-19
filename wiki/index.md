@@ -125,6 +125,7 @@ updated: 2026-06-13
 | [[wiki/sources/graphrag-javaguide]] | GraphRAG 深度解析：实体提取/关系构建/社区检测/传统向量 RAG 局限与适用边界 | JavaGuide | 2026-06-19 |
 | [[wiki/sources/harness-content-prompt-engineering]] | Harness/Content/Prompt Engineering 三层分工体系 | 自建笔记 | 2026-06-13 |
 | [[wiki/sources/harness-engineering-deep-dive]] | Agent Harness Engineering 三层架构深度解析 | 自建笔记 | 2026-06-13 |
+| [[wiki/sources/harness-engineering-javaguide]] | Harness Engineering 六层架构：模型/上下文/工具/记忆/控制/观测 + 5 团队实战案例 | JavaGuide | 2026-06-19 |
 | [[wiki/sources/hermes-agent-alicloud-deployment-guide]] | Hermes Agent 阿里云 ECS 部署全流程 | Nous Research | 2026-06-13 |
 | [[wiki/sources/hermes-agent-alicloud-messaging-guide]] | Hermes Agent 飞书与微信消息入口实操 | Nous Research | 2026-06-13 |
 | [[wiki/sources/hermes-agent-docs]] | Hermes Agent 官方文档 — 闭环学习自主 AI Agent | hermes-agent.nousresearch.com | 2026-06-13 |
@@ -141,6 +142,7 @@ updated: 2026-06-13
 | [[wiki/sources/langgraph-react-agent-guide]] | LangGraph 状态机驱动 ReAct Agent 工程化实现 | LangChain 文档 | 2026-06-13 |
 | [[wiki/sources/large-model-parameters-and-performance]] | 大模型参数量与性能关系：Scaling Laws、小模型逆袭 | 自建笔记 | 2026-06-13 |
 | [[wiki/sources/llm-basics]] | LLM 基础：Transformer/API 调用/Fine-tuning 概念 | 菜鸟教程 | 2026-06-17 |
+| [[wiki/sources/llm-operation-mechanism-javaguide]] | LLM 运行机制：Token 经济/上下文窗口隐藏成本/采样参数配置矩阵/Token 预算公式 | JavaGuide | 2026-06-19 |
 | [[wiki/sources/llm-skills-technical-guide]] | LLM Skills/Tool Use/MCP/Function Calling 技术架构 | 自建笔记 | 2026-06-13 |
 | [[wiki/sources/llm-wiki-pattern]] | Karpathy 关于 LLM Wiki 模式的原始文章 | GitHub Gist | 2026-06-13 |
 | [[wiki/sources/loop-engineering-guide]] | Loop Engineering 6 要素 + 5 循环模式：Automations/Worktrees/Skills/Memory | 菜鸟教程 | 2026-06-17 |
@@ -168,7 +170,11 @@ updated: 2026-06-13
 | [[wiki/sources/rag-and-knowledge-retrieval]] | RAG 与知识检索：离线索引 Pipeline/Advanced RAG/GraphRAG/RAGAS 评估 | 菜鸟教程 | 2026-06-17 |
 | [[wiki/sources/rag-basis-concepts-javaguide]] | RAG 基础概念全景：RAG 工作原理/Embedding/相似度度量/RAG vs 搜索/微调/长上下文/优势与局限 | JavaGuide | 2026-06-19 |
 | [[wiki/sources/rag-common-issues-and-optimization]] | RAG 系统常见问题与全链路优化：检索端、生成端、GraphRAG | 自建笔记 | 2026-06-13 |
+| [[wiki/sources/rag-document-processing-javaguide]] | RAG 文档处理全链路：文件解析/清洗/结构化增强/Chunking 策略/多模态内容处理 | JavaGuide | 2026-06-19 |
+| [[wiki/sources/rag-knowledge-update-javaguide]] | RAG 知识库文档更新：Embedding 一致性/元数据设计/增量更新 vs 全量重建/灰度发布 | JavaGuide | 2026-06-19 |
+| [[wiki/sources/rag-optimization-javaguide]] | RAG 优化系统工程：数据治理/Chunk 策略/Hybrid Search/Query Rewrite/Rerank/上下文压缩/评估闭环 | JavaGuide | 2026-06-19 |
 | [[wiki/sources/rag-skill-agent-differences]] | RAG/Skill/Agent 三层能力体系与组合使用 | 自建笔记 | 2026-06-13 |
+| [[wiki/sources/rag-vector-store-javaguide]] | RAG 向量索引算法与向量数据库：HNSW/IVFFLAT/Milvus/pgvector/ES 选型与工程实践 | JavaGuide | 2026-06-19 |
 | [[wiki/sources/rag-vs-semantic-cache-comparison]] | 语义缓存 (Semantic Cache) 与 RAG 深度对比 | 自建笔记 | 2026-06-13 |
 | [[wiki/sources/ragas-evaluation-metrics]] | RAGAS 评估指标：Faithfulness, Relevancy, Robustness | 自建笔记 | 2026-06-13 |
 | [[wiki/sources/reasoning-and-planning]] | 推理与规划 5 框架：CoT/ReAct/Plan-and-Execute/ToT+MCTS/Reflexion | 菜鸟教程 | 2026-06-17 |
@@ -178,6 +184,7 @@ updated: 2026-06-13
 | [[wiki/sources/skills-manager-tutorial]] | Skills Manager — 跨 Agent 工具的可视化统一 Skill 管理 | GitHub (Datawhale) | 2026-06-13 |
 | [[wiki/sources/skills-tutorial]] | Skills 教程：SKILL.md 结构/渐进披露/MCP vs Skills/Claude Code Skills | 菜鸟教程 | 2026-06-17 |
 | [[wiki/sources/spec-driven-development-overview]] | SDD 开源方案生态全景与选型建议 | 自建笔记 | 2026-06-13 |
+| [[wiki/sources/structured-output-function-calling-javaguide]] | 大模型结构化输出：JSON 失效模式/Structured Outputs 三层体系/Function Calling 七步流水线/MCP | JavaGuide | 2026-06-19 |
 | [[wiki/sources/token-concepts]] | Token 概念：BPE 编码/中英文差异/上下文窗口/计费 | 菜鸟教程 | 2026-06-17 |
 | [[wiki/sources/transformer-architecture-detail]] | Transformer 架构详解：自注意力、QKV、Decoder-only | 自建笔记 | 2026-06-13 |
 | [[wiki/sources/vector-database-introduction]] | 向量数据库：HNSW/IVF/余弦相似度/Chroma/Qdrant/Milvus/Pinecone 对比 | 菜鸟教程 | 2026-06-17 |
@@ -194,7 +201,7 @@ updated: 2026-06-13
 | [[wiki/syntheses/claude-skill-management]] | Claude Code Skill 管理全指南：多 Repo、自有/第三方 Skills 的管理策略 | 2026-06-13 |
 | [[wiki/syntheses/deepseek-technical-analysis]] | DeepSeek 技术综合分析：GRPO/训练策略/架构演进/缓存工程 | 2026-06-13 |
 | [[wiki/syntheses/hermes-agent-comprehensive-guide]] | Hermes Agent 全面介绍：闭环学习/架构/部署/消息网关/对比分析 | 2026-06-17 |
-| [[wiki/syntheses/llm-technical-foundations]] | LLM 技术基础：Transformer/KV-Cache/RoPE/Scaling Laws/拟合机制 | 2026-06-13 |
+| [[wiki/syntheses/llm-technical-foundations]] | LLM 技术基础：Transformer/KV-Cache/RoPE/Scaling Laws/拟合机制/LLM 运行机制/结构化输出 | 2026-06-13 |
 | [[wiki/syntheses/mlops-ecosystem-overview]] | MLOps 生态全景：可用性工程/生命周期/平台选型/SLA/数据管理 | 2026-06-13 |
 | [[wiki/syntheses/obsidian-sync-comparison]] | Obsidian 多设备同步方案全景对比 + 你的当前方案分析 | 2026-06-13 |
 | [[wiki/syntheses/rag-optimization-guide]] | RAG 优化指南：全链路优化/Semantic Cache/RAGAS 评估/RAG 基础概念与决策框架 | 2026-06-13 |
@@ -208,6 +215,6 @@ updated: 2026-06-13
 
 - **实体页**: 28
 - **概念页**: 33
-- **源摘要页**: 94
+- **源摘要页**: 103
 - **综合分析页**: 13
-- **原始资料**: 96 篇（全部已 Ingest）
+- **原始资料**: 105 篇（全部已 Ingest）
