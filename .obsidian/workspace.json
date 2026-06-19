@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Clippings/向量数据库（Vector Database）  菜鸟教程.md",
-                "mode": "preview",
+                "file": "Clippings/什么是 Model Context Protocol (MCP)？和 Function Calling、Agent 什么关系？.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "向量数据库（Vector Database）  菜鸟教程"
+              "title": "什么是 Model Context Protocol (MCP)？和 Function Calling、Agent 什么关系？"
             }
           }
         ],
@@ -107,7 +107,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 221.5
+    "width": 318.5
   },
   "right": {
     "id": "40e3d2925329258a",
@@ -238,24 +238,32 @@
       "marp-slides:Show Slide Preview": false
     }
   },
-  "active": "e930acfc4bc37b90",
+  "active": "92127c64f54b650d",
   "lastOpenFiles": [
+    "wiki/log.md.tmp.29212.14744de7a3d8",
+    "wiki/index.md.tmp.29212.ddad730075a2",
+    "wiki/index.md.tmp.29212.b6fe5ac15a6d",
+    "wiki/concepts/a2a-agent-to-agent-protocol.md.tmp.29212.55c905aa3a5e",
+    "wiki/concepts/a2a-agent-to-agent-protocol.md.tmp.29212.90dd359580d7",
+    "wiki/sources/mcp-deep-dive-javaguide.md",
+    "wiki/sources/mcp-deep-dive-javaguide.md.tmp.29212.23d7c29783a1",
+    "raw/sources/什么是 Model Context Protocol (MCP)？和 Function Calling、Agent 什么关系？.md.tmp.29212.21381a9d24c8",
+    "raw/sources/什么是 Model Context Protocol (MCP)？和 Function Calling、Agent 什么关系？.md.tmp.29212.02a5d30ee991",
+    "raw/sources/什么是 Model Context Protocol (MCP)？和 Function Calling、Agent 什么关系？.md",
+    "Clippings/AI 语音技术详解：从 ASR、TTS 到实时语音 Agent 的工程化落地.md",
+    "Clippings/什么是 Model Context Protocol (MCP)？和 Function Calling、Agent 什么关系？.md",
+    "Clippings/大模型网关详解：多模型路由、Fallback、限流与成本控制.md",
+    "Clippings/AI 应用系统设计：从 Prompt Demo 到生产级架构.md",
+    "Clippings/万字详解 GraphRAG：为什么只靠向量检索撑不起复杂知识问答 1.md",
+    "Clippings/向量数据库（Vector Database）  菜鸟教程.md",
     "wiki/index.md.tmp.20088.0a9ed86f6b31",
     "wiki/index.md.tmp.20088.7e21430f5280",
     "wiki/index.md.tmp.20088.6e243e837f42",
-    "wiki/index.md.tmp.20088.a631379f51e0",
-    "wiki/syntheses/rag-optimization-guide.md.tmp.20088.a16e463b7996",
-    "wiki/syntheses/rag-optimization-guide.md.tmp.20088.6246bec06a59",
     "wiki/sources/graphrag-javaguide.md",
-    "wiki/sources/graphrag-javaguide.md.tmp.20088.4eccd8597cc0",
     "wiki/sources/rag-vector-store-javaguide.md",
-    "wiki/sources/rag-vector-store-javaguide.md.tmp.20088.c91042041946",
     "wiki/sources/rag-optimization-javaguide.md",
-    "wiki/sources/rag-optimization-javaguide.md.tmp.20088.3c6dd0ebd0dc",
     "wiki/sources/rag-knowledge-update-javaguide.md",
-    "wiki/sources/rag-knowledge-update-javaguide.md.tmp.20088.84e03b466f61",
     "wiki/sources/rag-document-processing-javaguide.md",
-    "wiki/sources/rag-document-processing-javaguide.md.tmp.20088.a341d6dc5b9d",
     "wiki/sources/harness-engineering-javaguide.md",
     "wiki/sources/structured-output-function-calling-javaguide.md",
     "wiki/sources/llm-operation-mechanism-javaguide.md",
@@ -268,14 +276,6 @@
     "raw/sources/万字详解 RAG 向量索引算法和向量数据库.md",
     "raw/sources/万字详解 RAG 优化：从召回、重排到上下文工程的系统调优.md",
     "raw/sources/RAG 知识库文档如何更新：增量更新、版本控制、去重与全量重建.md",
-    "raw/sources/RAG 文档处理与切分策略：从解析、清洗、Chunking 到多模态内容处理.md",
-    "Clippings/RAG 文档处理与切分策略：从解析、清洗、Chunking 到多模态内容处理 1.md",
-    "Clippings/万字详解 RAG 优化：从召回、重排到上下文工程的系统调优.md",
-    "Clippings/万字详解 GraphRAG：为什么只靠向量检索撑不起复杂知识问答.md",
-    "Clippings/AI Agent 记忆系统：短期记忆、长期记忆与记忆演化机制.md",
-    "wiki/concepts/cot-chain-of-thought.md",
-    "wiki/concepts/agent-skills-system.md",
-    "wiki/concepts/a2a-agent-to-agent-protocol.md",
     "raw/assets/Pasted image 20260617140836.png",
     "raw/assets/Pasted image 20260617142146.png",
     "raw/assets/Pasted image 20260617144401.png",

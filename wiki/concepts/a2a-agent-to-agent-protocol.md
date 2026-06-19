@@ -126,7 +126,16 @@ submitted → working → completed
 - [[wiki/sources/google-a2a-protocol]] — 掘金社区 A2A 协议详解（主要来源）
 - [[wiki/sources/a2a-official-spec-linux-foundation]] — A2A 官方公告与 Linux Foundation 协议规范，补充治理/生态/SDK 信息
 
-### A2A vs MCP
+### A2A vs MCP 与 FC/Agent 完整分层
+
+MCP、FC (Function Calling)、Agent 三者是不同层级的组件，A2A 与 MCP 的关系需要放在这个分层中理解：
+
+| 层次 | 协议/机制 | 解决问题 |
+|------|-----------|----------|
+| **Agent 层** | Agent 规划框架 | 任务怎么一步步做完（ReAct/Plan-and-Execute） |
+| **Agent ↔ Agent** | **A2A** | Agent 间水平互联与协作 |
+| **Agent ↔ Tool** | **MCP** | 工具发现、连接与执行 |
+| **模型表达层** | **Function Calling** | 模型怎么输出结构化调用意图 |
 
 | 维度 | A2A | MCP |
 |------|-----|-----|
@@ -140,3 +149,4 @@ submitted → working → completed
 
 - [[wiki/sources/google-a2a-protocol]] — Google A2A 协议详解（掘金社区文章）
 - [[wiki/sources/multi-agent-system]] — 菜鸟教程多智能体系统（含 A2A vs MCP 对比）
+- [[wiki/sources/mcp-deep-dive-javaguide]] — JavaGuide MCP 深度解析（含 FC/MCP/Agent 三层关系，完善 A2A vs MCP 对比框架）

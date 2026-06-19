@@ -710,3 +710,29 @@ schema    CLAUDE.md + .claude/agents/llm-wiki.md
 - **更新已有**: 9 页面（5 概念 + 2 综合分析）
 - **更新**: `wiki/index.md` — 源摘要 94 → 103，原始资料 96 → 105
 - **全文**: 28 实体 + 33 概念 + 103 源摘要 + 13 综合分析 = 177 页
+
+## [2026-06-19] ingest | MCP（Model Context Protocol）深度解析 — JavaGuide
+
+- **源材料**: Clippings 中的 JavaGuide MCP 文章（约 12,000 字）
+- **复制到**: `raw/sources/什么是 Model Context Protocol (MCP)？和 Function Calling、Agent 什么关系？.md`，更新 frontmatter 元数据
+- **新建源摘要**: [[wiki/sources/mcp-deep-dive-javaguide]] — MCP 深度解析
+
+### 更新已有概念页
+
+- [[wiki/concepts/mcp-model-context-protocol]] — **大幅重写**：新增 FC/MCP/Agent 三层关系与场景判断表、四层架构详解（Host→Client→Server→DataSource）、Server 侧三类能力（Resources/Tools/Prompts）、Client 侧三类能力（Roots/Sampling/Elicitation）、JSON-RPC 2.0 通信机制与示例、stdio vs Streamable HTTP 传输选型、生产落地六大问题、企业检查清单五大维度 25+ 项、Server 开发最佳实践、FastMCP 最小代码示例、安全红线。概念页从 109 行扩展到全页
+- [[wiki/concepts/a2a-agent-to-agent-protocol]] — 新增 FC/MCP/A2A/Agent 完整分层表，补充 MCP 深度解析来源引用
+
+### 汇总
+
+- **本次新增**: 1 源摘要
+- **更新已有**: 2 概念页
+- **更新**: `wiki/index.md` — 源摘要 103 → 104，原始资料 105 → 106
+- **全文**: 28 实体 + 33 概念 + 104 源摘要 + 13 综合分析 = 178 页
+
+### 三层架构最终状态
+
+```
+raw/      106 篇源文件（106 篇全部已 Ingest）
+wiki/     178 内容页（含模板）
+schema    CLAUDE.md + .claude/agents/llm-wiki.md
+```

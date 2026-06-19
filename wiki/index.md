@@ -191,6 +191,7 @@ updated: 2026-06-13
 | [[wiki/sources/vibe-coding-guide]] | Vibe Coding 意图编程范式实战指南 | 自建笔记 | 2026-06-13 |
 | [[wiki/sources/vibe-coding-rookie-tutorial]] | Vibe Coding 入门：Karpathy 概念/12 工具对比/最佳实践 | 菜鸟教程 | 2026-06-17 |
 | [[浙江省技术经纪人中级培训 - 高校科技成果转化与AI创业孵化]] | 2026 浙江省技术经纪人中级培训：高校科技成果转化困境、概念验证中心机制、师生共创模式、AI 创业孵化与投资逻辑 | 腾讯会议录制 | 2026-06-17 |
+| [[wiki/sources/mcp-deep-dive-javaguide]] | MCP 深度解析：FC/MCP/Agent 三层关系、四层架构、JSON-RPC 2.0、Transport 选型、6 大生产落地问题、Server 开发最佳实践、FastMCP 最小示例 | [[https://javaguide.cn/ai/agent/mcp.html\|JavaGuide]] | 2026-06-19 |
 
 ## 综合分析 (Syntheses)
 
@@ -215,6 +216,6 @@ updated: 2026-06-13
 
 - **实体页**: 28
 - **概念页**: 33
-- **源摘要页**: 103
+- **源摘要页**: 104
 - **综合分析页**: 13
-- **原始资料**: 105 篇（全部已 Ingest）
+- **原始资料**: 106 篇（全部已 Ingest）
