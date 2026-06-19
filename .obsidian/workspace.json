@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Clippings/大模型提示词工程（Prompt Engineering）是什么？提示词技巧有哪些？.md",
+                "file": "Clippings/Agent Skills 是什么？和 Prompt、MCP 到底差在哪？.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "大模型提示词工程（Prompt Engineering）是什么？提示词技巧有哪些？"
+              "title": "Agent Skills 是什么？和 Prompt、MCP 到底差在哪？"
             }
           }
         ],
@@ -219,7 +219,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 509.5
+    "width": 497.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -238,10 +238,11 @@
       "marp-slides:Show Slide Preview": false
     }
   },
-  "active": "70c2e25b93912c9b",
+  "active": "92127c64f54b650d",
   "lastOpenFiles": [
-    "Clippings/AI Agent 记忆系统：短期记忆、长期记忆与记忆演化机制.md",
     "Clippings/大模型提示词工程（Prompt Engineering）是什么？提示词技巧有哪些？.md",
+    "Clippings/Agent Skills 是什么？和 Prompt、MCP 到底差在哪？.md",
+    "Clippings/AI Agent 记忆系统：短期记忆、长期记忆与记忆演化机制.md",
     "Clippings/AI Agent 核心概念：Agent Loop、Plan-and-Execute、A2A、Agentic Workflows、Tools 注册.md",
     "Clippings/Vibe Coding 入门教程  菜鸟教程.md",
     "Clippings/Loop Engineering（循环工程）  菜鸟教程.md",
@@ -275,7 +276,6 @@
     "Clippings/录制文件.md",
     "技术经理人中级培训/raw-minutes/商业逻辑与商业模式raw.md",
     "Untitled.md",
-    "技术经理人中级培训/浙江省技术经纪人中级培训-有效商业沟通和专利申请.md",
     "raw/assets/Pasted image 20260617140836.png",
     "raw/assets/Pasted image 20260617142146.png",
     "raw/assets/Pasted image 20260617144401.png",
