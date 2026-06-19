@@ -16,11 +16,11 @@ aliases:
 
 # RAG 优化指南
 
-> 综合 3 篇 RAG 相关文章的跨源综合分析，覆盖 RAG 常见问题与优化、RAG vs Semantic Cache 对比、RAGAS 评估体系。
+> 综合 4 篇 RAG 相关文章的跨源综合分析，覆盖 RAG 基础概念与面试考点、常见问题与优化、RAG vs Semantic Cache 对比、RAGAS 评估体系。
 
 ## 背景
 
-RAG（检索增强生成）是 LLM 应用的事实标准架构，但在落地中面临"检索不准"和"生成幻觉"两大难题。本次综合涵盖 3 篇文章：RAG 常见问题与全链路优化指南、语义缓存与 RAG 深度对比、RAGAS 评估指标深度解析。
+RAG（检索增强生成）是 LLM 应用的事实标准架构，但在落地中面临"检索不准"和"生成幻觉"两大难题。本次综合涵盖 4 篇文章：RAG 基础概念与面试常考点、RAG 常见问题与全链路优化指南、语义缓存与 RAG 深度对比、RAGAS 评估指标深度解析。
 
 ## 各方观点
 
@@ -39,14 +39,25 @@ RAG 优化需同时覆盖检索端和生成端。检索端：Hybrid Search + Rer
 
 RAGAS 三元组是量化评估的基础：Faithfulness（忠实度，回答是否完全来自 Context）、Answer Relevancy（回答相关性，是否答非所问）、Context Precision（检索精度，排序质量）。加上鲁棒性（Negative Rejection + Noise Sensitivity）。
 
+### 维度 D：基础概念与决策框架
+来源：[[wiki/sources/rag-basis-concepts-javaguide]]
+
+从更宏观的视角补充 RAG 的定位与决策框架：
+
+- **RAG vs 传统搜索**：搜索是排序器（给文档列表），RAG 是信息综合器（生成直接可读答案）。选型判断：用户要"找到材料"还是"读完材料给出结论"。
+- **RAG vs 微调**：RAG 解决"不知道新知识"，微调解决"不会按你方式说话"。知识变动频繁 → RAG；输出风格不稳定 → 微调；两者可结合。
+- **RAG vs 长上下文**：长上下文适合单文档深度分析，但不适合海量知识库、权限隔离、"Lost in the Middle"问题。两者互补而非替代。
+- **RAG 演进阶段**：Naive RAG（Demo）→ Advanced RAG（召回质量优化）→ Modular RAG（生产级可插拔组合）。
+- **Embedding 与相似度**：余弦相似度最常用（对长度不敏感），选型需参考 MTEB 但最终用业务数据评测。
+- **优势与局限**：知识更新成本低 / 可溯源是核心优势；检索质量决定上限 / 延迟和工程复杂度高是主要局限。
+
 ## 对比分析
 
-| 维度 | 检索端优化 | 生成端优化 | 语义缓存 | RAGAS 评估 |
-|------|-----------|-----------|---------|-----------|
-| 核心问题 | 检索不准 | 生成幻觉 | 延迟/成本 | 可靠性量化 |
-| 关键技术 | Hybrid/Rerank/HyDE | Guardrails/Citation | 语义相似度匹配 | LLM-as-a-Judge |
-| 推荐工具 | BGE/BAAI Reranker | - | 自建 | GPT-4/Qwen-Max |
-| 复杂度 | 中 | 低-中 | 中 | 低-中 |
+| 维度 | 检索端优化 | 生成端优化 | 语义缓存 | RAGAS 评估 | 基础概念 |
+|------|-----------|-----------|---------|-----------|---------|
+| 核心问题 | 检索不准 | 生成幻觉 | 延迟/成本 | 可靠性量化 | 选型决策 |
+| 关键技术 | Hybrid/Rerank/HyDE | Guardrails/Citation | 语义相似度匹配 | LLM-as-a-Judge | RAG vs 搜索/微调/长上下文 |
+| 复杂度 | 中 | 低-中 | 中 | 低-中 | 低 |
 
 ## 综合结论
 
@@ -63,9 +74,11 @@ RAGAS 三元组是量化评估的基础：Faithfulness（忠实度，回答是�
 - Karpathy 的 LLM Wiki 模式（持久化维基）与传统 RAG（无状态检索）如何选择/组合？
 - GraphRAG 在实际生产中的计算开销和维护成本是否可控？
 - LLM-as-a-Judge 评估的偏差问题和替代方案（如人工评估集）如何权衡？
+- RAG vs 长上下文的边界在哪里？长上下文窗口持续扩大后，哪些场景真正需要 RAG 而非直接全量输入？
 
 ## 来源
 
+- [[wiki/sources/rag-basis-concepts-javaguide]] — 万字详解 RAG 基础概念 (JavaGuide)
 - [[wiki/sources/rag-common-issues-and-optimization]]
 - [[wiki/sources/rag-vs-semantic-cache-comparison]]
 - [[wiki/sources/ragas-evaluation-metrics]]

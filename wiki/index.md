@@ -164,6 +164,7 @@ updated: 2026-06-13
 | [[wiki/sources/python-rag-implementation]] | Python 实现 RAG：SimpleRAG/AdvancedRAG/GraphRAG 完整代码 | 菜鸟教程 | 2026-06-17 |
 | [[wiki/sources/python-reasoning-planning-implementation]] | Python 实现推理规划：ReAct/ToT/MCTS/Reflexion/PlanAndExecute 代码 | 菜鸟教程 | 2026-06-17 |
 | [[wiki/sources/rag-and-knowledge-retrieval]] | RAG 与知识检索：离线索引 Pipeline/Advanced RAG/GraphRAG/RAGAS 评估 | 菜鸟教程 | 2026-06-17 |
+| [[wiki/sources/rag-basis-concepts-javaguide]] | RAG 基础概念全景：RAG 工作原理/Embedding/相似度度量/RAG vs 搜索/微调/长上下文/优势与局限 | JavaGuide | 2026-06-19 |
 | [[wiki/sources/rag-common-issues-and-optimization]] | RAG 系统常见问题与全链路优化：检索端、生成端、GraphRAG | 自建笔记 | 2026-06-13 |
 | [[wiki/sources/rag-skill-agent-differences]] | RAG/Skill/Agent 三层能力体系与组合使用 | 自建笔记 | 2026-06-13 |
 | [[wiki/sources/rag-vs-semantic-cache-comparison]] | 语义缓存 (Semantic Cache) 与 RAG 深度对比 | 自建笔记 | 2026-06-13 |
@@ -194,7 +195,7 @@ updated: 2026-06-13
 | [[wiki/syntheses/llm-technical-foundations]] | LLM 技术基础：Transformer/KV-Cache/RoPE/Scaling Laws/拟合机制 | 2026-06-13 |
 | [[wiki/syntheses/mlops-ecosystem-overview]] | MLOps 生态全景：可用性工程/生命周期/平台选型/SLA/数据管理 | 2026-06-13 |
 | [[wiki/syntheses/obsidian-sync-comparison]] | Obsidian 多设备同步方案全景对比 + 你的当前方案分析 | 2026-06-13 |
-| [[wiki/syntheses/rag-optimization-guide]] | RAG 优化指南：全链路优化/Semantic Cache/RAGAS 评估 | 2026-06-13 |
+| [[wiki/syntheses/rag-optimization-guide]] | RAG 优化指南：全链路优化/Semantic Cache/RAGAS 评估/RAG 基础概念与决策框架 | 2026-06-13 |
 | [[wiki/syntheses/harness-engineering-presentation]] | Harness Engineering 全景解读：三层架构/OPA治理/自愈闭环 (Marp 演示) | 2026-06-15 |
 | [[wiki/syntheses/flyte-vs-kubeflow-presentation]] | Flyte vs Kubeflow：工作流引擎 vs 完整 MLOps 平台 (Marp 演示) | 2026-06-15 |
 | [[wiki/syntheses/loop-engineering-presentation]] | Loop Engineering：四次范式跃迁/核心循环/六大要素/五种模式 (Marp 演示) | 2026-06-17 |
@@ -205,6 +206,6 @@ updated: 2026-06-13
 
 - **实体页**: 28
 - **概念页**: 33
-- **源摘要页**: 93
+- **源摘要页**: 94
 - **综合分析页**: 13
-- **原始资料**: 95 篇（全部已 Ingest）
+- **原始资料**: 96 篇（全部已 Ingest）

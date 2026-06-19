@@ -625,3 +625,24 @@ schema    CLAUDE.md + .claude/agents/llm-wiki.md
   - [[wiki/entities/kserve]] — 06-17 → 06-19
   - [[wiki/entities/vllm]] — 06-17 → 06-19
   - [[wiki/concepts/agent-skills-system]] — 06-13 → 06-19
+
+## [2026-06-19] ingest | 万字详解 RAG 基础概念 — JavaGuide
+
+- **源材料**: Clippings 中的 JavaGuide RAG 基础概念文章（约 6200 字）
+- **复制到**: `raw/sources/万字详解 RAG 基础概念.md`，更新 frontmatter 元数据
+- **新建源摘要**: [[wiki/sources/rag-basis-concepts-javaguide]] — RAG 基础概念全景
+
+### 更新已有概念页
+- [[wiki/concepts/embedding]] — 新增相似度度量对比表（余弦/内积/欧氏距离），扩充 Embedding 模型表（text-embedding-3-large/GTE 系列），添加选型建议
+- [[wiki/concepts/fine-tuning]] — 新增 RAG vs 微调完整对比表，含 6 维度对比（知识更新/数据安全/幻觉控制/成本结构/适合场景/主要风险）
+- [[wiki/concepts/rag-optimization]] — 新增 RAG 演进三阶段（Naive/Advanced/Modular），新增 RAG 核心优势与局限总结
+- [[wiki/concepts/rag-vs-wiki]] — 新增 RAG vs 传统搜索对比表，含选型判断框架
+
+### 更新综合分析页
+- [[wiki/syntheses/rag-optimization-guide]] — 新增维度 D（基础概念与决策框架），补充对比分析表和开放问题
+
+### 汇总
+- **本次新增**: 1 源摘要
+- **更新已有**: 5 页面（4 概念 + 1 综合分析）
+- **更新**: `wiki/index.md` — 源摘要 93 → 94，原始资料 95 → 96
+- **全文**: 28 实体 + 33 概念 + 94 源摘要 + 13 综合分析 = 168 页

@@ -1,0 +1,24 @@
+{
+  "id": "conv-1781872471654-hb9ytm141",
+  "providerId": "claude",
+  "title": "Ingest new wiki sources",
+  "titleGenerationStatus": "success",
+  "createdAt": 1781872471655,
+  "updatedAt": 1781872620001,
+  "lastResponseAt": 1781872620001,
+  "sessionId": "712ff108-7191-415c-a469-b153b6a4192b",
+  "providerState": {
+    "providerSessionId": "712ff108-7191-415c-a469-b153b6a4192b"
+  },
+  "currentNote": "Clippings/万字详解 RAG 基础概念.md",
+  "usage": {
+    "model": "haiku",
+    "inputTokens": 133,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 71552,
+    "contextWindow": 1000000,
+    "contextTokens": 71685,
+    "percentage": 7,
+    "contextWindowIsAuthoritative": true
+  }
+}
