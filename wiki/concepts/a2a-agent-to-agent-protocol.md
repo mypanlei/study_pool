@@ -123,7 +123,8 @@ submitted → working → completed
 
 - [[wiki/sources/multi-agent-system]] — 菜鸟教程多智能体系统（含 A2A vs MCP 对比），A2A 是多 Agent 系统的重要通信协议
 - [[wiki/entities/google-adk]] — Google ADK 是 Google 的 Agent 开发工具包，可集成 A2A 协议
-- [[wiki/sources/google-a2a-protocol]] — 本文的主要来源
+- [[wiki/sources/google-a2a-protocol]] — 掘金社区 A2A 协议详解（主要来源）
+- [[wiki/sources/a2a-official-spec-linux-foundation]] — A2A 官方公告与 Linux Foundation 协议规范，补充治理/生态/SDK 信息
 
 ### A2A vs MCP
 

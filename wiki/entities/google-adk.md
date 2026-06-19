@@ -54,3 +54,4 @@ Google 于 2025 年 4 月 9 日发布了 A2A（Agent-to-Agent）开放协议，�
 - [[wiki/sources/gemini-kubeflow-dify-langgraph-comparison]]
 - [[wiki/sources/gemini-cli-skills-guide]] — Gemini CLI Skills 机制（ADK 生态中的 CLI 层工具）
 - [[wiki/sources/google-a2a-protocol]] — Google A2A 协议详解
+- [[wiki/sources/a2a-official-spec-linux-foundation]] — A2A 官方公告与 Linux Foundation 治理信息

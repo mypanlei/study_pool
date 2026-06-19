@@ -104,3 +104,5 @@ Host (Claude Desktop / IDE / CLI)
 - [[wiki/sources/skills-tutorial]] — Skills 教程，MCP vs Skills 对比
 - [[wiki/sources/multi-agent-system]] — A2A vs MCP 对比框架
 - [[wiki/sources/ai-agent-glossary]] — Agent 术语词典含 MCP 定义
+- [[wiki/sources/agent-core-concepts-javaguide]] — JavaGuide Agent 核心概念，含 MCP 与 Function Calling 详解
+- [[wiki/sources/agent-skills-deep-dive-javaguide]] — JavaGuide Skills 深度解析，含 Skills vs MCP 对比

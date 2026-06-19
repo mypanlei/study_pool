@@ -87,10 +87,14 @@ updated: 2026-06-13
 
 | 页面 | 摘要 | 来源 | 创建日期 |
 |------|------|------|----------|
+| [[wiki/sources/a2a-official-spec-linux-foundation]] | A2A 官方公告/Linux Foundation 规范：治理结构/SDK/A2A vs MCP/50+ 企业伙伴 | Google / Linux Foundation | 2026-06-19 |
 | [[wiki/sources/agent-architecture-patterns]] | 6 种 Agent 架构模式：Single Agent / Plan & Execute / Multi-Agent / Reflection / RAG+Agent / DAG | 菜鸟教程 | 2026-06-17 |
 | [[wiki/sources/agent-context-engineering]] | Agent 上下文工程：Budget 管理/System Prompt/工具描述/历史压缩/检索质量 | 菜鸟教程 | 2026-06-17 |
+| [[wiki/sources/agent-core-concepts-javaguide]] | AI Agent 核心概念全景：演进/Agent Loop/范式选型/Tools 注册/MCP/Skills | JavaGuide | 2026-06-19 |
 | [[wiki/sources/agent-evaluation-safety-alignment]] | Agent 评估/安全/对齐：指标体系/基准测试/安全威胁/Guardrails/HITL | 菜鸟教程 | 2026-06-17 |
 | [[wiki/sources/agent-memory-system-design]] | Agent 记忆系统：短期记忆/长期记忆/向量数据库/对话历史管理/压缩策略 | 菜鸟教程 | 2026-06-17 |
+| [[wiki/sources/agent-memory-system-javaguide]] | Agent 记忆系统深度：记忆分类/存储层级/Memory 产品对比/Markdown 记忆/CLAUDE.md | JavaGuide | 2026-06-19 |
+| [[wiki/sources/agent-skills-deep-dive-javaguide]] | Agent Skills 深度：SKILL.md 结构/渐进披露/路由策略/自由度控制/8 个常见坑 | JavaGuide | 2026-06-19 |
 | [[wiki/sources/ai-agent-architecture-layers]] | AI Agent 底层架构：5 层模型/工具集成/记忆设计/安全护栏 | 菜鸟教程 | 2026-06-17 |
 | [[wiki/sources/ai-agent-architecture-overview]] | AI Agent 架构模式与 2025 主流框架对比全景 | 自建笔记 | 2026-06-13 |
 | [[wiki/sources/ai-agent-core-components]] | AI Agent 核心组件：感知/推理/记忆/工具/行动 5 大模块 | 菜鸟教程 | 2026-06-17 |
@@ -155,6 +159,7 @@ updated: 2026-06-13
 | [[wiki/sources/pi-claude-codex-comparison]] | Pi/Claude Code/Codex 运行时与工作流差异 | 自建笔记 | 2026-06-13 |
 | [[wiki/sources/pi-claude-codex-english-presentation]] | Pi vs Claude Code vs Codex English corporate presentation | 自建笔记 | 2026-06-13 |
 | [[wiki/sources/prompt-engineering-guide]] | Prompt Engineering 10 大技术：清晰指令/角色设定/CoT/Few-shot/反幻觉 | 菜鸟教程 | 2026-06-17 |
+| [[wiki/sources/prompt-engineering-javaguide]] | Prompt Engineering 深度：四要素框架/六大技巧/企业安全实践/Agent 场景 | JavaGuide | 2026-06-19 |
 | [[wiki/sources/python-ai-agent-implementation]] | Python 实现 AI Agent：AgentBrain/AgentTools/SimpleAgent 完整代码 | 菜鸟教程 | 2026-06-17 |
 | [[wiki/sources/python-rag-implementation]] | Python 实现 RAG：SimpleRAG/AdvancedRAG/GraphRAG 完整代码 | 菜鸟教程 | 2026-06-17 |
 | [[wiki/sources/python-reasoning-planning-implementation]] | Python 实现推理规划：ReAct/ToT/MCTS/Reflexion/PlanAndExecute 代码 | 菜鸟教程 | 2026-06-17 |
@@ -200,6 +205,6 @@ updated: 2026-06-13
 
 - **实体页**: 28
 - **概念页**: 33
-- **源摘要页**: 88
+- **源摘要页**: 93
 - **综合分析页**: 13
-- **原始资料**: 88 篇（全部已 Ingest）
+- **原始资料**: 95 篇（全部已 Ingest）

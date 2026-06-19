@@ -82,3 +82,4 @@ Prompt Engineering（提示词工程）是一门设计和优化输入提示（Pr
 - [[wiki/sources/harness-content-prompt-engineering]] — Harness/Content/Prompt Engineering 三层分工体系
 - [[wiki/sources/ai-agent-glossary]] — Agent 术语定义
 - [[wiki/sources/harness-engineering-deep-dive]] — Harness 工程中的 Context 设计
+- [[wiki/sources/prompt-engineering-javaguide]] — JavaGuide Prompt Engineering 深度解析，含企业安全实践

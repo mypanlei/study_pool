@@ -568,3 +568,43 @@ schema    CLAUDE.md + .claude/agents/llm-wiki.md
 - `wiki/index.md` — 概念 28 → 33
 - `wiki/lint-report-2026-06-18.md` — 更新状态和修复记录
 - **全文**: 27 实体 + 33 概念 + 89 源摘要 + 14 综合分析 = 163 页
+
+## [2026-06-19] ingest | 批量 Ingest 7 篇新源材料 — JavaGuide 系列 + A2A 官方来源
+
+### 源材料迁移
+- 从 `Clippings/` 复制到 `raw/sources/` 共 7 篇，更新 frontmatter 元数据
+
+### JavaGuide 系列（4 篇）
+
+#### 1. AI Agent 核心概念全景
+- **源摘要**: [[wiki/sources/agent-core-concepts-javaguide]]
+- 核心贡献：Agent 演进四阶段、Agent vs Workflow 选型、Agent Loop 详解、Tools 注册/MCP/Skills 三层体系
+- **更新**: [[wiki/concepts/react-reasoning-acting]]、[[wiki/concepts/mcp-model-context-protocol]] — 补充引用
+
+#### 2. AI Agent 记忆系统深度解析
+- **源摘要**: [[wiki/sources/agent-memory-system-javaguide]]
+- 核心贡献：记忆三层表征（Token/参数/潜在）、6 大 Memory 产品对比、短期记忆三策略、CLAUDE.md 设计方法论
+- **更新**: [[wiki/concepts/agent-skills-system]] — 补充引用
+
+#### 3. Agent Skills 深度解析
+- **源摘要**: [[wiki/sources/agent-skills-deep-dive-javaguide]]
+- 核心贡献：Skill 与 Prompt/MCP/Function Calling 的边界、SKILL.md 元数据与正文设计、渐进披露三层模型、8 个常见坑
+- **更新**: [[wiki/concepts/agent-skills-system]]、[[wiki/concepts/mcp-model-context-protocol]] — 补充引用
+
+#### 4. Prompt Engineering 深度解析
+- **源摘要**: [[wiki/sources/prompt-engineering-javaguide]]
+- 核心贡献：四要素框架、六大技巧、企业级安全实践（输入验证/注入检测/权限隔离/输出审计）
+- **更新**: [[wiki/concepts/prompt-engineering]] — 补充引用
+
+### A2A 官方来源（3 篇 → 合并 1 个源摘要）
+
+#### 5. Google Blog + Linux Foundation Spec + GitHub
+- **源摘要**: [[wiki/sources/a2a-official-spec-linux-foundation]]
+- 核心贡献：A2A 治理结构（Linux Foundation TSC）、6 语言 SDK、50+ 企业伙伴、A2A vs MCP 官方定位
+- **更新**: [[wiki/concepts/a2a-agent-to-agent-protocol]]、[[wiki/entities/google-adk]] — 补充引用
+
+### 汇总
+- **本次新增**: 5 源摘要
+- **更新已有**: 7 概念/实体页新增引用
+- **更新**: `wiki/index.md` — 源摘要 89 → 93，原始资料 88 → 95
+- **全文**: 28 实体 + 33 概念 + 93 源摘要 + 13 综合分析 = 167 页

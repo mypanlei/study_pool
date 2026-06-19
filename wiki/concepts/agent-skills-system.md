@@ -37,6 +37,8 @@ Agent Skills 是 AI Agent 的可复用行为模块，相当于 Agent 的「程�
 ## 来源
 
 - [[wiki/sources/hermes-agent-docs]]
+- [[wiki/sources/agent-skills-deep-dive-javaguide]] — JavaGuide Skills 深度解析，含 SKILL.md 写作和路由设计
+- [[wiki/sources/agent-memory-system-javaguide]] — JavaGuide 记忆系统，含 CLAUDE.md 设计方法论
 - [[wiki/sources/llm-skills-technical-guide]]
 - [[wiki/sources/cursor-agent-vs-skill-guide]]
 - [[wiki/sources/rag-skill-agent-differences]]

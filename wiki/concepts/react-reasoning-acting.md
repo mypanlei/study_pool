@@ -96,3 +96,4 @@ ReAct 是目前最广泛使用的 Agent 基础模式，几乎所有主流 Agent 
 - [[wiki/sources/agent-architecture-patterns]] — 6 种 Agent 架构中的 ReAct 循环
 - [[wiki/sources/langgraph-react-agent-guide]] — LangGraph ReAct Agent 工程化实现
 - [[wiki/sources/python-reasoning-planning-implementation]] — ReAct Python 实现代码
+- [[wiki/sources/agent-core-concepts-javaguide]] — JavaGuide Agent 核心概念，含 ReAct 选型决策和 Agent Loop 详解
