@@ -6,7 +6,7 @@ tags:
   - serving
   - kubeflow
 created: 2026-06-17
-updated: 2026-06-17
+updated: 2026-06-19
 aliases:
   - KServe 模型服务
 ---

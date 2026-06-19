@@ -608,3 +608,20 @@ schema    CLAUDE.md + .claude/agents/llm-wiki.md
 - **更新已有**: 7 概念/实体页新增引用
 - **更新**: `wiki/index.md` — 源摘要 89 → 93，原始资料 88 → 95
 - **全文**: 28 实体 + 33 概念 + 93 源摘要 + 13 综合分析 = 167 页
+
+## [2026-06-19] lint | Loop 2 健康检查
+
+### 检查结果
+- **孤儿页**: ✅ 无 — 168 个内容页均通过索引引用
+- **断链**: ✅ 无 — 182 个 wikilinks 中 0 个真实断链（13 个"缺失"均来自 templates/、log.md、lint-report.md）
+- **raw/sources vs wiki/sources**: ✅ 一致 — raw 95 篇 / wiki 93 篇（差异 2 篇为 A2A 多源文件合并为单一摘要）
+- **索引统计**: ⚠️ 发现 1 处偏差 → 源摘要页统计 94 → **已修正为 93**
+
+### 修复项
+- **索引统计修正**: `wiki/index.md` 源摘要页 94 → 93
+- **Frontmatter 修复**: 更新 5 个页面的 `updated:` 字段，对齐最新编辑时间
+  - [[wiki/entities/google-adk]] — 06-13 → 06-19
+  - [[wiki/entities/openai]] — 06-17 → 06-19
+  - [[wiki/entities/kserve]] — 06-17 → 06-19
+  - [[wiki/entities/vllm]] — 06-17 → 06-19
+  - [[wiki/concepts/agent-skills-system]] — 06-13 → 06-19

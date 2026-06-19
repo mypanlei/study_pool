@@ -5,7 +5,7 @@ tags:
   - agent
   - ai
 created: 2026-06-13
-updated: 2026-06-13
+updated: 2026-06-19
 aliases:
   - Agent 技能系统
   - 可移植技能

@@ -5,7 +5,7 @@ tags:
   - company
   - ai
 created: 2026-06-17
-updated: 2026-06-17
+updated: 2026-06-19
 aliases:
   - OpenAI 公司
 ---

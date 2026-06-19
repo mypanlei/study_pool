@@ -6,7 +6,7 @@ tags:
   - llm
   - serving
 created: 2026-06-17
-updated: 2026-06-17
+updated: 2026-06-19
 aliases:
   - vLLM 推理引擎
 ---
