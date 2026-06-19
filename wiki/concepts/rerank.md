@@ -40,3 +40,4 @@ flowchart LR
 
 - [[wiki/concepts/rag-optimization]]
 - [[wiki/syntheses/rag-optimization-guide]]
+- [[wiki/sources/rag-optimization-javaguide]] — 万字详解 RAG 优化 (JavaGuide)

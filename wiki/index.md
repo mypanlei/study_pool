@@ -105,6 +105,7 @@ updated: 2026-06-13
 | [[wiki/sources/ai-agent-working-principle]] | AI Agent 工作原理：感知-思考-行动循环/三层架构/ReAct | 菜鸟教程 | 2026-06-17 |
 | [[wiki/sources/ai-platform-product-manager-role-framework]] | AI 平台化解决方案产品经理角色定位与能力框架 | 自建笔记 | 2026-06-13 |
 | [[wiki/sources/ai-workflow-guide]] | AI Workflow 6 模式 + 7 框架对比：Sequential Chain / ReAct / Plan & Exec / Multi-Agent | 菜鸟教程 | 2026-06-17 |
+| [[wiki/sources/ai-workflow-graph-loop-javaguide]] | AI 工作流 Workflow/Graph/Loop 三概念：Node-Edge-State 模型/Loop 安全边界/Spring AI vs LangGraph | JavaGuide | 2026-06-19 |
 | [[wiki/sources/claude-code-custom-agent-guide]] | Claude Code Subagent 创建指南与最佳实践 | Anthropic 文档 | 2026-06-13 |
 | [[wiki/sources/claudian-setup-guide]] | Claudian 安装教程：Obsidian 侧边栏集成 Claude Code | 知乎 | 2026-06-13 |
 | [[wiki/sources/cursor-agent-vs-skill-guide]] | Cursor Agent/Skill/Subagent 完整分工体系 | Cursor 文档 | 2026-06-13 |
@@ -121,6 +122,7 @@ updated: 2026-06-13
 | [[wiki/sources/google-a2a-protocol]] | Google A2A 协议详解：Agent Card/任务生命周期/JSON-RPC API/流式通信 | 掘金 (MervynZ) | 2026-06-18 |
 | [[wiki/sources/git-lfs-guide]] | Git LFS 工作原理与配置指南 | 自建笔记 | 2026-06-13 |
 | [[wiki/sources/github-cli-proxy-config]] | GitHub CLI (gh) 代理配置指南 | 自建笔记 | 2026-06-13 |
+| [[wiki/sources/graphrag-javaguide]] | GraphRAG 深度解析：实体提取/关系构建/社区检测/传统向量 RAG 局限与适用边界 | JavaGuide | 2026-06-19 |
 | [[wiki/sources/harness-content-prompt-engineering]] | Harness/Content/Prompt Engineering 三层分工体系 | 自建笔记 | 2026-06-13 |
 | [[wiki/sources/harness-engineering-deep-dive]] | Agent Harness Engineering 三层架构深度解析 | 自建笔记 | 2026-06-13 |
 | [[wiki/sources/hermes-agent-alicloud-deployment-guide]] | Hermes Agent 阿里云 ECS 部署全流程 | Nous Research | 2026-06-13 |

@@ -16,11 +16,11 @@ aliases:
 
 # LLM 技术基础
 
-> 综合 5 篇 Deep Learning / LLM 技术文章的跨源综合分析，覆盖 Transformer 架构、KV Cache、RoPE 插值、Scaling Laws 和拟合机制。
+> 综合 7 篇 Deep Learning / LLM 技术文章的跨源综合分析，覆盖 Transformer 架构、KV Cache、RoPE 插值、Scaling Laws、拟合机制、LLM 运行机制和结构化输出。
 
 ## 背景
 
-本次综合涵盖：Transformer 架构详解、KV Cache 技术详解、RoPE 插值技术详解、大模型参数量与性能关系详解、拟合机制深度解析。这 5 篇文章构成了 LLM 技术基础的核心拼图。
+本次综合涵盖：Transformer 架构详解、KV Cache 技术详解、RoPE 插值技术详解、大模型参数量与性能关系详解、拟合机制深度解析、LLM 运行机制详解、大模型结构化输出详解。这 7 篇文章构成了 LLM 技术基础的核心拼图。
 
 ## 各方观点
 
@@ -49,30 +49,43 @@ Kaplan 定律（更多参数更有效）→ Chinchilla 定律（参数与数据�
 
 拟合 = 函数逼近。三种状态（欠/恰好/过拟合）。模型容量（LoRA 的 Rank）决定拟合能力上限。LLM 特有拟合问题：知识冲突和灾难性遗忘。插值后需微调补偿（拟合理论实战应用）。
 
+### LLM 运行机制
+来源：[[wiki/sources/llm-operation-mechanism-javaguide]]
+
+从 Token 化（BPE 编码）到上下文窗口管理，再到采样参数（Temperature/Top-p/Top-k）如何影响输出稳定性。关键工程认知：结构化输出不稳定往往不是模型智能不够，而是 Token 预算不足或采样参数未对齐；长上下文不是越多越好，"Lost in the Middle"在推理层同样存在。
+
+### 结构化输出与 Function Calling
+来源：[[wiki/sources/structured-output-function-calling-javaguide]]
+
+"请返回 JSON"在生产环境不可靠的根本原因：Token 采样随机性 + 约束不足。生产级方案：Structured Outputs（JSON Schema 约束解码）→ Function Calling（工具调用协议）→ MCP（标准化服务发现）。Java 生态落地路径：Spring AI → Function Calling → MCP Client。
+
 ## 对比分析
 
-| 维度 | Transformer | KV Cache | RoPE 插值 | Scaling Laws | 拟合机制 |
-|------|------------|---------|-----------|-------------|---------|
-| 核心问题 | 如何并行处理序列 | 如何加速推理 | 如何扩展上下文 | 如何分配资源 | 如何学会规律 |
-| 关键参数 | 头数/层数/维度 | Cache 大小/Block 大小 | 缩放因子/方法选择 | N/D/C 三者关系 | Rank/Learning Rate |
-| 瓶颈 | 计算+显存 | 显存带宽 | 预训练角度范围 | 训练成本 | 模型容量 |
-| 当前趋势 | Decoder-only 主导 | GQA/MLA/PagedAttention | YaRN/NTK | Chinchilla 最优 | MoE/端侧小巧模型 |
+| 维度 | Transformer | KV Cache | RoPE 插值 | Scaling Laws | 拟合机制 | LLM 运行机制 | 结构化输出 |
+|------|------------|---------|-----------|-------------|---------|-------------|-----------|
+| 核心问题 | 如何并行处理序列 | 如何加速推理 | 如何扩展上下文 | 如何分配资源 | 如何学会规律 | Token 如何影响输出 | 如何让模型可靠返回结构化数据 |
+| 关键参数 | 头数/层数/维度 | Cache 大小/Block 大小 | 缩放因子/方法选择 | N/D/C 三者关系 | Rank/Learning Rate | Temperature/Top-p/Top-k | JSON Schema / Function Calling |
+| 瓶颈 | 计算+显存 | 显存带宽 | 预训练角度范围 | 训练成本 | 模型容量 | 采样随机性 | 解码约束与工具注册 |
+| 当前趋势 | Decoder-only 主导 | GQA/MLA/PagedAttention | YaRN/NTK | Chinchilla 最优 | MoE/端侧小巧模型 | Token 预算管理 | MCP / Structured Outputs |
 
 ## 综合结论
 
-5 篇文章构成了一条从"架构理论→推理优化→上下文扩展→规模定律→学习理论"的完整 LLM 技术链条：
+7 篇文章构成了一条从"架构理论→推理优化→上下文扩展→规模定律→学习理论→运行机制→工程落地"的完整 LLM 技术链条：
 
 1. **Transformer** 提供了并行自注意力的计算范式
 2. **KV Cache** 让推理在显存约束下可行
 3. **RoPE 插值** 突破了训练长度的上下文限制
 4. **Scaling Laws** 指导了参数和数据的分配策略
 5. **拟合机制** 解释了模型如何从数据中学习
+6. **LLM 运行机制** 揭示了 Token 和采样参数对输出的工程影响
+7. **结构化输出** 将 LLM 从自由文本生成器转化为可靠的生产 API 组件
 
 ## 开放问题
 
 - DeepSeek V4 的 CSA/HCA 序列压缩能否真正支撑百万 token 上下文同时保持精度？
 - DroPE 脱离式位置编码能否在不损失精度的前提下替代 RoPE？
 - MoE 架构是否能同时实现"大容量"和"低推理成本"的长期目标？
+- Structured Outputs（约束解码）与 Function Calling（工具调用）的边界在哪里？MCP 能否统一两者？
 
 ## 来源
 
@@ -81,3 +94,5 @@ Kaplan 定律（更多参数更有效）→ Chinchilla 定律（参数与数据�
 - [[wiki/sources/rope-interpolation-technical-detail]]
 - [[wiki/sources/large-model-parameters-and-performance]]
 - [[wiki/sources/fitting-mechanism-deep-analysis]]
+- [[wiki/sources/llm-operation-mechanism-javaguide]] — LLM 运行机制 (JavaGuide)
+- [[wiki/sources/structured-output-function-calling-javaguide]] — 大模型结构化输出 (JavaGuide)

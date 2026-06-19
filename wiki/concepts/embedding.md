@@ -64,4 +64,5 @@ flowchart LR
 ## 来源
 
 - [[wiki/sources/rag-basis-concepts-javaguide]] — 万字详解 RAG 基础概念 (JavaGuide)
-- 知识库内 12 处引用
+- [[wiki/sources/rag-vector-store-javaguide]] — 万字详解 RAG 向量索引算法和向量数据库 (JavaGuide)
+- 知识库内 14 处引用

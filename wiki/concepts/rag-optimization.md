@@ -77,8 +77,9 @@ RAG 历经三个阶段逐步走向成熟：
 
 ## 来源
 
-- [[wiki/sources/rag-basis-concepts-javaguide]] — 万字详解 RAG 基础概念 (JavaGuide)
+- [[wiki/sources/rag-optimization-javaguide]] — 万字详解 RAG 优化 (JavaGuide)
 - [[wiki/sources/rag-common-issues-and-optimization]]
 - [[wiki/sources/rag-vs-semantic-cache-comparison]]
 - [[wiki/sources/ragas-evaluation-metrics]]
+- [[wiki/sources/rag-basis-concepts-javaguide]]
 - [[wiki/sources/karpathy-llm-wiki-philosophy]]
