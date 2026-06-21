@@ -736,3 +736,43 @@ raw/      106 篇源文件（106 篇全部已 Ingest）
 wiki/     178 内容页（含模板）
 schema    CLAUDE.md + .claude/agents/llm-wiki.md
 ```
+
+## [2026-06-19] lint | Loop 2 健康检查
+
+### 检查范围
+孤儿页、断链、索引统计、raw/sources vs wiki/sources 一致性、知识缺口
+
+### 检查结果
+
+| 检查项 | 状态 | 说明 |
+|--------|------|------|
+| 孤儿页 | ✅ | 无 — 178 个内容页均通过索引引用 |
+| 断链 | 🔴 **已修复** | 发现 1 处断链 → 已清除 |
+| 索引统计 | ✅ | 28 实体 + 33 概念 + 104 源摘要 + 13 综合分析 = 178 页，全部与磁盘一致 |
+| raw/sources vs wiki/sources | ✅ | 106 raw vs 104 wiki，差异 2 篇为 A2A 多源文件合并（4 raw → 2 wiki），预期内 |
+| 知识缺口 | ✅ | 上次 5 个缺口（MCP/ReAct/Prompt Engineering/CoT/Guardrails）已填补 |
+| 交叉引用 | ✅ | 上次 3 个实体缺引用（openai/kserve/vllm）已修复 |
+
+### 发现与修复
+
+#### 🔴 断链：浙江省技术经纪人源摘要
+- `wiki/index.md` 中存在 `[[浙江省技术经纪人中级培训 - 高校科技成果转化与AI创业孵化]]` 链接
+- 对应文件不存在于 `wiki/`、`wiki/sources/` 或 `raw/sources/` 中
+- 原始 Clippings 文件 `Clippings/浙江省技术经纪人培训-高校科技成果转化与AI创业_raw.md` 也已不存在
+- **修复**: 从 index.md 中移除该断链条目
+- **用户注意**: 此源材料数据已丢失。如需恢复需重新剪藏或导入
+
+#### 🟡 重复条目：hermes-agent-comprehensive-guide
+- `wiki/index.md` 综合分析的 `[[wiki/syntheses/hermes-agent-comprehensive-guide]]` 出现两次
+- 第二次为 Marp 演示版创建时的重复添加
+- **修复**: 删除重复行，保留唯一条目并更新描述
+
+### 全文索引统计
+28 实体 + 33 概念 + 104 源摘要 + 13 综合分析 = 178 页（与磁盘一致）
+
+### 三层架构最终状态
+```
+raw/      106 篇源文件（106 篇全部已 Ingest）
+wiki/     178 内容页（含模板）
+schema    CLAUDE.md + .claude/agents/llm-wiki.md
+```

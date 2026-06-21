@@ -190,7 +190,6 @@ updated: 2026-06-13
 | [[wiki/sources/vector-database-introduction]] | 向量数据库：HNSW/IVF/余弦相似度/Chroma/Qdrant/Milvus/Pinecone 对比 | 菜鸟教程 | 2026-06-17 |
 | [[wiki/sources/vibe-coding-guide]] | Vibe Coding 意图编程范式实战指南 | 自建笔记 | 2026-06-13 |
 | [[wiki/sources/vibe-coding-rookie-tutorial]] | Vibe Coding 入门：Karpathy 概念/12 工具对比/最佳实践 | 菜鸟教程 | 2026-06-17 |
-| [[浙江省技术经纪人中级培训 - 高校科技成果转化与AI创业孵化]] | 2026 浙江省技术经纪人中级培训：高校科技成果转化困境、概念验证中心机制、师生共创模式、AI 创业孵化与投资逻辑 | 腾讯会议录制 | 2026-06-17 |
 | [[wiki/sources/mcp-deep-dive-javaguide]] | MCP 深度解析：FC/MCP/Agent 三层关系、四层架构、JSON-RPC 2.0、Transport 选型、6 大生产落地问题、Server 开发最佳实践、FastMCP 最小示例 | [[https://javaguide.cn/ai/agent/mcp.html\|JavaGuide]] | 2026-06-19 |
 
 ## 综合分析 (Syntheses)
@@ -201,7 +200,7 @@ updated: 2026-06-13
 | [[wiki/syntheses/ai-agent-rookie-tutorial-series]] | 菜鸟教程 AI Agent 系列全景：30 篇教程 11 大模块从入门到实战 | 2026-06-17 |
 | [[wiki/syntheses/claude-skill-management]] | Claude Code Skill 管理全指南：多 Repo、自有/第三方 Skills 的管理策略 | 2026-06-13 |
 | [[wiki/syntheses/deepseek-technical-analysis]] | DeepSeek 技术综合分析：GRPO/训练策略/架构演进/缓存工程 | 2026-06-13 |
-| [[wiki/syntheses/hermes-agent-comprehensive-guide]] | Hermes Agent 全面介绍：闭环学习/架构/部署/消息网关/对比分析 | 2026-06-17 |
+| [[wiki/syntheses/hermes-agent-comprehensive-guide]] | Hermes Agent 全面介绍：闭环学习/架构/部署/消息网关/对比分析 (Marp 演示) | 2026-06-17 |
 | [[wiki/syntheses/llm-technical-foundations]] | LLM 技术基础：Transformer/KV-Cache/RoPE/Scaling Laws/拟合机制/LLM 运行机制/结构化输出 | 2026-06-13 |
 | [[wiki/syntheses/mlops-ecosystem-overview]] | MLOps 生态全景：可用性工程/生命周期/平台选型/SLA/数据管理 | 2026-06-13 |
 | [[wiki/syntheses/obsidian-sync-comparison]] | Obsidian 多设备同步方案全景对比 + 你的当前方案分析 | 2026-06-13 |
@@ -210,7 +209,6 @@ updated: 2026-06-13
 | [[wiki/syntheses/flyte-vs-kubeflow-presentation]] | Flyte vs Kubeflow：工作流引擎 vs 完整 MLOps 平台 (Marp 演示) | 2026-06-15 |
 | [[wiki/syntheses/loop-engineering-presentation]] | Loop Engineering：四次范式跃迁/核心循环/六大要素/五种模式 (Marp 演示) | 2026-06-17 |
 | [[wiki/syntheses/obsidian-claudian-llm-wiki-presentation]] | Obsidian + Claudian + LLM Wiki：三层知识工作流全景 (Marp 演示) | 2026-06-17 |
-| [[wiki/syntheses/hermes-agent-comprehensive-guide]] | Hermes Agent 全面介绍：闭环学习/架构/部署/消息网关/对比分析 (Marp 演示) | 2026-06-17 |
 
 ## 统计
 
