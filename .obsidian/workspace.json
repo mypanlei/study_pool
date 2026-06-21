@@ -48,9 +48,23 @@
               "icon": "lucide-file",
               "title": "Spec Coding 规范驱动编程实战：从 Vibe Coding 到 AI 代码规范"
             }
+          },
+          {
+            "id": "1bc82e879801622a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "wiki/concepts/spec-driven-development.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "spec-driven-development"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -107,7 +121,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 238.5
+    "width": 218.5
   },
   "right": {
     "id": "40e3d2925329258a",
@@ -219,7 +233,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 557.5
+    "width": 497.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -238,8 +252,27 @@
       "marp-slides:Show Slide Preview": false
     }
   },
-  "active": "70c2e25b93912c9b",
+  "active": "1bc82e879801622a",
   "lastOpenFiles": [
+    "Clippings/Spec Coding 规范驱动编程实战：从 Vibe Coding 到 AI 代码规范.md",
+    "wiki/index.md.tmp.24908.ce1ce4d33610",
+    "wiki/concepts/vibe-coding.md.tmp.24908.b31a56d8e503",
+    "wiki/sources/llm-gateway-deep-dive-javaguide.md",
+    "wiki/sources/llm-gateway-deep-dive-javaguide.md.tmp.24908.1d7cbb61b8bf",
+    "wiki/sources/vibe-coding-tips-javaguide.md",
+    "wiki/sources/vibe-coding-tips-javaguide.md.tmp.24908.20036526d708",
+    "wiki/sources/spec-coding-javaguide.md",
+    "wiki/sources/claude-md-best-practices-javaguide.md",
+    "wiki/sources/ai-voice-engineering-javaguide.md",
+    "wiki/sources/cli-vs-ide-comparison-javaguide.md",
+    "wiki/sources/ai-skills-recommendations-javaguide.md",
+    "wiki/sources/ai-skills-recommendations-javaguide.md.tmp.24908.1785aff0b588",
+    "wiki/sources/ai-system-design-javaguide.md",
+    "raw/sources/sedS0wQ4Q",
+    "raw/sources/sed90K8hZ",
+    "raw/sources/sedNjlsXz",
+    "raw/sources/sedEblMIz",
+    "raw/sources/sedfClekh",
     "raw/sources/大模型网关详解：多模型路由、Fallback、限流与成本控制.md",
     "raw/sources/Vibe Coding 实用技巧总结：Git、Spec、上下文管理与多 Agent 协作.md",
     "raw/sources/Spec Coding 规范驱动编程实战：从 Vibe Coding 到 AI 代码规范.md",
@@ -249,33 +282,13 @@
     "raw/sources/AI 编程必备 Skills 推荐：TDD、代码审查与网页自动化实战.md",
     "raw/sources/AI 应用系统设计：从 Prompt Demo 到生产级架构.md",
     "Clippings/Vibe Coding 实用技巧总结：Git、Spec、上下文管理与多 Agent 协作.md",
-    "Clippings/Spec Coding 规范驱动编程实战：从 Vibe Coding 到 AI 代码规范.md",
     "Clippings/AI 编程选 CLI 还是 IDE？一文帮你彻底搞清楚.md",
     "Clippings/AI 编程必备 Skills 推荐：TDD、代码审查与网页自动化实战.md",
     "Clippings/CLAUDE.md 最佳实践：该写什么、不该写什么、项目变大后怎么拆.md",
     "Clippings/什么是 Model Context Protocol (MCP)？和 Function Calling、Agent 什么关系？.md",
-    "wiki/index.md.tmp.18480.3d96192fd2cc",
-    "wiki/log.md.tmp.29212.14744de7a3d8",
-    "wiki/index.md.tmp.29212.ddad730075a2",
-    "wiki/index.md.tmp.29212.b6fe5ac15a6d",
-    "wiki/concepts/a2a-agent-to-agent-protocol.md.tmp.29212.55c905aa3a5e",
-    "wiki/concepts/a2a-agent-to-agent-protocol.md.tmp.29212.90dd359580d7",
     "wiki/sources/mcp-deep-dive-javaguide.md",
-    "wiki/sources/mcp-deep-dive-javaguide.md.tmp.29212.23d7c29783a1",
-    "raw/sources/什么是 Model Context Protocol (MCP)？和 Function Calling、Agent 什么关系？.md.tmp.29212.21381a9d24c8",
-    "raw/sources/什么是 Model Context Protocol (MCP)？和 Function Calling、Agent 什么关系？.md.tmp.29212.02a5d30ee991",
     "raw/sources/什么是 Model Context Protocol (MCP)？和 Function Calling、Agent 什么关系？.md",
     "Clippings/AI 语音技术详解：从 ASR、TTS 到实时语音 Agent 的工程化落地.md",
-    "Clippings/大模型网关详解：多模型路由、Fallback、限流与成本控制.md",
-    "Clippings/AI 应用系统设计：从 Prompt Demo 到生产级架构.md",
-    "Clippings/万字详解 GraphRAG：为什么只靠向量检索撑不起复杂知识问答 1.md",
-    "Clippings/向量数据库（Vector Database）  菜鸟教程.md",
-    "wiki/index.md.tmp.20088.0a9ed86f6b31",
-    "wiki/sources/graphrag-javaguide.md",
-    "wiki/sources/rag-vector-store-javaguide.md",
-    "wiki/sources/rag-optimization-javaguide.md",
-    "wiki/sources/rag-knowledge-update-javaguide.md",
-    "wiki/sources/rag-document-processing-javaguide.md",
     "raw/assets/Pasted image 20260617140836.png",
     "raw/assets/Pasted image 20260617142146.png",
     "raw/assets/Pasted image 20260617144401.png",

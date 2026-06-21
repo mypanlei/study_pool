@@ -6,7 +6,7 @@ tags:
   - ai
   - development
 created: 2026-06-13
-updated: 2026-06-13
+updated: 2026-06-21
 aliases:
   - 意图编程
   - 氛围编程
@@ -47,9 +47,46 @@ Vibe Coding 的核心不是「乱写」，而是将关注点从语法细节上�
 
 ## 与 SDD 的关系
 
-Vibe Coding 提供了快速原型和探索的范式，Specification-Driven Development (SDD) 可以理解为对 Vibe Coding 的工程化约束和可复现化改造。两者不是互斥，而是适用于不同阶段。
+Specification-Driven Development (SDD) 可以理解为对 Vibe Coding 的工程化约束和可复现化改造。两者不是互斥，而是适用于不同阶段。
+
+### 适用场景判断
+
+Vibe Coding 适合：2 天就扔的脚本、一次性 Demo、内部小工具、有完整测试兜底且不直接暴露给外部用户。
+Spec Coding 适合：超过一周的代码、多人协作项目、涉及数据持久化和外部接口的系统。
+
+### 轻量 Spec 策略
+
+3-5 天的中间地带可以写轻量 Spec——不用展开完整设计，只写关键约束和验收标准。轻量 Spec 可以简单到："目标+关键约束+验收标准"三段式。
+
+## 核心技巧
+
+### 多模型分工
+- 第一步让顶级模型出方案（只讨论方案不写代码）
+- 第二步把 Task 丢给低价模型按任务实现
+- 第三步让顶级模型 Review diff
+- 这样既控制成本又不牺牲质量
+
+### 上下文管理
+- 一个会话只处理一个任务
+- 长任务及时用 `/compact` 压缩
+- 关键进展落到 `NOTES.md` 或 handoff 文档
+- 3000-8000 tokens 的高质量上下文通常比几十万 tokens 的杂乱对话更可靠
+
+### Git 工作流
+- 开工前 `git status --short` 确认工作区干净
+- 开单独分支隔离任务
+- 改完后 `git diff --stat` 看影响面再分块提交
+- 并行任务用 `git worktree` 隔离
+
+### 权限控制
+- AI Coding 不能只靠 Prompt 约束，需用工具强制
+- Claude Code: `/permissions` 配置 allow/ask/deny
+- 加 Hooks (PreToolUse) 拦截危险命令
+- 加 Sandbox 执行环境隔离
 
 ## 来源
 
 - [[wiki/sources/vibe-coding-guide]]
+- [[wiki/sources/vibe-coding-tips-javaguide]] — Vibe Coding 实用技巧总结：Git/Spec/上下文管理/多 Agent
+- [[wiki/sources/spec-coding-javaguide]] — Spec Coding 规范驱动编程，含 Vibe vs Spec 适用边界
 - [[wiki/concepts/spec-driven-development]]

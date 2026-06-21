@@ -2,12 +2,15 @@
 title: "AI 编程选 CLI 还是 IDE？一文帮你彻底搞清楚"
 source: "https://javaguide.cn/ai-coding/practices/cli-vs-ide.html#%E5%85%88%E6%90%9E%E6%B8%85%E6%A5%9A-cli-%E5%92%8C-ide-%E5%88%B0%E5%BA%95%E6%98%AF%E4%BB%80%E4%B9%88"
 author:
-  - "[[Guide]]"
+  - "Guide (JavaGuide)"
 published: 2026-06-16
 created: 2026-06-21
 description: "深度对比 Claude Code、Cursor、Kiro、TRAE 等主流 AI 编程工具，解析 CLI 与 IDE 的核心差异、适用场景与选型建议。重点围绕 先搞清楚：CLI 和 IDE 到底是什么、这场争论是怎么开始的、各有什么产品值得关注、CLI 到底强在哪 等内容展开。结合 JavaGuide 知识体系梳理 。"
 tags:
-  - "clippings"
+  - source
+  - ai-coding
+  - javaguide
+  - cli-vs-ide
 ---
 [![《SpringAI 智能面试平台+RAG 知识库》](https://oss.javaguide.cn/xingqiu/interview-guide-banner.png)](https://javaguide.cn/zhuanlan/interview-guide.html)
 

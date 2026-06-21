@@ -6,7 +6,7 @@ tags:
   - development
   - spec
 created: 2026-06-13
-updated: 2026-06-13
+updated: 2026-06-21
 aliases:
   - SDD
   - 规格驱动开发
@@ -52,6 +52,32 @@ SDD 的核心思路不是继续堆 prompt，而是将需求、设计、任务、
     → 执行层 (OpenHands / Cursor / Claude Code / Copilot / Codex)
 ```
 
+## 四步落地流程
+
+JavaGuide 实践推荐的四步法：
+
+| 阶段 | 干什么 | 产出 | 关键动作 |
+|------|--------|------|----------|
+| **Specify** | 产品定义 | `requirements.md` | 明确功能、用户、痛点，定"做什么" |
+| **Plan** | 技术规划 | `design.md` | 定技术栈、架构、契约，定"怎么做" |
+| **Tasks** | 任务拆解 | `tasks.md` | 拆成原子任务，写验收标准 |
+| **Implement** | AI 执行 | — | AI 按 Spec 干活，人验收 |
+
+### 三色标签权限控制
+
+- ✅ **Always**：AI 自行决定，如代码检查/测试/格式化
+- ⚠️ **Ask First**：需确认，如改 API 路由/数据库索引
+- 🚫 **Never**：绝对禁止，如直连生产库/提交密钥
+
+Never 规则需要多层防线（Spec 声明+配置模板+Pre-commit hook+AI IDE 配置），不能只靠文档约束。
+
+### Spec 管理策略
+
+- 10 模块以内：分文件存储，按领域拆
+- 10-30 模块：摘要索引，目录+关键词
+- 30 模块以上：RAG 向量检索
+- 不分规模都管用：单会话单任务
+
 ## 相关概念
 
 - [[wiki/concepts/vibe-coding]]：SDD 可以理解为对 Vibe Coding 的工程化约束
@@ -60,3 +86,4 @@ SDD 的核心思路不是继续堆 prompt，而是将需求、设计、任务、
 ## 来源
 
 - [[wiki/sources/spec-driven-development-overview]]
+- [[wiki/sources/spec-coding-javaguide]] — JavaGuide Spec Coding 深度解析：四步流程、三色标签、多 Agent 协作

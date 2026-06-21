@@ -2,12 +2,14 @@
 title: "AI 应用系统设计：从 Prompt Demo 到生产级架构"
 source: "https://javaguide.cn/ai/system-design/ai-application-architecture.html#java-%E5%90%8E%E7%AB%AF%E8%90%BD%E5%9C%B0%E5%BB%BA%E8%AE%AE"
 author:
-  - "[[Guide]]"
+  - "Guide (JavaGuide)"
 published: 2026-06-16
 created: 2026-06-19
 description: "深入拆解生产级 AI 应用系统设计，覆盖 Prompt 管理、模型网关、RAG、Memory、Tool、异步任务、可观测、评测、安全合规与 Java 后端落地方案。重点围绕 Demo 架构为什么扛不住生产流量、生产级 AI 应用的标准分层架构、同步、流式、异步三种交互模式怎么选、Prompt 管理：从模板字符串到版本。"
 tags:
-  - "clippings"
+  - source
+  - ai-system-design
+  - javaguide
 ---
 [![《SpringAI 智能面试平台+RAG 知识库》](https://oss.javaguide.cn/xingqiu/interview-guide-banner.png)](https://javaguide.cn/zhuanlan/interview-guide.html)
 

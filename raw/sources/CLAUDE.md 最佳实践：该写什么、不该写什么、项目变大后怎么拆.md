@@ -2,12 +2,15 @@
 title: "CLAUDE.md 最佳实践：该写什么、不该写什么、项目变大后怎么拆"
 source: "https://javaguide.cn/ai-coding/practices/claude-md-best-practices.html#claude-md-%E5%92%8C%E5%85%B6%E4%BB%96%E8%A7%84%E5%88%99%E6%96%87%E4%BB%B6%E6%9C%89%E4%BB%80%E4%B9%88%E5%8C%BA%E5%88%AB"
 author:
-  - "[[Guide]]"
+  - "Guide (JavaGuide)"
 published: 2026-06-07
 created: 2026-06-21
 description: "结合官方文档与实战经验，系统梳理 CLAUDE.md 的写法规范：该写什么不该写什么、单文件 vs 拆分策略、.claude/rules 和 Auto Memory 怎么配合、日常维护方法。重点围绕 什么是 CLAUDE.md？、CLAUDE.md 和其他规则文件有什么区别？、CLAUDE.md 到底该写什么？"
 tags:
-  - "clippings"
+  - source
+  - claudemd
+  - javaguide
+  - claude-code
 ---
 你好，我是小 G。前几天分享 [Claude Code 使用技巧](https://javaguide.cn/ai-coding/claudecode-tips.html) 的时候，我提到了一个很重要的文件 `CLAUDE.md` ，并简单介绍了一下。
 

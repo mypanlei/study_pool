@@ -2,12 +2,15 @@
 title: "AI 语音技术详解：从 ASR、TTS 到实时语音 Agent 的工程化落地"
 source: "https://javaguide.cn/ai/system-design/ai-voice.html"
 author:
-  - "[[Guide]]"
+  - "Guide (JavaGuide)"
 published: 2026-06-16
 created: 2026-06-19
 description: "拆解 AI 语音系统的工程链路，涵盖音频采集、VAD、ASR、LLM、TTS、流式播放、打断处理、低延迟优化以及云端 API、本地模型、端云混合选型。重点围绕 术语说明、AI 语音系统到底解决了什么问题？、语音识别（ASR）是怎么把声音变成文字的？、语音合成（TTS）是怎么把文字变成声音的？ 等内容展开。"
 tags:
-  - "clippings"
+  - source
+  - ai-voice
+  - javaguide
+  - realtime
 ---
 [![《SpringAI 智能面试平台+RAG 知识库》](https://oss.javaguide.cn/xingqiu/interview-guide-banner.png)](https://javaguide.cn/zhuanlan/interview-guide.html)
 

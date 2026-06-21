@@ -191,6 +191,14 @@ updated: 2026-06-13
 | [[wiki/sources/vibe-coding-guide]] | Vibe Coding 意图编程范式实战指南 | 自建笔记 | 2026-06-13 |
 | [[wiki/sources/vibe-coding-rookie-tutorial]] | Vibe Coding 入门：Karpathy 概念/12 工具对比/最佳实践 | 菜鸟教程 | 2026-06-17 |
 | [[wiki/sources/mcp-deep-dive-javaguide]] | MCP 深度解析：FC/MCP/Agent 三层关系、四层架构、JSON-RPC 2.0、Transport 选型、6 大生产落地问题、Server 开发最佳实践、FastMCP 最小示例 | [[https://javaguide.cn/ai/agent/mcp.html\|JavaGuide]] | 2026-06-19 |
+| [[wiki/sources/ai-system-design-javaguide]] | AI 应用系统设计：Demo vs 生产 6 大差距、标准分层架构、三种交互模式选型、Prompt 版本化管理、RAG/Memory/Tool 分离治理、工具 6 道安全关、可观测闭环、Java 11 模块设计 | [[https://javaguide.cn/ai/system-design/ai-application-architecture.html\|JavaGuide]] | 2026-06-21 |
+| [[wiki/sources/ai-skills-recommendations-javaguide]] | 6 大 AI 编程 Skills：Superpowers TDD 框架、Everything Claude Code 上下文防腐化、UI UX Pro Max 设计系统、sanyuan-skills 代码审查、Web Access 浏览器自动化、skill-creator 元技能 | [[https://javaguide.cn/ai-coding/practices/programmer-essential-skills.html\|JavaGuide]] | 2026-06-21 |
+| [[wiki/sources/cli-vs-ide-comparison-javaguide]] | CLI vs IDE 深度对比：Claude Code/Cursor/Kiro/TRAE/Qoder 等 9 款产品全景图、CLI 4 大核心优势、IDE 不可替代之处、选型指南、行业融合趋势 | [[https://javaguide.cn/ai-coding/practices/cli-vs-ide.html\|JavaGuide]] | 2026-06-21 |
+| [[wiki/sources/ai-voice-engineering-javaguide]] | AI 语音系统工程：ASR 3 条路线、TTS 流式策略、VAD 对话控制信号、打断 3 层处理、级联 vs Realtime API 选型、interview-guide 完整代码 | [[https://javaguide.cn/ai/system-design/ai-voice.html\|JavaGuide]] | 2026-06-21 |
+| [[wiki/sources/claude-md-best-practices-javaguide]] | CLAUDE.md 最佳实践：5 类该写/3 类不该写、规则文件对比、层级结构、单文件到分层演进、维护方法、Auto Memory 配合 | [[https://javaguide.cn/ai-coding/practices/claude-md-best-practices.html\|JavaGuide]] | 2026-06-21 |
+| [[wiki/sources/spec-coding-javaguide]] | Spec Coding 规范驱动编程：Vibe vs Spec 适用边界、4 步落地流程、三色标签权限控制、Spec 分层管理策略、多 Agent 协作模式 | [[https://javaguide.cn/ai-coding/practices/spec-coding.html\|JavaGuide]] | 2026-06-21 |
+| [[wiki/sources/vibe-coding-tips-javaguide]] | Vibe Coding 实用技巧：Git 分支策略、轻量 Spec、贵模型分工、上下文管理三原则、多 Agent 串行协作、权限控制四层防线 | [[https://javaguide.cn/ai-coding/practices/the-cool-tricks-for-vibe-coding.html\|JavaGuide]] | 2026-06-21 |
+| [[wiki/sources/llm-gateway-deep-dive-javaguide]] | LLM Gateway 详解：6 阶段路由演进、Fallback 错误分类与幂等、Token 五维限流、成本归因 18 字段、观测审计边界、6 种主流方案选型 | [[https://javaguide.cn/ai/system-design/llm-gateway.html\|JavaGuide]] | 2026-06-21 |
 
 ## 综合分析 (Syntheses)
 
@@ -214,6 +222,6 @@ updated: 2026-06-13
 
 - **实体页**: 28
 - **概念页**: 33
-- **源摘要页**: 104
+- **源摘要页**: 112
 - **综合分析页**: 13
-- **原始资料**: 106 篇（全部已 Ingest）
+- **原始资料**: 114 篇（全部已 Ingest）

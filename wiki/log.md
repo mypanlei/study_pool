@@ -776,3 +776,42 @@ raw/      106 篇源文件（106 篇全部已 Ingest）
 wiki/     178 内容页（含模板）
 schema    CLAUDE.md + .claude/agents/llm-wiki.md
 ```
+
+## [2026-06-21] ingest | 批量 Ingest 8 篇新源材料 — JavaGuide 系列
+
+这是 JavaGuide 系列的第三批，覆盖 AI 系统设计、Coding 工具、语音 Agent、CLAUDE.md、Spec Coding、Vibe Coding 技巧和 LLM Gateway。
+
+### 源材料迁移
+- 从 `Clippings/` 复制 8 篇到 `raw/sources/`，更新 frontmatter 元数据
+
+### 新建源摘要（8 篇）
+
+1. **[[wiki/sources/ai-system-design-javaguide]]** — AI 应用系统设计：Demo 生产差距、分层架构、三类交互模式、Prompt 版本化、RAG/Memory/Tool 分离、工具安全 6 道关、Java 11 模块
+2. **[[wiki/sources/ai-skills-recommendations-javaguide]]** — 6 大 AI 编程 Skills：Superpowers/Everything Claude Code/UI UX Pro Max/sanyuan-skills/Web Access/skill-creator
+3. **[[wiki/sources/cli-vs-ide-comparison-javaguide]]** — CLI vs IDE 深度对比：9 款产品全景图、CLI 4 大优势、行业融合趋势
+4. **[[wiki/sources/ai-voice-engineering-javaguide]]** — AI 语音系统工程：ASR/TTS/VAD、打断处理、级联 vs Realtime API、interview-guide 完整实现
+5. **[[wiki/sources/claude-md-best-practices-javaguide]]** — CLAUDE.md 最佳实践：5 类该写/3 类不该写、层级结构、.claude/rules、Auto Memory、维护方法
+6. **[[wiki/sources/spec-coding-javaguide]]** — Spec Coding：四步流程、三色标签权限、Spec 分层管理、多 Agent 协作
+7. **[[wiki/sources/vibe-coding-tips-javaguide]]** — Vibe Coding 实用技巧：Git 策略、贵模型分工、上下文管理、权限控制
+8. **[[wiki/sources/llm-gateway-deep-dive-javaguide]]** — LLM Gateway：6 阶段路由演进、Fallback/幂等、Token 五维限流、成本 18 字段、6 种方案选型
+
+### 更新已有页面
+
+- [[wiki/concepts/vibe-coding]] — 新增适用场景判断、轻量 Spec 策略、多模型分工/上下文管理/Git 工作流/权限控制 5 个技巧模块，添加 3 个新来源
+- [[wiki/concepts/spec-driven-development]] — 新增四步落地流程表、三色标签权限控制、Spec 管理策略，添加 Spec Coding 来源
+- [[wiki/entities/claude-code]] — 添加 6 个新来源引用
+
+### 汇总
+
+- **本次新增**: 8 源摘要
+- **更新已有**: 3 页面（2 概念 + 1 实体）
+- **更新**: `wiki/index.md` — 源摘要 104 → 112，原始资料 106 → 114
+- **全文**: 28 实体 + 33 概念 + 112 源摘要 + 13 综合分析 = 186 页
+
+### 三层架构最终状态
+
+```
+raw/      114 篇源文件（114 篇全部已 Ingest）
+wiki/     186 内容页（含模板）
+schema    CLAUDE.md + .claude/agents/llm-wiki.md
+```

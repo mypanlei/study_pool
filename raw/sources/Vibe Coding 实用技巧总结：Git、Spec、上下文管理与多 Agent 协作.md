@@ -2,12 +2,15 @@
 title: "Vibe Coding 实用技巧总结：Git、Spec、上下文管理与多 Agent 协作"
 source: "https://javaguide.cn/ai-coding/practices/the-cool-tricks-for-vibe-coding.html"
 author:
-  - "[[Guide]]"
+  - "Guide (JavaGuide)"
 published: 2026-06-10
 created: 2026-06-21
 description: "结合 Spec、Skills、上下文管理、Git 版本控制、多模型分工、测试验证、代码 Review 和多 Agent 协作，整理 Vibe Coding 在真实项目里更可控的用法。重点围绕 先把 Git 准备好、开工前先把范围写窄、把项目坑点写进规则文件、善用 Skill，把套路沉淀下来等核心内容。"
 tags:
-  - "clippings"
+  - source
+  - vibe-coding
+  - javaguide
+  - ai-coding
 ---
 你好，我是小 G。上个周末，我通过文字消息分享了一些 Vibe Coding 的小技巧，不少 G 友反馈说分享的经验非常有用，甚至要把我的建议做成一个skill。还有一些朋友非常想要详细版。
 

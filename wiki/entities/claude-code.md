@@ -6,7 +6,7 @@ tags:
   - ai
   - tool
 created: 2026-06-13
-updated: 2026-06-13
+updated: 2026-06-21
 aliases:
   - Claude Code CLI
 ---
@@ -52,3 +52,8 @@ aliases:
 - [[wiki/sources/claudian-setup-guide]]
 - [[wiki/sources/claude-code-custom-agent-guide]]
 - [[wiki/sources/gemini-cli-skills-guide]] — Gemini CLI Skills 对比参考资料
+- [[wiki/sources/cli-vs-ide-comparison-javaguide]] — CLI vs IDE 深度对比，含产品全景图
+- [[wiki/sources/claude-md-best-practices-javaguide]] — CLAUDE.md 最佳实践
+- [[wiki/sources/vibe-coding-tips-javaguide]] — Vibe Coding 实用技巧（含 Claude Code 权限/Hooks/Worktree）
+- [[wiki/sources/ai-skills-recommendations-javaguide]] — 推荐 AI 编程 Skills
+- [[wiki/sources/ai-system-design-javaguide]] — AI 应用系统设计（含工具运行时设计）

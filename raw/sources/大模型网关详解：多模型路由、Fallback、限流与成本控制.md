@@ -2,12 +2,15 @@
 title: "大模型网关详解：多模型路由、Fallback、限流与成本控制"
 source: "https://javaguide.cn/ai/system-design/llm-gateway.html"
 author:
-  - "[[Guide]]"
+  - "Guide (JavaGuide)"
 published: 2026-06-16
 created: 2026-06-19
 description: "介绍 LLM Gateway 的边界、模型路由、Fallback、限流配额、Token 预算、成本统计、观测审计、缓存策略、Java 后端落地方案和主流方案选型。重点围绕 大模型网关基础、为什么不能所有请求都用最强模型？、LLM Gateway 需要具备哪些能力？、如何让你设计一个 LLM Gateway，你会怎么做？"
 tags:
-  - "clippings"
+  - source
+  - llm-gateway
+  - javaguide
+  - system-design
 ---
 面试官看了一眼我的 AI 项目架构图，停在 Agent 调用链那一块。
 

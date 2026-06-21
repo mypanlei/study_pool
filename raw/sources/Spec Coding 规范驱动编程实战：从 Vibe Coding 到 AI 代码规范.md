@@ -2,12 +2,15 @@
 title: "Spec Coding 规范驱动编程实战：从 Vibe Coding 到 AI 代码规范"
 source: "https://javaguide.cn/ai-coding/practices/spec-coding.html"
 author:
-  - "[[Guide]]"
+  - "Guide (JavaGuide)"
 published: 2026-06-05
 created: 2026-06-21
 description: "系统梳理 Spec Coding 规范驱动编程的核心思路与落地流程，涵盖 Vibe Coding 与 Spec Coding 的区别、四步落地方法、AI IDE 规范文件配置、三色标签权限控制、Spec 分层管理和多代理协作避坑经验。重点围绕 Vibe Coding 不是不能用、Spec Coding 到底是什么等核。"
 tags:
-  - "clippings"
+  - source
+  - spec-coding
+  - javaguide
+  - vibe-coding
 ---
 你好，我是小 G。拖了蛮久，来填坑了。
 
