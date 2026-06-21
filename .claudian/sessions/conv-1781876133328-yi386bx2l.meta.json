@@ -4,8 +4,8 @@
   "title": "Run wiki ingest workflow",
   "titleGenerationStatus": "success",
   "createdAt": 1781876133329,
-  "updatedAt": 1781876278568,
-  "lastResponseAt": 1781876278568,
+  "updatedAt": 1782056901885,
+  "lastResponseAt": 1782056901885,
   "sessionId": "d3ba760f-9315-462d-b0c2-01ea17943302",
   "providerState": {
     "providerSessionId": "d3ba760f-9315-462d-b0c2-01ea17943302"
@@ -13,11 +13,11 @@
   "currentNote": "Clippings/什么是 Model Context Protocol (MCP)？和 Function Calling、Agent 什么关系？.md",
   "usage": {
     "model": "haiku",
-    "inputTokens": 821,
+    "inputTokens": 258,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 68736,
+    "cacheReadInputTokens": 71424,
     "contextWindow": 1000000,
-    "contextTokens": 69557,
+    "contextTokens": 71682,
     "percentage": 7,
     "contextWindowIsAuthoritative": true
   }

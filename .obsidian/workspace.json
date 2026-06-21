@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Clippings/什么是 Model Context Protocol (MCP)？和 Function Calling、Agent 什么关系？.md",
+                "file": "Clippings/Spec Coding 规范驱动编程实战：从 Vibe Coding 到 AI 代码规范.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "什么是 Model Context Protocol (MCP)？和 Function Calling、Agent 什么关系？"
+              "title": "Spec Coding 规范驱动编程实战：从 Vibe Coding 到 AI 代码规范"
             }
           }
         ],
@@ -107,7 +107,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 318.5
+    "width": 238.5
   },
   "right": {
     "id": "40e3d2925329258a",
@@ -219,7 +219,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 317.5
+    "width": 557.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -238,8 +238,22 @@
       "marp-slides:Show Slide Preview": false
     }
   },
-  "active": "e930acfc4bc37b90",
+  "active": "70c2e25b93912c9b",
   "lastOpenFiles": [
+    "raw/sources/大模型网关详解：多模型路由、Fallback、限流与成本控制.md",
+    "raw/sources/Vibe Coding 实用技巧总结：Git、Spec、上下文管理与多 Agent 协作.md",
+    "raw/sources/Spec Coding 规范驱动编程实战：从 Vibe Coding 到 AI 代码规范.md",
+    "raw/sources/CLAUDE.md 最佳实践：该写什么、不该写什么、项目变大后怎么拆.md",
+    "raw/sources/AI 语音技术详解：从 ASR、TTS 到实时语音 Agent 的工程化落地.md",
+    "raw/sources/AI 编程选 CLI 还是 IDE？一文帮你彻底搞清楚.md",
+    "raw/sources/AI 编程必备 Skills 推荐：TDD、代码审查与网页自动化实战.md",
+    "raw/sources/AI 应用系统设计：从 Prompt Demo 到生产级架构.md",
+    "Clippings/Vibe Coding 实用技巧总结：Git、Spec、上下文管理与多 Agent 协作.md",
+    "Clippings/Spec Coding 规范驱动编程实战：从 Vibe Coding 到 AI 代码规范.md",
+    "Clippings/AI 编程选 CLI 还是 IDE？一文帮你彻底搞清楚.md",
+    "Clippings/AI 编程必备 Skills 推荐：TDD、代码审查与网页自动化实战.md",
+    "Clippings/CLAUDE.md 最佳实践：该写什么、不该写什么、项目变大后怎么拆.md",
+    "Clippings/什么是 Model Context Protocol (MCP)？和 Function Calling、Agent 什么关系？.md",
     "wiki/index.md.tmp.18480.3d96192fd2cc",
     "wiki/log.md.tmp.29212.14744de7a3d8",
     "wiki/index.md.tmp.29212.ddad730075a2",
@@ -252,30 +266,16 @@
     "raw/sources/什么是 Model Context Protocol (MCP)？和 Function Calling、Agent 什么关系？.md.tmp.29212.02a5d30ee991",
     "raw/sources/什么是 Model Context Protocol (MCP)？和 Function Calling、Agent 什么关系？.md",
     "Clippings/AI 语音技术详解：从 ASR、TTS 到实时语音 Agent 的工程化落地.md",
-    "Clippings/什么是 Model Context Protocol (MCP)？和 Function Calling、Agent 什么关系？.md",
     "Clippings/大模型网关详解：多模型路由、Fallback、限流与成本控制.md",
     "Clippings/AI 应用系统设计：从 Prompt Demo 到生产级架构.md",
     "Clippings/万字详解 GraphRAG：为什么只靠向量检索撑不起复杂知识问答 1.md",
     "Clippings/向量数据库（Vector Database）  菜鸟教程.md",
     "wiki/index.md.tmp.20088.0a9ed86f6b31",
-    "wiki/index.md.tmp.20088.7e21430f5280",
     "wiki/sources/graphrag-javaguide.md",
     "wiki/sources/rag-vector-store-javaguide.md",
     "wiki/sources/rag-optimization-javaguide.md",
     "wiki/sources/rag-knowledge-update-javaguide.md",
     "wiki/sources/rag-document-processing-javaguide.md",
-    "wiki/sources/harness-engineering-javaguide.md",
-    "wiki/sources/structured-output-function-calling-javaguide.md",
-    "wiki/sources/llm-operation-mechanism-javaguide.md",
-    "wiki/sources/ai-workflow-graph-loop-javaguide.md",
-    "raw/sources/一文搞懂 Harness Engineering：六层架构、上下文管理与一线团队实战.md",
-    "raw/sources/大模型结构化输出：从 JSON 契约到 Function Calling 落地.md",
-    "raw/sources/LLM 运行机制：Token、上下文窗口与采样参数怎么影响输出.md",
-    "raw/sources/AI 工作流中的 Workflow、Graph 与 Loop：从概念到实现.md",
-    "raw/sources/万字详解 GraphRAG：为什么只靠向量检索撑不起复杂知识问答.md",
-    "raw/sources/万字详解 RAG 向量索引算法和向量数据库.md",
-    "raw/sources/万字详解 RAG 优化：从召回、重排到上下文工程的系统调优.md",
-    "raw/sources/RAG 知识库文档如何更新：增量更新、版本控制、去重与全量重建.md",
     "raw/assets/Pasted image 20260617140836.png",
     "raw/assets/Pasted image 20260617142146.png",
     "raw/assets/Pasted image 20260617144401.png",
