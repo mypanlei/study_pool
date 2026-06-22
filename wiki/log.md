@@ -815,3 +815,38 @@ raw/      114 篇源文件（114 篇全部已 Ingest）
 wiki/     186 内容页（含模板）
 schema    CLAUDE.md + .claude/agents/llm-wiki.md
 ```
+
+## [2026-06-22] lint | Loop 2 健康检查
+
+### 检查结果
+- **孤儿页**: ✅ 无 — 186 个内容页均通过索引引用
+- **索引统计**: ✅ 与实际文件数一致（28+33+112+13=186）
+- **raw/sources vs wiki/sources**: ✅ 差异 2 篇属预期（A2A 多源合并 + 浙江省特殊情况）
+- **断链**: ⚠️ 发现 2 个
+
+### 断链详情
+
+**🔴 问题 1：浙江省技术经纪人培训源摘要文件缺失**
+- `index.md` 中 `[[浙江省技术经纪人中级培训 - 高校科技成果转化与AI创业孵化]]` 指向不存在的文件
+- 根因：2026-06-17 `optimize` 操作记录了"新建源摘要"但文件未被物理创建
+- 处理：从 `index.md` 移除该条目，调整源摘要计数
+
+**🟡 问题 2：vector-database 概念页待创建**
+- `wiki/sources/rag-vector-store-javaguide.md` 中 `[[wiki/concepts/vector-database]]` 标记为"（页面待创建）"
+- 处理：保留至下次 Loop-3 知识演进。现有 `wiki/sources/vector-database-introduction.md` 和 `wiki/concepts/embedding.md` 已覆盖相关主题
+
+### 前次修复验证
+- 2026-06-18 Lint 发现的 5 个知识缺口（MCP/ReAct/Prompt Engineering/CoT/Guardrails）：✅ 全部填补完毕
+
+### 本次修复
+1. **vector-database 引用修复**: `wiki/sources/rag-vector-store-javaguide.md` 中的 `[[wiki/concepts/vector-database]]` 断链已改为指向现有 `[[wiki/sources/vector-database-introduction]]`
+2. **浙江省条目**: 已在 2026-06-19 Lint 中移除，本次检查确认无残留
+3. **报告**: [[wiki/lint-report-2026-06-22]]
+
+### 三层架构最终状态
+
+```
+raw/      114 篇源文件（114 篇全部已 Ingest）
+wiki/     186 内容页（含模板）
+schema    CLAUDE.md + .claude/agents/llm-wiki.md
+```

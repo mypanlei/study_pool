@@ -38,5 +38,5 @@ author: "Guide (JavaGuide)"
 
 - [[wiki/concepts/embedding]] — Embedding 嵌入与向量化
 - [[wiki/concepts/rag-optimization]] — RAG 全链路优化
-- [[wiki/concepts/vector-database]] —（页面待创建）
+- [[wiki/sources/vector-database-introduction]] — 向量数据库介绍（含 HNSW/IVF/Chroma/Qdrant/Milvus 对比）
 - [[wiki/sources/rag-basis-concepts-javaguide]] — RAG 基础概念（已梳理）
