@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/concepts/spec-driven-development.md",
+                "file": "Clippings/大模型结构化输出：从 JSON 契约到 Function Calling 落地.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "spec-driven-development"
+              "title": "大模型结构化输出：从 JSON 契约到 Function Calling 落地"
             }
           }
         ],
@@ -121,7 +121,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 218.5
+    "width": 369.5
   },
   "right": {
     "id": "40e3d2925329258a",
@@ -254,6 +254,7 @@
   },
   "active": "1bc82e879801622a",
   "lastOpenFiles": [
+    "wiki/concepts/spec-driven-development.md",
     "wiki/lint-report-2026-06-22.md",
     "Clippings/Spec Coding 规范驱动编程实战：从 Vibe Coding 到 AI 代码规范.md",
     "wiki/index.md.tmp.24908.ce1ce4d33610",
@@ -289,7 +290,6 @@
     "Clippings/什么是 Model Context Protocol (MCP)？和 Function Calling、Agent 什么关系？.md",
     "wiki/sources/mcp-deep-dive-javaguide.md",
     "raw/sources/什么是 Model Context Protocol (MCP)？和 Function Calling、Agent 什么关系？.md",
-    "Clippings/AI 语音技术详解：从 ASR、TTS 到实时语音 Agent 的工程化落地.md",
     "raw/assets/Pasted image 20260617140836.png",
     "raw/assets/Pasted image 20260617142146.png",
     "raw/assets/Pasted image 20260617144401.png",
