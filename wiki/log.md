@@ -850,3 +850,26 @@ raw/      114 篇源文件（114 篇全部已 Ingest）
 wiki/     186 内容页（含模板）
 schema    CLAUDE.md + .claude/agents/llm-wiki.md
 ```
+
+## [2026-06-23] lint | Loop 2 健康检查
+
+### 检查结果
+- **孤儿页**: ✅ 无 — 186 个内容页均在 `index.md` 中有索引
+- **索引统计**: ✅ 与实际文件数一致（28 实体 + 33 概念 + 112 源摘要 + 13 综合分析 = 186）
+- **raw/sources vs wiki/sources**: ✅ raw 114 / wiki 112，差异 2 篇属预期（A2A 多源合并）
+- **断链**: ✅ 0 个实际断链。上次修复的 `[[wiki/concepts/vector-database]]` 确认已在 `rag-vector-store-javaguide.md` 中改为 `[[wiki/sources/vector-database-introduction]]`
+
+### 说明
+grep 发现的 4 个"匹配"均为误报：
+- `[[wiki/...]]` 和 `[[wiki/sources/...]]` — lint-report 中的模板描述占位符
+- `[[wiki/concepts/vector-database]]` — 上次 lint 报告中的历史引用，非当前链接
+- `[[wiki/index.md]]` — log.md 中的文件路径引用，非 wikilink
+
+### 汇总
+| 检查项 | 状态 |
+|--------|------|
+| 孤儿页 | ✅ |
+| 索引统计 | ✅ |
+| raw vs wiki 一致性 | ✅ |
+| 断链 | ✅ 0 个 |
+| **全文统计** | 28 实体 + 33 概念 + 112 源摘要 + 13 综合分析 = 186 页 |
