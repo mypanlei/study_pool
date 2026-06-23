@@ -1,12 +1,12 @@
 ---
-title: "Loop Engineering（循环工程） | 菜鸟教程"
-source: "https://www.runoob.com/ai-agent/loop-engineering.html"
+title: Loop Engineering（循环工程） | 菜鸟教程
+source: https://www.runoob.com/ai-agent/loop-engineering.html
 author:
 published:
 created: 2026-06-17
-description: "Loop Engineering（循环工程） Loop Engineering（循环工程）是 2026 年 6 月在 AI 编程社区迅速传播的一个新概念，由 Google 工程师 Addy Osmani 系统整理，Anthropic Claude Code 负责人 Boris Cherny 和开发者 Peter Steinberger 分别在公开场合提出了相同的观点。 本文将带你从零理解什么是 Loop Engineering、它与 P.."
+description: Loop Engineering（循环工程） Loop Engineering（循环工程）是 2026 年 6 月在 AI 编程社区迅速传播的一个新概念，由 Google 工程师 Addy Osmani 系统整理，Anthropic Claude Code 负责人 Boris Cherny 和开发者 Peter Steinberger 分别在公开场合提出了相同的观点。 本文将带你从零理解什么是 Loop Engineering、它与 P..
 tags:
-  - "clippings"
+  - clippings
 ---
 ## Loop Engineering（循环工程）
 
@@ -302,7 +302,7 @@ isolation: worktree # 独立检出，避免污染制作者的工作区
 最后更新：2026-06-14 09:03 UTC（由自动 Loop 更新）  
   
 \## 进行中  
-\- \[ \] test/auth/login.spec.ts 中的 flaky test（CI Run #4821，失败 3 次）  
+\- \[ \] test/auth/login.spec.ts 中的 flaky test（CI Run 3 次）  
 \- 假设：并发测试之间的 session 状态泄漏  
 \- 已尝试：隔离 test 数据库连接 → 无效  
 \- 下一步：检查 beforeEach 中的 cleanup 逻辑  
@@ -312,8 +312,8 @@ isolation: worktree # 独立检出，避免污染制作者的工作区
 \- \[ \] API 文档更新（PR #308 合并后落后于代码）  
   
 \## 已完成  
-\- \[x\] 修复 billing 模块中含单引号公司名称导致的 500 错误（PR #312，已合并）  
-\- \[x\] 将 Node.js 版本升级到 20.x（PR #307，已合并）
+\- \[x\] 修复 billing 模块中含单引号公司名称导致的 500 错误（PR  
+\- \[x\] 将 Node.js 版本升级到 20.x（PR
 
 ---
 

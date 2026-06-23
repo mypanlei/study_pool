@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/concepts/a2a-agent-to-agent-protocol.md",
+                "file": "wiki/sources/a2a-official-spec-linux-foundation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "a2a-agent-to-agent-protocol"
+              "title": "a2a-official-spec-linux-foundation"
             }
           }
         ],
@@ -132,7 +132,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 536.5
+    "width": 393.5
   },
   "right": {
     "id": "40e3d2925329258a",
@@ -244,7 +244,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 497.5
+    "width": 497.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -267,7 +268,13 @@
   },
   "active": "1bc82e879801622a",
   "lastOpenFiles": [
+    "wiki/concepts/a2a-agent-to-agent-protocol.md",
+    "raw/sources/a2aprojectA2A Agent2Agent (A2A) is an open protocol enabling communication and interoperability between opaque agentic applications.md",
+    "raw/sources/A2A Protocol.md",
+    "raw/sources/AI-平台化解决方案产品经理-角色定位与能力框架.md",
     "Clippings/Loop Engineering（循环工程）  菜鸟教程.md",
+    "raw/sources/Loop Engineering（循环工程）  菜鸟教程.md",
+    "raw/sources/Vibe Coding 入门教程  菜鸟教程.md",
     "Clippings/大模型结构化输出：从 JSON 契约到 Function Calling 落地.md",
     "wiki/concepts/spec-driven-development.md",
     "wiki/lint-report-2026-06-22.md",
@@ -297,12 +304,6 @@
     "raw/sources/AI 语音技术详解：从 ASR、TTS 到实时语音 Agent 的工程化落地.md",
     "raw/sources/AI 编程选 CLI 还是 IDE？一文帮你彻底搞清楚.md",
     "raw/sources/AI 编程必备 Skills 推荐：TDD、代码审查与网页自动化实战.md",
-    "raw/sources/AI 应用系统设计：从 Prompt Demo 到生产级架构.md",
-    "Clippings/Vibe Coding 实用技巧总结：Git、Spec、上下文管理与多 Agent 协作.md",
-    "Clippings/AI 编程选 CLI 还是 IDE？一文帮你彻底搞清楚.md",
-    "Clippings/AI 编程必备 Skills 推荐：TDD、代码审查与网页自动化实战.md",
-    "Clippings/CLAUDE.md 最佳实践：该写什么、不该写什么、项目变大后怎么拆.md",
-    "Clippings/什么是 Model Context Protocol (MCP)？和 Function Calling、Agent 什么关系？.md",
     "raw/assets/Pasted image 20260617140836.png",
     "raw/assets/Pasted image 20260617142146.png",
     "raw/assets/Pasted image 20260617144401.png",

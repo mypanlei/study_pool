@@ -1,12 +1,12 @@
 ---
-title: "Vibe Coding 入门教程 | 菜鸟教程"
-source: "https://www.runoob.com/ai-agent/vibe-coding-start.html"
+title: Vibe Coding 入门教程 | 菜鸟教程
+source: https://www.runoob.com/ai-agent/vibe-coding-start.html
 author:
 published:
 created: 2026-06-17
-description: "Vibe Coding 入门教程  Vibe Coding（氛围编程）是一种借助大语言模型（LLM），用自然语言描述需求来生成代码的全新编程范式，让你将精力集中在「想做什么」而非「怎么写」。    什么是 Vibe Coding  「Vibe Coding」一词由前特斯拉 AI 总监、OpenAI 联合创始人 Andrej Karpathy 在 2025 年 2 月首次提出。 他在社交媒体上这样描述：一种全新的编码方式，你完全沉浸在氛围.."
+description: Vibe Coding 入门教程  Vibe Coding（氛围编程）是一种借助大语言模型（LLM），用自然语言描述需求来生成代码的全新编程范式，让你将精力集中在「想做什么」而非「怎么写」。    什么是 Vibe Coding  「Vibe Coding」一词由前特斯拉 AI 总监、OpenAI 联合创始人 Andrej Karpathy 在 2025 年 2 月首次提出。 他在社交媒体上这样描述：一种全新的编码方式，你完全沉浸在氛围..
 tags:
-  - "clippings"
+  - clippings
 ---
 ## Vibe Coding 入门教程
 
@@ -255,7 +255,7 @@ Cursor 会读取你的项目结构，然后逐步创建模型、路由、中间�
 | 不推荐的描述 | 推荐的描述 |
 | --- | --- |
 | 帮我写个登录功能 | 实现邮箱+密码登录，使用 JWT token，过期时间 30 分钟，密码用 bcrypt 加密 |
-| 美化一下这个页面 | 把按钮改成圆角、加上 hover 阴影效果，主色调改为蓝色 #3b82f6 |
+| 美化一下这个页面 | 把按钮改成圆角、加上 hover 阴影效果，主色调改为蓝色 |
 | 修一下这个 bug | 当用户输入负数时，程序崩溃了。应该返回错误提示而不是崩溃。错误堆栈见下。 |
 | 加个缓存 | 用 Redis 缓存用户信息，key 为 user:{id}，过期时间 10 分钟，更新时主动失效 |
 
