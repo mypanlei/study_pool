@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Clippings/规范驱动开发（SDD）简介：从氛围编程到 SDD.md",
+                "file": "Clippings/AI 编码助手：氛围编程.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "规范驱动开发（SDD）简介：从氛围编程到 SDD"
+              "title": "AI 编码助手：氛围编程"
             }
           }
         ],
@@ -265,12 +265,14 @@
       "notebook-navigator:笔记本导航器": false
     }
   },
-  "active": "c0f325943a946142",
+  "active": "1bc82e879801622a",
   "lastOpenFiles": [
+    "Clippings/AGENTS.md 规范.md",
+    "Clippings/AI 编码助手：氛围编程.md",
+    "Clippings/规范驱动开发（SDD）简介：从氛围编程到 SDD.md",
     "raw/assets/b3d06309d8327de9c895a2a18bcfccee_MD5.svg",
     "raw/assets/908d2f6f3e885ec84349dca12740fa87_MD5.svg",
     "Clippings/zhanglukaSDD 关于SDD的思考.md",
-    "Clippings/规范驱动开发（SDD）简介：从氛围编程到 SDD.md",
     "wiki/sources/a2a-official-spec-linux-foundation.md",
     "wiki/concepts/a2a-agent-to-agent-protocol.md",
     "raw/sources/a2aprojectA2A Agent2Agent (A2A) is an open protocol enabling communication and interoperability between opaque agentic applications.md",
@@ -303,7 +305,6 @@
     "raw/sources/sedfClekh",
     "raw/sources/大模型网关详解：多模型路由、Fallback、限流与成本控制.md",
     "raw/sources/Vibe Coding 实用技巧总结：Git、Spec、上下文管理与多 Agent 协作.md",
-    "raw/sources/Spec Coding 规范驱动编程实战：从 Vibe Coding 到 AI 代码规范.md",
     "raw/assets/Pasted image 20260617140836.png",
     "raw/assets/Pasted image 20260617142146.png",
     "raw/assets/Pasted image 20260617144401.png",
