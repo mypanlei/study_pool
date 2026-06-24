@@ -1,14 +1,3 @@
 {
-  "tasks": [
-    {
-      "id": "c04e6a7b",
-      "cron": "0 9 * * *",
-      "prompt": "执行 LLM Wiki Lint 健康检查（Loop 2）。检查孤儿页、索引统计、raw/sources 与 wiki/sources 一致性，记录到 wiki/log.md。有问题汇报给用户。",
-      "createdAt": 1781639381950,
-      "lastFiredAt": 1782212863772,
-      "recurring": true,
-      "createdBySessionId": "88a00f36-327e-4626-9d72-3652df04bb54",
-      "createdByPid": 6432
-    }
-  ]
+  "tasks": []
 }
