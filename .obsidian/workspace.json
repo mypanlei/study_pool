@@ -132,7 +132,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 393.5
+    "width": 622.5
   },
   "right": {
     "id": "40e3d2925329258a",
@@ -244,8 +244,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 497.5,
-    "collapsed": true
+    "width": 497.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -266,8 +265,10 @@
       "notebook-navigator:笔记本导航器": false
     }
   },
-  "active": "1bc82e879801622a",
+  "active": "c0f325943a946142",
   "lastOpenFiles": [
+    "raw/assets/b3d06309d8327de9c895a2a18bcfccee_MD5.svg",
+    "raw/assets/908d2f6f3e885ec84349dca12740fa87_MD5.svg",
     "Clippings/zhanglukaSDD 关于SDD的思考.md",
     "Clippings/规范驱动开发（SDD）简介：从氛围编程到 SDD.md",
     "wiki/sources/a2a-official-spec-linux-foundation.md",
@@ -303,7 +304,6 @@
     "raw/sources/大模型网关详解：多模型路由、Fallback、限流与成本控制.md",
     "raw/sources/Vibe Coding 实用技巧总结：Git、Spec、上下文管理与多 Agent 协作.md",
     "raw/sources/Spec Coding 规范驱动编程实战：从 Vibe Coding 到 AI 代码规范.md",
-    "raw/sources/CLAUDE.md 最佳实践：该写什么、不该写什么、项目变大后怎么拆.md",
     "raw/assets/Pasted image 20260617140836.png",
     "raw/assets/Pasted image 20260617142146.png",
     "raw/assets/Pasted image 20260617144401.png",

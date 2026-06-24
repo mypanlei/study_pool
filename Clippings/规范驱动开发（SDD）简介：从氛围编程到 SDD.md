@@ -80,7 +80,7 @@ Vibe Coding 虽然自由，但在大规模团队协作时并不稳定。工程�
 
 结合系统分层与 SDLC（Software Development Life Cycle，软件开发生命周期），下图展示了 AI 协作编程环境的核心要素：
 
-![图 1: AI 协作编程环境分层模型](https://assets.jimmysong.io/images/book/ai-handbook/sdd/overview/07e6e08c1da6209401dc10fe43b596d0.svg)
+![[raw/assets/908d2f6f3e885ec84349dca12740fa87_MD5.svg]]
 
 图 1: AI 协作编程环境分层模型
 
@@ -131,7 +131,7 @@ SDD
 单 Agent + 前置代理架构已能解决大多数需求，优点是上下文集中、执行链清晰、成本低。但跨知识域任务时，多智能体协作更高效。  
 下图展示了从单 Agent 到多 Agent 的演化过程：
 
-![图 2: AI 编程架构演进](https://assets.jimmysong.io/images/book/ai-handbook/sdd/overview/7a451e481c6471817f84ebe1a3b97c87.svg)
+![[raw/assets/b3d06309d8327de9c895a2a18bcfccee_MD5.svg]]
 
 图 2: AI 编程架构演进
 
