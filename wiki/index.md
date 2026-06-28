@@ -50,6 +50,7 @@ updated: 2026-06-13
 | 页面 | 摘要 | 创建日期 |
 |------|------|----------|
 | [[wiki/concepts/a2a-agent-to-agent-protocol]] | Google A2A 开放协议：Agent 间标准化通信与协作，与 MCP 互补 | 2026-06-18 |
+| [[wiki/concepts/agents-md]] | AGENTS.md 规范：角色/能力/工具/边界/工作流的工程化规范文档 | 2026-06-29 |
 | [[wiki/concepts/agent-skills-system]] | AI Agent 的可复用/可共享/可自我改进的任务指令系统 | 2026-06-13 |
 | [[wiki/concepts/ai-platform-product-manager]] | AI 平台化解决方案产品经理角色与能力框架 | 2026-06-13 |
 | [[wiki/concepts/cot-chain-of-thought]] | Chain of Thought 思维链推理技术，与 ReAct 互补的核心推理模式 | 2026-06-18 |
@@ -95,6 +96,7 @@ updated: 2026-06-13
 | [[wiki/sources/agent-memory-system-design]] | Agent 记忆系统：短期记忆/长期记忆/向量数据库/对话历史管理/压缩策略 | 菜鸟教程 | 2026-06-17 |
 | [[wiki/sources/agent-memory-system-javaguide]] | Agent 记忆系统深度：记忆分类/存储层级/Memory 产品对比/Markdown 记忆/CLAUDE.md | JavaGuide | 2026-06-19 |
 | [[wiki/sources/agent-skills-deep-dive-javaguide]] | Agent Skills 深度：SKILL.md 结构/渐进披露/路由策略/自由度控制/8 个常见坑 | JavaGuide | 2026-06-19 |
+| [[wiki/sources/agents-md-specification-jimmysong]] | AGENTS.md 规范：六大工程要素、三层边界模型 | Jimmy Song AI Handbook | 2026-06-29 |
 | [[wiki/sources/ai-agent-architecture-layers]] | AI Agent 底层架构：5 层模型/工具集成/记忆设计/安全护栏 | 菜鸟教程 | 2026-06-17 |
 | [[wiki/sources/ai-agent-architecture-overview]] | AI Agent 架构模式与 2025 主流框架对比全景 | 自建笔记 | 2026-06-13 |
 | [[wiki/sources/ai-agent-core-components]] | AI Agent 核心组件：感知/推理/记忆/工具/行动 5 大模块 | 菜鸟教程 | 2026-06-17 |
@@ -185,12 +187,19 @@ updated: 2026-06-13
 | [[wiki/sources/skills-tutorial]] | Skills 教程：SKILL.md 结构/渐进披露/MCP vs Skills/Claude Code Skills | 菜鸟教程 | 2026-06-17 |
 | [[wiki/sources/spec-driven-development-overview]] | SDD 开源方案生态全景与选型建议 | 自建笔记 | 2026-06-13 |
 | [[wiki/sources/spec-driven-development-complete-guide]] | SDD 完全指南：六要素框架、对抗性 Agent 模式、模型分层、棕地采纳 | Augment Code (Molisha Shah) | 2026-06-29 |
+| [[wiki/sources/sdd-4-tools-comparison-hubwiz]] | GSD/Spec Kit/OpenSpec/Taskmaster 四工具对比 | 汇智网 | 2026-06-29 |
+| [[wiki/sources/sdd-github-spec-kit-announcement]] | GitHub Spec Kit 官方博客：四阶段工作流设计理念 | GitHub (Den Delimarsky) | 2026-06-29 |
+| [[wiki/sources/sdd-intro-jimmysong-ai-handbook]] | SDD 范式迁移全景：AI 编程协议栈、工具全景 | Jimmy Song AI Handbook | 2026-06-29 |
+| [[wiki/sources/sdd-tencent-cloud-ai-specs-practice]] | OpenSpec/Spec Kit/Kiro 三大框架深度对比 | 腾讯云社区 | 2026-06-29 |
+| [[wiki/sources/sdd-with-claude-code-heeki-park]] | SDD + Claude Code 实战经验：三层 SDD 实践、分阶段构建 | Heeki Park | 2026-06-29 |
+| [[wiki/sources/sdd-zhangluka-guide]] | SDD 企业落地实践指南：六阶段生命周期、四步推进法 | zhangluka | 2026-06-29 |
 | [[wiki/sources/structured-output-function-calling-javaguide]] | 大模型结构化输出：JSON 失效模式/Structured Outputs 三层体系/Function Calling 七步流水线/MCP | JavaGuide | 2026-06-19 |
 | [[wiki/sources/token-concepts]] | Token 概念：BPE 编码/中英文差异/上下文窗口/计费 | 菜鸟教程 | 2026-06-17 |
 | [[wiki/sources/transformer-architecture-detail]] | Transformer 架构详解：自注意力、QKV、Decoder-only | 自建笔记 | 2026-06-13 |
 | [[wiki/sources/vector-database-introduction]] | 向量数据库：HNSW/IVF/余弦相似度/Chroma/Qdrant/Milvus/Pinecone 对比 | 菜鸟教程 | 2026-06-17 |
 | [[wiki/sources/vibe-coding-guide]] | Vibe Coding 意图编程范式实战指南 | 自建笔记 | 2026-06-13 |
 | [[wiki/sources/vibe-coding-rookie-tutorial]] | Vibe Coding 入门：Karpathy 概念/12 工具对比/最佳实践 | 菜鸟教程 | 2026-06-17 |
+| [[wiki/sources/vibe-coding-jimmysong-ai-handbook]] | 氛围编程：核心四要素、代表性实践、工程化挑战 | Jimmy Song AI Handbook | 2026-06-29 |
 | [[wiki/sources/mcp-deep-dive-javaguide]] | MCP 深度解析：FC/MCP/Agent 三层关系、四层架构、JSON-RPC 2.0、Transport 选型、6 大生产落地问题、Server 开发最佳实践、FastMCP 最小示例 | [[https://javaguide.cn/ai/agent/mcp.html\|JavaGuide]] | 2026-06-19 |
 | [[wiki/sources/ai-system-design-javaguide]] | AI 应用系统设计：Demo vs 生产 6 大差距、标准分层架构、三种交互模式选型、Prompt 版本化管理、RAG/Memory/Tool 分离治理、工具 6 道安全关、可观测闭环、Java 11 模块设计 | [[https://javaguide.cn/ai/system-design/ai-application-architecture.html\|JavaGuide]] | 2026-06-21 |
 | [[wiki/sources/ai-skills-recommendations-javaguide]] | 6 大 AI 编程 Skills：Superpowers TDD 框架、Everything Claude Code 上下文防腐化、UI UX Pro Max 设计系统、sanyuan-skills 代码审查、Web Access 浏览器自动化、skill-creator 元技能 | [[https://javaguide.cn/ai-coding/practices/programmer-essential-skills.html\|JavaGuide]] | 2026-06-21 |
@@ -222,7 +231,7 @@ updated: 2026-06-13
 ## 统计
 
 - **实体页**: 28
-- **概念页**: 33
-- **源摘要页**: 113
+- **概念页**: 34
+- **源摘要页**: 121
 - **综合分析页**: 13
-- **原始资料**: 115 篇（全部已 Ingest）
+- **原始资料**: 123 篇（全部已 Ingest）

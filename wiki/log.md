@@ -925,3 +925,64 @@ raw/      115 篇源文件（115 篇全部已 Ingest）
 wiki/     187 内容页（含模板）
 schema    CLAUDE.md + .claude/agents/llm-wiki.md
 ```
+
+## [2026-06-29] ingest | 批量 Ingest 8 篇新源材料 — SDD 生态深度覆盖 + Vibe Coding + AGENTS.md
+
+这是 2026 年 6 月 29 日的第二次批量 Ingest，与第一次（Augment Code SDD 指南）互补，形成对 SDD 生态从"概念→工具→企业落地"的完整覆盖。此外还补充了 Vibe Coding 和 AGENTS.md 两个相邻主题。
+
+### 源材料迁移
+- 从 `Clippings/` 复制 8 篇到 `raw/sources/`，更新 frontmatter 元数据
+
+### 新建源摘要（8 篇）
+
+**SDD 生态深度覆盖（6 篇）**
+1. **[[wiki/sources/sdd-tencent-cloud-ai-specs-practice]]** — OpenSpec/Spec Kit/Kiro 三大框架深度对比（腾讯云社区, 2026-04-17）
+2. **[[wiki/sources/sdd-github-spec-kit-announcement]]** — GitHub Spec Kit 官方博客：四阶段工作流、核心设计理念（Den Delimarsky, 2025-09-03）
+3. **[[wiki/sources/sdd-with-claude-code-heeki-park]]** — SDD + Claude Code 实战：三层 SDD 实践、分阶段构建、Claude Code 技巧（Heeki Park, 2026-03-01）
+4. **[[wiki/sources/sdd-zhangluka-guide]]** — SDD 企业落地实践指南：六阶段生命周期、四步推进法、多团队协同（zhangluka, 2026-06）
+5. **[[wiki/sources/sdd-4-tools-comparison-hubwiz]]** — GSD/Spec Kit/OpenSpec/Taskmaster 四象限格局、五大分歧点（汇智网, 2026-03-03）
+6. **[[wiki/sources/sdd-intro-jimmysong-ai-handbook]]** — SDD 范式迁移：AI 编程协议栈三层模型、Tessl/AgentScript/CodePlan 等工具全景（Jimmy Song, 2025-11-03）
+
+**Vibe Coding（1 篇）**
+7. **[[wiki/sources/vibe-coding-jimmysong-ai-handbook]]** — 氛围编程定义与四要素、代表性实践、工程化挑战与质量门（Jimmy Song, 2025-09-29）
+
+**AGENTS.md（1 篇）**
+8. **[[wiki/sources/agents-md-specification-jimmysong]]** — AGENTS.md 规范：六大工程要素、三层边界模型（Jimmy Song, 2025-11-02）
+
+### 更新已有页面
+
+- **大幅更新概念页**: [[wiki/concepts/spec-driven-development]]
+  - 新增 2026 SDD 工具生态格局（GSD/Spec Kit/OpenSpec/Taskmaster/Kiro 五工具四象限对比）
+  - 新增五大分歧点分析（执行深度/上下文策略/棕地绿地/平台哲学/许可证）
+  - 新增 GSD/OpenSpec/Kiro/Taskmaster AI 逐个详解
+  - 新增 Tessl Framework/AgentScript/CodePlan 等相邻方案
+  - 新增 8 个来源引用
+  - 新增相关概念：agents-md
+
+- **更新概念页**: [[wiki/concepts/vibe-coding]]
+  - 新增 AI 编程历时演进七阶段
+  - 新增核心四要素框架
+  - 新增 1 个来源引用
+
+- **新建概念页**: [[wiki/concepts/agents-md]]
+  - AGENTS.md 规范定义、六大工程要素、三层边界模型、完整结构
+  - AGENTS.md vs CLAUDE.md 对比
+  - 相关概念：agent-skills-system, spec-driven-development, guardrails
+
+- **更新概念页**: [[wiki/concepts/agent-skills-system]]
+  - 新增相关概念：agents-md
+
+### 汇总
+- **本次新增**: 8 源摘要 + 1 概念 = 9 页面
+- **大幅更新**: 1 概念页
+- **小幅更新**: 2 概念页
+- **更新**: `wiki/index.md` — 概念 33 → 34，源摘要 113 → 121，原始资料 115 → 123
+- **全文**: 28 实体 + 34 概念 + 121 源摘要 + 13 综合分析 = 196 页
+
+### 三层架构最终状态
+
+```
+raw/      123 篇源文件（123 篇全部已 Ingest）
+wiki/     196 内容页（含模板）
+schema    CLAUDE.md + .claude/agents/llm-wiki.md
+```

@@ -34,6 +34,10 @@ Agent Skills 是 AI Agent 的可复用行为模块，相当于 Agent 的「程�
 - agentskills.io 作为开放标准，有可能成为 Agent Skill 的「npm」— 一个跨平台的技能市场
 - Claude Code 的 SKILL.md 是 1.0 版本，Hermes 的自我改进技能是 2.0
 
+## 相关概念
+
+- [[wiki/concepts/agents-md]] — AGENTS.md 是 Agent Skills 的一种结构化交付形式，以工程化规范文档定义角色、边界、命令和工作流，与 SKILL.md 互补
+
 ## 来源
 
 - [[wiki/sources/hermes-agent-docs]]

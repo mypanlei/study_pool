@@ -6,7 +6,9 @@ published:
 created: 2026-06-29
 description: "2026年AI编程领域迎来规范驱动开发(SDD)新范式，告别模糊的\"氛围编程\"。本文深度解析OpenSpec、GitHubSpecKit和Kiro三大主流SDD框架，对比其设计理念、工作流及适用场景。探讨AI编程从代码编写向规范定义转变的趋势，分析AgenticIDE、智能体编程等前沿技术如何重塑软件开发流程，为开发者..."
 tags:
-  - "clippings"
+  - source
+  - spec-driven
+  - comparison
 ---
 # AI 辅助编程与 AI Specs 实战：2026 年最新最全进展详解
 

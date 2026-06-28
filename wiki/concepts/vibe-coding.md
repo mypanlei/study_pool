@@ -6,7 +6,7 @@ tags:
   - ai
   - development
 created: 2026-06-13
-updated: 2026-06-21
+updated: 2026-06-29
 aliases:
   - 意图编程
   - 氛围编程
@@ -14,11 +14,29 @@ aliases:
 
 # Vibe Coding
 
-> Andrej Karpathy 推广的新型开发范式：开发者通过描述「意图（Intent）」和「感觉（Vibe）」，由 AI Agent 负责具体实现与调试。
+> Andrej Karpathy 推广的新型开发范式：开发者通过描述「意图（Intent）」和「感觉（Vibe）」，由 AI Agent 负责具体实现与调试。Jimmy Song 将其定义为"以自然语言或规范（Spec）为首要输入，通过智能代理在丰富的工程上下文中执行规划、编码、测试与交付的编程范式"。
 
 ## 定义
 
 Vibe Coding 的核心不是「乱写」，而是将关注点从语法细节上移到意图层。开发者描述想要什么（而不是怎么实现），AI Agent 理解意图后自主完成编码、调试和验证。
+
+## AI 编程历时演进
+
+Jimmy Song 的 AI Handbook 梳理了 AI 编程的历史轨迹：
+
+- **启蒙与实验（1970s-1990s）**：专家系统、逻辑编程、自动证明
+- **工具化与模板化（2000s）**：IDE、静态分析、代码生成器
+- **统计与学习驱动的补全（2010s）**：基于神经网络的代码补全
+- **大模型与交互式助手（2020-2022）**：Copilot、Codex、ChatGPT
+- **可执行代理与协同编程（2023-2024）**：Open-Interpreter、OpenHands
+- **自主编程与氛围编程（2024-2025）**：Spec 驱动、RepoWiki、多智能体并行
+
+## 核心四要素
+
+1. **自然语言为界面**：以人类可读的意图或 Spec 取代传统的代码级操作
+2. **上下文工程**：通过 RepoWiki、Embedding 与 RAG 为模型提供高质量的工程上下文
+3. **Agent Runtime**：支持任务规划、分解、工具编排、并行沙箱与断点恢复的执行内核
+4. **许可式自动化与审计**：执行路径可被授权、审计和回滚
 
 ## 核心心法
 
@@ -89,4 +107,5 @@ Spec Coding 适合：超过一周的代码、多人协作项目、涉及数据�
 - [[wiki/sources/vibe-coding-guide]]
 - [[wiki/sources/vibe-coding-tips-javaguide]] — Vibe Coding 实用技巧总结：Git/Spec/上下文管理/多 Agent
 - [[wiki/sources/spec-coding-javaguide]] — Spec Coding 规范驱动编程，含 Vibe vs Spec 适用边界
+- [[wiki/sources/vibe-coding-jimmysong-ai-handbook]] — Jimmy Song AI Handbook 氛围编程章节：核心四要素、代表性实践、工程化挑战与质量门
 - [[wiki/concepts/spec-driven-development]]

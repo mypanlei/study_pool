@@ -166,6 +166,45 @@ Spec 开销是真实成本，不是每个任务都需要：
 - **MetaGPT**: 多代理软件公司范式，spec-aware 但核心是多角色协作
 - **gpt-engineer**: 前 SDD 时代祖先项目（已归档）
 - **OpenHands**: 强在执行层和 agent runtime，不是规格层
+- **Tessl Framework**: 实验性框架，支持从代码反推规范（`tessl document --code`），生成的代码带 `// GENERATED FROM SPEC – DO NOT EDIT` 标记。支持 `@generate`、`@test` 等标签控制生成逻辑，是向 spec-as-source 迈进的早期形态
+- **AgentScript**: 让 LLM 输出一段"计划代码"（类似 JavaScript），解析为 AST 由运行时逐步执行。计划显式化、可审查、可暂停、可序列化
+- **CodePlan**: 学术界框架，将大规模代码变更视作规划问题。AI 产出带依赖关系的计划图，逐步修改并在每步后验证，失败则反馈回 AI 重新规划
+
+## 2026 SDD 工具生态格局
+
+2026 年 SDD 工具生态形成四象限格局，五个关键分歧点决定选型：
+
+| 工具 | 星数 | 哲学 | 执行深度 | 上下文策略 | 平台广度 | 最适合 |
+|------|------|------|----------|------------|----------|--------|
+| **GSD** | 16.7k | 执行优先、上下文隔离 | 深度编排：4 并行 Research Agent + Planner + Checker + 波式并行执行器 + Verifier + Debugger | 每个子 Agent 新鲜上下文窗口，无聊天历史泄漏 | 3 运行时（Claude Code/OpenCode/Gemini CLI） | 需要端到端执行编排的小团队 |
+| **GitHub Spec Kit** | 70.8k | 规范优先、平台广度 | 中等：规范层引导 | 通过工件结构（spec.md/plan.md/research.md）级联 | 18+ 代理 | 规范优先、多平台切换 |
+| **OpenSpec** | 24.9k | 棕地优先、流畅工作流 | 中等：opsx:apply 从 tasks.md 实现 | 更改隔离（每个更改独立文件夹） | 20+ 工具 | 现有代码库维护 |
+| **Taskmaster AI** | 25.5k | PRD→任务分解、多模型 | 委托执行：专注分解层 | 结构化提示词+持久化上下文 | 5+（第一类 Cursor MCP 集成） | 以 Cursor 为中心的任务分解 |
+| **Kiro** | AWS | 一体化 Agentic IDE | 双模交互+原子化回滚 | Specs & Hooks 驱动 | AWS 生态原生 | 重度 AWS 依赖团队 |
+
+### 五大分歧点
+
+1. **执行深度**：GSD（编排+并行波）> Spec Kit/OpenSpec（规范层引导）> Taskmaster（完全委托）
+2. **上下文策略**：GSD 的新鲜上下文隔离是创新——每个执行单元独立上下文窗口，无聊天历史泄漏
+3. **棕地 vs 绿地**：OpenSpec 棕地优先 > GSD/Spec Kit > Taskmaster
+4. **平台哲学**：OpenSpec/Spec Kit 广度优先，Taskmaster Cursor 深度优先，Kiro AWS 生态深度
+5. **许可证**：GSD/Spec Kit/OpenSpec 纯 MIT，Taskmaster MIT + Commons Clause（不可转售 SaaS）
+
+### GSD (Get Shit Done)
+
+执行优先的上下文工程系统。核心工作流：Discuss → Plan → Execute → Verify。最大创新是上下文隔离——每个执行单元接收自己新鲜上下文窗口，从 PROJECT.md/REQUIREMENTS.md/ROADMAP.md/STATE.md 组装，无聊天历史泄漏。支持波式（wave-based）并行执行和依赖管理。命令：`/gsd:discuss-phase`、`/gsd:plan-phase`、`/gsd:execute-phase`、`/gsd:verify-work`。
+
+### OpenSpec (Fission-AI)
+
+棕地优先的 CLI 工具。三步工作流：`openspec new`（创建变更）→ `openspec apply`（基于规范实现）→ `openspec archive`（归档）。核心设计是更改隔离——每个变更在自己的 `.changes/<name>/` 文件夹中，防止并发修改冲突。零 API 密钥，支持 20+ AI 工具。命令前缀 `/opsx:`。
+
+### Kiro (AWS)
+
+专为 AI Agent 设计的 Agentic IDE。双模交互（代码编辑 + 对话规划）、原子化回滚、Specs & Hooks 驱动。内置多专业 Agent（Security Agent/Performance Agent）。深度集成 AWS 云服务，AI 可自主选择和配置云资源。
+
+### Taskmaster AI
+
+PRD 解析为分层依赖感知任务图。多模型架构：主模型（核心操作）+ 研究模型（网络信息）+ 后备模型（经济高效）。通过 MCP 与 Cursor 第一类集成，支持 5+ 平台。优势在分解层，而非执行层。
 
 ### SDD 工具对比
 
@@ -195,9 +234,17 @@ Spec 开销是真实成本，不是每个任务都需要：
 - [[wiki/concepts/harness-engineering]]：SDD 不是单纯 prompt engineering，而是把内容工件提升为 runtime contract。对抗性 Agent 的 Verifier 角色与 Harness 的监督层直接对应
 - [[wiki/concepts/agent-skills-system]]：AGENTS.md 文件作为 Spec 的持久项目上下文
 - [[wiki/concepts/guardrails]]：Spec-Anchored 模式中的宪法约束（constitutional constraints）是 Guardrails 的一种实现
+- [[wiki/concepts/agents-md]]：AGENTS.md 作为 Spec 体系中"约束与假设"要素的落地工具
 
 ## 来源
 
 - [[wiki/sources/spec-driven-development-overview]] — SDD 开源生态全景（自建笔记，2026-06-13）
 - [[wiki/sources/spec-coding-javaguide]] — JavaGuide Spec Coding 深度解析：四步流程、三色标签、多 Agent 协作
 - [[wiki/sources/spec-driven-development-complete-guide]] — Augment Code SDD 完全指南：六要素框架、对抗性 Agent 模式、模型分层、棕地采纳（Molisha Shah, 2026-04-23）
+- [[wiki/sources/sdd-tencent-cloud-ai-specs-practice]] — OpenSpec/Spec Kit/Kiro 三大框架深度对比（腾讯云社区, 2026-04-17）
+- [[wiki/sources/sdd-github-spec-kit-announcement]] — GitHub Spec Kit 官方博客：四阶段工作流设计理念（Den Delimarsky, 2025-09-03）
+- [[wiki/sources/sdd-with-claude-code-heeki-park]] — SDD + Claude Code 实战经验：三层 SDD 实践、分阶段构建、Claude Code 技巧（Heeki Park, 2026-03-01）
+- [[wiki/sources/sdd-zhangluka-guide]] — SDD 企业落地实践指南：六阶段生命周期、四步推进法（zhangluka, 2026-06）
+- [[wiki/sources/sdd-4-tools-comparison-hubwiz]] — GSD/Spec Kit/OpenSpec/Taskmaster 四工具对比（汇智网, 2026-03-03）
+- [[wiki/sources/sdd-intro-jimmysong-ai-handbook]] — SDD 范式迁移全景：AI 编程协议栈三层模型、工具全景（Jimmy Song AI Handbook, 2025-11-03）
+- [[wiki/sources/agents-md-specification-jimmysong]] — AGENTS.md 规范：六大工程要素、三层边界模型（Jimmy Song AI Handbook, 2025-11-02）
