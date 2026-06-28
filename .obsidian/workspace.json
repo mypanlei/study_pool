@@ -132,8 +132,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 622.5,
-    "collapsed": true
+    "width": 622.5
   },
   "right": {
     "id": "40e3d2925329258a",
@@ -245,7 +244,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 233.5
+    "width": 684.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -266,8 +265,19 @@
       "notebook-navigator:笔记本导航器": false
     }
   },
-  "active": "1bc82e879801622a",
+  "active": "c0f325943a946142",
   "lastOpenFiles": [
+    "raw/sources/ibm-think/data-visualization-machine-learning.html",
+    "raw/sources/ibm-think/data-augmentation.html",
+    "raw/sources/ibm-think/deep-learning.html",
+    "raw/sources/ibm-think/data-labeling.html",
+    "raw/sources/ibm-think/decision-trees.html",
+    "raw/sources/ibm-think/data-leakage-machine-learning.html",
+    "raw/sources/ibm-think/convolutional-neural-networks.html",
+    "raw/sources/ibm-think/conversational-analytics.html",
+    "raw/sources/ibm-think/conversational-ai.html",
+    "raw/sources/ibm-think/content-based-filtering.html",
+    "raw/sources/ibm-think/deep-learning.status",
     "raw/assets/3ead51f8c0d8f9f3aa6a38a732bec8b6_MD5.webp",
     "raw/assets/f5cee7d2ad82f71c246e1abab0917ed4_MD5.webp",
     "raw/assets/d6f853c20b1950903e4bb11dc88028ac_MD5.webp",
@@ -283,7 +293,6 @@
     "Clippings/AI 编码助手：氛围编程.md",
     "Clippings/AGENTS.md 规范.md",
     "raw/assets/b3d06309d8327de9c895a2a18bcfccee_MD5.svg",
-    "raw/assets/908d2f6f3e885ec84349dca12740fa87_MD5.svg",
     "Clippings/zhanglukaSDD 关于SDD的思考.md",
     "wiki/sources/a2a-official-spec-linux-foundation.md",
     "wiki/concepts/a2a-agent-to-agent-protocol.md",
@@ -297,23 +306,13 @@
     "wiki/concepts/spec-driven-development.md",
     "wiki/lint-report-2026-06-22.md",
     "Clippings/Spec Coding 规范驱动编程实战：从 Vibe Coding 到 AI 代码规范.md",
-    "wiki/index.md.tmp.24908.ce1ce4d33610",
-    "wiki/concepts/vibe-coding.md.tmp.24908.b31a56d8e503",
     "wiki/sources/llm-gateway-deep-dive-javaguide.md",
-    "wiki/sources/llm-gateway-deep-dive-javaguide.md.tmp.24908.1d7cbb61b8bf",
     "wiki/sources/vibe-coding-tips-javaguide.md",
-    "wiki/sources/vibe-coding-tips-javaguide.md.tmp.24908.20036526d708",
     "wiki/sources/spec-coding-javaguide.md",
     "wiki/sources/claude-md-best-practices-javaguide.md",
     "wiki/sources/ai-voice-engineering-javaguide.md",
     "wiki/sources/cli-vs-ide-comparison-javaguide.md",
     "wiki/sources/ai-skills-recommendations-javaguide.md",
-    "wiki/sources/ai-skills-recommendations-javaguide.md.tmp.24908.1785aff0b588",
-    "raw/sources/sedS0wQ4Q",
-    "raw/sources/sed90K8hZ",
-    "raw/sources/sedNjlsXz",
-    "raw/sources/sedEblMIz",
-    "raw/sources/sedfClekh",
     "未命名.canvas"
   ]
 }
