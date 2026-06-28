@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Clippings/规范驱动开发（SDD）简介：从氛围编程到 SDD.md",
+                "file": "Clippings/Using spec-driven development with Claude Code.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "规范驱动开发（SDD）简介：从氛围编程到 SDD"
+              "title": "Using spec-driven development with Claude Code"
             }
           }
         ],
@@ -132,7 +132,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 622.5
+    "width": 622.5,
+    "collapsed": true
   },
   "right": {
     "id": "40e3d2925329258a",
@@ -244,7 +245,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 497.5
+    "width": 233.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -267,9 +268,11 @@
   },
   "active": "1bc82e879801622a",
   "lastOpenFiles": [
+    "Clippings/Spec-driven development with AI Get started with a new open source toolkit.md",
+    "Clippings/Using spec-driven development with Claude Code.md",
+    "Clippings/规范驱动开发（SDD）简介：从氛围编程到 SDD.md",
     "Clippings/AI 编码助手：氛围编程.md",
     "Clippings/AGENTS.md 规范.md",
-    "Clippings/规范驱动开发（SDD）简介：从氛围编程到 SDD.md",
     "raw/assets/b3d06309d8327de9c895a2a18bcfccee_MD5.svg",
     "raw/assets/908d2f6f3e885ec84349dca12740fa87_MD5.svg",
     "Clippings/zhanglukaSDD 关于SDD的思考.md",
@@ -303,8 +306,6 @@
     "raw/sources/sedNjlsXz",
     "raw/sources/sedEblMIz",
     "raw/sources/sedfClekh",
-    "raw/sources/大模型网关详解：多模型路由、Fallback、限流与成本控制.md",
-    "raw/sources/Vibe Coding 实用技巧总结：Git、Spec、上下文管理与多 Agent 协作.md",
     "raw/assets/Pasted image 20260617140836.png",
     "raw/assets/Pasted image 20260617142146.png",
     "raw/assets/Pasted image 20260617144401.png",
