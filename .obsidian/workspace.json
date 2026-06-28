@@ -11,14 +11,10 @@
             "id": "853f82d647e2374c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "raw/sources/ibm-think/backpropagation.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "backpropagation"
+              "title": "新标签页"
             }
           }
         ]
@@ -222,8 +218,9 @@
       "notebook-navigator:笔记本导航器": false
     }
   },
-  "active": "853f82d647e2374c",
+  "active": "c0f325943a946142",
   "lastOpenFiles": [
+    "raw/sources/ibm-think/backpropagation.md",
     "raw/sources/ibm-think/information-retrieval.md",
     "raw/sources/ibm-think/information-extraction.md",
     "raw/sources/ibm-think/training-data.md",
@@ -249,7 +246,6 @@
     "raw/sources/ibm-think/machine-learning-algorithms.md",
     "raw/sources/ibm-think/lstm.md",
     "raw/sources/ibm-think/loss-function.md",
-    "raw/sources/ibm-think/lora.md",
     "raw/assets/3ead51f8c0d8f9f3aa6a38a732bec8b6_MD5.webp",
     "raw/sources/ibm-think/visual-inspection.status",
     "raw/sources/ibm-think/word-embeddings.status",
