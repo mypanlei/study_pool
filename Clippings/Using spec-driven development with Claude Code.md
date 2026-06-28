@@ -23,7 +23,7 @@ When I first started hearing about spec-driven development, I initially wondered
 
 Spec-driven development *can* help address some of those issues, but it depends on how it is applied. Birgitta Böckeler wrote an excellent [blog post](https://martinfowler.com/articles/exploring-gen-ai/sdd-3-tools.html) that outlines three levels of spec-driven development.
 
-![](https://miro.medium.com/v2/resize:fit:1400/format:webp/0*-11u2XC7jcE8C-Xs.png)
+![[raw/assets/950bc459da05eee0143a1b5cee6a0c8a_MD5.webp]]
 
 Levels of spec-driven development, as illustrated in the source blog post
 
@@ -33,13 +33,13 @@ Levels of spec-driven development, as illustrated in the source blog post
 
 I think my general inclination is mostly toward spec-first approaches. ==It’s very easy to start by iterating on a singular specification for the project and putting together a great design and implementation plan.== It’s equally easy to go off and start implementing, leaving that one specification in the dust, especially as one gets deeper into the project. Perhaps that’s not even spec-first but instead *spec-once* development.
 
-![](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*xDtQyHa82UZWpMRuRR_eyA.png)
+![[raw/assets/84b4a880f14f80ea321bf3efb3cab6a7_MD5.webp]]
 
 Spec-once development, where the specification launches the project but is later forgotten
 
 However, I think the value in spec-driven development is the fact that the developer is forced to think deeply about the use case requirements, document architectural considerations, and outline implementation approaches. As depicted in the source diagram, it also indicates that there could be many specification documents for different features. Furthermore, with the latter definitions of spec-driven, it forces the developer to constantly revisit those requirements and feed them back into the specification(s).
 
-![](https://miro.medium.com/v2/resize:fit:1322/format:webp/1*tAYGeeGCNqkYzRyX21T8BA.png)
+![[raw/assets/0c8fc3a3650ce93905f8051c5dbb436d_MD5.webp]]
 
 Spec-driven development as a continuous feedback loop
 
@@ -47,13 +47,13 @@ Spec-driven development as a continuous feedback loop
 
 For concrete practice, I wanted to better understand the nuts and bolts of how an interceptor worked with AgentCore Gateway. While [documentation](https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/gateway-interceptors-types.html) provides examples of input and output payloads with the interceptor function, I wanted to dig in firsthand.
 
-![](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*VOzPHcHIvwhHGi3HYRXplA.png)
+![[raw/assets/14b32ed3bea9d2933dc704c2802e79b5_MD5.webp]]
 
 Request interceptor flow with AgentCore Gateway
 
 My normal flow for these prototyping endeavors is 1/ to conduct due diligence by reading documentation and other relevant sources, 2/ plan out the resources required for deployment in AWS, and 3/ start building small, testable modules. The research phase happens regardless, but I use those same phases when building out my initial prompt for Claude Code.
 
-![](https://miro.medium.com/v2/resize:fit:2000/format:webp/1*u5v2WXsTfDN1At6e2Q4U3w.png)
+![[raw/assets/29139ec4b52ff443f7eb977235d14f3d_MD5.webp]]
 
 Initial prompt for defining the project and build phases
 
@@ -61,7 +61,7 @@ Initial prompt for defining the project and build phases
 
 2/ I spent time thinking through how I would build out the stack, considering resource dependencies, modular testing, and overall project flow. As such, I broke the overall project down into two sub-projects (red) with the appropriate phases (yellow) for each sub-project.
 
-![](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*K7ym7vwEJEVgSJ-Gg0NDPw.png)
+![[raw/assets/0a3cbf98dd97352c83426ceebde99937_MD5.webp]]
 
 Modular stacks for simpler testing and composable deployment
 
@@ -89,7 +89,7 @@ The default context window limit on paid Claude plans is [200k](https://support.
 
 What about if I swap from my Pro subscription to using Bedrock directly? I can swap by setting `CLAUDE_CODE_USE_BEDROCK=1` before starting up Claude Code. Bedrock has Claude Opus 4.6, Sonnet 4.6, Sonnet 4.5, and Sonnet 4, all of which support 1m token context windows in beta. In order to get access to that extended context window, I need to inject a custom header: `"anthropic-beta: context-1m-2025-08-07"`. However, Claude Code manages interactions with the API and as far as I am aware, there is no way to add the beta flag. Hence, context window of 200k tokens for me it is.
 
-![](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*YziwExjJl_HoJRkjZ9iAQg.png)
+![[raw/assets/d6f853c20b1950903e4bb11dc88028ac_MD5.webp]]
 
 Viewing context usage in Claude Code
 
@@ -99,7 +99,7 @@ In heavy usage scenarios when I hit that context window limit, Claude Code autom
 
 **I instruct Claude Code to ask clarifying questions, as needed, but also to use selectable inputs to make clarifying responses simpler.** This way, it presents a set of options that I can then navigate via a menu of choices. It leaves the last option for open user input if needed, but I generally found that the presented options are sufficient. This makes the back and forth much easier and faster. At the end, I get a nice summary of the questions that it asked and the selected responses for each question.
 
-![](https://miro.medium.com/v2/resize:fit:2000/format:webp/1*y8EthqbIg4iRbb6V9bd3IQ.png)
+![[raw/assets/f5cee7d2ad82f71c246e1abab0917ed4_MD5.webp]]
 
 Summary of responses from Claude Code’s set of clarifying questions
 
@@ -117,7 +117,7 @@ Regardless, multiple parallel sessions will be useful when experimenting with ag
 
 **I ran into this fun little nugget during this project.** When Claude Code was trying to research an approach to solving a problem, it used web search to retrieve additional information, and it tried to fetch my own [blog post](https://heeki.medium.com/getting-started-with-bedrock-agentcore-runtime-3eaae1f517cc)!
 
-![](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*dBjP-maXA3ZdQE7KD9yZWw.png)
+![[raw/assets/3ead51f8c0d8f9f3aa6a38a732bec8b6_MD5.webp]]
 
 Claude Code pulling my own blog post, which was published with AWS in Plain English
 
