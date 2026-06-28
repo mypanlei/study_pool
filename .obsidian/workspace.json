@@ -4,67 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "b96f1a1133b66a97",
+        "id": "4f2c609a87546b48",
         "type": "tabs",
         "children": [
           {
-            "id": "baf239dd80040aa2",
+            "id": "611e011f2aa59f85",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "CLAUDE.md",
-                "mode": "source",
-                "source": false
+                "file": "raw/assets/3ead51f8c0d8f9f3aa6a38a732bec8b6_MD5.webp"
               },
-              "icon": "lucide-file",
-              "title": "CLAUDE"
-            }
-          },
-          {
-            "id": "b9c3ea669231621f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Clippings/Kubeflow Alternatives 5 Tools for Lightweight MLOps.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Kubeflow Alternatives 5 Tools for Lightweight MLOps"
-            }
-          },
-          {
-            "id": "e930acfc4bc37b90",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Clippings/Spec Coding 规范驱动编程实战：从 Vibe Coding 到 AI 代码规范.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Spec Coding 规范驱动编程实战：从 Vibe Coding 到 AI 代码规范"
-            }
-          },
-          {
-            "id": "1bc82e879801622a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Clippings/Using spec-driven development with Claude Code.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Using spec-driven development with Claude Code"
+              "icon": "lucide-image",
+              "title": "3ead51f8c0d8f9f3aa6a38a732bec8b6_MD5"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -132,7 +87,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 622.5
+    "width": 629.5
   },
   "right": {
     "id": "40e3d2925329258a",
@@ -244,7 +199,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 684.5
+    "width": 529.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -267,17 +222,17 @@
   },
   "active": "c0f325943a946142",
   "lastOpenFiles": [
-    "raw/sources/ibm-think/data-visualization-machine-learning.html",
-    "raw/sources/ibm-think/data-augmentation.html",
-    "raw/sources/ibm-think/deep-learning.html",
-    "raw/sources/ibm-think/data-labeling.html",
-    "raw/sources/ibm-think/decision-trees.html",
-    "raw/sources/ibm-think/data-leakage-machine-learning.html",
-    "raw/sources/ibm-think/convolutional-neural-networks.html",
-    "raw/sources/ibm-think/conversational-analytics.html",
-    "raw/sources/ibm-think/conversational-ai.html",
-    "raw/sources/ibm-think/content-based-filtering.html",
-    "raw/sources/ibm-think/deep-learning.status",
+    "Clippings/Using spec-driven development with Claude Code.md",
+    "raw/sources/ibm-think/visual-inspection.status",
+    "raw/sources/ibm-think/word-embeddings.status",
+    "raw/sources/ibm-think/vision-language-models.status",
+    "raw/sources/ibm-think/vibe-coding.status",
+    "raw/sources/ibm-think/xgboost.html",
+    "raw/sources/ibm-think/zero-shot-learning.html",
+    "raw/sources/ibm-think/word-embeddings.html",
+    "raw/sources/ibm-think/visual-inspection.html",
+    "raw/sources/ibm-think/variational-autoencoder.html",
+    "raw/sources/ibm-think/vision-language-models.html",
     "raw/assets/3ead51f8c0d8f9f3aa6a38a732bec8b6_MD5.webp",
     "raw/assets/f5cee7d2ad82f71c246e1abab0917ed4_MD5.webp",
     "raw/assets/d6f853c20b1950903e4bb11dc88028ac_MD5.webp",
@@ -288,7 +243,6 @@
     "raw/assets/84b4a880f14f80ea321bf3efb3cab6a7_MD5.webp",
     "raw/assets/950bc459da05eee0143a1b5cee6a0c8a_MD5.webp",
     "Clippings/Spec-driven development with AI Get started with a new open source toolkit.md",
-    "Clippings/Using spec-driven development with Claude Code.md",
     "Clippings/规范驱动开发（SDD）简介：从氛围编程到 SDD.md",
     "Clippings/AI 编码助手：氛围编程.md",
     "Clippings/AGENTS.md 规范.md",
