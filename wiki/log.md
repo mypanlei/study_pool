@@ -889,3 +889,39 @@ grep 发现的 4 个"匹配"均为误报：
 | raw vs wiki 一致性 | ✅ |
 | 断链 | ✅ 0 个 |
 | **全文统计** | 28 实体 + 33 概念 + 112 源摘要 + 13 综合分析 = 186 页 |
+
+## [2026-06-29] ingest | Spec-Driven Development 完全指南 — Augment Code
+
+- **源材料**: `Clippings/What Is Spec-Driven Development A Complete Guide.md` → `raw/sources/`
+- **原文**: Augment Code 发布的 SDD 深度指南（Molisha Shah, 2026-04-23）
+- **新建源摘要**: [[wiki/sources/spec-driven-development-complete-guide]]
+  - 核心贡献：六要素框架（Outcomes/Scope/Constraints/Prior Decisions/Task Breakdown/Verification Criteria）
+  - SDD vs TDD/BDD/Vibe Coding 五维对比表
+  - 三种落地模式：Spec-First / Spec-Anchored / Spec-as-Source
+  - 对抗性 Agent 模式（Coordinator/Implementor/Verifier）及模型分层策略
+  - 7 款工具对比矩阵（Spec Kit / SwaggerHub / Postman / Spectral / PactFlow / Specmatic / TypeSpec）
+  - 棕地采纳三阶段、Figma MCP 实践案例、何时跳过 Spec 判断框架
+- **大幅更新概念页**: [[wiki/concepts/spec-driven-development]]
+  - 新增 Why SDD Matters Now（2025-2026 三大合力：AI 漏洞率/ EU AI Act / 分布式治理）
+  - 新增六要素框架（Spec 的可操作检查清单）
+  - 新增三种模式详解及其适用场景判断
+  - 新增对抗性 Agent 模式（Coordinator → Implementor → Verifier 架构 + 对立目标设计）
+  - 新增模型分层策略（Spec 用贵模型 / Implement 用中档 / Verify 用快速）
+  - 新增棕地采纳三阶段法（重构 → 局部 Spec → 增量 CI 执行）
+  - 新增何时跳过 Spec 判断表
+  - 新增 7 款工具对比矩阵、Intent Context Engine 企业级扩展
+  - 新增 1 个来源引用（来自 Augment Code）、1 个新相关概念（guardrails）
+
+### 汇总
+- **本次新增**: 1 源摘要
+- **大幅更新**: 1 概念页
+- **更新**: `wiki/index.md` — 源摘要 112 → 113，原始资料 114 → 115
+- **全文**: 28 实体 + 33 概念 + 113 源摘要 + 13 综合分析 = 187 页
+
+### 三层架构最终状态
+
+```
+raw/      115 篇源文件（115 篇全部已 Ingest）
+wiki/     187 内容页（含模板）
+schema    CLAUDE.md + .claude/agents/llm-wiki.md
+```

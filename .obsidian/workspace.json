@@ -202,7 +202,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 237.5
+    "width": 430.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -223,8 +223,10 @@
       "notebook-navigator:笔记本导航器": false
     }
   },
-  "active": "853f82d647e2374c",
+  "active": "92127c64f54b650d",
   "lastOpenFiles": [
+    "wiki/sources/spec-driven-development-complete-guide.md",
+    "raw/sources/What Is Spec-Driven Development A Complete Guide.md",
     "raw/assets/6b3166de6bd69dc62779e2ddb5b16ecd_MD5.png",
     "raw/sources/ibm-think/information-retrieval.md",
     "Clippings/What Is Spec-Driven Development A Complete Guide.md",
@@ -250,7 +252,6 @@
     "raw/sources/ibm-think/machine-learning-pipeline.md",
     "raw/sources/ibm-think/machine-learning-libraries.md",
     "raw/sources/ibm-think/machine-learning-for-anomaly-detection.md",
-    "raw/sources/ibm-think/machine-learning-algorithms.md",
     "raw/assets/3ead51f8c0d8f9f3aa6a38a732bec8b6_MD5.webp",
     "raw/sources/ibm-think/visual-inspection.status",
     "raw/sources/ibm-think/word-embeddings.status",
@@ -270,7 +271,6 @@
     "raw/assets/0c8fc3a3650ce93905f8051c5dbb436d_MD5.webp",
     "raw/assets/84b4a880f14f80ea321bf3efb3cab6a7_MD5.webp",
     "raw/assets/950bc459da05eee0143a1b5cee6a0c8a_MD5.webp",
-    "raw/assets/b3d06309d8327de9c895a2a18bcfccee_MD5.svg",
     "未命名.canvas"
   ]
 }

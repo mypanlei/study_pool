@@ -184,6 +184,7 @@ updated: 2026-06-13
 | [[wiki/sources/skills-manager-tutorial]] | Skills Manager — 跨 Agent 工具的可视化统一 Skill 管理 | GitHub (Datawhale) | 2026-06-13 |
 | [[wiki/sources/skills-tutorial]] | Skills 教程：SKILL.md 结构/渐进披露/MCP vs Skills/Claude Code Skills | 菜鸟教程 | 2026-06-17 |
 | [[wiki/sources/spec-driven-development-overview]] | SDD 开源方案生态全景与选型建议 | 自建笔记 | 2026-06-13 |
+| [[wiki/sources/spec-driven-development-complete-guide]] | SDD 完全指南：六要素框架、对抗性 Agent 模式、模型分层、棕地采纳 | Augment Code (Molisha Shah) | 2026-06-29 |
 | [[wiki/sources/structured-output-function-calling-javaguide]] | 大模型结构化输出：JSON 失效模式/Structured Outputs 三层体系/Function Calling 七步流水线/MCP | JavaGuide | 2026-06-19 |
 | [[wiki/sources/token-concepts]] | Token 概念：BPE 编码/中英文差异/上下文窗口/计费 | 菜鸟教程 | 2026-06-17 |
 | [[wiki/sources/transformer-architecture-detail]] | Transformer 架构详解：自注意力、QKV、Decoder-only | 自建笔记 | 2026-06-13 |
@@ -222,6 +223,6 @@ updated: 2026-06-13
 
 - **实体页**: 28
 - **概念页**: 33
-- **源摘要页**: 112
+- **源摘要页**: 113
 - **综合分析页**: 13
-- **原始资料**: 114 篇（全部已 Ingest）
+- **原始资料**: 115 篇（全部已 Ingest）

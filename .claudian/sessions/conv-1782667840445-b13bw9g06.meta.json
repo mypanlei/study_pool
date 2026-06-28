@@ -1,0 +1,24 @@
+{
+  "id": "conv-1782667840445-b13bw9g06",
+  "providerId": "claude",
+  "title": "Ingest raw sources into wiki",
+  "titleGenerationStatus": "success",
+  "createdAt": 1782667840446,
+  "updatedAt": 1782668068994,
+  "lastResponseAt": 1782668068994,
+  "sessionId": "57f1962e-b86d-4fbd-a9f3-b734e8181ccf",
+  "providerState": {
+    "providerSessionId": "57f1962e-b86d-4fbd-a9f3-b734e8181ccf"
+  },
+  "currentNote": "Clippings/What Is Spec-Driven Development A Complete Guide.md",
+  "usage": {
+    "model": "haiku",
+    "inputTokens": 45,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 73984,
+    "contextWindow": 1000000,
+    "contextTokens": 74029,
+    "percentage": 7,
+    "contextWindowIsAuthoritative": true
+  }
+}
