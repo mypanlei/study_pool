@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "4f2c609a87546b48",
+        "id": "eb5cc5858bd04f62",
         "type": "tabs",
         "children": [
           {
-            "id": "611e011f2aa59f85",
+            "id": "853f82d647e2374c",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "raw/assets/3ead51f8c0d8f9f3aa6a38a732bec8b6_MD5.webp"
+                "file": "raw/sources/ibm-think/backpropagation.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "3ead51f8c0d8f9f3aa6a38a732bec8b6_MD5"
+              "icon": "lucide-file",
+              "title": "backpropagation"
             }
           }
         ]
@@ -87,7 +89,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 629.5
+    "width": 719.5
   },
   "right": {
     "id": "40e3d2925329258a",
@@ -199,7 +201,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 529.5
+    "width": 474.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -220,9 +222,35 @@
       "notebook-navigator:笔记本导航器": false
     }
   },
-  "active": "c0f325943a946142",
+  "active": "853f82d647e2374c",
   "lastOpenFiles": [
-    "Clippings/Using spec-driven development with Claude Code.md",
+    "raw/sources/ibm-think/information-retrieval.md",
+    "raw/sources/ibm-think/information-extraction.md",
+    "raw/sources/ibm-think/training-data.md",
+    "raw/sources/ibm-think/model-drift.md",
+    "raw/sources/ibm-think/mlops.md",
+    "raw/sources/ibm-think/natural-language-generation.md",
+    "raw/sources/ibm-think/named-entity-recognition.md",
+    "raw/sources/ibm-think/naive-bayes.md",
+    "raw/sources/ibm-think/multimodal-ai.md",
+    "raw/sources/ibm-think/model-training.md",
+    "raw/sources/ibm-think/model-selection.md",
+    "raw/sources/ibm-think/model-risk-management.md",
+    "raw/sources/ibm-think/model-parameters.md",
+    "raw/sources/ibm-think/model-deployment.md",
+    "raw/sources/ibm-think/meta-learning.md",
+    "raw/sources/ibm-think/mamba-model.md",
+    "raw/sources/ibm-think/machine-translation.md",
+    "raw/sources/ibm-think/machine-learning.md",
+    "raw/sources/ibm-think/machine-learning-types.md",
+    "raw/sources/ibm-think/machine-learning-pipeline.md",
+    "raw/sources/ibm-think/machine-learning-libraries.md",
+    "raw/sources/ibm-think/machine-learning-for-anomaly-detection.md",
+    "raw/sources/ibm-think/machine-learning-algorithms.md",
+    "raw/sources/ibm-think/lstm.md",
+    "raw/sources/ibm-think/loss-function.md",
+    "raw/sources/ibm-think/lora.md",
+    "raw/assets/3ead51f8c0d8f9f3aa6a38a732bec8b6_MD5.webp",
     "raw/sources/ibm-think/visual-inspection.status",
     "raw/sources/ibm-think/word-embeddings.status",
     "raw/sources/ibm-think/vision-language-models.status",
@@ -233,7 +261,6 @@
     "raw/sources/ibm-think/visual-inspection.html",
     "raw/sources/ibm-think/variational-autoencoder.html",
     "raw/sources/ibm-think/vision-language-models.html",
-    "raw/assets/3ead51f8c0d8f9f3aa6a38a732bec8b6_MD5.webp",
     "raw/assets/f5cee7d2ad82f71c246e1abab0917ed4_MD5.webp",
     "raw/assets/d6f853c20b1950903e4bb11dc88028ac_MD5.webp",
     "raw/assets/29139ec4b52ff443f7eb977235d14f3d_MD5.webp",
@@ -242,31 +269,7 @@
     "raw/assets/0c8fc3a3650ce93905f8051c5dbb436d_MD5.webp",
     "raw/assets/84b4a880f14f80ea321bf3efb3cab6a7_MD5.webp",
     "raw/assets/950bc459da05eee0143a1b5cee6a0c8a_MD5.webp",
-    "Clippings/Spec-driven development with AI Get started with a new open source toolkit.md",
-    "Clippings/规范驱动开发（SDD）简介：从氛围编程到 SDD.md",
-    "Clippings/AI 编码助手：氛围编程.md",
-    "Clippings/AGENTS.md 规范.md",
     "raw/assets/b3d06309d8327de9c895a2a18bcfccee_MD5.svg",
-    "Clippings/zhanglukaSDD 关于SDD的思考.md",
-    "wiki/sources/a2a-official-spec-linux-foundation.md",
-    "wiki/concepts/a2a-agent-to-agent-protocol.md",
-    "raw/sources/a2aprojectA2A Agent2Agent (A2A) is an open protocol enabling communication and interoperability between opaque agentic applications.md",
-    "raw/sources/A2A Protocol.md",
-    "raw/sources/AI-平台化解决方案产品经理-角色定位与能力框架.md",
-    "Clippings/Loop Engineering（循环工程）  菜鸟教程.md",
-    "raw/sources/Loop Engineering（循环工程）  菜鸟教程.md",
-    "raw/sources/Vibe Coding 入门教程  菜鸟教程.md",
-    "Clippings/大模型结构化输出：从 JSON 契约到 Function Calling 落地.md",
-    "wiki/concepts/spec-driven-development.md",
-    "wiki/lint-report-2026-06-22.md",
-    "Clippings/Spec Coding 规范驱动编程实战：从 Vibe Coding 到 AI 代码规范.md",
-    "wiki/sources/llm-gateway-deep-dive-javaguide.md",
-    "wiki/sources/vibe-coding-tips-javaguide.md",
-    "wiki/sources/spec-coding-javaguide.md",
-    "wiki/sources/claude-md-best-practices-javaguide.md",
-    "wiki/sources/ai-voice-engineering-javaguide.md",
-    "wiki/sources/cli-vs-ide-comparison-javaguide.md",
-    "wiki/sources/ai-skills-recommendations-javaguide.md",
     "未命名.canvas"
   ]
 }
