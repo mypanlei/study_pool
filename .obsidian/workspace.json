@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/concepts/spec-driven-development.md",
+                "file": "Clippings/AI 辅助编程与 AI Specs 实战：2026 年最新最全进展详解-腾讯云开发者社区-腾讯云.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "spec-driven-development"
+              "title": "AI 辅助编程与 AI Specs 实战：2026 年最新最全进展详解-腾讯云开发者社区-腾讯云"
             }
           }
         ],
@@ -99,13 +99,11 @@
               "title": "笔记本导航器"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 719.5,
-    "collapsed": true
+    "width": 381.5
   },
   "right": {
     "id": "40e3d2925329258a",
@@ -217,7 +215,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 598.5
+    "width": 365.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -238,8 +236,12 @@
       "notebook-navigator:笔记本导航器": false
     }
   },
-  "active": "cb68efe672ef8f2e",
+  "active": "70c2e25b93912c9b",
   "lastOpenFiles": [
+    "Clippings/AI 辅助编程与 AI Specs 实战：2026 年最新最全进展详解.md",
+    "Clippings/AI 辅助编程与 AI Specs 实战：2026 年最新最全进展详解-腾讯云开发者社区-腾讯云.md",
+    "raw/assets/aa3c8af0a5a0969c611d6e3198e3bb47_MD5.jpg",
+    "wiki/concepts/spec-driven-development.md",
     "Clippings/What Is Spec-Driven Development A Complete Guide.md",
     "wiki/sources/spec-driven-development-complete-guide.md",
     "raw/sources/What Is Spec-Driven Development A Complete Guide.md",
@@ -263,10 +265,6 @@
     "raw/sources/ibm-think/mamba-model.md",
     "raw/sources/ibm-think/machine-translation.md",
     "raw/sources/ibm-think/machine-learning.md",
-    "raw/sources/ibm-think/machine-learning-types.md",
-    "raw/sources/ibm-think/machine-learning-pipeline.md",
-    "raw/sources/ibm-think/machine-learning-libraries.md",
-    "raw/sources/ibm-think/machine-learning-for-anomaly-detection.md",
     "raw/assets/3ead51f8c0d8f9f3aa6a38a732bec8b6_MD5.webp",
     "raw/sources/ibm-think/visual-inspection.status",
     "raw/sources/ibm-think/word-embeddings.status",
@@ -285,7 +283,6 @@
     "raw/assets/14b32ed3bea9d2933dc704c2802e79b5_MD5.webp",
     "raw/assets/0c8fc3a3650ce93905f8051c5dbb436d_MD5.webp",
     "raw/assets/84b4a880f14f80ea321bf3efb3cab6a7_MD5.webp",
-    "raw/assets/950bc459da05eee0143a1b5cee6a0c8a_MD5.webp",
     "未命名.canvas"
   ]
 }
