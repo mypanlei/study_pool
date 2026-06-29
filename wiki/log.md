@@ -1124,3 +1124,30 @@ raw/      131 篇源文件（131 篇全部已 Ingest）
 wiki/     203 内容页（含模板）
 schema    CLAUDE.md + .claude/agents/llm-wiki.md
 ```
+
+## [2026-06-30] feat | Claude Code 中实践 Harness Engineering 指南
+
+用户询问如何在 Claude Code 中实践 Harness Engineering，基于已有知识综合回答后，将内容记录为综合分析页。
+
+### 新建综合分析页
+
+- **[[wiki/syntheses/harness-engineering-with-claude-code]]** — Claude Code 中实践 Harness Engineering
+  - 六层架构（L1-L6）逐一映射到 Claude Code 的具体能力
+  - 每层配套可复制的配置文件模板（CLAUDE.md / settings.json / AGENTS.md / SKILL.md）
+  - P0/P1/P2 行动清单 + Level 0-4 成熟度模型
+  - Context Resets 交接文档模板、权限模型、多层防线表
+  - 关键原则："如果删掉某层后行为没变，那层已不需要"
+
+### 汇总
+
+- **本次新增**: 1 综合分析页
+- **更新**: `wiki/index.md` — 综合分析 13 → 14
+- **全文**: 28 实体 + 34 概念 + 128 源摘要 + 14 综合分析 = **204 页**
+
+### 三层架构最终状态
+
+```
+raw/      131 篇源文件（131 篇全部已 Ingest）
+wiki/     204 内容页（含模板）
+schema    CLAUDE.md + .claude/agents/llm-wiki.md
+```
