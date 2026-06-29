@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/concepts/harness-engineering.md",
+                "file": "wiki/syntheses/harness-engineering-presentation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "harness-engineering"
+              "title": "harness-engineering-presentation"
             }
           }
         ],
@@ -103,7 +103,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 302.5
+    "width": 270.5
   },
   "right": {
     "id": "40e3d2925329258a",
@@ -215,7 +215,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 359.5
+    "width": 560.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -236,8 +236,11 @@
       "notebook-navigator:笔记本导航器": false
     }
   },
-  "active": "b7728746e0814192",
+  "active": "92127c64f54b650d",
   "lastOpenFiles": [
+    "wiki/sources/harness-content-prompt-engineering.md",
+    "wiki/concepts/harness-engineering.md",
+    "wiki/sources/harness-engineering-deep-dive.md",
     "Clippings/Harness Engineering（驾驭工程）  菜鸟教程.md",
     "Clippings/Harness Engineering（驾驭工程）  菜鸟教程 1.md",
     "Clippings/多 AI 协同 + SDD 编程实践：一个 AI 全流程交付实录.md",
@@ -259,7 +262,6 @@
     "raw/assets/2abc3c71abddd6e39e75c51c9622a367_MD5.jpg",
     "raw/sources/多 AI 协同 + SDD 编程实践：一个 AI 全流程交付实录.md",
     "raw/sources/Agent to Agent（A2A）一文全了解.md",
-    "wiki/concepts/harness-engineering.md",
     "wiki/sources/hidden-technical-debt-ml-sculley-2015.md",
     "wiki/concepts/mlops-lifecycle.md",
     "Clippings/Google MLOps白皮书（上）MLOps生命周期及核心能力.md",
@@ -282,8 +284,6 @@
     "Clippings/openspec-schemasopenspecschemasintent-driven at main.md",
     "raw/sources/neurips2015-hidden-technical-debt-ml.md",
     "Clippings/Spec-Driven Development with OpenSpec - Source of Truth Specification.md",
-    "Clippings/Spec-Driven Development Knowledge Hub.md",
-    "wiki/concepts/spec-driven-development.md",
     "未命名.canvas"
   ]
 }
