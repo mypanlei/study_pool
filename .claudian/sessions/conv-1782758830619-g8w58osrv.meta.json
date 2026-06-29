@@ -1,0 +1,23 @@
+{
+  "id": "conv-1782758830619-g8w58osrv",
+  "providerId": "claude",
+  "title": "Document loop engineering with Claude Code",
+  "titleGenerationStatus": "success",
+  "createdAt": 1782758830620,
+  "updatedAt": 1782758911191,
+  "lastResponseAt": 1782758911191,
+  "sessionId": "c8742253-9bca-4762-8a7b-a4616fef24f4",
+  "providerState": {
+    "providerSessionId": "c8742253-9bca-4762-8a7b-a4616fef24f4"
+  },
+  "usage": {
+    "model": "haiku",
+    "inputTokens": 89,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 88832,
+    "contextWindow": 200000,
+    "contextTokens": 88921,
+    "percentage": 44,
+    "contextWindowIsAuthoritative": true
+  }
+}

@@ -235,6 +235,7 @@ updated: 2026-06-13
 | [[wiki/syntheses/loop-engineering-presentation]] | Loop Engineering：四次范式跃迁/核心循环/六大要素/五种模式 (Marp 演示) | 2026-06-17 |
 | [[wiki/syntheses/obsidian-claudian-llm-wiki-presentation]] | Obsidian + Claudian + LLM Wiki：三层知识工作流全景 (Marp 演示) | 2026-06-17 |
 | [[wiki/syntheses/harness-engineering-with-claude-code]] | Claude Code 中实践 Harness Engineering：六层架构实操映射与 P0/P1/P2 行动清单 | 2026-06-30 |
+| [[wiki/syntheses/loop-engineering-with-claude-code]] | Claude Code 中实践 Loop Engineering：循环模式设计与 P0/P1/P2 行动清单 | 2026-06-30 |
 
 ## 统计
 

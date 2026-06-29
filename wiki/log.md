@@ -1151,3 +1151,30 @@ raw/      131 篇源文件（131 篇全部已 Ingest）
 wiki/     204 内容页（含模板）
 schema    CLAUDE.md + .claude/agents/llm-wiki.md
 ```
+
+## [2026-06-30] feat | Claude Code 中实践 Loop Engineering 指南
+
+用户询问 Loop Engineering 与 Harness Engineering 的区别，以及如何在 Claude Code 中实践 Loop Engineering。
+
+### 新建综合分析页
+
+- **[[wiki/syntheses/loop-engineering-with-claude-code]]** — Claude Code 中实践 Loop Engineering
+  - Loop vs Harness 对比：Harness=跑得稳，Loop=跑不停
+  - 四种 Loop 实现机制：`/loop` 命令 / CronCreate 定时任务 / Worktree 隔离 / Sub-agent 分工
+  - 五种 Loop 模式：Test-Driven / Review-Driven / Type-Driven / Runtime-Debug / Aggregation-Synthesis
+  - Loop 构建四步法：窄任务 → 验证方式 → 保险机制 → 逐步授权
+  - 与 Harness 的协同配置表 + 成熟度模型 + 常见陷阱 + P0/P1/P2 行动清单
+
+### 汇总
+
+- **本次新增**: 1 综合分析页
+- **更新**: `wiki/index.md` — 综合分析 14 → 15
+- **全文**: 28 实体 + 34 概念 + 128 源摘要 + 15 综合分析 = **205 页**
+
+### 三层架构最终状态
+
+```
+raw/      131 篇源文件（131 篇全部已 Ingest）
+wiki/     205 内容页（含模板）
+schema    CLAUDE.md + .claude/agents/llm-wiki.md
+```
