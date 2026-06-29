@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/syntheses/harness-engineering-with-claude-code.md",
+                "file": "wiki/syntheses/loop-engineering-presentation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "harness-engineering-with-claude-code"
+              "title": "loop-engineering-presentation"
             }
           }
         ]
@@ -200,7 +200,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 778.5
+    "width": 519.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -221,11 +221,11 @@
       "notebook-navigator:笔记本导航器": false
     }
   },
-  "active": "92127c64f54b650d",
+  "active": "b7728746e0814192",
   "lastOpenFiles": [
+    "wiki/syntheses/harness-engineering-with-claude-code.md",
     "wiki/sources/claude-code-custom-agent-guide.md",
     "Clippings/openspec-schemasopenspecschemasintent-driven at main.md",
-    "wiki/syntheses/harness-engineering-with-claude-code.md",
     "wiki/log.md.tmp.7632.371edf5a62ec",
     "wiki/syntheses/hermes-agent-comprehensive-guide.md",
     "wiki/syntheses/harness-engineering-with-claude-code.md.tmp.7632.aae27a5d7030",

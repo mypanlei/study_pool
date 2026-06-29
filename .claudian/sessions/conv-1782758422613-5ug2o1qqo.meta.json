@@ -1,9 +1,24 @@
 {
   "id": "conv-1782758422613-5ug2o1qqo",
   "providerId": "claude",
-  "title": "在2026年6月份， MLOps是否仍然是一个hot topic，还是已经是过时的概念， 我从事ML...",
-  "titleGenerationStatus": "pending",
+  "title": "Assess MLOps relevance and job search strategy",
+  "titleGenerationStatus": "success",
   "createdAt": 1782758422614,
-  "updatedAt": 1782758422651,
-  "sessionId": null
+  "updatedAt": 1782758708528,
+  "lastResponseAt": 1782758471009,
+  "sessionId": "5c3750c8-4813-43b2-83ee-a51ba8a558f7",
+  "providerState": {
+    "providerSessionId": "5c3750c8-4813-43b2-83ee-a51ba8a558f7"
+  },
+  "currentNote": "wiki/syntheses/harness-engineering-with-claude-code.md",
+  "usage": {
+    "model": "haiku",
+    "inputTokens": 4639,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 20480,
+    "contextWindow": 200000,
+    "contextTokens": 25119,
+    "percentage": 13,
+    "contextWindowIsAuthoritative": true
+  }
 }
