@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/concepts/spec-driven-development.md",
+                "file": "Clippings/Spec-Driven Development with OpenSpec - Source of Truth Specification.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "spec-driven-development"
+              "title": "Spec-Driven Development with OpenSpec - Source of Truth Specification"
             }
           }
         ]
@@ -224,6 +224,12 @@
   },
   "active": "853f82d647e2374c",
   "lastOpenFiles": [
+    "Clippings/Spec-Driven Development Knowledge Hub.md",
+    "Clippings/Spec-Driven Development with OpenSpec - Source of Truth Specification.md",
+    "raw/assets/ed48f9f889b82f8e89b8a6fbc4ac5b4c_MD5.jpg",
+    "raw/assets/f30b60cb540c9159075178ff750400e8_MD5.jpg",
+    "raw/assets/06b5eec4a824fa33cf71661d526e42f5_MD5.jpg",
+    "wiki/concepts/spec-driven-development.md",
     "Clippings/What Is Spec-Driven Development A Complete Guide.md",
     "raw/assets/0a3cbf98dd97352c83426ceebde99937_MD5.webp",
     "wiki/concepts/agents-md.md",
@@ -250,15 +256,10 @@
     "raw/assets/017018405d7b132731b877fe2c75e7d7_MD5.jpg",
     "raw/assets/4729e9b1c7b802e18800380b91f4b7f3_MD5.jpg",
     "raw/assets/b4a6cf40d041f78f739f780fa5cd17bc_MD5.jpg",
-    "raw/assets/e58dcc7280d0cfa1f0049f37ae7c5a4f_MD5.jpg",
-    "raw/assets/48d293e72db5b4270c9f252e0fd4912b_MD5.jpg",
-    "raw/assets/9348cab642c1b81c5ae6116cc3ce5ec1_MD5.jpg",
     "Clippings/AI 辅助编程与 AI Specs 实战：2026 年最新最全进展详解-腾讯云开发者社区-腾讯云.md",
     "Clippings/AI 辅助编程与 AI Specs 实战：2026 年最新最全进展详解.md",
-    "wiki/concepts/spec-driven-development.md",
     "wiki/sources/spec-driven-development-complete-guide.md",
     "raw/sources/What Is Spec-Driven Development A Complete Guide.md",
-    "raw/sources/ibm-think/information-retrieval.md",
     "raw/sources/ibm-think/visual-inspection.status",
     "raw/sources/ibm-think/word-embeddings.status",
     "raw/sources/ibm-think/vision-language-models.status",
