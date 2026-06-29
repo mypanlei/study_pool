@@ -200,7 +200,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 377.5
+    "width": 482.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -221,8 +221,10 @@
       "notebook-navigator:笔记本导航器": false
     }
   },
-  "active": "853f82d647e2374c",
+  "active": "92127c64f54b650d",
   "lastOpenFiles": [
+    "raw/sources/neurips2015-hidden-technical-debt-ml.txt",
+    "raw/sources/neurips2015-paper-86df7dcf.pdf",
     "raw/assets/3e47be55c12bebb4f5e5aeb3482b615f_MD5.jpg",
     "Clippings/Spec-Driven Development with OpenSpec - Source of Truth Specification.md",
     "Clippings/openspec-schemasopenspecschemasintent-driven at main.md",
@@ -256,7 +258,6 @@
     "raw/assets/f0f4c18bd4ec47111615f77390a1b648_MD5.jpg",
     "raw/assets/017018405d7b132731b877fe2c75e7d7_MD5.jpg",
     "raw/assets/4729e9b1c7b802e18800380b91f4b7f3_MD5.jpg",
-    "raw/assets/b4a6cf40d041f78f739f780fa5cd17bc_MD5.jpg",
     "Clippings/AI 辅助编程与 AI Specs 实战：2026 年最新最全进展详解-腾讯云开发者社区-腾讯云.md",
     "Clippings/AI 辅助编程与 AI Specs 实战：2026 年最新最全进展详解.md",
     "raw/sources/ibm-think/visual-inspection.status",
@@ -268,7 +269,6 @@
     "raw/sources/ibm-think/word-embeddings.html",
     "raw/sources/ibm-think/visual-inspection.html",
     "raw/sources/ibm-think/variational-autoencoder.html",
-    "raw/sources/ibm-think/vision-language-models.html",
     "未命名.canvas"
   ]
 }
