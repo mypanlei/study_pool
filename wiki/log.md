@@ -1016,3 +1016,46 @@ raw/      124 篇源文件（124 篇全部已 Ingest）
 wiki/     197 内容页（含模板）
 schema    CLAUDE.md + .claude/agents/llm-wiki.md
 ```
+
+## [2026-06-29] ingest | 批量 4 篇：MLOps 成熟度模型 + OpenSpec 生态
+
+### 源材料迁移
+- 从 `Clippings/` 复制 4 篇到 `raw/sources/`，更新 frontmatter
+
+### 新建源摘要（4 篇）
+
+**1. [[wiki/sources/mlops-google-cloud-cicd-ct-pipelines]]** — Google Cloud Architecture Center 官方 MLOps CI/CD/CT 指南
+- 核心贡献：三层成熟度模型（Level 0 手动 / Level 1 ML Pipeline 自动化 / Level 2 CI/CD 自动化）
+- ML vs 传统 DevOps 五大差异、CT（持续训练）作为 ML 特有维度
+- 特征存储、元数据管理、pipeline 触发器（按需/定时/新数据/退化/漂移）
+- 直接引用 Hidden Technical Debt 论文的 ML 系统组件图
+
+**2. [[wiki/sources/openspec-knowledge-hub-intent-driven]]** — OpenSpec 知识中心（Hari Krishnan）
+- 核心贡献：三工件模型（增量规范/权威规范/已存档规范）
+- Git Worktrees 并行开发模式、ADR 集成
+
+**3. [[wiki/sources/openspec-source-truth-hari-krishnan]]** — OpenSpec 权威规范 vs 碎片化规范（Hari Krishnan）
+- 核心贡献：一致性层次框架（Spec-First → Spec-Anchored → Spec-as-Source）
+- 碎片化规范（Spec-Kit/Kiro）的局限 vs OpenSpec 权威规范的优势
+
+**4. [[wiki/sources/openspec-custom-schemas-github]]** — OpenSpec 自定义 Schema 集合（GitHub）
+- 核心贡献：5 种工作流模板（Minimalist/Event-Driven/Behaviour-Driven/Intent-Driven/Spec-Driven with ADR）
+
+### 更新已有页面
+
+- [[wiki/concepts/mlops-lifecycle]] — 新增 MLOps 三层成熟度模型章节（Level 0/1/2 详细特性+对比表），新增 2 个来源引用
+- [[wiki/concepts/spec-driven-development]] — 新增 3 个 OpenSpec 生态来源引用
+
+### 汇总
+- **本次新增**: 4 源摘要
+- **更新**: 2 概念页
+- **更新**: `wiki/index.md` — 源摘要 122 → 126，原始资料 124 → 128
+- **全文**: 28 实体 + 34 概念 + 126 源摘要 + 13 综合分析 = **201 页**
+
+### 三层架构最终状态
+
+```
+raw/      128 篇源文件（128 篇全部已 Ingest）
+wiki/     201 内容页（含模板）
+schema    CLAUDE.md + .claude/agents/llm-wiki.md
+```

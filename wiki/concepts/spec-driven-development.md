@@ -248,3 +248,6 @@ PRD 解析为分层依赖感知任务图。多模型架构：主模型（核心�
 - [[wiki/sources/sdd-4-tools-comparison-hubwiz]] — GSD/Spec Kit/OpenSpec/Taskmaster 四工具对比（汇智网, 2026-03-03）
 - [[wiki/sources/sdd-intro-jimmysong-ai-handbook]] — SDD 范式迁移全景：AI 编程协议栈三层模型、工具全景（Jimmy Song AI Handbook, 2025-11-03）
 - [[wiki/sources/agents-md-specification-jimmysong]] — AGENTS.md 规范：六大工程要素、三层边界模型（Jimmy Song AI Handbook, 2025-11-02）
+- [[wiki/sources/openspec-knowledge-hub-intent-driven]] — OpenSpec 知识中心：三工件模型、Git Worktrees、ADR 集成（Hari Krishnan, 2025-11-20）
+- [[wiki/sources/openspec-source-truth-hari-krishnan]] — OpenSpec 权威规范方案 vs Spec-Kit/Kiro 碎片化方案对比（Hari Krishnan, 2025-11-09）
+- [[wiki/sources/openspec-custom-schemas-github]] — OpenSpec 自定义 Schema：Minimalist/Event-Driven/Behaviour-Driven/Intent-Driven（Hari Krishnan, 2026）

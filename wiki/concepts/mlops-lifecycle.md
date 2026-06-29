@@ -50,6 +50,28 @@ MLOps 生命周期覆盖从业务问题定义到模型退役的全流程管理�
 4. **模型资产与部署**：模型注册、版本管理、灰度/蓝绿部署
 5. **生产运维与治理**：监控、漂移检测、再训练、审计、风险治理
 
+## MLOps 成熟度模型
+
+Google Cloud Architecture Center 定义了 MLOps 三层成熟度模型（[[wiki/sources/mlops-google-cloud-cicd-ct-pipelines]]），从手动到完全自动化：
+
+### Level 0：手动流程
+数据科学家在 notebook 中进行交互式实验，ML 与运维脱节。特性：每步手动执行、ML 研究和工程分离、年发布次数极少、无 CI/CD、部署仅关注预测服务、缺乏性能监控。
+
+### Level 1：ML Pipeline 自动化
+目标是通过自动化 ML pipeline 实现持续训练（CT）。引入数据验证（schema 偏差/数值偏差检测）和模型验证（离线评估+在线金丝雀部署）。可选组件：特征存储（Feature Store）、元数据管理、pipeline 触发器（按需/定时/新数据/性能退化/概念漂移）。
+
+### Level 2：CI/CD Pipeline 自动化
+完整六阶段自动化：开发实验 → Pipeline CI（构建+单元测试+集成测试） → Pipeline CD（部署到目标环境） → 自动触发 → 模型 CD（部署预测服务） → 监控。CI 包含特征工程测试、模型收敛测试、NaN 检测、组件 artifact 测试。
+
+### 关键差异
+| 维度 | Level 0 | Level 1 | Level 2 |
+|------|---------|---------|---------|
+| 流程 | 手动 notebook | 自动化 ML pipeline | CI/CD + ML pipeline |
+| 发布频率 | 年/几次 | 周/月 | 天/周 |
+| CI | 无 | 代码测试 | 代码+数据+模型测试 |
+| CD | 无 | 模型预测服务 | Pipeline + 模型 |
+| CT | 无 | 是（触发器驱动） | 是（全自动） |
+
 ## 相关概念
 
 - [[wiki/concepts/data-versioning-and-management]] — 数据层的版本与治理
@@ -62,3 +84,5 @@ MLOps 生命周期覆盖从业务问题定义到模型退役的全流程管理�
 - [[wiki/sources/internal-mlops-availability-requirements-user-stories-technical-plan]]
 - [[wiki/sources/internal-mlops-availability-structured-analysis]]
 - [[wiki/sources/ml-platform-availability-sla-commercial-assessment]]
+- [[wiki/sources/hidden-technical-debt-ml-sculley-2015]] — ML 系统隐藏技术债务（Sculley et al., Google, NeurIPS 2015）
+- [[wiki/sources/mlops-google-cloud-cicd-ct-pipelines]] — Google Cloud MLOps 三层成熟度模型

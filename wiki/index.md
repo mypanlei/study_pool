@@ -153,9 +153,13 @@ updated: 2026-06-13
 | [[wiki/sources/ml-platform-availability-sla-commercial-assessment]] | ML Platform Availability SLA 商业评估：99.9% 市场定位 | 自建笔记 | 2026-06-13 |
 | [[wiki/sources/mlops-data-versioning-open-source-comparison]] | Data Versioning (DVC/lakeFS/Nessie) 与 Data Management (DataHub/OpenMetadata) 开源方案对比 | 自建笔记 | 2026-06-13 |
 | [[wiki/sources/mlops-open-source-platform-comparison]] | 常用 MLOps 开源平台对比（Kubeflow/MLflow/ZenML/Metaflow/Flyte 等 11 个） | 自建笔记 | 2026-06-13 |
+| [[wiki/sources/mlops-google-cloud-cicd-ct-pipelines]] | MLOps 三层成熟度模型：Level 0 手动 → Level 1 Pipeline 自动化 → Level 2 CI/CD 自动化 | Google Cloud Architecture Center | 2026-06-29 |
 | [[wiki/sources/multi-agent-system]] | 多智能体系统：层次/平级架构/AutoGen/A2A vs MCP/Orchestrator-Subagent | 菜鸟教程 | 2026-06-17 |
 | [[wiki/sources/multimodal-agent]] | 多模态 Agent：图像理解/语音处理/视频理解/典型应用 | 菜鸟教程 | 2026-06-17 |
 | [[wiki/sources/notebooklm-introduction]] | NotebookLM 系统介绍：来源驱动型 AI 研究工作台 | 自建笔记 | 2026-06-13 |
+| [[wiki/sources/openspec-knowledge-hub-intent-driven]] | OpenSpec 知识中心：三工件模型、Git Worktrees、ADR 集成 | Hari Krishnan | 2026-06-29 |
+| [[wiki/sources/openspec-source-truth-hari-krishnan]] | OpenSpec 权威规范 vs Spec-Kit/Kiro 碎片化方案对比 | Hari Krishnan | 2026-06-29 |
+| [[wiki/sources/openspec-custom-schemas-github]] | OpenSpec 自定义 Schema：5 种工作流模板 | intent-driven-dev | 2026-06-29 |
 | [[wiki/sources/obsidian-sync-6-solutions]] | 6 种 Obsidian 同步方案含决策树和配置步骤 | zhupite.com | 2026-06-13 |
 | [[wiki/sources/obsidian-sync-7-solutions]] | 7 种 Obsidian 多端同步方案对比与实践 | 知乎 | 2026-06-13 |
 | [[wiki/sources/obsidian-claudian-workflow]] | Obsidian + 浏览器扩展 + Claudian 三层知识工作流方案 | 自建笔记 | 2026-06-13 |
@@ -233,6 +237,6 @@ updated: 2026-06-13
 
 - **实体页**: 28
 - **概念页**: 34
-- **源摘要页**: 122
+- **源摘要页**: 126
 - **综合分析页**: 13
-- **原始资料**: 124 篇（全部已 Ingest）
+- **原始资料**: 128 篇（全部已 Ingest）
