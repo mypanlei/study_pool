@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/syntheses/loop-engineering-with-claude-code.md",
+                "file": "CLAUDE.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "loop-engineering-with-claude-code"
+              "title": "CLAUDE"
             }
           }
         ],
@@ -215,7 +215,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 530.5
+    "width": 530.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -236,11 +237,13 @@
       "notebook-navigator:笔记本导航器": false
     }
   },
-  "active": "92127c64f54b650d",
+  "active": "0cdd500ccf8caaa2",
   "lastOpenFiles": [
+    "wiki/syntheses/loop-engineering-with-claude-code.md",
+    "wiki/index.md.tmp.6848.f11c27a0cd1e",
+    "wiki/log.md.tmp.6848.8ff1bc165359",
     "wiki/log.md.tmp.6848.65c717f1a682",
     "wiki/syntheses/loop-engineering-presentation.md",
-    "wiki/syntheses/loop-engineering-with-claude-code.md",
     "wiki/syntheses/loop-engineering-with-claude-code.md.tmp.8220.4ffc92a0ffd3",
     "技术经理人中级培训/商业逻辑与商业模式-课程笔记.md",
     "技术经理人中级培训",
@@ -261,8 +264,6 @@
     "wiki/concepts/spec-driven-development.md.tmp.7632.8c892072905f",
     "wiki/sources/sdd-multi-ai-collaboration-practice.md",
     "wiki/sources/sdd-multi-ai-collaboration-practice.md.tmp.7632.f5b15f62dd6c",
-    "raw/sources/多 AI 协同 + SDD 编程实践：一个 AI 全流程交付实录.md.tmp.7632.d604d591b757",
-    "raw/sources/Agent to Agent（A2A）一文全了解.md.tmp.7632.17c1bbcd9385",
     "raw/assets/9d33147dba4480b06d6c5c2f5689f0f3_MD5.jpg",
     "raw/assets/1f3844bf37fdbfb32870847107a8ca28_MD5.jpg",
     "raw/assets/98f0222d0101c244d6bd8de521c0ba0a_MD5.jpg",
@@ -278,7 +279,6 @@
     "wiki/sources/hidden-technical-debt-ml-sculley-2015.md",
     "wiki/concepts/mlops-lifecycle.md",
     "Clippings/Google MLOps白皮书（上）MLOps生命周期及核心能力.md",
-    "wiki/log.md.tmp.19308.165928b3815c",
     "wiki/sources/google-mlops-whitepaper-lifecycle-zh.md",
     "raw/sources/Google MLOps白皮书（上）MLOps生命周期及核心能力.md",
     "Clippings/MLOps Continuous delivery and automation pipelines in machine learning    Cloud Architecture Center.md",
