@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Clippings/Spec-Driven Development with OpenSpec - Source of Truth Specification.md",
+                "file": "Clippings/openspec-schemasopenspecschemasintent-driven at main.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Spec-Driven Development with OpenSpec - Source of Truth Specification"
+              "title": "openspec-schemasopenspecschemasintent-driven at main"
             }
           }
         ]
@@ -200,8 +200,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 377.5,
-    "collapsed": true
+    "width": 377.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -224,8 +223,10 @@
   },
   "active": "853f82d647e2374c",
   "lastOpenFiles": [
-    "Clippings/Spec-Driven Development Knowledge Hub.md",
+    "raw/assets/3e47be55c12bebb4f5e5aeb3482b615f_MD5.jpg",
     "Clippings/Spec-Driven Development with OpenSpec - Source of Truth Specification.md",
+    "Clippings/openspec-schemasopenspecschemasintent-driven at main.md",
+    "Clippings/Spec-Driven Development Knowledge Hub.md",
     "raw/assets/ed48f9f889b82f8e89b8a6fbc4ac5b4c_MD5.jpg",
     "raw/assets/f30b60cb540c9159075178ff750400e8_MD5.jpg",
     "raw/assets/06b5eec4a824fa33cf71661d526e42f5_MD5.jpg",
@@ -258,8 +259,6 @@
     "raw/assets/b4a6cf40d041f78f739f780fa5cd17bc_MD5.jpg",
     "Clippings/AI 辅助编程与 AI Specs 实战：2026 年最新最全进展详解-腾讯云开发者社区-腾讯云.md",
     "Clippings/AI 辅助编程与 AI Specs 实战：2026 年最新最全进展详解.md",
-    "wiki/sources/spec-driven-development-complete-guide.md",
-    "raw/sources/What Is Spec-Driven Development A Complete Guide.md",
     "raw/sources/ibm-think/visual-inspection.status",
     "raw/sources/ibm-think/word-embeddings.status",
     "raw/sources/ibm-think/vision-language-models.status",
