@@ -7,7 +7,7 @@ tags:
   - model-governance
   - machine-learning
 created: 2026-06-13
-updated: 2026-06-13
+updated: 2026-06-29
 aliases:
   - ML 生命周期
   - MLOps 全链路
@@ -28,6 +28,18 @@ MLOps 生命周期覆盖从业务问题定义到模型退役的全流程管理�
 2. **与 DevOps 差异**：MLOps = DevOps + DataOps + Model Governance，额外需要数据版本、模型漂移检测、实验管理、模型注册和审批。
 3. **CI/CD/CT 自动化**：持续训练（CT）是 ML 特有的自动化维度，因为数据分布变化会导致模型自然退化。
 4. **平台支撑**：MLflow（实验追踪/模型注册）+ Kubeflow（pipeline 编排）+ KServe（模型服务）+ Feast（特征管理）+ DataHub（元数据治理）。
+
+## 学术根基
+
+[[wiki/sources/hidden-technical-debt-ml-sculley-2015|Hidden Technical Debt in Machine Learning Systems]]（Sculley et al., Google, NeurIPS 2015）是 MLOps 领域引用最多的奠基性论文之一。该论文首次将"技术债务"框架系统性地应用于 ML 系统，揭示了传统代码维护问题之外的 ML 特有风险因素：
+
+- **CACE 原则**（Changing Anything Changes Everything）—— ML 系统中任何输入变化都会影响所有其他部分
+- **ML 系统反模式**——胶水代码、管道丛林、死亡实验代码路径、抽象债务
+- **配置债务**——配置行数可远超代码行数
+- **数据依赖债务**——不稳定依赖、未利用依赖、缺乏静态分析工具
+- **反馈循环**——直接和隐藏反馈循环使系统行为难以预测
+
+这些发现构成了 MLOps 生命周期中生产监控、数据管理、实验管理等环节的理论基础。
 
 ## 详细阐述
 

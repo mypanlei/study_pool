@@ -1,3 +1,27 @@
+---
+title: "Hidden Technical Debt in Machine Learning Systems"
+source: "https://proceedings.neurips.cc/paper/2015/file/86df7dcfd896fcaf2674f757a2463eba-Paper.pdf"
+authors:
+  - "D. Sculley (Google)"
+  - "Gary Holt (Google)"
+  - "Daniel Golovin (Google)"
+  - "Eugene Davydov (Google)"
+  - "Todd Phillips (Google)"
+  - "Dietmar Ebner (Google)"
+  - "Vinay Chaudhary (Google)"
+  - "Michael Young (Google)"
+  - "Jean-Francois Crespo (Google)"
+  - "Dan Dennison (Google)"
+published: 2015
+venue: "NeurIPS 2015"
+tags:
+  - source
+  - mlops
+  - machine-learning
+  - paper
+  - technical-debt
+---
+
 Hidden Technical Debt in Machine Learning Systems
 D. Sculley, Gary Holt, Daniel Golovin, Eugene Davydov, Todd Phillips
 {dsculley,gholt,dgg,edavydov,toddphillips}@google.com

@@ -986,3 +986,33 @@ raw/      123 篇源文件（123 篇全部已 Ingest）
 wiki/     196 内容页（含模板）
 schema    CLAUDE.md + .claude/agents/llm-wiki.md
 ```
+
+## [2026-06-29] ingest | Hidden Technical Debt in ML Systems — Sculley et al. NeurIPS 2015
+
+- **源材料**: 下载自 `https://proceedings.neurips.cc/paper/2015/file/86df7dcfd896fcaf2674f757a2463eba-Paper.pdf` → `raw/sources/neurips2015-hidden-technical-debt-ml.md`
+- **原文**: 里程碑论文 "Hidden Technical Debt in Machine Learning Systems"，10 位 Google 作者，NeurIPS 2015
+- **新建源摘要**: [[wiki/sources/hidden-technical-debt-ml-sculley-2015]]
+  - 核心贡献：CACE 原则（Changing Anything Changes Everything）
+  - 纠缠（Entanglement）、修正级联（Correction Cascades）、未声明消费者（Undeclared Consumers）
+  - 数据依赖债务（不稳定/未利用/缺乏静态分析）
+  - 直接与隐藏反馈循环
+  - ML 系统五大反模式（胶水代码/管道丛林/死亡实验代码路径/抽象债务/常见坏味道）
+  - 配置债务六原则、外部世界变化、预测偏差监控
+  - 数据测试/可复现性/流程管理/文化债务
+- **更新概念页**: [[wiki/concepts/mlops-lifecycle]]
+  - 新增"学术根基"章节，关联本论文的核心贡献（CACE、ML 反模式、配置债务、数据依赖债务、反馈循环）
+  - 新增 1 个来源引用
+
+### 汇总
+- **本次新增**: 1 源摘要
+- **更新**: 1 概念页
+- **更新**: `wiki/index.md` — 源摘要 121 → 122，原始资料 123 → 124
+- **全文**: 28 实体 + 34 概念 + 122 源摘要 + 13 综合分析 = **197 页**
+
+### 三层架构最终状态
+
+```
+raw/      124 篇源文件（124 篇全部已 Ingest）
+wiki/     197 内容页（含模板）
+schema    CLAUDE.md + .claude/agents/llm-wiki.md
+```

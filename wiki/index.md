@@ -132,6 +132,7 @@ updated: 2026-06-13
 | [[wiki/sources/hermes-agent-alicloud-messaging-guide]] | Hermes Agent 飞书与微信消息入口实操 | Nous Research | 2026-06-13 |
 | [[wiki/sources/hermes-agent-docs]] | Hermes Agent 官方文档 — 闭环学习自主 AI Agent | hermes-agent.nousresearch.com | 2026-06-13 |
 | [[wiki/sources/hermes-agent-rookie-guide]] | Hermes Agent 上手教程：安装/模型配置/消息网关 15+ 平台 | 菜鸟教程 | 2026-06-17 |
+| [[wiki/sources/hidden-technical-debt-ml-sculley-2015]] | ML 系统隐藏技术债务：CACE 原则、ML 反模式、配置债务 | Sculley et al. (Google, NeurIPS 2015) | 2026-06-29 |
 | [[wiki/sources/huggingface-transformers-guide]] | Hugging Face Transformers：Pipeline/Tokenizer/Fine-tuning/LoRA | 菜鸟教程 | 2026-06-17 |
 | [[wiki/sources/internal-mlops-availability-requirements-user-stories-technical-plan]] | 内部 MLOps 平台 99.9% Availability 需求拆解与 User Stories | 自建笔记 | 2026-06-13 |
 | [[wiki/sources/internal-mlops-availability-structured-analysis]] | 内部 MLOps 平台 Availability 提升结构化分析 | 自建笔记 | 2026-06-13 |
@@ -232,6 +233,6 @@ updated: 2026-06-13
 
 - **实体页**: 28
 - **概念页**: 34
-- **源摘要页**: 121
+- **源摘要页**: 122
 - **综合分析页**: 13
-- **原始资料**: 123 篇（全部已 Ingest）
+- **原始资料**: 124 篇（全部已 Ingest）
