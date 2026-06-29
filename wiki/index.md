@@ -199,6 +199,7 @@ updated: 2026-06-13
 | [[wiki/sources/sdd-tencent-cloud-ai-specs-practice]] | OpenSpec/Spec Kit/Kiro 三大框架深度对比 | 腾讯云社区 | 2026-06-29 |
 | [[wiki/sources/sdd-with-claude-code-heeki-park]] | SDD + Claude Code 实战经验：三层 SDD 实践、分阶段构建 | Heeki Park | 2026-06-29 |
 | [[wiki/sources/sdd-zhangluka-guide]] | SDD 企业落地实践指南：六阶段生命周期、四步推进法 | zhangluka | 2026-06-29 |
+| [[wiki/sources/sdd-multi-ai-collaboration-practice]] | 多 AI 协同 + SDD 实践：Claude/Codex/Gemini 铁三角协作、OpenSpec 六阶段交付实录 | 千问云 | 2026-06-30 |
 | [[wiki/sources/structured-output-function-calling-javaguide]] | 大模型结构化输出：JSON 失效模式/Structured Outputs 三层体系/Function Calling 七步流水线/MCP | JavaGuide | 2026-06-19 |
 | [[wiki/sources/token-concepts]] | Token 概念：BPE 编码/中英文差异/上下文窗口/计费 | 菜鸟教程 | 2026-06-17 |
 | [[wiki/sources/transformer-architecture-detail]] | Transformer 架构详解：自注意力、QKV、Decoder-only | 自建笔记 | 2026-06-13 |
@@ -238,6 +239,6 @@ updated: 2026-06-13
 
 - **实体页**: 28
 - **概念页**: 34
-- **源摘要页**: 127
+- **源摘要页**: 128
 - **综合分析页**: 13
-- **原始资料**: 129 篇（全部已 Ingest）
+- **原始资料**: 131 篇（全部已 Ingest）

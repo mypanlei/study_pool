@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Clippings/多 AI 协同 + SDD 编程实践：一个 AI 全流程交付实录.md",
+                "file": "wiki/concepts/harness-engineering.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "多 AI 协同 + SDD 编程实践：一个 AI 全流程交付实录"
+              "title": "harness-engineering"
             }
           }
         ],
@@ -103,7 +103,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 308.5
+    "width": 257.5
   },
   "right": {
     "id": "40e3d2925329258a",
@@ -215,7 +215,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 443.5
+    "width": 359.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -238,8 +238,28 @@
   },
   "active": "b7728746e0814192",
   "lastOpenFiles": [
-    "wiki/concepts/harness-engineering.md",
+    "Clippings/Harness Engineering（驾驭工程）  菜鸟教程.md",
+    "Clippings/Harness Engineering（驾驭工程）  菜鸟教程 1.md",
     "Clippings/多 AI 协同 + SDD 编程实践：一个 AI 全流程交付实录.md",
+    "wiki/index.md.tmp.7632.045176266308",
+    "wiki/concepts/spec-driven-development.md.tmp.7632.8c892072905f",
+    "wiki/sources/sdd-multi-ai-collaboration-practice.md",
+    "wiki/sources/sdd-multi-ai-collaboration-practice.md.tmp.7632.f5b15f62dd6c",
+    "raw/sources/多 AI 协同 + SDD 编程实践：一个 AI 全流程交付实录.md.tmp.7632.d604d591b757",
+    "raw/sources/Agent to Agent（A2A）一文全了解.md.tmp.7632.17c1bbcd9385",
+    "raw/assets/9d33147dba4480b06d6c5c2f5689f0f3_MD5.jpg",
+    "raw/assets/1f3844bf37fdbfb32870847107a8ca28_MD5.jpg",
+    "raw/assets/98f0222d0101c244d6bd8de521c0ba0a_MD5.jpg",
+    "raw/assets/ff39dc913e60323dbc2114f7d75acf67_MD5.jpg",
+    "raw/assets/bd643a370656ea2bacc847dc9738a7cf_MD5.jpg",
+    "raw/assets/db51f24697430cd31c9b960102d02769_MD5.jpg",
+    "raw/assets/c181b4559a8b000931f4cc0164090b92_MD5.jpg",
+    "raw/assets/e4c496c3060e824a01b5b34c05a20af2_MD5.jpg",
+    "raw/assets/60bf008a0a9093eab8e8743c86b0bc88_MD5.jpg",
+    "raw/assets/2abc3c71abddd6e39e75c51c9622a367_MD5.jpg",
+    "raw/sources/多 AI 协同 + SDD 编程实践：一个 AI 全流程交付实录.md",
+    "raw/sources/Agent to Agent（A2A）一文全了解.md",
+    "wiki/concepts/harness-engineering.md",
     "wiki/sources/hidden-technical-debt-ml-sculley-2015.md",
     "wiki/concepts/mlops-lifecycle.md",
     "Clippings/Google MLOps白皮书（上）MLOps生命周期及核心能力.md",
@@ -249,17 +269,8 @@
     "wiki/concepts/mlops-lifecycle.md.tmp.19308.9c9f2f18296a",
     "wiki/sources/google-mlops-whitepaper-lifecycle-zh.md",
     "wiki/sources/google-mlops-whitepaper-lifecycle-zh.md.tmp.19308.01d352b1220b",
-    "raw/sources/Google MLOps白皮书（上）MLOps生命周期及核心能力.md.tmp.19308.475dfb4b4bee",
     "raw/sources/Google MLOps白皮书（上）MLOps生命周期及核心能力.md",
-    "raw/assets/efecaa769d9e8a23fd5d363effcd5bb7_MD5.jpg",
-    "raw/assets/95e4f1cea29fdeb0257949375777a8f0_MD5.jpg",
-    "raw/assets/6c66be1043af3934699f86915d9c8a9d_MD5.jpg",
-    "raw/assets/9f7fc86b8dff516b892ca3896d40711d_MD5.jpg",
     "Clippings/MLOps Continuous delivery and automation pipelines in machine learning    Cloud Architecture Center.md",
-    "wiki/log.md.tmp.19308.f7b7f4296626",
-    "wiki/index.md.tmp.19308.9f395c1e6d8a",
-    "wiki/index.md.tmp.19308.27084c71524b",
-    "wiki/concepts/spec-driven-development.md.tmp.19308.0e0c8fa33108",
     "wiki/sources/openspec-custom-schemas-github.md",
     "wiki/sources/openspec-source-truth-hari-krishnan.md",
     "wiki/sources/openspec-knowledge-hub-intent-driven.md",
@@ -268,22 +279,11 @@
     "raw/sources/Spec-Driven Development with OpenSpec - Source of Truth Specification.md",
     "raw/sources/Spec-Driven Development Knowledge Hub.md",
     "raw/sources/MLOps Continuous delivery and automation pipelines in machine learning    Cloud Architecture Center.md",
-    "raw/assets/804813894ef0ce3e9eb94701b4523323_MD5.png",
-    "raw/assets/356354bdfad6ec3eb6fc737732a4f146_MD5.svg",
-    "raw/assets/6160fa0618726361982af047f5edefd3_MD5.svg",
-    "raw/assets/974994dbb2aafa6dfcc1706a0a9635cc_MD5.svg",
-    "raw/assets/7a1419ffa6467a515deebf69e8d8799b_MD5.svg",
     "Clippings/openspec-schemasopenspecschemasintent-driven at main.md",
     "raw/sources/neurips2015-hidden-technical-debt-ml.md",
-    "raw/assets/3e47be55c12bebb4f5e5aeb3482b615f_MD5.jpg",
     "Clippings/Spec-Driven Development with OpenSpec - Source of Truth Specification.md",
     "Clippings/Spec-Driven Development Knowledge Hub.md",
     "wiki/concepts/spec-driven-development.md",
-    "Clippings/What Is Spec-Driven Development A Complete Guide.md",
-    "wiki/concepts/agents-md.md",
-    "wiki/sources/agents-md-specification-jimmysong.md",
-    "wiki/sources/vibe-coding-jimmysong-ai-handbook.md",
-    "wiki/sources/sdd-intro-jimmysong-ai-handbook.md",
     "未命名.canvas"
   ]
 }

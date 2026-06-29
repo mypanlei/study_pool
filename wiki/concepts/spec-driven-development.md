@@ -6,7 +6,7 @@ tags:
   - development
   - spec
 created: 2026-06-13
-updated: 2026-06-29
+updated: 2026-06-30
 aliases:
   - SDD
   - 规格驱动开发
@@ -112,6 +112,60 @@ SDD 中最被低估的模式：分配一个独立的 Agent 来检查工作，而
 - Verifier 在合并前捕获冲突
 
 **实践案例**：一个 10 页产品网站，Figma MCP 连到 Coordinator 读取设计系统 → Coord 按页分解（每页含接收标准/组件需求/布局约束） → 并行 Agent 在隔离 Worktree 执行 → Verifier 检查 → 项目约 45 分钟达 95% 完成度。剩余 5% 由设计师（无 Git 经验）直接通过 Intent 平台迭代。
+
+## Multi-AI 协作模式（Multi-Model Collaboration）
+
+对抗性 Agent 模式的子实现：通过 MCP 协议将多个 AI 模型注入同一入口，以规范（Spec）为共享上下文实现能力互补。核心思想是"一个入口，多个专家"——用户面对单一对话界面，背后是多个 AI 模型的自动协同。
+
+### 铁三角模式
+
+经实战验证的典型分工：
+
+| 角色 | 模型 | 职责 | 保障文件 |
+|------|------|------|----------|
+| **协调者** | Claude | 理解目标、拆分工作、决定调用时机、应用最终代码、仲裁冲突 | CLAUDE.md（主控面板） |
+| **实现者** | Codex | 非平凡编码：设计、实现、调试、重构、实验 Pipeline | AGENTS.md（Codex 规则） |
+| **分析师** | Gemini | 大文本分析：多论文/长文档/大代码库全局视图、模式发现 | AGENTS.md（Gemini 规则） |
+
+### 关键设计
+
+- **工具调用是默认行为**：CLAUDE.md 强制 Claude 在每个决策点自问"Codex 能帮忙吗？Gemini 能帮忙吗？"，跳过需说明理由
+- **Gemini 默认为 read-only**：所有实现与最终决策由 Claude（人类监督下）完成，确保安全可控
+- **分阶段交互式开发**：每完成一个阶段（接口定义、服务实现、单元测试）必须暂停等待人工 Review，降低"错上加错"风险
+- **工具无关性**：当某模型服务不可用时，可无缝切换至其他 AI Coding CLI 而无需修改工作流
+
+### 与对抗性 Agent 模式的关系
+
+Multi-AI 协作是对抗性 Agent 模式的轻量实践变体：
+
+| 维度 | 对抗性 Agent 模式 | Multi-AI 协作模式 |
+|------|-------------------|-------------------|
+| Agent 数量 | 3+（Coordinator + N × Implementor + Verifier） | 3 固定（Claude + Codex + Gemini） |
+| Agent 间关系 | 目标对立（Implementor vs Verifier） | 目标一致，能力互补 |
+| 交互方式 | Coordinator 委派 + 独立 Worktree | MCP 工具注入，同一会话 |
+| 适用阶段 | 复杂多模块并行开发 | 日常开发（2-3 个模型即可覆盖） |
+| 上下文隔离 | 每个 Agent 独立上下文窗口 | 共用会话上下文 |
+
+### 实际工作流（四步循环）
+
+```
+Understand & Plan → Implement & Run → Review & Analyze → Write
+     ↓                    ↓                    ↓              ↓
+  Codex 细化        Codex unified diff    Codex 审查      Gemini 总结
+  Gemini 全局       Claude 重写应用       Gemini 找模式   Codex 校验
+```
+
+### 实践案例：六阶段 OpenSpec 交付
+
+从零交付一个跨境保险产品的完整流程：
+1. **Spec-PRD**：将原始 PRD 结构化重写，明确变更与代码库映射
+2. **系统架构**：SubAgent 分析代码库输出架构文档
+3. **技术方案**：基于 Spec-PRD + 架构文档自动生成可执行方案
+4. **变更提案**：`/openspec:proposal` 创建含 specs/ 和 tasks.md 的提案
+5. **分阶段实现**：`/openspec:apply` 触发编码，每阶段后人工 Review
+6. **提案归档**：`/openspec-archive` 归档已验证变更
+
+此模式的完整配置和流程细节见 [[wiki/sources/sdd-multi-ai-collaboration-practice]]
 
 ## 模型分层（Model Tiering）
 
@@ -251,3 +305,4 @@ PRD 解析为分层依赖感知任务图。多模型架构：主模型（核心�
 - [[wiki/sources/openspec-knowledge-hub-intent-driven]] — OpenSpec 知识中心：三工件模型、Git Worktrees、ADR 集成（Hari Krishnan, 2025-11-20）
 - [[wiki/sources/openspec-source-truth-hari-krishnan]] — OpenSpec 权威规范方案 vs Spec-Kit/Kiro 碎片化方案对比（Hari Krishnan, 2025-11-09）
 - [[wiki/sources/openspec-custom-schemas-github]] — OpenSpec 自定义 Schema：Minimalist/Event-Driven/Behaviour-Driven/Intent-Driven（Hari Krishnan, 2026）
+- [[wiki/sources/sdd-multi-ai-collaboration-practice]] — 多 AI 协同 + SDD 编程实践：Claude/Codex/Gemini 铁三角协作、OpenSpec 六阶段交付实录（千问云, 2026-02-03）

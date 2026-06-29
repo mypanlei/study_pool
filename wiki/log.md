@@ -1083,3 +1083,44 @@ raw/      129 篇源文件（129 篇全部已 Ingest）
 wiki/     202 内容页（含模板）
 schema    CLAUDE.md + .claude/agents/llm-wiki.md
 ```
+
+## [2026-06-30] ingest | 多 AI 协同 + SDD 编程实践
+
+### 源材料处理
+
+1. **原始资料迁移**: `Clippings/多 AI 协同 + SDD 编程实践：一个 AI 全流程交付实录.md` → `raw/sources/`，更新 frontmatter（去除 clippings 标签，添加 source/sdd/multi-agent/openspec/practice 标签）
+2. **重复处理**: `Clippings/Agent to Agent（A2A）一文全了解.md` 已在 `raw/sources/Google-A2A-协议详解.md` 存在（相同 juejin.cn URL），已删除重复文件
+
+### 新建源摘要
+
+1. **[[wiki/sources/sdd-multi-ai-collaboration-practice]]** — 多 AI 协同 + SDD 编程实践
+   - 核心贡献：Multi-AI 铁三角协作模式（Claude 协调 + Codex 实现 + Gemini 分析）
+   - MCP 协议注入多模型、CLAUDE.md/AGENTS.md 强制规则配置
+   - OpenSpec 六阶段全流程交付案例（Spec-PRD → 架构 → 方案 → 提案 → 实现 → 归档）
+   - 分阶段交互式开发 + 人工 Review 保障质量
+   - 工具无关性验证（Claude 故障时无缝切换至 iflow）
+
+### 更新已有页面
+
+- **[[wiki/concepts/spec-driven-development]]** — 新增 "Multi-AI 协作模式" 章节
+  - 铁三角模式（Claude/Codex/Gemini）角色分工表
+  - 关键设计原则（工具调用默认、Gemini read-only、分阶段 Review、工具无关）
+  - 与对抗性 Agent 模式的对比表
+  - 四步循环工作流（Understand & Plan → Implement & Run → Review & Analyze → Write）
+  - OpenSpec 六阶段实践案例
+  - 新增 1 个来源引用
+
+### 汇总
+
+- **本次新增**: 1 源摘要
+- **更新**: 1 概念页
+- **更新**: `wiki/index.md` — 源摘要 127 → 128，原始资料 129 → 131（+1 新文件 -1 去重 = +1 净增）
+- **全文**: 28 实体 + 34 概念 + 128 源摘要 + 13 综合分析 = **203 页**
+
+### 三层架构最终状态
+
+```
+raw/      131 篇源文件（131 篇全部已 Ingest）
+wiki/     203 内容页（含模板）
+schema    CLAUDE.md + .claude/agents/llm-wiki.md
+```
