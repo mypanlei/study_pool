@@ -1059,3 +1059,27 @@ raw/      128 篇源文件（128 篇全部已 Ingest）
 wiki/     201 内容页（含模板）
 schema    CLAUDE.md + .claude/agents/llm-wiki.md
 ```
+
+## [2026-06-29] ingest | Google MLOps 白皮书（上）中文翻译
+
+- **源材料**: `Clippings/Google MLOps白皮书（上）MLOps生命周期及核心能力.md` → `raw/sources/`
+- **原文**: Google MLOps 白皮书（Practitioners Guide to MLOps）中文翻译（dreaming, 知乎, 2022-08-25）
+- **新建源摘要**: [[wiki/sources/google-mlops-whitepaper-lifecycle-zh]]
+  - 核心贡献：MLOps 七阶段生命周期（ML 开发 → 训练操作 → 持续训练 → 模型部署 → 预测服务 → 持续监控 → 数据和模型管理）
+  - 11 项核心技术能力（实验/数据处理/模型训练/评估/部署/在线实验/监控/ML 流程/模型注册/特征库/元数据跟踪）
+  - ML 工程三大复杂领域融合（数据工程 → ML 工程 → 应用工程）
+- **更新概念页**: [[wiki/concepts/mlops-lifecycle]] — 新增 1 个来源引用
+
+### 汇总
+- **本次新增**: 1 源摘要
+- **更新**: 1 概念页
+- **更新**: `wiki/index.md` — 源摘要 126 → 127，原始资料 128 → 129
+- **全文**: 28 实体 + 34 概念 + 127 源摘要 + 13 综合分析 = **202 页**
+
+### 三层架构最终状态
+
+```
+raw/      129 篇源文件（129 篇全部已 Ingest）
+wiki/     202 内容页（含模板）
+schema    CLAUDE.md + .claude/agents/llm-wiki.md
+```

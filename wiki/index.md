@@ -122,6 +122,7 @@ updated: 2026-06-13
 | [[wiki/sources/gemini-enterprise-vs-kubeflow-comparison]] | Gemini Enterprise Agent Platform 与 Kubeflow 分层对比 | 自建笔记 | 2026-06-13 |
 | [[wiki/sources/gemini-kubeflow-dify-langgraph-comparison]] | Gemini/Kubeflow/Dify/LangGraph 四方对比与选型 | 自建笔记 | 2026-06-13 |
 | [[wiki/sources/google-a2a-protocol]] | Google A2A 协议详解：Agent Card/任务生命周期/JSON-RPC API/流式通信 | 掘金 (MervynZ) | 2026-06-18 |
+| [[wiki/sources/google-mlops-whitepaper-lifecycle-zh]] | Google MLOps 白皮书：七阶段生命周期、11 项技术能力（中文翻译） | Google (dreaming) | 2026-06-29 |
 | [[wiki/sources/git-lfs-guide]] | Git LFS 工作原理与配置指南 | 自建笔记 | 2026-06-13 |
 | [[wiki/sources/github-cli-proxy-config]] | GitHub CLI (gh) 代理配置指南 | 自建笔记 | 2026-06-13 |
 | [[wiki/sources/graphrag-javaguide]] | GraphRAG 深度解析：实体提取/关系构建/社区检测/传统向量 RAG 局限与适用边界 | JavaGuide | 2026-06-19 |
@@ -237,6 +238,6 @@ updated: 2026-06-13
 
 - **实体页**: 28
 - **概念页**: 34
-- **源摘要页**: 126
+- **源摘要页**: 127
 - **综合分析页**: 13
-- **原始资料**: 128 篇（全部已 Ingest）
+- **原始资料**: 129 篇（全部已 Ingest）

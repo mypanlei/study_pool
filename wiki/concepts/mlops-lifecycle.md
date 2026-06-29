@@ -86,3 +86,4 @@ Google Cloud Architecture Center 定义了 MLOps 三层成熟度模型（[[wiki/
 - [[wiki/sources/ml-platform-availability-sla-commercial-assessment]]
 - [[wiki/sources/hidden-technical-debt-ml-sculley-2015]] — ML 系统隐藏技术债务（Sculley et al., Google, NeurIPS 2015）
 - [[wiki/sources/mlops-google-cloud-cicd-ct-pipelines]] — Google Cloud MLOps 三层成熟度模型
+- [[wiki/sources/google-mlops-whitepaper-lifecycle-zh]] — Google MLOps 白皮书：七阶段生命周期、11 项技术能力（中文翻译）
