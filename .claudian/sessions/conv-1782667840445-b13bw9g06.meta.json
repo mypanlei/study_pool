@@ -4,8 +4,8 @@
   "title": "Ingest raw sources into wiki",
   "titleGenerationStatus": "success",
   "createdAt": 1782667840446,
-  "updatedAt": 1782730174135,
-  "lastResponseAt": 1782730174135,
+  "updatedAt": 1782730371065,
+  "lastResponseAt": 1782730371065,
   "sessionId": "57f1962e-b86d-4fbd-a9f3-b734e8181ccf",
   "providerState": {
     "providerSessionId": "57f1962e-b86d-4fbd-a9f3-b734e8181ccf"
@@ -13,12 +13,12 @@
   "currentNote": "Clippings/What Is Spec-Driven Development A Complete Guide.md",
   "usage": {
     "model": "haiku",
-    "inputTokens": 66,
+    "inputTokens": 115,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 229888,
+    "cacheReadInputTokens": 245248,
     "contextWindow": 1000000,
-    "contextTokens": 229954,
-    "percentage": 23,
+    "contextTokens": 245363,
+    "percentage": 25,
     "contextWindowIsAuthoritative": true
   }
 }
