@@ -81,6 +81,7 @@ updated: 2026-06-13
 | [[wiki/concepts/rl-reinforcement-learning]] | 强化学习：RLHF/GRPO/PPO/DPO，LLM 后期训练核心范式 | 2026-06-17 |
 | [[wiki/concepts/moe-mixture-of-experts]] | MoE 专家混合架构：DeepSeek-V3/Mixtral 的稀疏激活技术 | 2026-06-17 |
 | [[wiki/concepts/lora-low-rank-adaptation]] | LoRA 低秩适配高效微调方法：冻结权重 + 低秩矩阵 | 2026-06-17 |
+| [[wiki/concepts/loop-engineering]] | Loop Engineering（循环工程）— 让 AI Agent 自己提示自己的自动化循环系统工程方法论 | 2026-06-30 |
 | [[wiki/concepts/para-method]] | PARA 知识管理方法：Projects/Areas/Resources/Archives | 2026-06-17 |
 | [[wiki/concepts/prompt-engineering]] | Prompt Engineering 提示词工程：三大角色/十大技术/Agent System Prompt 设计 | 2026-06-18 |
 
@@ -150,6 +151,7 @@ updated: 2026-06-13
 | [[wiki/sources/llm-skills-technical-guide]] | LLM Skills/Tool Use/MCP/Function Calling 技术架构 | 自建笔记 | 2026-06-13 |
 | [[wiki/sources/llm-wiki-pattern]] | Karpathy 关于 LLM Wiki 模式的原始文章 | GitHub Gist | 2026-06-13 |
 | [[wiki/sources/loop-engineering-guide]] | Loop Engineering 6 要素 + 5 循环模式：Automations/Worktrees/Skills/Memory | 菜鸟教程 | 2026-06-17 |
+| [[wiki/sources/loop-engineering-claude-best-practices-2026]] | Loop Engineering 使用 Claude 的最佳实践：Builder/Checker 隔离、停止规则、大规模多 Agent 编排 | 综合（阿里云/腾讯云/TechSpot） | 2026-06-30 |
 | [[wiki/sources/ml-lifecycle-management-official-doc-summary]] | ML 生命周期管理官方文档总结（AWS/Google/Azure/MLflow/Kubeflow/NIST） | 自建笔记 | 2026-06-13 |
 | [[wiki/sources/ml-platform-availability-sla-commercial-assessment]] | ML Platform Availability SLA 商业评估：99.9% 市场定位 | 自建笔记 | 2026-06-13 |
 | [[wiki/sources/mlops-data-versioning-open-source-comparison]] | Data Versioning (DVC/lakeFS/Nessie) 与 Data Management (DataHub/OpenMetadata) 开源方案对比 | 自建笔记 | 2026-06-13 |
@@ -240,7 +242,7 @@ updated: 2026-06-13
 ## 统计
 
 - **实体页**: 28
-- **概念页**: 34
-- **源摘要页**: 128
-- **综合分析页**: 14
-- **原始资料**: 131 篇（全部已 Ingest）
+- **概念页**: 35
+- **源摘要页**: 129
+- **综合分析页**: 15
+- **原始资料**: 132 篇（全部已 Ingest）

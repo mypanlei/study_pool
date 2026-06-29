@@ -20,7 +20,7 @@ aliases:
 >
 > 如果说 [[wiki/syntheses/harness-engineering-with-claude-code]] 是让 Agent 跑得稳（可靠运行），Loop Engineering 就是让 Agent 跑不停（持续创造结果）。
 
-相关概念：[[wiki/concepts/wiki-loop-engineering]] · [[wiki/concepts/harness-engineering]] · [[wiki/entities/claude-code]] · [[wiki/concepts/spec-driven-development]] · [[wiki/concepts/vibe-coding]]
+相关概念：[[wiki/concepts/loop-engineering]] · [[wiki/concepts/wiki-loop-engineering]] · [[wiki/concepts/harness-engineering]] · [[wiki/entities/claude-code]] · [[wiki/concepts/spec-driven-development]] · [[wiki/concepts/vibe-coding]]
 
 ---
 
@@ -361,9 +361,11 @@ graph TD
 ## 相关来源
 
 - [[wiki/syntheses/harness-engineering-with-claude-code]] — Claude Code Harness 实践（互补指南）
+- [[wiki/concepts/loop-engineering]] — Loop Engineering 通用概念页
 - [[wiki/concepts/wiki-loop-engineering]] — 本知识库的 Loop 架构
 - [[wiki/syntheses/loop-engineering-presentation]] — Loop Engineering Marp 演示
 - [[wiki/sources/loop-engineering-guide]] — Loop Engineering 6 要素 + 5 循环模式
+- [[wiki/sources/loop-engineering-claude-best-practices-2026]] — Loop Engineering 使用 Claude 的最佳实践
 - [[wiki/sources/karpathy-agentic-engineering-interview]] — Karpathy AI Ascent 访谈原文
 - [[wiki/sources/karpathy-method-practical-guide]] — Karpathy Method 三层法实操
 - [[wiki/concepts/harness-engineering]] — Harness Engineering 概念页

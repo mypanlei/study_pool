@@ -1178,3 +1178,45 @@ raw/      131 篇源文件（131 篇全部已 Ingest）
 wiki/     205 内容页（含模板）
 schema    CLAUDE.md + .claude/agents/llm-wiki.md
 ```
+
+## [2026-06-30] ingest | Loop Engineering 使用 Claude 的最佳实践
+
+用户询问 Loop Engineering 以及使用 Claude 的最佳实践。基于搜索到的多篇文章（阿里云/腾讯云/TechSpot/GitHub 等），进行综合 Ingest。
+
+### 新建原始资料
+
+- **[[raw/sources/loop-engineering-claude-best-practices-2026]]** — Loop Engineering 使用 Claude 的最佳实践（原始资料聚合）
+
+### 新建源摘要
+
+- **[[wiki/sources/loop-engineering-claude-best-practices-2026]]** — 涵盖 Claude Code 内置命令 `/goal`/`/loop`、Builder/Checker 隔离模式、六条停止规则、300 Agent 编排案例、社区工具生态
+
+### 新建概念页
+
+- **[[wiki/concepts/loop-engineering]]** — Loop Engineering（循环工程）通用概念页
+  - 定义与范式演进定位（Prompt → Context → Harness → Loop）
+  - 六大要素详解 + Claude Code 实现映射
+  - Builder/Checker 隔离模式（核心设计模式）
+  - 停止规则体系（六条熔断规则）
+  - 成熟度模型（L0-L4）
+  - 与 Harness Engineering 的关系对比表
+
+### 更新已有页面
+
+- **[[wiki/syntheses/loop-engineering-with-claude-code]]** — 添加新概念页和源摘要的交叉引用
+- **[[wiki/index.md]]** — 概念 34 → 35，源摘要 128 → 129，原始资料 131 → 132
+- **[[wiki/log.md]]** — 本条目
+
+### 汇总
+
+- **本次新增**: 1 源摘要 + 1 概念 + 1 原始资料 = 3 文件
+- **更新已有**: 1 页
+- **全文**: 28 实体 + 35 概念 + 129 源摘要 + 15 综合分析 = **207 页**
+
+### 三层架构最终状态
+
+```
+raw/      132 篇源文件（132 篇全部已 Ingest）
+wiki/     207 内容页（含模板）
+schema    CLAUDE.md + .claude/agents/llm-wiki.md
+```
