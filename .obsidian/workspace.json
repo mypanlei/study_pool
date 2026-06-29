@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/sources/hidden-technical-debt-ml-sculley-2015.md",
+                "file": "wiki/concepts/harness-engineering.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "hidden-technical-debt-ml-sculley-2015"
+              "title": "harness-engineering"
             }
           }
         ],
@@ -103,7 +103,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 274.5
+    "width": 340.5
   },
   "right": {
     "id": "40e3d2925329258a",
@@ -238,6 +238,7 @@
   },
   "active": "b7728746e0814192",
   "lastOpenFiles": [
+    "wiki/sources/hidden-technical-debt-ml-sculley-2015.md",
     "wiki/concepts/mlops-lifecycle.md",
     "Clippings/Google MLOps白皮书（上）MLOps生命周期及核心能力.md",
     "wiki/log.md.tmp.19308.165928b3815c",
@@ -270,7 +271,6 @@
     "raw/assets/6160fa0618726361982af047f5edefd3_MD5.svg",
     "raw/assets/974994dbb2aafa6dfcc1706a0a9635cc_MD5.svg",
     "raw/assets/7a1419ffa6467a515deebf69e8d8799b_MD5.svg",
-    "wiki/sources/hidden-technical-debt-ml-sculley-2015.md",
     "Clippings/openspec-schemasopenspecschemasintent-driven at main.md",
     "raw/sources/neurips2015-hidden-technical-debt-ml.md",
     "raw/assets/3e47be55c12bebb4f5e5aeb3482b615f_MD5.jpg",
