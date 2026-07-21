@@ -88,7 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 283.5
+    "width": 357.5
   },
   "right": {
     "id": "40e3d2925329258a",
@@ -221,8 +221,9 @@
       "notebook-navigator:笔记本导航器": false
     }
   },
-  "active": "b7728746e0814192",
+  "active": "92127c64f54b650d",
   "lastOpenFiles": [
+    "wiki/concepts/aidd.md",
     "wiki/entities/flyte.md",
     "wiki/syntheses/loop-engineering-presentation.md",
     "CLAUDE.md",
@@ -268,7 +269,6 @@
     "wiki/sources/google-mlops-whitepaper-lifecycle-zh.md",
     "raw/sources/Google MLOps白皮书（上）MLOps生命周期及核心能力.md",
     "Clippings/MLOps Continuous delivery and automation pipelines in machine learning    Cloud Architecture Center.md",
-    "wiki/sources/openspec-custom-schemas-github.md",
     "未命名.canvas"
   ]
 }

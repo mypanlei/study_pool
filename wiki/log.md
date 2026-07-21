@@ -1179,6 +1179,38 @@ wiki/     205 内容页（含模板）
 schema    CLAUDE.md + .claude/agents/llm-wiki.md
 ```
 
+## [2026-07-21] feat | AIDD 概念页 — AIDD vs SDD 关系澄清
+
+用户询问 AIDD 和 SDD 的区别。基于搜索和已有知识创建 AIDD 概念页，明确：AIDD 是总称（伞），SDD 是 AIDD 的一个子方法论。
+
+### 新建概念页
+
+- **[[wiki/concepts/aidd]]** — AI-Driven Development (AIDD) 概念页
+  - AIDD 三大方法论家族：Vibe Coding / AI-Assisted Coding / SDD
+  - 核心对比表（灵活性→确定性光谱）
+  - 与 Loop Engineering 的关系说明
+
+### 更新已有页面
+
+- [[wiki/concepts/spec-driven-development]] — 相关概念中新增 AIDD 引用
+- [[wiki/concepts/vibe-coding]] — 来源中新增 AIDD 引用
+- `wiki/index.md` — 概念页 35 → 36
+
+### 汇总
+
+- **本次新增**: 1 概念页
+- **更新已有**: 2 概念页
+- **更新**: `wiki/index.md`
+- **全文**: 28 实体 + 36 概念 + 129 源摘要 + 15 综合分析 = **208 页**
+
+### 三层架构最终状态
+
+```
+raw/      132 篇源文件（132 篇全部已 Ingest）
+wiki/     208 内容页（含模板）
+schema    CLAUDE.md + .claude/agents/llm-wiki.md
+```
+
 ## [2026-06-30] ingest | Loop Engineering 使用 Claude 的最佳实践
 
 用户询问 Loop Engineering 以及使用 Claude 的最佳实践。基于搜索到的多篇文章（阿里云/腾讯云/TechSpot/GitHub 等），进行综合 Ingest。

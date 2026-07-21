@@ -109,3 +109,4 @@ Spec Coding 适合：超过一周的代码、多人协作项目、涉及数据�
 - [[wiki/sources/spec-coding-javaguide]] — Spec Coding 规范驱动编程，含 Vibe vs Spec 适用边界
 - [[wiki/sources/vibe-coding-jimmysong-ai-handbook]] — Jimmy Song AI Handbook 氛围编程章节：核心四要素、代表性实践、工程化挑战与质量门
 - [[wiki/concepts/spec-driven-development]]
+- [[wiki/concepts/aidd]]

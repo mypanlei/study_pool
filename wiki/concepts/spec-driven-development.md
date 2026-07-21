@@ -289,6 +289,7 @@ PRD 解析为分层依赖感知任务图。多模型架构：主模型（核心�
 - [[wiki/concepts/agent-skills-system]]：AGENTS.md 文件作为 Spec 的持久项目上下文
 - [[wiki/concepts/guardrails]]：Spec-Anchored 模式中的宪法约束（constitutional constraints）是 Guardrails 的一种实现
 - [[wiki/concepts/agents-md]]：AGENTS.md 作为 Spec 体系中"约束与假设"要素的落地工具
+- [[wiki/concepts/aidd]]：AIDD（AI-Driven Development）是更上层的总概念，SDD 是 AIDD 的一个子方法论
 
 ## 来源
 

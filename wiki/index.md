@@ -53,6 +53,7 @@ updated: 2026-06-30
 | [[wiki/concepts/agents-md]] | AGENTS.md 规范：角色/能力/工具/边界/工作流的工程化规范文档 | 2026-06-29 |
 | [[wiki/concepts/agent-skills-system]] | AI Agent 的可复用/可共享/可自我改进的任务指令系统 | 2026-06-13 |
 | [[wiki/concepts/ai-platform-product-manager]] | AI 平台化解决方案产品经理角色与能力框架 | 2026-06-13 |
+| [[wiki/concepts/aidd]] | AI-Driven Development (AIDD)—AI 驱动开发方法论总称，SDD/Vibe Coding/AI-Assisted Coding 的上层概念 | 2026-07-21 |
 | [[wiki/concepts/cot-chain-of-thought]] | Chain of Thought 思维链推理技术，与 ReAct 互补的核心推理模式 | 2026-06-18 |
 | [[wiki/concepts/data-versioning-and-management]] | 数据版本控制（DVC/lakeFS/Nessie）与数据管理（DataHub/OpenMetadata） | 2026-06-13 |
 | [[wiki/concepts/embedding]] | Embedding 嵌入与向量化，RAG 系统的基础单元 | 2026-06-17 |
@@ -242,7 +243,7 @@ updated: 2026-06-30
 ## 统计
 
 - **实体页**: 28
-- **概念页**: 35
+- **概念页**: 36
 - **源摘要页**: 129
 - **综合分析页**: 15
 - **原始资料**: 132 篇（全部已 Ingest）

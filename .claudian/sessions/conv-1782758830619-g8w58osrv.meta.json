@@ -4,20 +4,20 @@
   "title": "Document loop engineering with Claude Code",
   "titleGenerationStatus": "success",
   "createdAt": 1782758830620,
-  "updatedAt": 1782759602706,
-  "lastResponseAt": 1782759602706,
+  "updatedAt": 1784621112369,
+  "lastResponseAt": 1784621112369,
   "sessionId": "c8742253-9bca-4762-8a7b-a4616fef24f4",
   "providerState": {
     "providerSessionId": "c8742253-9bca-4762-8a7b-a4616fef24f4"
   },
   "usage": {
     "model": "haiku",
-    "inputTokens": 1214,
+    "inputTokens": 111,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 95104,
+    "cacheReadInputTokens": 119424,
     "contextWindow": 200000,
-    "contextTokens": 96318,
-    "percentage": 48,
+    "contextTokens": 119535,
+    "percentage": 60,
     "contextWindowIsAuthoritative": true
   }
 }
